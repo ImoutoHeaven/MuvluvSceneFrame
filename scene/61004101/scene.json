@@ -1,0 +1,1519 @@
+{
+  "id": "61004101",
+  "title": "どっちを食べたい？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61004101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30102.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30102.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30102.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30102.png",
+      "backgrounds": {
+        "30102": "../../assets/muvluv/backgrounds/background-30102.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c110301/Smile": "../../assets/muvluv/audio/voice/ba2ad319fa2d92a4eb52f8c42060b298.ogg",
+          "c110301/Confused": "../../assets/muvluv/audio/voice/fc99337e353884640b5d63dca5f81339.ogg",
+          "c110301/ResponseGood": "../../assets/muvluv/audio/voice/5ea0d7c62be45cd42b703e3be18caeb4.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "110301s": {
+          "key": "110301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/110301s/110301s.json",
+          "atlas": "../../assets/muvluv/spine/110301s/110301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/110301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "突然ユリアに呼び出された俺は、彼女と一緒にスカラ校舎の\n商店街を歩いていた。"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "突然ユリアに呼び出された俺は、彼女と一緒にスカラ校舎の\n商店街を歩いていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちなみに呼び出された理由は、『なんか一緒にいたいから』らしい。\nいつもながらアバウトな子だ。"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ちなみに呼び出された理由は、『なんか一緒にいたいから』らしい。\nいつもながらアバウトな子だ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "スカラの商店街って屋台が色々料理があるな。\n何かおススメとかあるか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "スカラの商店街って屋台が色々料理があるな。\n何かおススメとかあるか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん～！　いっぱいあるから選べない！\nそうだ！　キミが選んでよ！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c110301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "ん～！　いっぱいあるから選べない！\nそうだ！　キミが選んでよ！",
+      "voice": "c110301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61004101,
+        "branchId": 6100411,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ、俺がか？\nまあいいけど……そうだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ええ、俺がか？\nまあいいけど……そうだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "choice",
+      "branchMasterId": 6100411,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61004111,
+          "text": "ここはオシャレな映える食事",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1103012
+        },
+        {
+          "id": 61004112,
+          "text": "味が濃い目の屋台な食事",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1103011
+        }
+      ]
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004111,
+        "configuration": {
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 21,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 22,
+      "type": "bgvStop",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004111,
+        "configuration": {
+          "Phrase": {
+            "Text": "うーん、いちごのクレープかぁ。\nなんでこれにしたの？",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c110301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 24,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-8",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 26,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "うーん、いちごのクレープかぁ。\nなんでこれにしたの？",
+      "voice": "c110301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004111,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、見た目がオシャレで可愛いからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まあ、見た目がオシャレで可愛いからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004111,
+        "configuration": {
+          "Phrase": {
+            "Text": "私は、もっと味が濃くてジャンクな方が好きかも！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61004101/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 31,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-10",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "私は、もっと味が濃くてジャンクな方が好きかも！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004111,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも%usernameusernameuserna%が選んでくれたから、食べるー！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61004101/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 35,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-11",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "でも<user>が選んでくれたから、食べるー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004111,
+        "configuration": {
+          "Phrase": {
+            "Text": "好みから外したらしいが、俺が選んだからと喜んで食べたのだった。"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "好みから外したらしいが、俺が選んだからと喜んで食べたのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004111
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004112,
+        "configuration": {
+          "Phrase": {
+            "Text": "おおー、いいじゃーん！　くしやきー！\nこういう屋台ってジャンクな食事がいいんだよね！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c110301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 42,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 43,
+      "type": "bgvStop",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-13",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 46,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "おおー、いいじゃーん！　くしやきー！\nこういう屋台ってジャンクな食事がいいんだよね！",
+      "voice": "c110301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004112,
+        "configuration": {
+          "Phrase": {
+            "Text": "結構女の子だと好みが分かれるけど、\nユリアはこういう食事が好きなんだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "結構女の子だと好みが分かれるけど、\nユリアはこういう食事が好きなんだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004112,
+        "configuration": {
+          "Phrase": {
+            "Text": "うんうん！　昔はもっと味うすいのばっかり食べてたし、\nこういうジャンクフード食べて感動したんだよね！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61004101/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-15",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "うんうん！　昔はもっと味うすいのばっかり食べてたし、\nこういうジャンクフード食べて感動したんだよね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004112,
+        "configuration": {
+          "Phrase": {
+            "Text": "あとでそっちのも味見させてね♪",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61004101/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "110301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-16",
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "あとでそっちのも味見させてね♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61004101,
+        "branchId": null,
+        "selectedBranchId": 61004112,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういって、見ている俺の方が胸焼けしそうなくらい、\n美味しそうにペロリと屋台料理を食べるのだった。"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そういって、見ている俺の方が胸焼けしそうなくらい、\n美味しそうにペロリと屋台料理を食べるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100411,
+      "branchSelectionId": 61004112
+    },
+    {
+      "line": 61,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 17,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100411
+      ],
+      "uniqueBranchMasterIds": [
+        6100411
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

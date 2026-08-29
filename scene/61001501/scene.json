@@ -1,0 +1,2007 @@
+{
+  "id": "61001501",
+  "title": "舐められるのは嫌い！",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61001501",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c103301/Displeasure": "../../assets/muvluv/audio/voice/b6d005353793ce348b3f62ae9f19527e.ogg",
+          "c103301/Panic": "../../assets/muvluv/audio/voice/f47e837aa400127458c2476d5cbc5769.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "103201": {
+          "key": "103201",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/103201/103201.json",
+          "atlas": "../../assets/muvluv/spine/103201/103201.atlas",
+          "textureBase": "../../assets/muvluv/spine/103201/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ぜぇ、ぜぇ……はぁ……マジきつすぎ……\nハードトレーニングすぎでしょ……何周走らせんの……",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "ぜぇ、ぜぇ……はぁ……マジきつすぎ……\nハードトレーニングすぎでしょ……何周走らせんの……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "個人訓練をつけてほしいって言ったきたの、お前だろ。\nシリウスシュガーのみんなにもっと貢献したいからって。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11700,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 700,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 700
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11700,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 700,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 700
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "個人訓練をつけてほしいって言ったきたの、お前だろ。\nシリウスシュガーのみんなにもっと貢献したいからって。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そりゃ、そうだけど……！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "そりゃ、そうだけど……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんだ、もう限界なのか？\nというか、前より体力落ちたんじゃないか？　しょっぼー。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なんだ、もう限界なのか？\nというか、前より体力落ちたんじゃないか？　しょっぼー。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "しょっ……！？　今何つった！　限界なわけないでしょ！\nちょっと息を整えてただけだし！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c103301/Displeasure"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "しょっ……！？　今何つった！　限界なわけないでしょ！\nちょっと息を整えてただけだし！",
+      "voice": "c103301/Displeasure",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（うんうん、いい負けず嫌いっぷりだ。\nこいつは適度に煽ってやるのが一番だな）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（うんうん、いい負けず嫌いっぷりだ。\nこいつは適度に煽ってやるのが一番だな）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なによ？　何こっち見てニヤニヤしてんの。",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "なによ？　何こっち見てニヤニヤしてんの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "べっつに～？　ほらほら、スピード落ちてるぞ～？\nラミちゃーん？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "べっつに～？　ほらほら、スピード落ちてるぞ～？\nラミちゃーん？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "むっかー！　見てろ！！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-10"
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "むっかー！　見てろ！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ぜぇ……ぜぇ……！\nなんとか言われた距離、走ってあげたんだけど！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "NeedsHideText": 1
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "FadeType": 2,
+            "FadeInDuration": 750,
+            "FadeWaitDuration": 150,
+            "FadeOutDuration": 1500,
+            "FadeTiming": 0
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "FadeType": 2,
+          "FadeInDuration": 750,
+          "FadeWaitDuration": 150,
+          "FadeOutDuration": 1500,
+          "FadeTiming": 0
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "ぜぇ……ぜぇ……！\nなんとか言われた距離、走ってあげたんだけど！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "よくやった！　次は――",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "よくやった！　次は――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61001501,
+        "branchId": 6100151,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 40,
+      "type": "choice",
+      "branchMasterId": 6100151,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 13,
+      "options": [
+        {
+          "id": 61001511,
+          "text": "俺と競争だ！",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1032012
+        },
+        {
+          "id": 61001512,
+          "text": "休憩を取らせる",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1032011
+        }
+      ]
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001511,
+        "configuration": {
+          "Phrase": {
+            "Text": "体力満タンの俺にどこまで食らいつくか試してやる。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 42,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 43,
+      "type": "bgvStop",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "体力満タンの俺にどこまで食らいつくか試してやる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001511,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　今全力で走ってきたばっかなんだけど！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c103301/Panic"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 48,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "えっ！？　今全力で走ってきたばっかなんだけど！",
+      "voice": "c103301/Panic",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001511,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど、勝つ自信はないと……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど、勝つ自信はないと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001511,
+        "configuration": {
+          "Phrase": {
+            "Text": "舐めんな！！　かかってこいっての！！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-17",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "舐めんな！！　かかってこいっての！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001511,
+        "configuration": {
+          "Phrase": {
+            "Text": "さすがに煽りに弱すぎだろ……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "さすがに煽りに弱すぎだろ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001511
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001512,
+        "configuration": {
+          "Phrase": {
+            "Text": "一旦休憩しよう。そのあとは筋トレだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 60,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 61,
+      "type": "bgvStop",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "一旦休憩しよう。そのあとは筋トレだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001512,
+        "configuration": {
+          "Phrase": {
+            "Text": "は？　休みなんていらないし！\nラミのこと、舐めてるでしょ？",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c103301/Panic"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 65,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-20",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 67,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "は？　休みなんていらないし！\nラミのこと、舐めてるでしょ？",
+      "voice": "c103301/Panic",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001512,
+        "configuration": {
+          "Phrase": {
+            "Text": "違うぞ。休みを挟むのはトレーニングの効果を最大化するためだ。\nすべてはお前のためにやっている。舐めてなんかない。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "違うぞ。休みを挟むのはトレーニングの効果を最大化するためだ。\nすべてはお前のためにやっている。舐めてなんかない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001512,
+        "configuration": {
+          "Phrase": {
+            "Text": "そ、そう……？　だったら……まあ、休んであげる……",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 72,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-22",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "そ、そう……？　だったら……まあ、休んであげる……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001512,
+        "configuration": {
+          "Phrase": {
+            "Text": "（休憩は実際大事だからな。ラミの成長を願うなら、\n効率は大事にしてやらないと）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（休憩は実際大事だからな。ラミの成長を願うなら、\n効率は大事にしてやらないと）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61001501,
+        "branchId": null,
+        "selectedBranchId": 61001512,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なにニヤニヤしてんだよ。\nったく、なんか調子狂うなぁ。でも、ありがと。",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61001501/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "103201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-24",
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "……なにニヤニヤしてんだよ。\nったく、なんか調子狂うなぁ。でも、ありがと。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6100151,
+      "branchSelectionId": 61001512
+    },
+    {
+      "line": 82,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100151
+      ],
+      "uniqueBranchMasterIds": [
+        6100151
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

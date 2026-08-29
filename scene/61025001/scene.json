@@ -1,0 +1,1735 @@
+{
+  "id": "61025001",
+  "title": "色んなシミュレーション？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61025001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30130.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30130.png",
+      "backgrounds": {
+        "30130": "../../assets/muvluv/backgrounds/background-30130.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "125301s": {
+          "key": "125301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/125301s/125301s.json",
+          "atlas": "../../assets/muvluv/spine/125301s/125301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/125301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ジュリー、シミュレーターを前にして難しい顔をしてどうしたんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ジュリー、シミュレーターを前にして難しい顔をしてどうしたんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うーん、シミュレーターを使って、\n雪山登山とか過酷な環境をシミュレーション出来ないのかしら？",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "うーん、シミュレーターを使って、\n雪山登山とか過酷な環境をシミュレーション出来ないのかしら？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……急にどうしたんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……急にどうしたんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いきなり危ない場所に行くのは怖いから、\nシミュレーションを使って予行演習をするのはアリじゃないかしら？",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "いきなり危ない場所に行くのは怖いから、\nシミュレーションを使って予行演習をするのはアリじゃないかしら？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それに、そういう場所のシミュレーションが出来たら、\nきっとパイロットの……なんか心構えとかにも使えるはずよ！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "それに、そういう場所のシミュレーションが出来たら、\nきっとパイロットの……なんか心構えとかにも使えるはずよ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……まあ、ツッコミどころは多いが一理はあるな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……まあ、ツッコミどころは多いが一理はあるな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61025001,
+        "branchId": 6102501,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ホント！？",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "ホント！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "choice",
+      "branchMasterId": 6102501,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61025011,
+          "text": "アトラクションはどうだ？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1253012
+        },
+        {
+          "id": 61025012,
+          "text": "だが、まだ甘いな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1253011
+        }
+      ]
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 28,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 29,
+      "type": "bgvStop",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025011,
+        "configuration": {
+          "Phrase": {
+            "Text": "むしろ、そういう体験アトラクションを作る方が良くないか？\nシミュレーションと違って実際に感覚も体験できるぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "むしろ、そういう体験アトラクションを作る方が良くないか？\nシミュレーションと違って実際に感覚も体験できるぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……そうね！　体験アトラクションの方がいいかも！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-11",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "なるほど……そうね！　体験アトラクションの方がいいかも！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025011,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあつまり……ええっと、どうすればいいの？",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-12",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "じゃあつまり……ええっと、どうすればいいの？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025011,
+        "configuration": {
+          "Phrase": {
+            "Text": "すまん、そこまでは俺も考えてなかった。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "すまん、そこまでは俺も考えてなかった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、なんとなく有耶無耶のままに話は終わるのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、なんとなく有耶無耶のままに話は終わるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 48,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 49,
+      "type": "bgvStop",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Phrase": {
+            "Text": "だが、まだ甘いな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "だが、まだ甘いな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええっ！？　ど、どういうこと！？\nそんなに甘かったかしら……？",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 54,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-17",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "ええっ！？　ど、どういうこと！？\nそんなに甘かったかしら……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Phrase": {
+            "Text": "シミュレーションで分かった気になる方が危険だ。\nそれに……実際の感覚を味わってこそ、成長するんだぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "シミュレーションで分かった気になる方が危険だ。\nそれに……実際の感覚を味わってこそ、成長するんだぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Phrase": {
+            "Text": "はっ！？　た、確かにその通りだわ……！\n実際に体験してみる事が一番重要なのね！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-19",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "はっ！？　た、確かにその通りだわ……！\n実際に体験してみる事が一番重要なのね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%、あたしが間違ってたわ！\n今度から何事もぶっつけ本番で頑張ってみるわね！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "61025001/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 65,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-20",
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "<user>、あたしが間違ってたわ！\n今度から何事もぶっつけ本番で頑張ってみるわね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……いや、それはやめてくれ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……いや、それはやめてくれ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61025001,
+        "branchId": null,
+        "selectedBranchId": 61025012,
+        "configuration": {
+          "Phrase": {
+            "Text": "思ったよりも反応のいいジュリーに、\n慌てて軌道修正をすることになるのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "125301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "思ったよりも反応のいいジュリーに、\n慌てて軌道修正をすることになるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6102501,
+      "branchSelectionId": 61025012
+    },
+    {
+      "line": 74,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 22,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6102501
+      ],
+      "uniqueBranchMasterIds": [
+        6102501
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

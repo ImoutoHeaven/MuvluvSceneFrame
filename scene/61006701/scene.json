@@ -1,0 +1,1759 @@
+{
+  "id": "61006701",
+  "title": "フルートの苦手",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61006701",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c116301/ResponseGood": "../../assets/muvluv/audio/voice/6387fe7bbbf1af747a2b5e375e42d2ab.ogg",
+          "c116301/Scream": "../../assets/muvluv/audio/voice/fba31db7ec6c71548a909e1e8ec9af91.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "sad": "../../assets/muvluv/audio/se/sad.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "116301s": {
+          "key": "116301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/116301s/116301s.json",
+          "atlas": "../../assets/muvluv/spine/116301s/116301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/116301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "フルートに頼まれて、\n俺は彼女の体力トレーニングを監督していた。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "フルートに頼まれて、\n俺は彼女の体力トレーニングを監督していた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はぁ……はぁ……",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c116301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "はぁ……はぁ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いい調子だ！　あと２００メートル走ったら、\n休憩にしよう！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いい調子だ！　あと２００メートル走ったら、\n休憩にしよう！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はいっ……！　アゲていきますよー！",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c116301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "はいっ……！　アゲていきますよー！",
+      "voice": "c116301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ん？",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61006701/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "……ん？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そのとき彼女の足元に黒くて悍ましいＧの虫が、\nサササッと現れて――",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そのとき彼女の足元に黒くて悍ましいＧの虫が、\nサササッと現れて――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやぁああああ――――！！",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c116301/Scream"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-8"
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "いやぁああああ――――！！",
+      "voice": "c116301/Scream",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "フルート！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "フルート！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61006701,
+        "branchId": 6100671,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "む、虫虫虫っ！！　しかもＧなヤツ～～～～！！\nフルート、虫はガチのマジで無理めなんです～！！",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61006701/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "む、虫虫虫っ！！　しかもＧなヤツ～～～～！！\nフルート、虫はガチのマジで無理めなんです～！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 34,
+      "type": "choice",
+      "branchMasterId": 6100671,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 10,
+      "options": [
+        {
+          "id": 61006711,
+          "text": "中断していいぞ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1163012
+        },
+        {
+          "id": 61006712,
+          "text": "追い払ってやるよ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1163011
+        }
+      ]
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006711,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 36,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 37,
+      "type": "bgvStop",
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006711,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなにダメなら中断してこっちへ戻ってきていいぞ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そんなにダメなら中断してこっちへ戻ってきていいぞ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006711,
+        "configuration": {
+          "Phrase": {
+            "Text": "ダ、ダメぇ……震えて、ダメぽよ……動けません……",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61006701/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 42,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-13",
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "ダ、ダメぇ……震えて、ダメぽよ……動けません……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006711,
+        "configuration": {
+          "Phrase": {
+            "Text": "えぇ、そんなにか……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "えぇ、そんなにか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006711,
+        "configuration": {
+          "Phrase": {
+            "Text": "それから俺は虫のほうを追い払ってやった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "それから俺は虫のほうを追い払ってやった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006711
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 52,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 53,
+      "type": "bgvStop",
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっち行け！　しっし！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あっち行け！　しっし！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Phrase": {
+            "Text": "足音をうるさく立てながら迫っていくと、\n驚いたのか虫は素早く近くの草むらの中に逃げていった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "足音をうるさく立てながら迫っていくと、\n驚いたのか虫は素早く近くの草むらの中に逃げていった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Phrase": {
+            "Text": "怖かったです～～～～！　ぴえ～ん！",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61006701/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-19",
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "怖かったです～～～～！　ぴえ～ん！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょっと、フルート！？\nそんな強く抱きしめるのは……！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ちょっと、フルート！？\nそんな強く抱きしめるのは……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっ！　ご、ごめんなさい！　フルートったら……\nそれに今って汗とかかいてて……",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61006701/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 68,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-21",
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "あっ！　ご、ごめんなさい！　フルートったら……\nそれに今って汗とかかいてて……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Phrase": {
+            "Text": "と、とりま、あざまるでした……\nでも、今のは忘れてもらえると……",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61006701/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "と、とりま、あざまるでした……\nでも、今のは忘れてもらえると……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61006701,
+        "branchId": null,
+        "selectedBranchId": 61006712,
+        "configuration": {
+          "Phrase": {
+            "Text": "爽やかな香りとフルートの肌の感触を忘れることなんて……と、\nひとり懊悩とする俺であった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 75,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 76,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "爽やかな香りとフルートの肌の感触を忘れることなんて……と、\nひとり懊悩とする俺であった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6100671,
+      "branchSelectionId": 61006712
+    },
+    {
+      "line": 77,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 23,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100671
+      ],
+      "uniqueBranchMasterIds": [
+        6100671
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

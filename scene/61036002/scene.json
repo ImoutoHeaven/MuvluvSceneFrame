@@ -1,0 +1,1928 @@
+{
+  "id": "61036002",
+  "title": "体型が出てしまう！",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61036002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30032.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30032.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30032.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30032.png",
+      "backgrounds": {
+        "30032": "../../assets/muvluv/backgrounds/background-30032.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "100302s": {
+          "key": "100302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/100302s/100302s.json",
+          "atlas": "../../assets/muvluv/spine/100302s/100302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/100302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "食堂に向かうと、山盛りのご飯を\n幸せそうに頬張るめるを見つけた。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "食堂に向かうと、山盛りのご飯を\n幸せそうに頬張るめるを見つけた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "この時間帯、他に生徒は少ないのですぐに見つけることができた。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "この時間帯、他に生徒は少ないのですぐに見つけることができた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "すごい食欲だな、める。\n訓練の後か？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "すごい食欲だな、める。\n訓練の後か？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んぐっ、んぐ……ふふっ、%usernameusernameuserna%さん！？",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "んぐっ、んぐ……ふふっ、<user>さん！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい、今日は特にみっちり運動したので……\nお腹ぺっこぺこで……って、あっ！？　しまった……！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "はい、今日は特にみっちり運動したので……\nお腹ぺっこぺこで……って、あっ！？　しまった……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どうした？\n忘れ物か？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どうした？\n忘れ物か？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いえ……このパイロットスーツ、\nぴったりしてるじゃないですか。",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "いえ……このパイロットスーツ、\nぴったりしてるじゃないですか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "これだけ食べたら、お腹のぽっこり具合が\n目立っちゃうかなって……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-9"
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "これだけ食べたら、お腹のぽっこり具合が\n目立っちゃうかなって……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、そんなこと、誰も気にしないと思うけど……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、そんなこと、誰も気にしないと思うけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、やっぱり恥ずかしいです……\nちょっとだけでも、お腹を引っ込めておかないと……うーんっ。",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "でも、やっぱり恥ずかしいです……\nちょっとだけでも、お腹を引っ込めておかないと……うーんっ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61036002,
+        "branchId": 6105201,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "無理して腹を引っ込めようとしなくていい。\n消化に悪いぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "無理して腹を引っ込めようとしなくていい。\n消化に悪いぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 39,
+      "type": "choice",
+      "branchMasterId": 6105201,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 12,
+      "options": [
+        {
+          "id": 61052011,
+          "text": "食べ過ぎなければ大丈夫",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1003022
+        },
+        {
+          "id": 61052012,
+          "text": "美味しそうに食べるめるは魅力的だ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1003021
+        }
+      ]
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 41,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 42,
+      "type": "bgvStop",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052012,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　み、魅力的……ですか……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/6"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-14",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "えっ！？　み、魅力的……ですか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052012,
+        "configuration": {
+          "Phrase": {
+            "Text": "だからそんな些細なこと気にする必要はない。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "だからそんな些細なこと気にする必要はない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052012,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/7"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-16",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "<user>さん……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、そう仰ってくれるなら……実はまだもう少し食べ足りなくて。",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/8"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "ふふ、そう仰ってくれるなら……実はまだもう少し食べ足りなくて。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052012,
+        "configuration": {
+          "Phrase": {
+            "Text": "おかわりしてくるので、よければ%usernameusernameuserna%さんも\nお食事、ご一緒しませんか？",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/9"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "おかわりしてくるので、よければ<user>さんも\nお食事、ご一緒しませんか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだな、せっかくなら一緒に食べよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうだな、せっかくなら一緒に食べよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052012
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 64,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 65,
+      "type": "bgvStop",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052011,
+        "configuration": {
+          "Phrase": {
+            "Text": "これ以上食べなければ大丈夫じゃないか？\n食べ過ぎも良くないからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "これ以上食べなければ大丈夫じゃないか？\n食べ過ぎも良くないからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうですね。このあとも習熟訓練がありますし……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/10"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 70,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-22",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "そうですね。このあとも習熟訓練がありますし……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052011,
+        "configuration": {
+          "Phrase": {
+            "Text": "どうせ訓練すればまた空腹になるさ。\nなにせ、俺がビシバシ鍛えるんだからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どうせ訓練すればまた空腹になるさ。\nなにせ、俺がビシバシ鍛えるんだからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61036002,
+        "branchId": null,
+        "selectedBranchId": 61052011,
+        "configuration": {
+          "Phrase": {
+            "Text": "うぅ……お、お手柔らかに、お願いします……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61036002/11"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "100201"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "100302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 77,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-24",
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 78,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 79,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "うぅ……お、お手柔らかに、お願いします……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6105201,
+      "branchSelectionId": 61052011
+    },
+    {
+      "line": 80,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6105201
+      ],
+      "uniqueBranchMasterIds": [
+        6105201
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

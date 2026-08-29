@@ -1,0 +1,1316 @@
+{
+  "id": "61011801",
+  "title": "息抜きの時間に",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61011801",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40022.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40022.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40022.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40022.png",
+      "backgrounds": {
+        "40022": "../../assets/muvluv/backgrounds/background-40022.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c129301/ResponseBad": "../../assets/muvluv/audio/voice/d1844450ec445db46b82942512ca539f.ogg",
+          "c129301/ResponseGood": "../../assets/muvluv/audio/voice/d4812a36b87ba024ca2039a7b7773df1.ogg",
+          "c129301/Question": "../../assets/muvluv/audio/voice/19b344832fe79ba4893c6893d03ea246.ogg",
+          "c129301/Happiness": "../../assets/muvluv/audio/voice/9e8ee0e039e02c64bb33dc8fd3fbd484.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "129301s": {
+          "key": "129301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/129301s/129301s.json",
+          "atlas": "../../assets/muvluv/spine/129301s/129301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/129301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ここがゲームセンターか。\nあたしもあんまり来ることはないから、新鮮だな。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/ResponseBad"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "ここがゲームセンターか。\nあたしもあんまり来ることはないから、新鮮だな。",
+      "voice": "c129301/ResponseBad",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "普段から取り仕切るメイドとして大変だろ。\nここでちょっと息抜きをしたらどうだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "普段から取り仕切るメイドとして大変だろ。\nここでちょっと息抜きをしたらどうだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "息抜きなぁ……まあ、その気持ちは嬉しいけどさ。\n例えばどんなのがあるんだ？",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "息抜きなぁ……まあ、その気持ちは嬉しいけどさ。\n例えばどんなのがあるんだ？",
+      "voice": "c129301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61011801,
+        "branchId": 6101181,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだなぁ……ゲームセンターなら……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうだなぁ……ゲームセンターなら……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "choice",
+      "branchMasterId": 6101181,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 5,
+      "options": [
+        {
+          "id": 61011811,
+          "text": "ストレス解消にパンチングマシン",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1293012
+        },
+        {
+          "id": 61011812,
+          "text": "色んな景品が見れるクレーンゲーム",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1293011
+        }
+      ]
+    },
+    {
+      "line": 18,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011811,
+        "configuration": {
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 19,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 20,
+      "type": "bgvStop",
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011811,
+        "configuration": {
+          "Phrase": {
+            "Text": "パンチングマシンとかスポーツ系とかどうだ？\n体を動かしてスッキリできるぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "パンチングマシンとかスポーツ系とかどうだ？\n体を動かしてスッキリできるぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011811,
+        "configuration": {
+          "Phrase": {
+            "Text": "……あたしのこと、乱暴者か何かだと思ってるのか？\nまあ、確かに息抜きには良さそうだけどさ。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Question"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 25,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-8",
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 27,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "……あたしのこと、乱暴者か何かだと思ってるのか？\nまあ、確かに息抜きには良さそうだけどさ。",
+      "voice": "c129301/Question",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011811,
+        "configuration": {
+          "Phrase": {
+            "Text": "微妙に納得いっていない表情を浮かべたものの、\n二人で体を動かしてストレス解消するのだった。"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "微妙に納得いっていない表情を浮かべたものの、\n二人で体を動かしてストレス解消するのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011811
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011812,
+        "configuration": {
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 32,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 33,
+      "type": "bgvStop",
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011812,
+        "configuration": {
+          "Phrase": {
+            "Text": "クレーンゲームとかどうだ？\n色んな景品があって面白いぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "クレーンゲームとかどうだ？\n色んな景品があって面白いぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011812,
+        "configuration": {
+          "Phrase": {
+            "Text": "へえ、そんなに種類があるのか……\nこのお菓子はハリエットが好きそうだな。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-12",
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 40,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "へえ、そんなに種類があるのか……\nこのお菓子はハリエットが好きそうだな。",
+      "voice": "c129301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011812,
+        "configuration": {
+          "Phrase": {
+            "Text": "……これはケイト好みのぬいぐるみだな。\nミリアムが読んでた漫画のキャラの人形もあるのか。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 43,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "……これはケイト好みのぬいぐるみだな。\nミリアムが読んでた漫画のキャラの人形もあるのか。",
+      "voice": "c129301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011812,
+        "configuration": {
+          "Phrase": {
+            "Text": "はは、ミリアム達の名前ばっかり出てるな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "はは、ミリアム達の名前ばっかり出てるな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011812,
+        "configuration": {
+          "Phrase": {
+            "Text": "……確かに。まあ、やっぱりなんだかんだ言って、\nあの子達の面倒を見てるのはあたしも楽しんでるのかな。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-15",
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 50,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "……確かに。まあ、やっぱりなんだかんだ言って、\nあの子達の面倒を見てるのはあたしも楽しんでるのかな。",
+      "voice": "c129301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61011801,
+        "branchId": null,
+        "selectedBranchId": 61011812,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうしてクレーンゲームでお土産の景品を取って、\n満足いくまで二人でゲームセンターを満喫するのだった。"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうしてクレーンゲームでお土産の景品を取って、\n満足いくまで二人でゲームセンターを満喫するのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101181,
+      "branchSelectionId": 61011812
+    },
+    {
+      "line": 54,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 16,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101181
+      ],
+      "uniqueBranchMasterIds": [
+        6101181
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

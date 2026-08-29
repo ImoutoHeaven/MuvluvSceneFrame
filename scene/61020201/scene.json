@@ -1,0 +1,2509 @@
+{
+  "id": "61020201",
+  "title": "訓練メニューに挑戦！",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61020201",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30130.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30130.png",
+      "backgrounds": {
+        "30130": "../../assets/muvluv/backgrounds/background-30130.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "140301s": {
+          "key": "140301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/140301s/140301s.json",
+          "atlas": "../../assets/muvluv/spine/140301s/140301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/140301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今日はシミュレーション室でのリディアのひとり特訓に付き合っていた。\nレイヴェルの考えた複数のメニューを簡単そうなものから試していく。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "今日はシミュレーション室でのリディアのひとり特訓に付き合っていた。\nレイヴェルの考えた複数のメニューを簡単そうなものから試していく。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー。レイヴェルのくんれんめにゅー、どれもなんかん。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "んー。レイヴェルのくんれんめにゅー、どれもなんかん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "と言いつつ、なんだかんだでこなしているが……"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "と言いつつ、なんだかんだでこなしているが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（さすが、リディアってところか。学園各校舎の上位レベルのチーム、\nそれもエース級が挑戦するような難度ばかりだ）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（さすが、リディアってところか。学園各校舎の上位レベルのチーム、\nそれもエース級が挑戦するような難度ばかりだ）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おにいちゃんのごしどうが、じょうじゅ……",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "おにいちゃんのごしどうが、じょうじゅ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（あ、噛んだ。かわいい）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（あ、噛んだ。かわいい）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー……『じょうず』。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "んー……『じょうず』。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61020201,
+        "branchId": 6102021,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "リディアにそう言ってもらえると嬉しいな。\nさて次はどのメニューにするか……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "リディアにそう言ってもらえると嬉しいな。\nさて次はどのメニューにするか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "choice",
+      "branchMasterId": 6102021,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61020211,
+          "text": "メニューにアレンジを加える",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1403012
+        },
+        {
+          "id": 61020212,
+          "text": "一番難しいメニューに挑戦",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1403011
+        }
+      ]
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 31,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 32,
+      "type": "bgvStop",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Phrase": {
+            "Text": "一番難しいのに挑戦してみよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "一番難しいのに挑戦してみよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー、これはかなりむずかしい……できるか、ふあん。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 37,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-12",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "んー、これはかなりむずかしい……できるか、ふあん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあ、俺も次は監督じゃなく、\nシミュレーターに入って隣でサポートしよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "じゃあ、俺も次は監督じゃなく、\nシミュレーターに入って隣でサポートしよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Phrase": {
+            "Text": "わぁい、おにいちゃんがそばにいると、ひゃくにんりき。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-14",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "わぁい、おにいちゃんがそばにいると、ひゃくにんりき。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも俺の機体はシミュレーションでも武装なしにするから、\n戦力として数えちゃダメだぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも俺の機体はシミュレーションでも武装なしにするから、\n戦力として数えちゃダメだぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Phrase": {
+            "Text": "わかった。リディアがおにいちゃん守る。\nおにいちゃん守るためなら、リディア、ちょうさいきょう。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "わかった。リディアがおにいちゃん守る。\nおにいちゃん守るためなら、リディア、ちょうさいきょう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020212,
+        "configuration": {
+          "Phrase": {
+            "Text": "その言葉どおり、リディアは一番難しい訓練メニューで、\n仮想敵をあっさり蹂躙して俺に指一本触れさせずクリアするのだった――"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その言葉どおり、リディアは一番難しい訓練メニューで、\n仮想敵をあっさり蹂躙して俺に指一本触れさせずクリアするのだった――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020212
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 57,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 58,
+      "type": "bgvStop",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "リディアならちょっとアレンジ加えたメニューにも、\n挑戦できそうだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "リディアならちょっとアレンジ加えたメニューにも、\n挑戦できそうだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー？　いっぱいなんかんになる？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 63,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-20",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "んー？　いっぱいなんかんになる？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなに難しくするつもりはない。\nでもさっきよりは少しハードかもな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そんなに難しくするつもりはない。\nでもさっきよりは少しハードかもな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあ、クリアできたらおにいちゃん、ほめてくれる？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 70,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-22",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "じゃあ、クリアできたらおにいちゃん、ほめてくれる？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、いっぱい褒めてあげよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、いっぱい褒めてあげよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "なでなでしてくれる？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 77,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-24",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 78,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 79,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "なでなでしてくれる？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 80,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "いっぱいなでなでしてあげよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 81,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 82,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いっぱいなでなでしてあげよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 83,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "プリン、買ってくれる？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/10"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 84,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-26",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 85,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 86,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "プリン、買ってくれる？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 87,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "買ってあげよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "買ってあげよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんでもしてくれる？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/11"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 91,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-28",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 92,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 93,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "なんでもしてくれる？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 94,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、任せろ――って、『なんでも』！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 96,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、任せろ――って、『なんでも』！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "わぁい、おにいちゃん、やくそく。\nリディア、がんばってくる。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61020201/12"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 98,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-30",
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 99,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 100,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "わぁい、おにいちゃん、やくそく。\nリディア、がんばってくる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 101,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ま、待ってくれー！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 102,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 103,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ま、待ってくれー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 104,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 32,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "（つい流れで言わされてしまった……\n一体、何をやらされるんだろう……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 105,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 106,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（つい流れで言わされてしまった……\n一体、何をやらされるんだろう……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 32,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 107,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 33,
+        "sceneId": 61020201,
+        "branchId": null,
+        "selectedBranchId": 61020211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちなみにその後クリアしたリディアから求められたのは、いっぱい褒めて\nなでなでして、プリンを買ってほしいという可愛らしいものだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 108,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 109,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ちなみにその後クリアしたリディアから求められたのは、いっぱい褒めて\nなでなでして、プリンを買ってほしいという可愛らしいものだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 33,
+      "branchMasterId": 6102021,
+      "branchSelectionId": 61020211
+    },
+    {
+      "line": 110,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 33,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6102021
+      ],
+      "uniqueBranchMasterIds": [
+        6102021
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

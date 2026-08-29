@@ -1,0 +1,1698 @@
+{
+  "id": "61043003",
+  "title": "茶室にバニー？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61043003",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-20062.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-20062.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-20062.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-20062.png",
+      "backgrounds": {
+        "20062": "../../assets/muvluv/backgrounds/background-20062.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c111301/CallOut": "../../assets/muvluv/audio/voice/3484e6f566084b34b8e1027c431ca8ec.ogg",
+          "c111301/Shy": "../../assets/muvluv/audio/voice/94569dac17839c14b9a8e1a2b4678822.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "111302s": {
+          "key": "111302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/111302s/111302s.json",
+          "atlas": "../../assets/muvluv/spine/111302s/111302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/111302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "ColorType": 1,
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "ColorType": 1,
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……この格好でお茶を提供をしていると、変じゃないですか？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c111301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……この格好でお茶を提供をしていると、変じゃないですか？",
+      "voice": "c111301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、全然そんなことはないぞ？\nまあ、ちょっと特殊な店だとは思うが。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、全然そんなことはないぞ？\nまあ、ちょっと特殊な店だとは思うが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "お店って言ってるじゃないですか！？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043003/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "お店って言ってるじゃないですか！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "バニー衣装を着たまま、ユリアたちへお茶を準備していた翠蘭。\nそこに俺がやってきたのでもてなしてくれているのだ。"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "バニー衣装を着たまま、ユリアたちへお茶を準備していた翠蘭。\nそこに俺がやってきたのでもてなしてくれているのだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "しかし、こうしてみると和室にバニーっていうのもアリかもしれないな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "しかし、こうしてみると和室にバニーっていうのもアリかもしれないな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……いや、ないでしょう。私自身、違和感を凄い感じていますからね？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043003/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-7"
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……いや、ないでしょう。私自身、違和感を凄い感じていますからね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61043003,
+        "branchId": 6108101,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういいながらもお茶をちゃんと出してくれる翠蘭。\n俺はお茶を飲んで……"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そういいながらもお茶をちゃんと出してくれる翠蘭。\n俺はお茶を飲んで……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "choice",
+      "branchMasterId": 6108101,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61081011,
+          "text": "変わらない美味しさ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1113021
+        },
+        {
+          "id": 61081012,
+          "text": "いつもより美味しい",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1113022
+        }
+      ]
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081012,
+        "configuration": {
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 29,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 30,
+      "type": "bgvStop",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なんで味が変わるんですか。\n普段通りに入れましたよ。お茶も普通のやつですし。",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043003/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 32,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-10",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……なんで味が変わるんですか。\n普段通りに入れましたよ。お茶も普通のやつですし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081012,
+        "configuration": {
+          "Phrase": {
+            "Text": "多分、バニー姿で提供をしてくれたからだろうな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "多分、バニー姿で提供をしてくれたからだろうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……はぁ、%usernameusernameuserna%さんはたまに\n変なことをいいますけどそんなにバニーが好きなんですか？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043003/7"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 39,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-12",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……はぁ、<user>さんはたまに\n変なことをいいますけどそんなにバニーが好きなんですか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょっと変態っぽく聞こえますよ？\nまあ、個人の趣味を否定するつもりはありませんが。",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043003/8"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 43,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-13",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "ちょっと変態っぽく聞こえますよ？\nまあ、個人の趣味を否定するつもりはありませんが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081012,
+        "configuration": {
+          "Phrase": {
+            "Text": "翠蘭の冷たい視線を感じながら、俺はそのままお茶をすするのだった。"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 48,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "翠蘭の冷たい視線を感じながら、俺はそのままお茶をすするのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081012
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081011,
+        "configuration": {
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 50,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 51,
+      "type": "bgvStop",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081011,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、服が変わったからと言って、別に味に変化はありませんからね。",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043003/9"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-16",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "まあ、服が変わったからと言って、別に味に変化はありませんからね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081011,
+        "configuration": {
+          "Phrase": {
+            "Text": "翠蘭が入れてくれたお茶はホッとするんだよな。\nなんというか、ずっと飲みたくなる味っていうか……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "翠蘭が入れてくれたお茶はホッとするんだよな。\nなんというか、ずっと飲みたくなる味っていうか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……あの、%usernameusernameuserna%さん。\n自分が言っている意味、分かってますか？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c111301/Shy"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 60,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-18",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 62,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……あの、<user>さん。\n自分が言っている意味、分かってますか？",
+      "voice": "c111301/Shy",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？　翠蘭のお茶が最高にうまいって意味だけど……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん？　翠蘭のお茶が最高にうまいって意味だけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……はぁ、まあいいです。無自覚なのかもしれませんが……\nあまり、私以外には言わないほうがいいですよ。",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043003/12"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 67,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-20",
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……はぁ、まあいいです。無自覚なのかもしれませんが……\nあまり、私以外には言わないほうがいいですよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61043003,
+        "branchId": null,
+        "selectedBranchId": 61081011,
+        "configuration": {
+          "Phrase": {
+            "Text": "顔を赤くした翠蘭にそう言われて、\n俺は首を傾げながら美味しいお茶を飲むのだった。"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "顔を赤くした翠蘭にそう言われて、\n俺は首を傾げながら美味しいお茶を飲むのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6108101,
+      "branchSelectionId": 61081011
+    },
+    {
+      "line": 73,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 21,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6108101
+      ],
+      "uniqueBranchMasterIds": [
+        6108101
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

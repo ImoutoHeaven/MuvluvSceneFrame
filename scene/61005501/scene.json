@@ -1,0 +1,1595 @@
+{
+  "id": "61005501",
+  "title": "特訓指示",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61005501",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c113301/Agreement": "../../assets/muvluv/audio/voice/55bd9c5c2c963b6418c0007c9bca6faa.ogg",
+          "c113301/CallOut": "../../assets/muvluv/audio/voice/ce4db727ec516f4439b8ec0ad1527b38.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "113301s": {
+          "key": "113301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/113301s/113301s.json",
+          "atlas": "../../assets/muvluv/spine/113301s/113301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/113301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "知っている範囲でスカラ校舎を散策していると――"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "知っている範囲でスカラ校舎を散策していると――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ぼー……",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c113301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "ぼー……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あれ？　フィー？　なにしてるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あれ？　フィー？　なにしてるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "体力トレーニング。翠蘭にトレーニングするよう言われた。",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c113301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "体力トレーニング。翠蘭にトレーニングするよう言われた。",
+      "voice": "c113301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でもそのわりには何もやってないように見えるけど……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でもそのわりには何もやってないように見えるけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "具体的に何をしろって言われなかったから、\n何もやってない。",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005501/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "具体的に何をしろって言われなかったから、\n何もやってない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……%usernameusernameuserna%、指示して？",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c113301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "……<user>、指示して？",
+      "voice": "c113301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61005501,
+        "branchId": 6100551,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "え、俺……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "え、俺……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 28,
+      "type": "choice",
+      "branchMasterId": 6100551,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61005511,
+          "text": "俺と一緒に走ろう",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1133011
+        },
+        {
+          "id": 61005512,
+          "text": "俺を抱っこして走れ！",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1133012
+        }
+      ]
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005511,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 30,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 31,
+      "type": "bgvStop",
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005511,
+        "configuration": {
+          "Phrase": {
+            "Text": "せっかくだし、俺もトレーニング付き合うよ。\n一緒にトラックを走ろう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "せっかくだし、俺もトレーニング付き合うよ。\n一緒にトラックを走ろう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005511,
+        "configuration": {
+          "Phrase": {
+            "Text": "……わかった。",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005501/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "……わかった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005511,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふぅ……結構走ったな。\nフィーも意外と余裕そうだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ふぅ……結構走ったな。\nフィーも意外と余裕そうだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005511,
+        "configuration": {
+          "Phrase": {
+            "Text": "まだまだいける。%usernameusernameuserna%と一緒なら。",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005501/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 42,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-14",
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "まだまだいける。<user>と一緒なら。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005511
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005512,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 46,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 47,
+      "type": "bgvStop",
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005512,
+        "configuration": {
+          "Phrase": {
+            "Text": "わかった。",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005501/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "わかった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005512,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "えっ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005512,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょ、ちょっとタンマ。ストーップ！\n抱きついて持ち上げようとするな！　冗談だよ、冗談！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ちょ、ちょっとタンマ。ストーップ！\n抱きついて持ち上げようとするな！　冗談だよ、冗談！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005512,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう……じゃあ、やめる。次はどうする？",
+            "SpeakerName": "フィー",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005501/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 58,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-19",
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フィー",
+      "text": "そう……じゃあ、やめる。次はどうする？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61005501,
+        "branchId": null,
+        "selectedBranchId": 61005512,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……フィーに指示を与える時には、\n内容に関しては気を付けないといけないな……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "113301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……フィーに指示を与える時には、\n内容に関しては気を付けないといけないな……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100551,
+      "branchSelectionId": 61005512
+    },
+    {
+      "line": 64,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 20,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100551
+      ],
+      "uniqueBranchMasterIds": [
+        6100551
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

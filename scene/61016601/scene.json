@@ -1,0 +1,1410 @@
+{
+  "id": "61016601",
+  "title": "追いつくためには",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61016601",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "sad": "../../assets/muvluv/audio/se/sad.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "132301s": {
+          "key": "132301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/132301s/132301s.json",
+          "atlas": "../../assets/muvluv/spine/132301s/132301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/132301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おーい、純夏。大丈夫か～？",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "おーい、純夏。大丈夫か～？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はぁ、はぁ……うう、ま、待って～！\nタケルちゃん、足速すぎ～！",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016601/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "はぁ、はぁ……うう、ま、待って～！\nタケルちゃん、足速すぎ～！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "オレが速いんじゃなくてお前がスタミナ無さすぎるんだよ。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "オレが速いんじゃなくてお前がスタミナ無さすぎるんだよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うわ～～ん！タケルちゃん意地悪だよーーー！！\n置いてかないでよぉ～～！！",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016601/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "うわ～～ん！タケルちゃん意地悪だよーーー！！\n置いてかないでよぉ～～！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おいおい、たかが５０００Mを１本だけだぞ？　それもゆっくりめの。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "おいおい、たかが５０００Mを１本だけだぞ？　それもゆっくりめの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61016601,
+        "branchId": 6101661,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "タケルちゃんはしっかり体鍛えてるじゃん！\n私はそうじゃないんだよ～～。追い付くまで待っててよ～～。",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016601/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "タケルちゃんはしっかり体鍛えてるじゃん！\n私はそうじゃないんだよ～～。追い付くまで待っててよ～～。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "choice",
+      "branchMasterId": 6101661,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61016611,
+          "text": "ならば鍛える",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1323011
+        },
+        {
+          "id": 61016612,
+          "text": "その時は待つ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1323012
+        }
+      ]
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016612,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 25,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 26,
+      "type": "bgvStop",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016612,
+        "configuration": {
+          "Phrase": {
+            "Text": "分かった分かった。待っててやるから頑張れ。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "分かった分かった。待っててやるから頑張れ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016612,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ、本当に！？タケルちゃん、やっさし～～！！\nなんか珍しいね。変なもの拾って食べてない？",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016601/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 31,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-10",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "えっ、本当に！？タケルちゃん、やっさし～～！！\nなんか珍しいね。変なもの拾って食べてない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016612,
+        "configuration": {
+          "Phrase": {
+            "Text": "……やっぱ待たなくていいか？",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "……やっぱ待たなくていいか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016612,
+        "configuration": {
+          "Phrase": {
+            "Text": "ゴメンってば～！タケルちゃんは優しい！\n今日もランニングに付き合ってくれてるし、いつもありがとう♪",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016601/10"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-12",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "ゴメンってば～！タケルちゃんは優しい！\n今日もランニングに付き合ってくれてるし、いつもありがとう♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016612
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016611,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 42,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 43,
+      "type": "bgvStop",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016611,
+        "configuration": {
+          "Phrase": {
+            "Text": "獅子は我が子を千尋の谷に落とすと言う……\nまだだぞ純夏！　オレに全力で追い付け！",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "獅子は我が子を千尋の谷に落とすと言う……\nまだだぞ純夏！　オレに全力で追い付け！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016611,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええっ！？　ま、待って！　もう限界だよ～！\nこれ以上走るのは……",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016601/12"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-15",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "ええっ！？　ま、待って！　もう限界だよ～！\nこれ以上走るのは……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016611,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああっ！ぜんぜん待ってくれない～～！\nタケルちゃんヒドイよ～～！！",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016601/13"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-16",
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "ああっ！ぜんぜん待ってくれない～～！\nタケルちゃんヒドイよ～～！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61016601,
+        "branchId": null,
+        "selectedBranchId": 61016611,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして限界を迎えた純夏が、\n半泣きになって走り込みは終わりになるのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして限界を迎えた純夏が、\n半泣きになって走り込みは終わりになるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101661,
+      "branchSelectionId": 61016611
+    },
+    {
+      "line": 58,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 17,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101661
+      ],
+      "uniqueBranchMasterIds": [
+        6101661
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

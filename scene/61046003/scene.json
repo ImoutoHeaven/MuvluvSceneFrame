@@ -1,0 +1,1611 @@
+{
+  "id": "61046003",
+  "title": "最高ではなく平均",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61046003",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30130.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30130.png",
+      "backgrounds": {
+        "30130": "../../assets/muvluv/backgrounds/background-30130.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10015": "../../assets/muvluv/audio/bgm/10015.ogg"
+        },
+        "voice": {
+          "c143301/Smile": "../../assets/muvluv/audio/voice/edc0d8db31335fb44a6db44b4bb2ced1.ogg",
+          "c143301/Agreement": "../../assets/muvluv/audio/voice/5dbfd01604ed61a4ca9eb7671267ae50.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "143301s": {
+          "key": "143301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/143301s/143301s.json",
+          "atlas": "../../assets/muvluv/spine/143301s/143301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/143301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10015"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "シミュレーター室に行くと、オルガが何かを見ていた。\nのぞき込むと、それは彼女のシミュレーターでの戦闘記録だった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "シミュレーター室に行くと、オルガが何かを見ていた。\nのぞき込むと、それは彼女のシミュレーターでの戦闘記録だった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "凄いな……戦闘終了時刻がぴったり同じ時間だ。\nでも、オルガの実力ならもっと早い記録を出せるんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "凄いな……戦闘終了時刻がぴったり同じ時間だ。\nでも、オルガの実力ならもっと早い記録を出せるんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "目的が違います。状況を変更しても常に同じだけのパフォーマンスを\n出して一定の戦績を出すという訓練をしています。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046003/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "目的が違います。状況を変更しても常に同じだけのパフォーマンスを\n出して一定の戦績を出すという訓練をしています。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なるほど、そういうことか。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……なるほど、そういうことか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "確かに見れば、敵の出現位置や数などの条件が全部違っている。\nだが、それでも常に一定の時間で確実に倒している。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "確かに見れば、敵の出現位置や数などの条件が全部違っている。\nだが、それでも常に一定の時間で確実に倒している。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61046003,
+        "branchId": 6109301,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どのような状況、どのような戦況でも常に一定の結果を出す。\nそれこそが優秀なパイロットですので。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046003/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "どのような状況、どのような戦況でも常に一定の結果を出す。\nそれこそが優秀なパイロットですので。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "choice",
+      "branchMasterId": 6109301,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61093011,
+          "text": "同意する",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1463012
+        },
+        {
+          "id": 61093012,
+          "text": "同意しない",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1463011
+        }
+      ]
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 24,
+      "type": "bgmPlay",
+      "cue": "10015",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 25,
+      "type": "bgvStop",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Phrase": {
+            "Text": "たしかにな。状況に関わらず常に同じパフォーマンスを出す。\nチームを率いるリーダーならそれも大切な資質だ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "たしかにな。状況に関わらず常に同じパフォーマンスを出す。\nチームを率いるリーダーならそれも大切な資質だ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Phrase": {
+            "Text": "同意いただけたようで何よりです。\n状況や感情によるパフォーマンスの上昇を否定するつもりはありません。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c143301/Smile"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 30,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-10",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 32,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "同意いただけたようで何よりです。\n状況や感情によるパフォーマンスの上昇を否定するつもりはありません。",
+      "voice": "c143301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ですが、チームリーダーとしては、\nより重要なのは常に冷静に一定の力を出せることかと考えます。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046003/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "ですが、チームリーダーとしては、\nより重要なのは常に冷静に一定の力を出せることかと考えます。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Phrase": {
+            "Text": "こういった訓練は理解を得られないことがありますので、\n%usernameusernameuserna%は柔軟な思想を持っていて感心致しました。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046003/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "こういった訓練は理解を得られないことがありますので、\n<user>は柔軟な思想を持っていて感心致しました。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Phrase": {
+            "Text": "とはいえ、チームによってはベストの形も変わるだろ？\n他にはどんな訓練をしているんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "とはいえ、チームによってはベストの形も変わるだろ？\n他にはどんな訓練をしているんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうですね。リーダー役がもしも、固定でない場合……もしくは、\n指揮役とリーダー役が別の場合には、パフォーマンス重視で――",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046003/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 43,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-14",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "そうですね。リーダー役がもしも、固定でない場合……もしくは、\n指揮役とリーダー役が別の場合には、パフォーマンス重視で――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093011,
+        "configuration": {
+          "Phrase": {
+            "Text": "オルガの戦術を聞いて、俺達は充実した議論をかわすのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 48,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "オルガの戦術を聞いて、俺達は充実した議論をかわすのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093011
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 50,
+      "type": "bgmPlay",
+      "cue": "10015",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 51,
+      "type": "bgvStop",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093012,
+        "configuration": {
+          "Phrase": {
+            "Text": "だが俺の考えだと安定したパフォーマンスだけじゃダメだと思うな。\n状況を打開するために、限界を超える必要もあるだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "だが俺の考えだと安定したパフォーマンスだけじゃダメだと思うな。\n状況を打開するために、限界を超える必要もあるだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093012,
+        "configuration": {
+          "Phrase": {
+            "Text": "その考え方にも一理はあります。ですが、その状況になること自体が、\n間違えているというのが私の理屈です。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046003/6"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 56,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-18",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "その考え方にも一理はあります。ですが、その状況になること自体が、\n間違えているというのが私の理屈です。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふむ、なるほど。オルガが経験からそう感じたなら、\nその考え方にも一理あるのかもしれないな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……ふむ、なるほど。オルガが経験からそう感じたなら、\nその考え方にも一理あるのかもしれないな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ。もしも良ければ理論やそこに至ったデータも提示できます。\n確認をいたしますか？",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c143301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 63,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-20",
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 65,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "ええ。もしも良ければ理論やそこに至ったデータも提示できます。\n確認をいたしますか？",
+      "voice": "c143301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、ならお願いしてもいいか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、ならお願いしてもいいか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61046003,
+        "branchId": null,
+        "selectedBranchId": 61093012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、俺は彼女から理論について詳しい解説を聞くのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、俺は彼女から理論について詳しい解説を聞くのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6109301,
+      "branchSelectionId": 61093012
+    },
+    {
+      "line": 72,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 22,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6109301
+      ],
+      "uniqueBranchMasterIds": [
+        6109301
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

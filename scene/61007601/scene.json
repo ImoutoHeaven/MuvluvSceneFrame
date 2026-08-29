@@ -1,0 +1,1267 @@
+{
+  "id": "61007601",
+  "title": "新しいビジネスは……",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61007601",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30112.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30112.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30112.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30112.png",
+      "backgrounds": {
+        "30112": "../../assets/muvluv/backgrounds/background-30112.png",
+        "20082": "../../assets/muvluv/backgrounds/background-20082.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c119301/Confused": "../../assets/muvluv/audio/voice/48b911cc9d96e7e48a87530cb1c1df4b.ogg",
+          "c119301/Thank": "../../assets/muvluv/audio/voice/ca417e1836f220e4c9e0aba506d10e7c.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "119301s": {
+          "key": "119301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/119301s/119301s.json",
+          "atlas": "../../assets/muvluv/spine/119301s/119301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/119301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んん～、これもいいよね。\nとはいえ、安定はしないだろうけどこっちの方が……",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c119301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "んん～、これもいいよね。\nとはいえ、安定はしないだろうけどこっちの方が……",
+      "voice": "c119301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "レイラ、難しい顔をして何を考え込んでるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "レイラ、難しい顔をして何を考え込んでるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%。\n新しいビジネスアイデアを出したんだけど、どっちがいいかなって。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c119301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "あ、<user>。\n新しいビジネスアイデアを出したんだけど、どっちがいいかなって。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いわゆる無難な手堅いビジネスに手を出すか。\n斬新だけど失敗する可能性も高いビジネスにするか。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c119301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "いわゆる無難な手堅いビジネスに手を出すか。\n斬新だけど失敗する可能性も高いビジネスにするか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61007601,
+        "branchId": 6100761,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "choice",
+      "branchMasterId": 6100761,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61007611,
+          "text": "悩むなら手堅くいこう",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1193012
+        },
+        {
+          "id": 61007612,
+          "text": "背中を押すから挑戦しよう",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1193011
+        }
+      ]
+    },
+    {
+      "line": 18,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007611,
+        "configuration": {
+          "Phrase": {
+            "Text": "悩むってことは、冒険したくないってことじゃないか？\nなら、手堅い方がいいと思うぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 19,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 20,
+      "type": "bgvStop",
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "悩むってことは、冒険したくないってことじゃないか？\nなら、手堅い方がいいと思うぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007611,
+        "configuration": {
+          "Phrase": {
+            "Text": "……確かにね。ありがとう、じゃあこっちにするかぁ。\nアドバイスしてくれてありがとうね♪",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c119301/Thank"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 25,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "……確かにね。ありがとう、じゃあこっちにするかぁ。\nアドバイスしてくれてありがとうね♪",
+      "voice": "c119301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007611,
+        "configuration": {
+          "Phrase": {
+            "Text": "堅実な結果を残したらしいが、\nあまりレイラは満足していないようだった。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "堅実な結果を残したらしいが、\nあまりレイラは満足していないようだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007611
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007612,
+        "configuration": {
+          "Phrase": {
+            "Text": "多分悩んでるのは、切っ掛けが欲しいからじゃないか？\n折角なら挑戦してみたらどうだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 30,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 31,
+      "type": "bgvStop",
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "多分悩んでるのは、切っ掛けが欲しいからじゃないか？\n折角なら挑戦してみたらどうだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007612,
+        "configuration": {
+          "Phrase": {
+            "Text": "……確かに背中を押してみて欲しかったのかも。\nうん、ありがとう！　挑戦してみるよ！",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c119301/Thank"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 35,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-11",
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 37,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "……確かに背中を押してみて欲しかったのかも。\nうん、ありがとう！　挑戦してみるよ！",
+      "voice": "c119301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007612,
+        "configuration": {
+          "Phrase": {
+            "Text": "……本当に良かったのか？\n俺だと何も力になれないが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……本当に良かったのか？\n俺だと何も力になれないが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007612,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、十分に力になってくれたよ。\n私が挑戦するための切っ掛けになってくれたからね。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c119301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "いや、十分に力になってくれたよ。\n私が挑戦するための切っ掛けになってくれたからね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007612,
+        "configuration": {
+          "Phrase": {
+            "Text": "成功するかどうかは後は私次第だからね。\nだから一人のお客さんとして応援してくれると嬉しいな。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c119301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 45,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-14",
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "成功するかどうかは後は私次第だからね。\nだから一人のお客さんとして応援してくれると嬉しいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61007601,
+        "branchId": null,
+        "selectedBranchId": 61007612,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうしてレイラは始めたビジネスは軌道に乗り、\n挑戦した結果には満足そうにしているのだった。"
+          },
+          "Background": {
+            "AssetId": "20082",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20082",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうしてレイラは始めたビジネスは軌道に乗り、\n挑戦した結果には満足そうにしているのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100761,
+      "branchSelectionId": 61007612
+    },
+    {
+      "line": 51,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 15,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100761
+      ],
+      "uniqueBranchMasterIds": [
+        6100761
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

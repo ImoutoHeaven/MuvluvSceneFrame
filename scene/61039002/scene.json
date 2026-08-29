@@ -1,0 +1,1515 @@
+{
+  "id": "61039002",
+  "title": "ぴったりのカフェは",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61039002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40012.png",
+      "backgrounds": {
+        "40012": "../../assets/muvluv/backgrounds/background-40012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "118302s": {
+          "key": "118302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/118302s/118302s.json",
+          "atlas": "../../assets/muvluv/spine/118302s/118302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/118302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういえば、昔はカフェで歌ったりしたことがあるの。",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "そういえば、昔はカフェで歌ったりしたことがあるの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "へえ、そういう歌えるカフェがあるのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "へえ、そういう歌えるカフェがあるのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ジャズをやったりするタイプのカフェだったりがあるの。",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "ジャズをやったりするタイプのカフェだったりがあるの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……それ結構オシャレな場所だよな。\n俺だったらビビって入れないぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……それ結構オシャレな場所だよな。\n俺だったらビビって入れないぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61039002,
+        "branchId": 6106401,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あはは……私も普段なら入れないかな。\nお仕事だったから、普通に入ったけど……",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "あはは……私も普段なら入れないかな。\nお仕事だったから、普通に入ったけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "choice",
+      "branchMasterId": 6106401,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61064011,
+          "text": "でも見てみたいな",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1183022
+        },
+        {
+          "id": 61064012,
+          "text": "このカフェが一番",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1183021
+        }
+      ]
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064012,
+        "configuration": {
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 22,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 23,
+      "type": "bgvStop",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064012,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺達にはこの親しみやすいカフェが一番だな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "俺達にはこの親しみやすいカフェが一番だな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだね。高級なお店よりもずっと落ち着く。\n……今は、普段以上にそう感じるかも。",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 28,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-9",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "そうだね。高級なお店よりもずっと落ち着く。\n……今は、普段以上にそう感じるかも。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……それってどういう意味だ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……それってどういう意味だ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064012,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへ、内緒。",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 35,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-11",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "えへへ、内緒。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064012,
+        "configuration": {
+          "Phrase": {
+            "Text": "それじゃ、もうちょっとお話して帰ろっか。\nここならゆっくりしてても、大丈夫だからね。",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/6"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "それじゃ、もうちょっとお話して帰ろっか。\nここならゆっくりしてても、大丈夫だからね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、俺達はゆっくりと会話を楽しむのだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、俺達はゆっくりと会話を楽しむのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064011,
+        "configuration": {
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 45,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 46,
+      "type": "bgvStop",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064011,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも見てみたいな……オシャレなカフェで歌ってるシエナ。\nかなり似合ってるだろうな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも見てみたいな……オシャレなカフェで歌ってるシエナ。\nかなり似合ってるだろうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そ、そんなに期待される程のものじゃないけど……\n%usernameusernameuserna%がそこまでいうなら、見る？",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/7"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-16",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "……そ、そんなに期待される程のものじゃないけど……\n<user>がそこまでいうなら、見る？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064011,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ？　見るって……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "えっ？　見るって……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064011,
+        "configuration": {
+          "Phrase": {
+            "Text": "また歌っても良い場所を見つけたら、\n%usernameusernameuserna%だけのコンサートをしてあげるね？",
+            "SpeakerName": "シエナ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61039002/8"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "118302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "118302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 58,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-18",
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "シエナ",
+      "text": "また歌っても良い場所を見つけたら、\n<user>だけのコンサートをしてあげるね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61039002,
+        "branchId": null,
+        "selectedBranchId": 61064011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんな約束をして、俺達はカフェを後にするのだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そんな約束をして、俺達はカフェを後にするのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6106401,
+      "branchSelectionId": 61064011
+    },
+    {
+      "line": 64,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 19,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6106401
+      ],
+      "uniqueBranchMasterIds": [
+        6106401
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

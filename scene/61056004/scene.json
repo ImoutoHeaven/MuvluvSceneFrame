@@ -1,0 +1,1794 @@
+{
+  "id": "61056004",
+  "title": "エレーナを褒めよう",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61056004",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c145301/Happiness_2": "../../assets/muvluv/audio/voice/566e139e9c63e2e4eb27e4730d921d33.ogg",
+          "c145301/Surprised_2": "../../assets/muvluv/audio/voice/799adcc2d7d79e44c9fd7abfb0512c09.ogg",
+          "c145301/Confused_3": "../../assets/muvluv/audio/voice/f1ebbb57854419340a89c9299121edc6.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "145301s": {
+          "key": "145301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/145301s/145301s.json",
+          "atlas": "../../assets/muvluv/spine/145301s/145301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/145301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いっちにっ、さんしっ……",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "いっちにっ、さんしっ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "グラウンドを訪れると、エレーナが柔軟体操をしていた。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "グラウンドを訪れると、エレーナが柔軟体操をしていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "よう、エレーナ。これからトレーニングか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "よう、エレーナ。これからトレーニングか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっ、%usernameusernameuserna%さん！\nそうだよ、日課のトレーニングをしようと思ったところ！",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "あっ、<user>さん！\nそうだよ、日課のトレーニングをしようと思ったところ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "その意気だ。\n事前の準備運動は大切だからな、ちゃんとしてて偉いぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "その意気だ。\n事前の準備運動は大切だからな、ちゃんとしてて偉いぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへ……って、これぐらい当然だから、褒められるまでもないよ！\n私だってクラスナの一員なんだからね！",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c145301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-7"
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "えへへ……って、これぐらい当然だから、褒められるまでもないよ！\n私だってクラスナの一員なんだからね！",
+      "voice": "c145301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61056004,
+        "branchId": 6113401,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（一瞬すごく喜んでたな……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（一瞬すごく喜んでたな……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "choice",
+      "branchMasterId": 6113401,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61134011,
+          "text": "今はとにかく褒め続ける",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1553012
+        },
+        {
+          "id": 61134012,
+          "text": "褒めつつ一緒に訓練する",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1553011
+        }
+      ]
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 29,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 30,
+      "type": "bgvStop",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134012,
+        "configuration": {
+          "Phrase": {
+            "Text": "こういう基礎トレーニングを\nきっちり続けてるっていうのは偉いことだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "こういう基礎トレーニングを\nきっちり続けてるっていうのは偉いことだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134012,
+        "configuration": {
+          "Phrase": {
+            "Text": "だが、せっかくだしいつもと違うトレーニングもいいと思わないか？\nどうだ、今なら俺が教えてやれるぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "だが、せっかくだしいつもと違うトレーニングもいいと思わないか？\nどうだ、今なら俺が教えてやれるぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そっか……！\n教導指揮官って、こういうトレーニングにも詳しいんだね！",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c145301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-12",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 40,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "そっか……！\n教導指揮官って、こういうトレーニングにも詳しいんだね！",
+      "voice": "c145301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134012,
+        "configuration": {
+          "Phrase": {
+            "Text": "だったら、お願い！　私にいろいろと教えてほしい！\n私……もっと、もっと強くなって、皆の役に立ちたいから！",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c145301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 42,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-13",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 44,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "だったら、お願い！　私にいろいろと教えてほしい！\n私……もっと、もっと強くなって、皆の役に立ちたいから！",
+      "voice": "c145301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう告げるエレーナの瞳には、強い覚悟の炎が宿っており、\n俺は迷いなく頷くのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう告げるエレーナの瞳には、強い覚悟の炎が宿っており、\n俺は迷いなく頷くのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134012
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 49,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 50,
+      "type": "bgvStop",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、こうしてトレーニングを怠らずきっちり続けるのは、\nすごいことだろ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも、こうしてトレーニングを怠らずきっちり続けるのは、\nすごいことだろ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなことないよ～。\nあ、もしかして%usernameusernameuserna%さんって褒めて伸ばすタイプ？",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c145301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-17",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 57,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "そんなことないよ～。\nあ、もしかして<user>さんって褒めて伸ばすタイプ？",
+      "voice": "c145301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや本当にすごいぞ。努力を努力と思わないっていうのは、\nそれが一つの才能みたいなもんだ。そうできることじゃない。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや本当にすごいぞ。努力を努力と思わないっていうのは、\nそれが一つの才能みたいなもんだ。そうできることじゃない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Phrase": {
+            "Text": "や、やだなぁ～……クラスナとしては当然だよ！\nていうか、これでもオルガさんたちに追いつくには足りないし……",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c145301/Confused_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 62,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-19",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 64,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "や、やだなぁ～……クラスナとしては当然だよ！\nていうか、これでもオルガさんたちに追いつくには足りないし……",
+      "voice": "c145301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいや、そもそもクラスナに所属してるだけですごいことなんだ。\n俺が褒めてるのは、その上で努力を怠っていないエレーナ個人だよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いいや、そもそもクラスナに所属してるだけですごいことなんだ。\n俺が褒めてるのは、その上で努力を怠っていないエレーナ個人だよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……な、な、何なのさっきからぁっ！？\nこんなの、ほ、褒め殺しだよぉ……",
+            "SpeakerName": "エレーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c145301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "145301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "145301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 69,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-21",
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 71,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "エレーナ",
+      "text": "……な、な、何なのさっきからぁっ！？\nこんなの、ほ、褒め殺しだよぉ……",
+      "voice": "c145301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61056004,
+        "branchId": null,
+        "selectedBranchId": 61134011,
+        "configuration": {
+          "Phrase": {
+            "Text": "エレーナは顔を赤くして、その場にしゃがみ込んでしまう。\nだがその表情は、幸せそうに緩んでいるのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "エレーナは顔を赤くして、その場にしゃがみ込んでしまう。\nだがその表情は、幸せそうに緩んでいるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6113401,
+      "branchSelectionId": 61134011
+    },
+    {
+      "line": 75,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 22,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6113401
+      ],
+      "uniqueBranchMasterIds": [
+        6113401
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

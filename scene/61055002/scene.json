@@ -1,0 +1,1930 @@
+{
+  "id": "61055002",
+  "title": "一手先を読む",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61055002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30312.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30312.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30312.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30312.png",
+      "backgrounds": {
+        "30312": "../../assets/muvluv/backgrounds/background-30312.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c146301/CallOut": "../../assets/muvluv/audio/voice/eeeacc1616b12a24382286646a2db751.ogg",
+          "c146301/Confused_2": "../../assets/muvluv/audio/voice/85376d6ad1cad1f43b10867efb150933.ogg",
+          "c146301/Happiness_2": "../../assets/muvluv/audio/voice/fbd86f0b20edb604c8919b1b2cda9912.ogg",
+          "c146301/Anger_2": "../../assets/muvluv/audio/voice/eb1d3ef60f542f84d95e424b12c6fbd9.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "146301s": {
+          "key": "146301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/146301s/146301s.json",
+          "atlas": "../../assets/muvluv/spine/146301s/146301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/146301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%、こんなところで何をしておる？",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c146301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "<user>、こんなところで何をしておる？",
+      "voice": "c146301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "タチアナか。\nいや、特にたいした用事があったわけじゃないんだが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "タチアナか。\nいや、特にたいした用事があったわけじゃないんだが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょっと待つのじゃ、当ててみせよう。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61055002/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "ちょっと待つのじゃ、当ててみせよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――ふむ、万が一市街地戦になってしまった時のために、\n地形を頭に入れていた……という感じじゃないのかえ？",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c146301/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "――ふむ、万が一市街地戦になってしまった時のために、\n地形を頭に入れていた……という感じじゃないのかえ？",
+      "voice": "c146301/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……驚いた。正解だ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……驚いた。正解だ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、そなたの思考をトレースしただけじゃよ。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c146301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-7"
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "ふふ、そなたの思考をトレースしただけじゃよ。",
+      "voice": "c146301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61055002,
+        "branchId": 6112801,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "エスパーというわけではないが……相手を知った今ならば、\nある程度は考えを見透かすこともできる。ほら、何か考えてみるといい。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61055002/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "エスパーというわけではないが……相手を知った今ならば、\nある程度は考えを見透かすこともできる。ほら、何か考えてみるといい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "choice",
+      "branchMasterId": 6112801,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61128011,
+          "text": "タチアナについて考える",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1473012
+        },
+        {
+          "id": 61128012,
+          "text": "スケベなことを考える",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1473011
+        }
+      ]
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 29,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 30,
+      "type": "bgvStop",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Phrase": {
+            "Text": "（タチアナの唇タチアナの腋タチアナの太腿タチアナの萌え袖\nタチアナの小ぶりだがツンとした胸タチアナの上目遣い――――！！）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（タチアナの唇タチアナの腋タチアナの太腿タチアナの萌え袖\nタチアナの小ぶりだがツンとした胸タチアナの上目遣い――――！！）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……おい。何か邪なことを考えておるじゃろ。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c146301/Anger_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 35,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-11",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 37,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "……おい。何か邪なことを考えておるじゃろ。",
+      "voice": "c146301/Anger_2",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Phrase": {
+            "Text": "なっ！？　何故分かったんだ……！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なっ！？　何故分かったんだ……！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやもう思考を読むまでもなく、\n儂の全身をねぶるようにじろじろ見ておったではないか。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61055002/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "いやもう思考を読むまでもなく、\n儂の全身をねぶるようにじろじろ見ておったではないか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Phrase": {
+            "Text": "儂の貧相な見た目を相手にどんな妄想をしていたのやら。\nまったく、とんだヘンタイじゃな……",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c146301/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 45,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-14",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 47,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "儂の貧相な見た目を相手にどんな妄想をしていたのやら。\nまったく、とんだヘンタイじゃな……",
+      "voice": "c146301/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Phrase": {
+            "Text": "な……俺は変態なんかじゃない！　タチアナが魅力的に見えて何が悪い！\n小さな身体に大きな母性と知性、のじゃ口調！　最高だろ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "な……俺は変態なんかじゃない！　タチアナが魅力的に見えて何が悪い！\n小さな身体に大きな母性と知性、のじゃ口調！　最高だろ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……好意的に見てくれるのは嬉しいのじゃが、今の熱弁のせいで、\nよりヘンタイっぽく見えてきたのう……",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61055002/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-16",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "……好意的に見てくれるのは嬉しいのじゃが、今の熱弁のせいで、\nよりヘンタイっぽく見えてきたのう……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128012
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 56,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 57,
+      "type": "bgvStop",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Phrase": {
+            "Text": "（クラスナという精鋭チームの参謀を務めて、自分もＭＧに乗って……\n想像を絶する苦労をしているだろう。同年代のはずだが、凄いやつだ）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（クラスナという精鋭チームの参謀を務めて、自分もＭＧに乗って……\n想像を絶する苦労をしているだろう。同年代のはずだが、凄いやつだ）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……むむ……表情からは読み切れんな。\nパターンはいくつかあるはずなのじゃが……",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c146301/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 62,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-19",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 64,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "……むむ……表情からは読み切れんな。\nパターンはいくつかあるはずなのじゃが……",
+      "voice": "c146301/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん、ああ……タチアナのことを考えてた。\nいつも頑張ってて偉いなぁ……ってな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん、ああ……タチアナのことを考えてた。\nいつも頑張ってて偉いなぁ……ってな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Phrase": {
+            "Text": "儂のことを？　……くすっ、そうじゃったか。\n当てて見せようとしたが、見事に失敗してしまったの。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61055002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 69,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-21",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "儂のことを？　……くすっ、そうじゃったか。\n当てて見せようとしたが、見事に失敗してしまったの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Phrase": {
+            "Text": "まだまだそなたのことをわかってなかったようじゃ。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c146301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 74,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "まだまだそなたのことをわかってなかったようじゃ。",
+      "voice": "c146301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……だったら、雑談でもしながら少しぶらつかないか？\nお互いを知るいい機会になる。もちろん、遠出は考えてないが。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……だったら、雑談でもしながら少しぶらつかないか？\nお互いを知るいい機会になる。もちろん、遠出は考えてないが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61055002,
+        "branchId": null,
+        "selectedBranchId": 61128011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そなたのお誘いとあっては、断るわけにはいかんの。\nじっくりこれからそなたという人間を知っていくのじゃ。",
+            "SpeakerName": "タチアナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61055002/6"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "146301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "146301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-24",
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "タチアナ",
+      "text": "そなたのお誘いとあっては、断るわけにはいかんの。\nじっくりこれからそなたという人間を知っていくのじゃ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6112801,
+      "branchSelectionId": 61128011
+    },
+    {
+      "line": 82,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6112801
+      ],
+      "uniqueBranchMasterIds": [
+        6112801
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

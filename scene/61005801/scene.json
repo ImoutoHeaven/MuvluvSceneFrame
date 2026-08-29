@@ -1,0 +1,2618 @@
+{
+  "id": "61005801",
+  "title": "手相を見てあげる",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61005801",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-20062.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-20062.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-20062.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-20062.png",
+      "backgrounds": {
+        "20062": "../../assets/muvluv/backgrounds/background-20062.png",
+        "20082": "../../assets/muvluv/backgrounds/background-20082.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c114301/Smile": "../../assets/muvluv/audio/voice/fce8f172e037cb34481fd34278dd3487.ogg",
+          "c114301/Laugh": "../../assets/muvluv/audio/voice/31cc3536005fad641b2a858810fd0661.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "doors_opening_slide": "../../assets/muvluv/audio/se/doors_opening_slide.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "114301s": {
+          "key": "114301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/114301s/114301s.json",
+          "atlas": "../../assets/muvluv/spine/114301s/114301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/114301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ガラガラ――"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "doors_opening_slide"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "doors_opening_slide"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "doors_opening_slide",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ガラガラ――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "こんなところに呼び出したってことは、\nこれからお茶でも点てるのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "こんなところに呼び出したってことは、\nこれからお茶でも点てるのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、まさか。単にふたりきりになりたかったの♪",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c114301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ふふ、まさか。単にふたりきりになりたかったの♪",
+      "voice": "c114301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……って、言われて嬉しい？\nねえねえ、嬉しい？",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-5"
+    },
+    {
+      "line": 16,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 17,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "……って、言われて嬉しい？\nねえねえ、嬉しい？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 18,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はいはい、嬉しいよ。それで用件は？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "はいはい、嬉しいよ。それで用件は？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "もう、素っ気ないわねぇ……呼び出しにはいつも\nすーぐ応えてくれるく・せ・に♪",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c114301/Laugh"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-7"
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "もう、素っ気ないわねぇ……呼び出しにはいつも\nすーぐ応えてくれるく・せ・に♪",
+      "voice": "c114301/Laugh",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "言ってろ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "言ってろ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ♪　今ね、ちょっと手相占いに凝ってるの。\n最近スカラ校舎内で流行ってるみたい。",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 29,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-9"
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ふふ♪　今ね、ちょっと手相占いに凝ってるの。\n最近スカラ校舎内で流行ってるみたい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "だから占わせて。\n手のひら見せてくれない？",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "だから占わせて。\n手のひら見せてくれない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんだ、そんな用事かよ……ほら、これでいい？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なんだ、そんな用事かよ……ほら、これでいい？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ありがと♪　ええと……",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ありがと♪　ええと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61005801,
+        "branchId": 6100581,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら、これは……！",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 42,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-13"
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "あら、これは……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 45,
+      "type": "choice",
+      "branchMasterId": 6100581,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 13,
+      "options": [
+        {
+          "id": 61005811,
+          "text": "金運アップとか！？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1143012
+        },
+        {
+          "id": 61005812,
+          "text": "女難の相が出たとか？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1143011
+        }
+      ]
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 47,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 48,
+      "type": "bgvStop",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Phrase": {
+            "Text": "正直少し懐事情が厳しくてな……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "正直少し懐事情が厳しくてな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Phrase": {
+            "Text": "うーん、残念。むしろダウンだって。",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-16",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "うーん、残念。むしろダウンだって。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Phrase": {
+            "Text": "えぇ……まじかよ……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "えぇ……まじかよ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Phrase": {
+            "Text": "だって、これからあたしのお買い物に付き合わされて、\nいろいろ買わされちゃうもの♪",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 60,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-18",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "だって、これからあたしのお買い物に付き合わされて、\nいろいろ買わされちゃうもの♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Phrase": {
+            "Text": "え？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "え？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、じゃあ、よろしくねっ。",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 67,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-20",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ふふ、じゃあ、よろしくねっ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005811,
+        "configuration": {
+          "Phrase": {
+            "Text": "その後、無理やり占いを当てさせられた俺であった――"
+          },
+          "Background": {
+            "AssetId": "20082",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20082",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その後、無理やり占いを当てさせられた俺であった――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005811
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Background": {
+            "AssetId": "20062",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 74,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 75,
+      "type": "bgvStop",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "（この女子ばかりの学園で、\nそれが出るのは勘弁したいところだが……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 78,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（この女子ばかりの学園で、\nそれが出るのは勘弁したいところだが……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、大当たり♪",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 80,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-24",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 81,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 82,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ふふ、大当たり♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 83,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "占いによると……今からあなたは、\nあたしに高級スイーツを奢らされちゃうわ。",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/10"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000,
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000,
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 84,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-25",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 85,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 86,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "占いによると……今からあなたは、\nあたしに高級スイーツを奢らされちゃうわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 87,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "は……？　なんでだよ！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "は……？　なんでだよ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ダメぇ？",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/11"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 91,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-27",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 92,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 93,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "……ダメぇ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 94,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "自分から『女難』になりにいくやつがあるか。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 96,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "自分から『女難』になりにいくやつがあるか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "って言いつつ、そんなあたしを受け止めてくれるのが、\n%usernameusernameuserna%なのよねぇ♪",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/12"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 98,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-29",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 99,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 100,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "って言いつつ、そんなあたしを受け止めてくれるのが、\n<user>なのよねぇ♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 101,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "ったく……ご信頼いただきどうも。\nいつものカフェでいいのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 102,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 103,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ったく……ご信頼いただきどうも。\nいつものカフェでいいのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 104,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふっ、さすが%usernameusernameuserna%～！\nあたしのほしい反応わかってるわね～♪",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61005801/13"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 105,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-31",
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 106,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 107,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ふふっ、さすが<user>～！\nあたしのほしい反応わかってるわね～♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 108,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 32,
+        "sceneId": 61005801,
+        "branchId": null,
+        "selectedBranchId": 61005812,
+        "configuration": {
+          "Phrase": {
+            "Text": "（仕方ない……付き合って俺も気分転換するか）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 109,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 110,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（仕方ない……付き合って俺も気分転換するか）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 32,
+      "branchMasterId": 6100581,
+      "branchSelectionId": 61005812
+    },
+    {
+      "line": 111,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 32,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100581
+      ],
+      "uniqueBranchMasterIds": [
+        6100581
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

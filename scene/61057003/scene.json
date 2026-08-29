@@ -1,0 +1,2092 @@
+{
+  "id": "61057003",
+  "title": "ビショビショ",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61057003",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30052.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30052.png",
+      "backgrounds": {
+        "30052": "../../assets/muvluv/backgrounds/background-30052.png",
+        "20082": "../../assets/muvluv/backgrounds/background-20082.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c142301/Confused_2": "../../assets/muvluv/audio/voice/fd1830f7de35cfb46bce88ae4ec5a2f8.ogg",
+          "c142301/Question": "../../assets/muvluv/audio/voice/066a799090a258a438c1e1d3505e18b7.ogg",
+          "c142301/Surprised_2": "../../assets/muvluv/audio/voice/d5c3ad96a127a70468bcd8d52d1a646e.ogg",
+          "c142301/Confused_3": "../../assets/muvluv/audio/voice/9c26b9bbce22cae4b8c37eba00268d03.ogg",
+          "c142301/Happiness_2": "../../assets/muvluv/audio/voice/c2b34e26b5be2204ea8dce1959a0d2bd.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "142302s": {
+          "key": "142302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/142302s/142302s.json",
+          "atlas": "../../assets/muvluv/spine/142302s/142302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/142302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "屋上にやってくると、そこにはなぜか水着を着た真桜がいた。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "屋上にやってくると、そこにはなぜか水着を着た真桜がいた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "よう、真桜。こんなところで会うなんて珍しいな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "よう、真桜。こんなところで会うなんて珍しいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%さん。\nここは校内の異状を見つけるのに適した高所なんですよ。",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "あ、<user>さん。\nここは校内の異状を見つけるのに適した高所なんですよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "見張り台みたいなものってことか。\nそれは分かるんだが、なんで水着……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "見張り台みたいなものってことか。\nそれは分かるんだが、なんで水着……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "その、実はさっき制服に飲み物をこぼしてしまって……ちょうど\nこのあと水泳訓練の予定があり、水着が手元にあったので……",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c142301/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-6"
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "その、実はさっき制服に飲み物をこぼしてしまって……ちょうど\nこのあと水泳訓練の予定があり、水着が手元にあったので……",
+      "voice": "c142301/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、それで着替えて制服を乾かしているのか。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、それで着替えて制服を乾かしているのか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "見ると屋上の端に小さな物干し台があり、そこにいつもの風紀委員の\n制服が吊り下げられ、風にはためいている。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "見ると屋上の端に小さな物干し台があり、そこにいつもの風紀委員の\n制服が吊り下げられ、風にはためいている。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61057003,
+        "branchId": 6113701,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい。それで校内の様子を見つつ、制服が乾くまではここで待とうかと。\nまさか%usernameusernameuserna%さんが来るとは思いませんでした。",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "はい。それで校内の様子を見つつ、制服が乾くまではここで待とうかと。\nまさか<user>さんが来るとは思いませんでした。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 28,
+      "type": "choice",
+      "branchMasterId": 6113701,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61137011,
+          "text": "隣で風景を見る",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1443022
+        },
+        {
+          "id": 61137012,
+          "text": "干してある制服を観察する",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1443021
+        }
+      ]
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 30,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 31,
+      "type": "bgvStop",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "（あれ？　よく見たら乾かしてるのは制服だけじゃないような……？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（あれ？　よく見たら乾かしてるのは制服だけじゃないような……？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん？　どうしました？",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c142301/Question"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 36,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-12",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 38,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "<user>さん？　どうしました？",
+      "voice": "c142301/Question",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "（あの小さな黒いヒラヒラの布は――）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（あの小さな黒いヒラヒラの布は――）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……！？　あ、あああっ！？\nみ、見ないでくださいぃぃっ！！",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c142301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1800,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -22800
+            ],
+            "MovePathDuration": 800,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1800,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -22800
+            ],
+            "MovePathDuration": 800,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 43,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-14",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 45,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "……！？　あ、あああっ！？\nみ、見ないでくださいぃぃっ！！",
+      "voice": "c142301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "うおぁっ！？　きゅ、急にどうしたんだ……！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 48,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "うおぁっ！？　きゅ、急にどうしたんだ……！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "（抱きしめられて前が……！）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（抱きしめられて前が……！）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "うぅ……ち、違うんです！　思ったよりもたくさん\nこぼしてしまったから、下までビショビショになってしまって……！",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c142301/Confused_3"
+            ],
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "HiddenCharacter": {
+            "AssetId": "142302s",
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-17",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 55,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "うぅ……ち、違うんです！　思ったよりもたくさん\nこぼしてしまったから、下までビショビショになってしまって……！",
+      "voice": "c142301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "（というか――息が、できなくて――まずい――\n意識、が――遠く――――）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（というか――息が、できなくて――まずい――\n意識、が――遠く――――）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……その後目を覚ますと、制服を着こんだ真桜に膝枕をされており、\n彼女から必死に謝罪されるのだった。"
+          },
+          "Background": {
+            "AssetId": "20082",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20082",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……その後目を覚ますと、制服を着こんだ真桜に膝枕をされており、\n彼女から必死に謝罪されるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137012
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 63,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 64,
+      "type": "bgvStop",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……いい眺めだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……いい眺めだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふっ、あくまで異状がないか見張っているんですが……\n確かにこの風景は、気持ちのいいものですよね。",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c142301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 69,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-22",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 71,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "ふふっ、あくまで異状がないか見張っているんですが……\n確かにこの風景は、気持ちのいいものですよね。",
+      "voice": "c142301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "天気もいいし、制服もすぐに乾くんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "天気もいいし、制服もすぐに乾くんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうですね。",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "そうですね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ですが、まだしばらく、私は『このまま』がいいです。",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c142301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-25",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 81,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "……ですが、まだしばらく、私は『このまま』がいいです。",
+      "voice": "c142301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？　どうしてだ？　早く乾いたほうが良くないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 83,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 84,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん？　どうしてだ？　早く乾いたほうが良くないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 85,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　わ、わ、私もしかして、口に出してましたか！？\nあわわわわ……！",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c142301/Confused_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "142302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 86,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-27",
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 88,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "えっ！？　わ、わ、私もしかして、口に出してましたか！？\nあわわわわ……！",
+      "voice": "c142301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 89,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61057003,
+        "branchId": null,
+        "selectedBranchId": 61137011,
+        "configuration": {
+          "Phrase": {
+            "Text": "顔を真っ赤にして、突然慌てだす真桜。そんな彼女を眺めながら、\n俺はしばらくゆっくりした時間を過ごすのだった。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 90,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 91,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "顔を真っ赤にして、突然慌てだす真桜。そんな彼女を眺めながら、\n俺はしばらくゆっくりした時間を過ごすのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6113701,
+      "branchSelectionId": 61137011
+    },
+    {
+      "line": 92,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 28,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6113701
+      ],
+      "uniqueBranchMasterIds": [
+        6113701
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

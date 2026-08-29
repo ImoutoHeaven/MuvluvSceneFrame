@@ -1,0 +1,1302 @@
+{
+  "id": "61007901",
+  "title": "一緒にどう？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61007901",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png",
+        "20082": "../../assets/muvluv/backgrounds/background-20082.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c119301/Happiness": "../../assets/muvluv/audio/voice/138baec86675be5469779b7bd852cc48.ogg",
+          "c119301/ResponseGood": "../../assets/muvluv/audio/voice/1644e3576b9555c46981a05fe356ffd5.ogg",
+          "c119301/Surprised": "../../assets/muvluv/audio/voice/1a3874a1e057ef946b7c3995557da1d2.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "119301s": {
+          "key": "119301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/119301s/119301s.json",
+          "atlas": "../../assets/muvluv/spine/119301s/119301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/119301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー、こうして外で動くのは気持ちがいいねぇ。",
+            "SpeakerName": "レイラ",
+            "VoiceAssetIds": [
+              "c119301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "んー、こうして外で動くのは気持ちがいいねぇ。",
+      "voice": "c119301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "レイラは外で動くのが好きなのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "レイラは外で動くのが好きなのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだよ？　屋外レジャーとか好きなんだよね。\n色んな体験も出来て楽しいよ。",
+            "SpeakerName": "レイラ",
+            "VoiceAssetIds": [
+              "c119301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              -3000,
+              -3000
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              -3000,
+              -3000
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "そうだよ？　屋外レジャーとか好きなんだよね。\n色んな体験も出来て楽しいよ。",
+      "voice": "c119301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61007901,
+        "branchId": 6100791,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "choice",
+      "branchMasterId": 6100791,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 5,
+      "options": [
+        {
+          "id": 61007911,
+          "text": "レイラっぽいな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1193011
+        },
+        {
+          "id": 61007912,
+          "text": "意外だな",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1193012
+        }
+      ]
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007911,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど、そういうアクティブさはレイラっぽいな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 17,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 18,
+      "type": "bgvStop",
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど、そういうアクティブさはレイラっぽいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007911,
+        "configuration": {
+          "Phrase": {
+            "Text": "結構色々と楽しいレジャーがあるんだよね。\nもしよかったら、君も一緒に行ってみる？",
+            "SpeakerName": "レイラ",
+            "VoiceAssetIds": [
+              "c119301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 22,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-7",
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 24,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "結構色々と楽しいレジャーがあるんだよね。\nもしよかったら、君も一緒に行ってみる？",
+      "voice": "c119301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 7,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007911,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいな。それじゃあ日程が決まったら俺も誘ってくれ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いいな。それじゃあ日程が決まったら俺も誘ってくれ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007911,
+        "configuration": {
+          "Phrase": {
+            "Text": "オッケー♪　一緒に楽しんでくれる仲間が増えて嬉しいよ。\n一人よりも誰かと行く方が好きだからさ。",
+            "SpeakerName": "レイラ",
+            "VoiceAssetIds": [
+              "c119301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 29,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-9",
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 31,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "オッケー♪　一緒に楽しんでくれる仲間が増えて嬉しいよ。\n一人よりも誰かと行く方が好きだからさ。",
+      "voice": "c119301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007911,
+        "configuration": {
+          "Phrase": {
+            "Text": "それじゃあ、楽しみにしててね。\nまた予定が決まればすぐに連絡するから♪",
+            "SpeakerName": "レイラ",
+            "VoiceAssetIds": [
+              "c119301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "それじゃあ、楽しみにしててね。\nまた予定が決まればすぐに連絡するから♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007911,
+        "configuration": {
+          "Phrase": {
+            "Text": "よほど楽しみだったのか次の日には、\nレイラからスケジュールを確認する連絡が来るのだった。"
+          },
+          "Background": {
+            "AssetId": "20082",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20082",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "よほど楽しみだったのか次の日には、\nレイラからスケジュールを確認する連絡が来るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007911
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007912,
+        "configuration": {
+          "Phrase": {
+            "Text": "意外だな……レイラというかＬＯＣの人って、\n割とインドアなイメージがあったから。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 39,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 40,
+      "type": "bgvStop",
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "意外だな……レイラというかＬＯＣの人って、\n割とインドアなイメージがあったから。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007912,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、イメージ的には分かるけど偏見ってやつだね。\nむしろ趣味人が多いから結構外に出る子が多いよ。",
+            "SpeakerName": "レイラ",
+            "VoiceAssetIds": [
+              "c119301/Surprised"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-13",
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 46,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "まあ、イメージ的には分かるけど偏見ってやつだね。\nむしろ趣味人が多いから結構外に出る子が多いよ。",
+      "voice": "c119301/Surprised",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007912,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、そんなイメージ持たれてたんだ……\n残念だなぁ～。",
+            "SpeakerName": "レイラ",
+            "VoiceAssetIds": [
+              "c119301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "119301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "でも、そんなイメージ持たれてたんだ……\n残念だなぁ～。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61007901,
+        "branchId": null,
+        "selectedBranchId": 61007912,
+        "configuration": {
+          "Phrase": {
+            "Text": "迂闊なことを言ったせいで、\nレイラにさんざん弄られることになるのだった。"
+          },
+          "Background": {
+            "AssetId": "20082",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20082",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "迂闊なことを言ったせいで、\nレイラにさんざん弄られることになるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100791,
+      "branchSelectionId": 61007912
+    },
+    {
+      "line": 53,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 15,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100791
+      ],
+      "uniqueBranchMasterIds": [
+        6100791
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

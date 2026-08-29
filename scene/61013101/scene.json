@@ -1,0 +1,1730 @@
+{
+  "id": "61013101",
+  "title": "指揮官の能力は",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61013101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c102301/Serious2": "../../assets/muvluv/audio/voice/b1b0cefdfc7502c4cb42ec05a6ebd457.ogg",
+          "c102301/Question": "../../assets/muvluv/audio/voice/ea924fefc2949b24cbd5b7e362c040bb.ogg",
+          "c102301/ResponseBad": "../../assets/muvluv/audio/voice/6fdeaea5c5a523843afbfe3ff7e5a85a.ogg",
+          "c102301/Happiness": "../../assets/muvluv/audio/voice/c00401ff515e5bb4099812345360a4c1.ogg",
+          "c102301/Smile": "../../assets/muvluv/audio/voice/2f6744ab352a8ea4e92587d26a0a8322.ogg",
+          "c102301/Confused": "../../assets/muvluv/audio/voice/7f0a47e426c90c74e88fad007d5c843b.ogg",
+          "c102301/Anger": "../../assets/muvluv/audio/voice/fc096e47638860143ae6998cc69265e3.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg",
+          "inspiration": "../../assets/muvluv/audio/se/inspiration.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "102201": {
+          "key": "102201",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/102201/102201.json",
+          "atlas": "../../assets/muvluv/spine/102201/102201.atlas",
+          "textureBase": "../../assets/muvluv/spine/102201/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺はシリウスシュガーの皆に体力トレーニングをつけていた。\nその休憩中、ちゆるが話しかけてきて――"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺はシリウスシュガーの皆に体力トレーニングをつけていた。\nその休憩中、ちゆるが話しかけてきて――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふーむ。やっぱり%usernameusernameuserna%って、\n平均よりも身体能力が高くて優秀だよね。",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/Serious2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -16150
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -16150
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "……ふーむ。やっぱり<user>って、\n平均よりも身体能力が高くて優秀だよね。",
+      "voice": "c102301/Serious2",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どうしたんだ、急に？\n褒めても何も出ないぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -16150,
+            "Scale": 1400,
+            "FacialType": 3,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -16150
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -16150,
+            "Scale": 1400,
+            "FacialType": 3,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -16150
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どうしたんだ、急に？\n褒めても何も出ないぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやあ、気になってさぁ。\nちゃんと鍛え上げている人間だよね、君って。",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/Question"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -16150,
+            "Scale": 1400,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1800,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -21800
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -16150,
+            "Scale": 1400,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1800,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -21800
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "いやあ、気になってさぁ。\nちゃんと鍛え上げている人間だよね、君って。",
+      "voice": "c102301/Question",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61013101,
+        "branchId": 6101311,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ねえねえ、一回くらいあたしに身体検査させてくれない？\n悪いようにはしないからさ！",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/ResponseBad"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -21800,
+            "Scale": 1800,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1800,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -21800
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -21800,
+            "Scale": 1800,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1800,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -21800
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "ねえねえ、一回くらいあたしに身体検査させてくれない？\n悪いようにはしないからさ！",
+      "voice": "c102301/ResponseBad",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "choice",
+      "branchMasterId": 6101311,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61013111,
+          "text": "１回くらいなら……",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1023012
+        },
+        {
+          "id": 61013112,
+          "text": "どんな検査をするんだ？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1023011
+        }
+      ]
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013111,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": -3000,
+            "Y": -21800,
+            "Scale": 1800,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -16150
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": -3000,
+            "Y": -21800,
+            "Scale": 1800,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -16150
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 23,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 24,
+      "type": "bgvStop",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013111,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、１回くらいなら……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -16150,
+            "Scale": 1400,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -16150,
+            "Scale": 1400,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まあ、１回くらいなら……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013111,
+        "configuration": {
+          "Phrase": {
+            "Text": "やったぁ！　約束だからね！\nさーて、検証に使うための機材に薬品に……",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 29,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-9",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 31,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "やったぁ！　約束だからね！\nさーて、検証に使うための機材に薬品に……",
+      "voice": "c102301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013111,
+        "configuration": {
+          "Phrase": {
+            "Text": "他にも準備するものは色々とあるよね！",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-10",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 35,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "他にも準備するものは色々とあるよね！",
+      "voice": "c102301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013111,
+        "configuration": {
+          "Phrase": {
+            "Text": "嫌な予感がしたので、慌てて俺は前言撤回するのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "嫌な予感がしたので、慌てて俺は前言撤回するのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013111
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013112,
+        "configuration": {
+          "Phrase": {
+            "Text": "どんな検査をするつもりなんだ……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 40,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 41,
+      "type": "bgvStop",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どんな検査をするつもりなんだ……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013112,
+        "configuration": {
+          "Phrase": {
+            "Text": "えーっと、薬品を使ったら……",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/Question"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "inspiration"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 15,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "inspiration"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 15,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 45,
+      "type": "soundEffect",
+      "cue": "inspiration",
+      "tag": "frame-13",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 47,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "えーっと、薬品を使ったら……",
+      "voice": "c102301/Question",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013112,
+        "configuration": {
+          "Phrase": {
+            "Text": "ダメだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ダメだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013112,
+        "configuration": {
+          "Phrase": {
+            "Text": "それなら、機材で耐久テスト……",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-15",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 54,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "それなら、機材で耐久テスト……",
+      "voice": "c102301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013112,
+        "configuration": {
+          "Phrase": {
+            "Text": "無理のない範囲で頼む。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "無理のない範囲で頼む。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013112,
+        "configuration": {
+          "Phrase": {
+            "Text": "もう、注文が多いなぁ！\nとはいえ、大人しく受けてくれるならいいかな♪",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c102301/Anger"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 59,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-17",
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 61,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "もう、注文が多いなぁ！\nとはいえ、大人しく受けてくれるならいいかな♪",
+      "voice": "c102301/Anger",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61013101,
+        "branchId": null,
+        "selectedBranchId": 61013112,
+        "configuration": {
+          "Phrase": {
+            "Text": "不安は残るが、一応は安全な検査で済むよう約束させたのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "不安は残るが、一応は安全な検査で済むよう約束させたのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101311,
+      "branchSelectionId": 61013112
+    },
+    {
+      "line": 65,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 18,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101311
+      ],
+      "uniqueBranchMasterIds": [
+        6101311
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

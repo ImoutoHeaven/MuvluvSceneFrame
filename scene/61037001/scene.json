@@ -1,0 +1,2293 @@
+{
+  "id": "61037001",
+  "title": "ロッカーの鍵の行方",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61037001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30012.png",
+      "backgrounds": {
+        "30012": "../../assets/muvluv/backgrounds/background-30012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "104302s": {
+          "key": "104302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/104302s/104302s.json",
+          "atlas": "../../assets/muvluv/spine/104302s/104302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/104302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "教室にやってくると、パイロットスーツ姿の白奈がいた。"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "教室にやってくると、パイロットスーツ姿の白奈がいた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "白奈、お疲れ。さっきの天穹のシミュレーター訓練\nデータを見せてもらったが、なかなかいい動きだったぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "白奈、お疲れ。さっきの天穹のシミュレーター訓練\nデータを見せてもらったが、なかなかいい動きだったぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん、ありがとう。でも、この補助スーツ……\n体のラインがはっきり出ちゃうから、やっぱり恥ずかしい。",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "うん、ありがとう。でも、この補助スーツ……\n体のラインがはっきり出ちゃうから、やっぱり恥ずかしい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（はは……める達も言ってたな）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（はは……める達も言ってたな）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……で、何でそんな格好で教室に？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 17,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……で、何でそんな格好で教室に？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 18,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 19,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-7"
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ロッカーの鍵なくなっちゃった。",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-9"
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "……ロッカーの鍵なくなっちゃった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……\nその様子だとまだ探し中ってところか。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど……\nその様子だとまだ探し中ってところか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61037001,
+        "branchId": 6105501,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "校舎の落とし物ボックスにもなかったから、\n本当にどこにあるのかわからない……",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "校舎の落とし物ボックスにもなかったから、\n本当にどこにあるのかわからない……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 35,
+      "type": "choice",
+      "branchMasterId": 6105501,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 11,
+      "options": [
+        {
+          "id": 61055011,
+          "text": "他の誰かが見つけてないかな？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1043021
+        },
+        {
+          "id": 61055012,
+          "text": "最後に鍵を持っていたのはいつだ？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1043022
+        }
+      ]
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 37,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 38,
+      "type": "bgvStop",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "まだ校内に残ってる人に、鍵を拾ってないか聞いて回ろう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まだ校内に残ってる人に、鍵を拾ってないか聞いて回ろう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ、この格好で聞き回るの……？",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 43,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-14",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "えっ、この格好で聞き回るの……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "せっかくここまで誰とも会わないようにしてきたのに……\nさすがに少し恥ずかしい……",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/6"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 48,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "せっかくここまで誰とも会わないようにしてきたのに……\nさすがに少し恥ずかしい……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "だったら……そうだ。今日俺上着持ってきてるから、それを羽織るか？\n少なくとも上半身は隠せると思うぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "だったら……そうだ。今日俺上着持ってきてるから、それを羽織るか？\n少なくとも上半身は隠せると思うぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%の……？",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/7"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-17",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "<user>の……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/8"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 57,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-18",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん……それならオーケー。\nいろんな意味で、名案。",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/9"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-19",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "うん……それならオーケー。\nいろんな意味で、名案。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "（いろんな意味……？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（いろんな意味……？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "その後、俺達は鍵を求めて聞き込み調査をするのだった。\n途中、なぜか白奈の顔は終始赤かった気がしたが、気のせいだろうか。"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その後、俺達は鍵を求めて聞き込み調査をするのだった。\n途中、なぜか白奈の顔は終始赤かった気がしたが、気のせいだろうか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちなみに鍵は見つからなかった……が、そもそもロッカーを\n施錠し忘れていたようで、それで事なきを得るのだった。"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ちなみに鍵は見つからなかった……が、そもそもロッカーを\n施錠し忘れていたようで、それで事なきを得るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055011
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 74,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 75,
+      "type": "bgvStop",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "うろうろ探し回る前に、\nまずなくしたタイミングを思い出してみないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 78,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "うろうろ探し回る前に、\nまずなくしたタイミングを思い出してみないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "最後に持っていたのは……シミュレーター室で……",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/10"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 80,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-25",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 81,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 82,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "最後に持っていたのは……シミュレーター室で……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 83,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "みんなの分の飲み物を買いに行こうとして……ポケットもないし、\n帰りはペットボトル５本抱えることになるから、めるに預けて……",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/11"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 85,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "みんなの分の飲み物を買いに行こうとして……ポケットもないし、\n帰りはペットボトル５本抱えることになるから、めるに預けて……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 86,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "める……！",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/12"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 87,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-27",
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "める……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "それだ……！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 91,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 92,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それだ……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 93,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ありがとう、彼女を探しに行こう。",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61037001/13"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "104302s"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "104302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 94,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 95,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "ありがとう、彼女を探しに行こう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 96,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうしてその後まだ更衣室に残っていためるから、\nなんとか鍵を取り戻したのだった。"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 97,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 98,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうしてその後まだ更衣室に残っていためるから、\nなんとか鍵を取り戻したのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 99,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 61037001,
+        "branchId": null,
+        "selectedBranchId": 61055012,
+        "configuration": {
+          "Phrase": {
+            "Text": "彼女自身も預かったことを忘れていたらしく、\nたくさん謝られた。"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 100,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 101,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "彼女自身も預かったことを忘れていたらしく、\nたくさん謝られた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31,
+      "branchMasterId": 6105501,
+      "branchSelectionId": 61055012
+    },
+    {
+      "line": 102,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 31,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6105501
+      ],
+      "uniqueBranchMasterIds": [
+        6105501
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

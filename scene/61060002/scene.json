@@ -1,0 +1,1996 @@
+{
+  "id": "61060002",
+  "title": "お手伝いの対価？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61060002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30032.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30032.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30032.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30032.png",
+      "backgrounds": {
+        "30032": "../../assets/muvluv/backgrounds/background-30032.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c106301/Pleasure_2": "../../assets/muvluv/audio/voice/006e2a1e33034ce438f4fcca08d12155.ogg",
+          "c106301/Happiness_2": "../../assets/muvluv/audio/voice/704188212af350745a052d2138a4e0ee.ogg",
+          "c106301/Surprised_3": "../../assets/muvluv/audio/voice/28f37aa9a7865dd4a85fec116359a075.ogg",
+          "c106301/Confused_3": "../../assets/muvluv/audio/voice/40027dcea87d3dc47b103ec87eeffa0c.ogg",
+          "c106301/Surprised_2": "../../assets/muvluv/audio/voice/eb33526304a5acd458947425a4e6edb4.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "106302s": {
+          "key": "106302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/106302s/106302s.json",
+          "atlas": "../../assets/muvluv/spine/106302s/106302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/106302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "食堂に来ると、水着姿のうるうが何故か食器を回収して運んでいた。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "食堂に来ると、水着姿のうるうが何故か食器を回収して運んでいた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%さん！ お疲れ様です！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "あ、<user>さん！ お疲れ様です！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……何してるんだ、うるう？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……何してるんだ、うるう？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへ、プールの後にご飯を食べに来たんですけど……\n食堂のおばさんからお手伝いをしないかって頼まれたんです。",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c106301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "えへへ、プールの後にご飯を食べに来たんですけど……\n食堂のおばさんからお手伝いをしないかって頼まれたんです。",
+      "voice": "c106301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今、人手が足りないらしくて……\n手伝ったら定食を無料でサービスしてくれるんです！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "今、人手が足りないらしくて……\n手伝ったら定食を無料でサービスしてくれるんです！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……なるほど、その嬉しさで普段なら恥ずかしがりそうだが、\nすっかり忘れて手伝っているってわけか）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……なるほど、その嬉しさで普段なら恥ずかしがりそうだが、\nすっかり忘れて手伝っているってわけか）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへ……前から気になってたボリュームたっぷり定食、\n食べてみたかったんです♪",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c106301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-8"
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "えへへ……前から気になってたボリュームたっぷり定食、\n食べてみたかったんです♪",
+      "voice": "c106301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そういえば、普段からよくお手伝いをするのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……そういえば、普段からよくお手伝いをするのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "は、はい……ちょっと前から食堂のおばさんが、\nお手伝いをしたら対価に無料サービスしてくれるんです……！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-10"
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "は、はい……ちょっと前から食堂のおばさんが、\nお手伝いをしたら対価に無料サービスしてくれるんです……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61060002,
+        "branchId": 6114801,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……もしかしたら、食堂のおばちゃんの好意なのかもな。\n前から食事の時、物足りなさそうだったし……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……もしかしたら、食堂のおばちゃんの好意なのかもな。\n前から食事の時、物足りなさそうだったし……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "choice",
+      "branchMasterId": 6114801,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 11,
+      "options": [
+        {
+          "id": 61148011,
+          "text": "一緒に食べようと誘う",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1063021
+        },
+        {
+          "id": 61148012,
+          "text": "自分も奢ってあげる",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1063022
+        }
+      ]
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 38,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 39,
+      "type": "bgvStop",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなふうに頑張ってるうるうに、俺からも奢るよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そんなふうに頑張ってるうるうに、俺からも奢るよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148012,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ、えええ！？　わ、わたしは大丈夫です！\nそ、そんな奢ってもらうだなんて恐れ多くて……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c106301/Surprised_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-14",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 46,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "えっ、えええ！？　わ、わたしは大丈夫です！\nそ、そんな奢ってもらうだなんて恐れ多くて……",
+      "voice": "c106301/Surprised_3",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148012,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、泳いで体力も使ってるだろ？\nちゃんと栄養補給しないとな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも、泳いで体力も使ってるだろ？\nちゃんと栄養補給しないとな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……う、うう、あまり遠慮をしてもダメですよね……！　で、でしたら、\nすみませんが……よろしく、おねがいします……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c106301/Confused_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-16",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 53,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "……う、うう、あまり遠慮をしてもダメですよね……！　で、でしたら、\nすみませんが……よろしく、おねがいします……",
+      "voice": "c106301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、俺は定食ふたつを申し訳無さそうにしつつも、\n美味しそうに食べるうるうを微笑ましく見つめるのだった。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、俺は定食ふたつを申し訳無さそうにしつつも、\n美味しそうに食べるうるうを微笑ましく見つめるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 58,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 59,
+      "type": "bgvStop",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なら、お手伝いが終わったら一緒に食べるか。\n俺も食事相手が欲しかったし。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なら、お手伝いが終わったら一緒に食べるか。\n俺も食事相手が欲しかったし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Phrase": {
+            "Text": "え？　い、いいのですか……？\nまだ、配膳は終わりませんけど……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c106301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 64,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-20",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 66,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "え？　い、いいのですか……？\nまだ、配膳は終わりませんけど……",
+      "voice": "c106301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、全然待つよ。一緒に食べたほうが美味しいだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、全然待つよ。一緒に食べたほうが美味しいだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……は、はい！　わ、分かりました！\n%usernameusernameuserna%さんのために、急いで配ってきます！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c106301/Surprised_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 71,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-22",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 73,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "……は、はい！　わ、分かりました！\n<user>さんのために、急いで配ってきます！",
+      "voice": "c106301/Surprised_3",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Phrase": {
+            "Text": "だ、だから、絶対に待っててくださいね！\nその……か、帰ったらイヤですから！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "106302s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 75,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-23",
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "だ、だから、絶対に待っててくださいね！\nその……か、帰ったらイヤですから！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Phrase": {
+            "Text": "大丈夫、ちゃんとここにいるよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 79,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 80,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "大丈夫、ちゃんとここにいるよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 81,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61060002,
+        "branchId": null,
+        "selectedBranchId": 61148011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、気合であっという間にお手伝いを終わらせたうるうと一緒に、\n俺はお昼ゴハンを美味しく食べるのだった。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 82,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 83,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、気合であっという間にお手伝いを終わらせたうるうと一緒に、\n俺はお昼ゴハンを美味しく食べるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6114801,
+      "branchSelectionId": 61148011
+    },
+    {
+      "line": 84,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 25,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6114801
+      ],
+      "uniqueBranchMasterIds": [
+        6114801
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

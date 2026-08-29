@@ -1,0 +1,1451 @@
+{
+  "id": "61002201",
+  "title": "広がる輪",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61002201",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30052.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30052.png",
+      "backgrounds": {
+        "30052": "../../assets/muvluv/backgrounds/background-30052.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c105301/ResponseGood": "../../assets/muvluv/audio/voice/41d4d3d26f0235640b9f44af072ebec0.ogg",
+          "c105301/Smile": "../../assets/muvluv/audio/voice/b9a3e6f44205a044db8257dd98793e54.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "105301s": {
+          "key": "105301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/105301s/105301s.json",
+          "atlas": "../../assets/muvluv/spine/105301s/105301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/105301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "涼みに屋上へくると、ひとりゴミ袋とトングを持った葵がいた。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "涼みに屋上へくると、ひとりゴミ袋とトングを持った葵がいた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "葵？　ゴミ拾いでもしてるのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "葵？　ゴミ拾いでもしてるのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあな、ここは生徒が憩いの場として使うこともあるだろう？\nみんなの憩いの場でもあるのだから、きれいな方がいい。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61002201/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "まあな、ここは生徒が憩いの場として使うこともあるだろう？\nみんなの憩いの場でもあるのだから、きれいな方がいい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "葵らしいな。\n俺も手伝うよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "葵らしいな。\n俺も手伝うよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうか、助かる。では私は目につくゴミを拾っていくから\n%usernameusernameuserna%は掃き清めてくれ。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c105301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "そうか、助かる。では私は目につくゴミを拾っていくから\n<user>は掃き清めてくれ。",
+      "voice": "c105301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "わかった。\nそれにしても……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "わかった。\nそれにしても……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61002201,
+        "branchId": 6100221,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "choice",
+      "branchMasterId": 6100221,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61002211,
+          "text": "綺麗になると気分がいい",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1053012
+        },
+        {
+          "id": 61002212,
+          "text": "自分がやった方がいい",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1053011
+        }
+      ]
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ゴミがなくなって綺麗になると、なんだか気分がいいな。\nいつもの屋上なのに、どこか清々しくなる。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 26,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 27,
+      "type": "bgvStop",
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ゴミがなくなって綺麗になると、なんだか気分がいいな。\nいつもの屋上なのに、どこか清々しくなる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002211,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだろう？　それも自分の手でそれを成したという\n達成感もある。汚れた場所で涼んでも癒やしにはならないからな。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61002201/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "そうだろう？　それも自分の手でそれを成したという\n達成感もある。汚れた場所で涼んでも癒やしにはならないからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、まったくもってそのとおりだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、まったくもってそのとおりだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ゴミ拾いを終えた俺達は、綺麗になった屋上で\nふたり他愛のない話をして快適な時間を過ごすのだった。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ゴミ拾いを終えた俺達は、綺麗になった屋上で\nふたり他愛のない話をして快適な時間を過ごすのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002211
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002212,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 40,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 41,
+      "type": "bgvStop",
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002212,
+        "configuration": {
+          "Phrase": {
+            "Text": "こういうのは指示されてやるよりも、\n誰かが率先してやる方がいい面もあるよな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "こういうのは指示されてやるよりも、\n誰かが率先してやる方がいい面もあるよな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002212,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ。私も、きれいな屋上を望んだからやっているだけだ。\nやりたくなければ、やめればいい。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61002201/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "ああ。私も、きれいな屋上を望んだからやっているだけだ。\nやりたくなければ、やめればいい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002212,
+        "configuration": {
+          "Phrase": {
+            "Text": "実際、毎日やっているわけではない。\nそうそう時間に余裕があるわけではないからな。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61002201/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "実際、毎日やっているわけではない。\nそうそう時間に余裕があるわけではないからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002212,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあ葵が来れないときは俺がやるかな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "じゃあ葵が来れないときは俺がやるかな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002212,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ。%usernameusernameuserna%のような、\n自分からやってくれる生徒が増えれば嬉しいな。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c105301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "105301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-18",
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 57,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "ああ。<user>のような、\n自分からやってくれる生徒が増えれば嬉しいな。",
+      "voice": "c105301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61002201,
+        "branchId": null,
+        "selectedBranchId": 61002212,
+        "configuration": {
+          "Phrase": {
+            "Text": "嬉しそうな葵と、\n屋上を綺麗に掃除して二人で帰るのだった。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "嬉しそうな葵と、\n屋上を綺麗に掃除して二人で帰るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100221,
+      "branchSelectionId": 61002212
+    },
+    {
+      "line": 61,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 19,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100221
+      ],
+      "uniqueBranchMasterIds": [
+        6100221
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

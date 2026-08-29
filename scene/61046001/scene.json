@@ -1,0 +1,1671 @@
+{
+  "id": "61046001",
+  "title": "どっちで授業を受けるの？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61046001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30322.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30322.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30322.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30322.png",
+      "backgrounds": {
+        "30322": "../../assets/muvluv/backgrounds/background-30322.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c143301/Agreement": "../../assets/muvluv/audio/voice/5dbfd01604ed61a4ca9eb7671267ae50.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "143301s": {
+          "key": "143301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/143301s/143301s.json",
+          "atlas": "../../assets/muvluv/spine/143301s/143301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/143301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そういえば、オルガも生徒なんだよな？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……そういえば、オルガも生徒なんだよな？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ、そうですね。生徒として登録されています。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c143301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "ええ、そうですね。生徒として登録されています。",
+      "voice": "c143301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "とはいえ、授業を受ける機会は殆どありませんが。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "とはいえ、授業を受ける機会は殆どありませんが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうなのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうなのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "既に必要な講習内容に関しては、履修済みですので。\n興味深い内容の授業であれば受講をしに行くこともありますが。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-6"
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "既に必要な講習内容に関しては、履修済みですので。\n興味深い内容の授業であれば受講をしに行くこともありますが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……オルガも生徒たちと並んで授業を受けるのか？\nううむ……生徒として並んで座っている姿が想像できないな……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……オルガも生徒たちと並んで授業を受けるのか？\nううむ……生徒として並んで座っている姿が想像できないな……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61046001,
+        "branchId": 6109101,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どうされましたか？　私に質問でも？",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-8"
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "どうされましたか？　私に質問でも？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "choice",
+      "branchMasterId": 6109101,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61091011,
+          "text": "別の話題を聞いてみる",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1463012
+        },
+        {
+          "id": 61091012,
+          "text": "素直に聞いてみる",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1463011
+        }
+      ]
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 28,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 29,
+      "type": "bgvStop",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……オルガも生徒と並んで、椅子に座って授業を受けてるのかと思って。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……オルガも生徒と並んで、椅子に座って授業を受けてるのかと思って。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091012,
+        "configuration": {
+          "Phrase": {
+            "Text": "私が授業を受ける時は教室の後ろに立って受講します。\n座っていると、横の生徒や授業をする教員が緊張してしまいそうなので。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-11",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "私が授業を受ける時は教室の後ろに立って受講します。\n座っていると、横の生徒や授業をする教員が緊張してしまいそうなので。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……授業を受けるというか、\n授業参観とか授業内容の評価に来たようにも見えそうだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……授業を受けるというか、\n授業参観とか授業内容の評価に来たようにも見えそうだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうですね。そういった勘違いもされました。\n授業終わりに教員から講評を求められたことも――",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-13",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "そうですね。そういった勘違いもされました。\n授業終わりに教員から講評を求められたことも――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……意外にも学園での生活について彼女から聞くことが出来るのだった。"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……意外にも学園での生活について彼女から聞くことが出来るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 48,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 49,
+      "type": "bgvStop",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091011,
+        "configuration": {
+          "Phrase": {
+            "Text": "むしろ、オルガのほうが教えたりとかはしないのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "むしろ、オルガのほうが教えたりとかはしないのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091011,
+        "configuration": {
+          "Phrase": {
+            "Text": "実際に経験の長さや現役であることから、\n教員に代わって私が授業を受け持つこともあります。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/6"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 54,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-17",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "実際に経験の長さや現役であることから、\n教員に代わって私が授業を受け持つこともあります。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あくまでも代理であったり、突発での授業ではありますが。\nメイズに対する知見については多少自信がありますので。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/7"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "あくまでも代理であったり、突発での授業ではありますが。\nメイズに対する知見については多少自信がありますので。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……俺も戦術に関しては教える側だから、\nオルガとなにか情報交換できないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど……俺も戦術に関しては教える側だから、\nオルガとなにか情報交換できないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091011,
+        "configuration": {
+          "Phrase": {
+            "Text": "たしかに情報共有を出来るのは重要ですね。\nそれでは、授業をする際に私が意識していることですが――",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046001/8"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 64,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-20",
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "たしかに情報共有を出来るのは重要ですね。\nそれでは、授業をする際に私が意識していることですが――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61046001,
+        "branchId": null,
+        "selectedBranchId": 61091011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、教える側としての話でオルガと熱心に語り合うのだった。"
+          },
+          "Background": {
+            "AssetId": "30322",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30322",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、教える側としての話でオルガと熱心に語り合うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6109101,
+      "branchSelectionId": 61091011
+    },
+    {
+      "line": 70,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 21,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6109101
+      ],
+      "uniqueBranchMasterIds": [
+        6109101
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

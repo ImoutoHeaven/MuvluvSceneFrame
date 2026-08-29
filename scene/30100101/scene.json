@@ -1,0 +1,2202 @@
+{
+  "id": "30100101",
+  "title": "複合戦術演習",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "30100101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30135.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30135.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30135.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30135.png",
+      "backgrounds": {
+        "30135": "../../assets/muvluv/backgrounds/background-30135.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10018": "../../assets/muvluv/audio/bgm/10018.ogg",
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "cn10002/CallOut": "../../assets/muvluv/audio/voice/aae96fba5b5bb92448812223a1dc6c3e.ogg",
+          "10000501/74": "../../assets/muvluv/audio/voice/1e04528c4f08940409623135af0c829e.ogg",
+          "cn10001/CallOut": "../../assets/muvluv/audio/voice/780bb646a8c728049b147bd789fb5320.ogg",
+          "cn10001/Crying": "../../assets/muvluv/audio/voice/d05c857cb27368642ba738a990b04016.ogg",
+          "cn10002/Happiness": "../../assets/muvluv/audio/voice/c0565a6e47e78a24092b0046404e414e.ogg",
+          "cn10002/Farewell": "../../assets/muvluv/audio/voice/141e4cf891983ae4cb2ae71715471c52.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "sad": "../../assets/muvluv/audio/se/sad.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "n10002": {
+          "key": "n10002",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n10002/n10002.json",
+          "atlas": "../../assets/muvluv/spine/n10002/n10002.atlas",
+          "textureBase": "../../assets/muvluv/spine/n10002/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "n10001": {
+          "key": "n10001",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n10001/n10001.json",
+          "atlas": "../../assets/muvluv/spine/n10001/n10001.atlas",
+          "textureBase": "../../assets/muvluv/spine/n10001/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10018"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "急にお呼び立てしてしまって、すみません。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "急にお呼び立てしてしまって、すみません。",
+      "voice": "cn10002/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、それはいいとして、珍しい場所じゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、それはいいとして、珍しい場所じゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ここは『学園複合戦術演習』のために、\n特別に調整したシミュレータ室です。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "ここは『学園複合戦術演習』のために、\n特別に調整したシミュレータ室です。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "『学園複合戦術演習』……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "『学園複合戦術演習』……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい、『学園複合戦術演習』とは――",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-6"
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "はい、『学園複合戦術演習』とは――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――ピコピコピーン！\nマスター、説明が必要ですか？　必要ですよね！　それならボクが――",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "10000501/74"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10001"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character2": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -21000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -21000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "bgmStop"
+    },
+    {
+      "line": 21,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 22,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-7"
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "――ピコピコピーン！\nマスター、説明が必要ですか？　必要ですよね！　それならボクが――",
+      "voice": "10000501/74",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003"
+          },
+          "Character2": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……で、どんなものなんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……で、どんなものなんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺はピコからスッと視線を外し、会長に尋ねる。"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺はピコからスッと視線を外し、会長に尋ねる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ごく自然な流れで無視しないでくださいぃ……\nボクだって傷つくんですよ！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "cn10001/CallOut"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10001"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003",
+            "SoundEffect": "sad"
+          },
+          "Character2": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-11"
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "ごく自然な流れで無視しないでくださいぃ……\nボクだって傷つくんですよ！",
+      "voice": "cn10001/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "分かった分かった。\nちょっと真面目な話をしてるから、どっか行っててくれ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003"
+          },
+          "Character2": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "分かった分かった。\nちょっと真面目な話をしてるから、どっか行っててくれ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――うわあああぁぁん！！！\n親戚の子供みたいな扱いされた～！！！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "cn10001/Crying"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10001"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003",
+            "SoundEffect": "grump"
+          },
+          "Character2": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 40,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-13"
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 42,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "――うわあああぁぁん！！！\n親戚の子供みたいな扱いされた～！！！",
+      "voice": "cn10001/Crying",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003"
+          },
+          "Character2": {
+            "AssetId": "n10001",
+            "X": 15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……それで、続きは？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……それで、続きは？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ええっと、そうですね。『学園複合戦術演習』とは\nＭＧとメイズシフターを同時に相手にして行う、特別演習です。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 48,
+      "type": "bgmStop"
+    },
+    {
+      "line": 49,
+      "type": "bgmPlay",
+      "cue": "10018"
+    },
+    {
+      "line": 50,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-16"
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "……ええっと、そうですね。『学園複合戦術演習』とは\nＭＧとメイズシフターを同時に相手にして行う、特別演習です。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ＭＧとメイズシフターを同時に……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ＭＧとメイズシフターを同時に……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい。この演習は『複合戦術演習』――\nつまり複数のチームで協力して行う大規模な戦闘演習なのです。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "はい。この演習は『複合戦術演習』――\nつまり複数のチームで協力して行う大規模な戦闘演習なのです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほどな……しかしそんな状況、あり得るのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほどな……しかしそんな状況、あり得るのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "絶対にないとは言い切れません。組織化した違法パイロットとの接敵や、\nメイズシフター討伐のために大規模なチーム指揮もあるでしょう。\n",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 63,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-20"
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "絶対にないとは言い切れません。組織化した違法パイロットとの接敵や、\nメイズシフター討伐のために大規模なチーム指揮もあるでしょう。\n",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "さらには意図しないメイズシフターの乱入により、三つ巴の状況や\n救援に入ったチームの指揮を取ることも考えられますから。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "さらには意図しないメイズシフターの乱入により、三つ巴の状況や\n救援に入ったチームの指揮を取ることも考えられますから。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……それもそうか。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……それもそうか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "もっとも演習上はあくまで三つ巴ではなく、どちらも敵といった\n形にはなりますが、最悪を想定した方が訓練としてはいいでしょう。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "もっとも演習上はあくまで三つ巴ではなく、どちらも敵といった\n形にはなりますが、最悪を想定した方が訓練としてはいいでしょう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど、それでこのシミュレーターで状況を再現できるんだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど、それでこのシミュレーターで状況を再現できるんだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい。そうなります。%usernameusernameuserna%さんにはこちらで\n演習を通じて複数チームの指揮についても慣れていただけたらと。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-25"
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "はい。そうなります。<user>さんにはこちらで\n演習を通じて複数チームの指揮についても慣れていただけたらと。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なんだかやることがどんどん増えていくな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 83,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 84,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……なんだかやることがどんどん増えていくな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26
+    },
+    {
+      "line": 85,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふふ、それだけ貴方の実力が認められたということですよ。\nそれに演習の結果次第では報酬の用意もありますから。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/Happiness"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 86,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-27"
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 88,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "……ふふ、それだけ貴方の実力が認められたということですよ。\nそれに演習の結果次第では報酬の用意もありますから。",
+      "voice": "cn10002/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 27
+    },
+    {
+      "line": 89,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "へぇ、それはいいな。気合も入るってもんだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 90,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 91,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "へぇ、それはいいな。気合も入るってもんだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28
+    },
+    {
+      "line": 92,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ、期待していてください。それでは私はこれで。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "VoiceAssetIds": [
+              "cn10002/Farewell"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10002"
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 93,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-29"
+    },
+    {
+      "line": 94,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 95,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "ええ、期待していてください。それでは私はこれで。",
+      "voice": "cn10002/Farewell",
+      "layout": "",
+      "sourceFrameOrder": 29
+    },
+    {
+      "line": 96,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 30100101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "『学園複合戦術演習』か……\nさて、どんなものなんだろうな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "NeedsHideText": 1,
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30135",
+            "BgmAssetId": "10018",
+            "FadeType": 2,
+            "FadeInDuration": 500,
+            "FadeWaitDuration": 100,
+            "FadeOutDuration": 1000,
+            "FadeTiming": 0
+          }
+        },
+        "background": {
+          "AssetId": "30135",
+          "BgmAssetId": "10018",
+          "FadeType": 2,
+          "FadeInDuration": 500,
+          "FadeWaitDuration": 100,
+          "FadeOutDuration": 1000,
+          "FadeTiming": 0
+        },
+        "characters": [],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 97,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 98,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "『学園複合戦術演習』か……\nさて、どんなものなんだろうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30
+    },
+    {
+      "line": 99,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 30,
+    "branchGraph": {
+      "occurrences": 0,
+      "branchMasterIds": [],
+      "uniqueBranchMasterIds": []
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

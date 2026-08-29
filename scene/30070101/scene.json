@@ -1,0 +1,1134 @@
+{
+  "id": "30070101",
+  "title": "おかえりなさい",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "30070101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30012.png",
+      "backgrounds": {
+        "30012": "../../assets/muvluv/backgrounds/background-30012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {}
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "100201": {
+          "key": "100201",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/100201/100201.json",
+          "atlas": "../../assets/muvluv/spine/100201/100201.atlas",
+          "textureBase": "../../assets/muvluv/spine/100201/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん！\nお久しぶりです！　戻られたんですね！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "<user>さん！\nお久しぶりです！　戻られたんですね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、める。久しぶり。\n……なかなか顔を出せなくて、ごめんな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、める。久しぶり。\n……なかなか顔を出せなくて、ごめんな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "い、いえ！　そんな畏まらないでください！\n%usernameusernameuserna%さんが元気でほっとしました！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "い、いえ！　そんな畏まらないでください！\n<user>さんが元気でほっとしました！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、そういえば、%usernameusernameuserna%さんがいない間に、\nたくさんタツミヤ鉱を採掘したんですよ！　これが画像です！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "あ、そういえば、<user>さんがいない間に、\nたくさんタツミヤ鉱を採掘したんですよ！　これが画像です！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……うお！？　凄いな……こんなに掘れたのか。\nこれだけあったら報酬はかなり貰えただろ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 17,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……うお！？　凄いな……こんなに掘れたのか。\nこれだけあったら報酬はかなり貰えただろ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 18,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへ、%usernameusernameuserna%さんが帰ってきたら、\nいっぱい褒めてもらおうって思って、みんなでがんばりました！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "えへへ、<user>さんが帰ってきたら、\nいっぱい褒めてもらおうって思って、みんなでがんばりました！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちゃんと%usernameusernameuserna%さんの分も、\n報酬取り分けておきましたよ。",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "ちゃんと<user>さんの分も、\n報酬取り分けておきましたよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ、俺の分も……？\nいいのか？　お前らががんばって稼いだ分だろ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "えっ、俺の分も……？\nいいのか？　お前らががんばって稼いだ分だろ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いえいえ！　むしろ%usernameusernameuserna%さんと、\n一緒に頑張ることを考えたら足りないくらいです！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "いえいえ！　むしろ<user>さんと、\n一緒に頑張ることを考えたら足りないくらいです！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、ラミさんとちゆるさんが、%usernameusernameuserna%さんのお金は\n自分のお金と言って、ちょびっと持っていっちゃいましたが……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "まあ、ラミさんとちゆるさんが、<user>さんのお金は\n自分のお金と言って、ちょびっと持っていっちゃいましたが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ははは、あいつららしいな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ははは、あいつららしいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ありがとう、める。\n他のメンバーにも感謝を伝えないとな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……ありがとう、める。\n他のメンバーにも感謝を伝えないとな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへっ……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "えへへっ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 30070101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "改めてお帰りなさい、%usernameusernameuserna%さん。\nこれからもよろしくお願いしますね♪",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "改めてお帰りなさい、<user>さん。\nこれからもよろしくお願いしますね♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 45,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 15,
+    "branchGraph": {
+      "occurrences": 0,
+      "branchMasterIds": [],
+      "uniqueBranchMasterIds": []
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,1698 @@
+{
+  "id": "61016401",
+  "title": "部屋のインテリア",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61016401",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-20012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-20012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-20012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-20012.png",
+      "backgrounds": {
+        "20012": "../../assets/muvluv/backgrounds/background-20012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "132301s": {
+          "key": "132301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/132301s/132301s.json",
+          "atlas": "../../assets/muvluv/spine/132301s/132301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/132301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "タケルちゃーん！",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "タケルちゃーん！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おわっ！？…って、なんだ純夏か。\nどうしたんだよ藪から棒に。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "おわっ！？…って、なんだ純夏か。\nどうしたんだよ藪から棒に。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "タケルちゃんのことだから、\n部屋の片付けもなんにもしてないんじゃないかな～って見に来たの！",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "タケルちゃんのことだから、\n部屋の片付けもなんにもしてないんじゃないかな～って見に来たの！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "大きなお世話だっつーの。\nあらかた片付け終わってるよ。ほれ、ベッドもこのとおり。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "大きなお世話だっつーの。\nあらかた片付け終わってるよ。ほれ、ベッドもこのとおり。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふーん、つまんないの……あ、そういえば\n会長さんが貸してくれたこのゲストルームってちょっと寂しい感じしない？",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "ふーん、つまんないの……あ、そういえば\n会長さんが貸してくれたこのゲストルームってちょっと寂しい感じしない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――まあ、そう言われてみれば確かにそんな感じもするな。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "――まあ、そう言われてみれば確かにそんな感じもするな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でしょでしょ？　必要なものだけって感じなんだよね。\nなんか可愛いものを置きたいんだけど、どんなのがいいかなあ？",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "でしょでしょ？　必要なものだけって感じなんだよね。\nなんか可愛いものを置きたいんだけど、どんなのがいいかなあ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61016401,
+        "branchId": 6101641,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "う～ん、そうだなあ……",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "う～ん、そうだなあ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "choice",
+      "branchMasterId": 6101641,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61016411,
+          "text": "観葉植物でいいんじゃないか？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1323011
+        },
+        {
+          "id": 61016412,
+          "text": "デカいぬいぐるみとかどうだ？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1323012
+        }
+      ]
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016411,
+        "configuration": {
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 31,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 32,
+      "type": "bgvStop",
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016411,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、観葉植物でいいんじゃないか？\nなんなら花とかでもいいとは思うぞ。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "まあ、観葉植物でいいんじゃないか？\nなんなら花とかでもいいとは思うぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016411,
+        "configuration": {
+          "Phrase": {
+            "Text": "むー、なんかテキトーだなあ…。\nでもそうだね、お花はいいと思う。",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/10"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 37,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-12",
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "むー、なんかテキトーだなあ…。\nでもそうだね、お花はいいと思う。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016411,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあさっそく買いに行こう！",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/11"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "じゃあさっそく買いに行こう！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016411,
+        "configuration": {
+          "Phrase": {
+            "Text": "今から？　相変わらずいきなりだな。\nしゃあねえ、一緒に行くよ。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "今から？　相変わらずいきなりだな。\nしゃあねえ、一緒に行くよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016411
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016412,
+        "configuration": {
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 47,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 48,
+      "type": "bgvStop",
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016412,
+        "configuration": {
+          "Phrase": {
+            "Text": "でっかいぬいぐるみとかどうよ？\nお前、そういうの好きだったろ？",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "でっかいぬいぐるみとかどうよ？\nお前、そういうの好きだったろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016412,
+        "configuration": {
+          "Phrase": {
+            "Text": "さっすがタケルちゃん！　ナイスアイディアだよ！\n――ねえねえ、そのぬいぐるみ、一緒に買いに行かない？",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/14"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-17",
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "さっすがタケルちゃん！　ナイスアイディアだよ！\n――ねえねえ、そのぬいぐるみ、一緒に買いに行かない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016412,
+        "configuration": {
+          "Phrase": {
+            "Text": "オレも一緒に？",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "オレも一緒に？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016412,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん！\nせっかくならタケルちゃんに選んでもらって、それを買いたいな～って。",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/16"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "うん！\nせっかくならタケルちゃんに選んでもらって、それを買いたいな～って。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016412,
+        "configuration": {
+          "Phrase": {
+            "Text": "わかったよ。予定もなんもないしな。\nじゃ、さっそく行くか！",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "わかったよ。予定もなんもないしな。\nじゃ、さっそく行くか！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61016401,
+        "branchId": null,
+        "selectedBranchId": 61016412,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへ、ありがとうタケルちゃん♪",
+            "SpeakerName": "純夏",
+            "VoiceAssetIds": [
+              "61016401/18"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "132301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "純夏",
+      "text": "えへへ、ありがとうタケルちゃん♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6101641,
+      "branchSelectionId": 61016412
+    },
+    {
+      "line": 68,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 21,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101641
+      ],
+      "uniqueBranchMasterIds": [
+        6101641
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

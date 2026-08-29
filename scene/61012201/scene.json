@@ -1,0 +1,2343 @@
+{
+  "id": "61012201",
+  "title": "あんなふうになれたら",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61012201",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30052.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30052.png",
+      "backgrounds": {
+        "30052": "../../assets/muvluv/backgrounds/background-30052.png",
+        "20082": "../../assets/muvluv/backgrounds/background-20082.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c100301/Confused": "../../assets/muvluv/audio/voice/d5975996b4bf4a0478d08b3348c73995.ogg",
+          "c100301/Laugh": "../../assets/muvluv/audio/voice/a8ed7cef7c5e7b548bc315388a4cd94c.ogg",
+          "c100301/Smile": "../../assets/muvluv/audio/voice/042f1248cdd6cfd47818c51c414dd1cb.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "100201": {
+          "key": "100201",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/100201/100201.json",
+          "atlas": "../../assets/muvluv/spine/100201/100201.atlas",
+          "textureBase": "../../assets/muvluv/spine/100201/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（ん……屋上に誰かいるぞ。あれは……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（ん……屋上に誰かいるぞ。あれは……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はぁ……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "はぁ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どうしたんだ、溜息なんかついて。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11700,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 700,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 700
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11700,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 700,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 700
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どうしたんだ、溜息なんかついて。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、いえ……その、他人と自分を比べてしまって……\n七彩さんだったり、ちゆるさんだったり……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c100301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "める",
+      "text": "ああ、いえ……その、他人と自分を比べてしまって……\n七彩さんだったり、ちゆるさんだったり……",
+      "voice": "c100301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "比べる必要はないんじゃないか？\n十分訓練だって頑張ってＭＧの……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "比べる必要はないんじゃないか？\n十分訓練だって頑張ってＭＧの……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、いえ、そっちではなくて……その、見た目のお話で……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-7"
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "あ、いえ、そっちではなくて……その、見た目のお話で……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "見た目？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "見た目？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おふたりとも、凄い美人さんじゃないですか。\n私もあんな風になりたいなぁって考えていて……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-9"
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "おふたりとも、凄い美人さんじゃないですか。\n私もあんな風になりたいなぁって考えていて……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうしたら……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "そうしたら……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？　俺の顔じっと見て、どうかしたのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん？　俺の顔じっと見て、どうかしたのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いっ、いえ！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-12"
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "いっ、いえ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61012201,
+        "branchId": 6101221,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 41,
+      "type": "choice",
+      "branchMasterId": 6101221,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 13,
+      "options": [
+        {
+          "id": 61012211,
+          "text": "めるは可愛い系だからな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1003011
+        },
+        {
+          "id": 61012212,
+          "text": "そのままでも十分",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1003012
+        }
+      ]
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "か、可愛い！？",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 43,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 44,
+      "type": "bgvStop",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 45,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-14",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "か、可愛い！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、だからあのふたりと比較するのは違うと思うぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、だからあのふたりと比較するのは違うと思うぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "めるは可愛さが魅力なんだから悩む必要はないんだ。\nそういうもんだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "めるは可愛さが魅力なんだから悩む必要はないんだ。\nそういうもんだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "だから――",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "だから――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "えへへ……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 58,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-18",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "えへへ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "可愛い……可愛いって……えへへ。\nなら、問題ないですねぇ～。",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c100301/Laugh"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 65,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-20",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 67,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "める",
+      "text": "可愛い……可愛いって……えへへ。\nなら、問題ないですねぇ～。",
+      "voice": "c100301/Laugh",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "める……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "める……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012211,
+        "configuration": {
+          "Phrase": {
+            "Text": "よくわからないが、彼女の悩みは解決したようだった。"
+          },
+          "Background": {
+            "AssetId": "20082",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20082",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "よくわからないが、彼女の悩みは解決したようだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012211
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012212,
+        "configuration": {
+          "Phrase": {
+            "Text": "そのままでも可愛いと思うが……\n七彩は裏で美容とか結構意識してるんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 75,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 76,
+      "type": "bgvStop",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 78,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そのままでも可愛いと思うが……\n七彩は裏で美容とか結構意識してるんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012212,
+        "configuration": {
+          "Phrase": {
+            "Text": "（ちゆるはわからんが……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（ちゆるはわからんが……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012212,
+        "configuration": {
+          "Phrase": {
+            "Text": "確かに、七彩さんはリーダーで表に立つことも多いですし、\n周囲に認められるために立派であろうといつも頑張ってますもんね……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 83,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-25",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 85,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "確かに、七彩さんはリーダーで表に立つことも多いですし、\n周囲に認められるために立派であろうといつも頑張ってますもんね……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 86,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012212,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ。だから見えないところや細かいところでも、\n努力しているかもしれないな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 88,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ。だから見えないところや細かいところでも、\n努力しているかもしれないな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 89,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012212,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、さっきも伝えたけど、そのままのめるも十分魅力的だぞ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 90,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 91,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも、さっきも伝えたけど、そのままのめるも十分魅力的だぞ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 92,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012212,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん……",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "c100301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 93,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 94,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "める",
+      "text": "<user>さん……",
+      "voice": "c100301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 95,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61012201,
+        "branchId": null,
+        "selectedBranchId": 61012212,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ありがとうございます！　でも、私やっぱり\nもっと可愛くなりたいので、いろいろ頑張ってみます！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61012201/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "100201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 96,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-29",
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 97,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 98,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "める",
+      "text": "……ありがとうございます！　でも、私やっぱり\nもっと可愛くなりたいので、いろいろ頑張ってみます！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6101221,
+      "branchSelectionId": 61012212
+    },
+    {
+      "line": 99,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 29,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101221
+      ],
+      "uniqueBranchMasterIds": [
+        6101221
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

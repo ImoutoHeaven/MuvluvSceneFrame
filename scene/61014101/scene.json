@@ -1,0 +1,1480 @@
+{
+  "id": "61014101",
+  "title": "ヒーローエネルギー",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61014101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40012.png",
+      "backgrounds": {
+        "40012": "../../assets/muvluv/backgrounds/background-40012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c130301/Happiness": "../../assets/muvluv/audio/voice/a8166242847b68a42ad0104e95896992.ogg",
+          "c130301/Question": "../../assets/muvluv/audio/voice/be7f7c6d944b87e40961408ebf74aa96.ogg",
+          "c130301/Thank": "../../assets/muvluv/audio/voice/23c5732dedaa7a84985aae840685055b.ogg",
+          "c130301/Surprised": "../../assets/muvluv/audio/voice/dda10786ae2821d46aff5888174654cc.ogg",
+          "c130301/Stop": "../../assets/muvluv/audio/voice/84bca1995c135974391d7c4b68616993.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "love": "../../assets/muvluv/audio/se/love.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "130301s": {
+          "key": "130301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/130301s/130301s.json",
+          "atlas": "../../assets/muvluv/spine/130301s/130301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/130301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "偶然街中でリリーと遭遇した俺は、一緒にカフェに入ることにした。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "偶然街中でリリーと遭遇した俺は、一緒にカフェに入ることにした。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うぅ～ん♪　このケーキ、美味しい～！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "うぅ～ん♪　このケーキ、美味しい～！",
+      "voice": "c130301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "よく食うな、リリーって。これでいくつ目だ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "よく食うな、リリーって。これでいくつ目だ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっと……５個目？　ヒーロー活動にはエネルギーが必要だからね！\nいざってとき動けないんじゃ、ヒーロー失格だし！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Question"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "えっと……５個目？　ヒーロー活動にはエネルギーが必要だからね！\nいざってとき動けないんじゃ、ヒーロー失格だし！",
+      "voice": "c130301/Question",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（なるほど、食べた分しっかり消費しているから、\n『食べ過ぎ』にはならないわけか）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（なるほど、食べた分しっかり消費しているから、\n『食べ過ぎ』にはならないわけか）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61014101,
+        "branchId": 6101411,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "choice",
+      "branchMasterId": 6101411,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61014111,
+          "text": "よかったら俺の分も食うか？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1303011
+        },
+        {
+          "id": 61014112,
+          "text": "今日は全部俺の奢りだ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1303012
+        }
+      ]
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014111,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ、いいの……？",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Question"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 23,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 24,
+      "type": "bgvStop",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 25,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-8",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 27,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "えっ、いいの……？",
+      "voice": "c130301/Question",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014111,
+        "configuration": {
+          "Phrase": {
+            "Text": "おう、食え食え。まだ手つけてないから、食いかけでもないぞ。\nその代わり、学園の治安をしっかり守ってくれ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おう、食え食え。まだ手つけてないから、食いかけでもないぞ。\nその代わり、学園の治安をしっかり守ってくれ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014111,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういうことなら……いただきますっ。\nありがとう、%usernameusernameuserna%！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Thank"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 32,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-10",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 34,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "そういうことなら……いただきますっ。\nありがとう、<user>！",
+      "voice": "c130301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014111,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうやって優しいとこ、ホントヒーローみたい……",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 37,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "そうやって優しいとこ、ホントヒーローみたい……",
+      "voice": "c130301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014111,
+        "configuration": {
+          "Phrase": {
+            "Text": "その後、俺は奢ったつもりだったが、\nしっかりリリーは自分の分として支払うのだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その後、俺は奢ったつもりだったが、\nしっかりリリーは自分の分として支払うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014111
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014112,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ、いきなりどうしたの！？",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Surprised"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 42,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 43,
+      "type": "bgvStop",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-13",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 46,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "えっ、いきなりどうしたの！？",
+      "voice": "c130301/Surprised",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014112,
+        "configuration": {
+          "Phrase": {
+            "Text": "美味しそうにいっぱい食べてるリリーを見てたら、\nなんだかそういう気持ちになってな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "美味しそうにいっぱい食べてるリリーを見てたら、\nなんだかそういう気持ちになってな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014112,
+        "configuration": {
+          "Phrase": {
+            "Text": "それに、そのカロリーがしっかり学園の治安維持に向くなら、\n平和に貢献している気分になるし。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それに、そのカロリーがしっかり学園の治安維持に向くなら、\n平和に貢献している気分になるし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014112,
+        "configuration": {
+          "Phrase": {
+            "Text": "う～ん、ありがたいけど、\nさすがに全部はちょっと申し訳ないかな……！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Stop"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 54,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-16",
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 56,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "う～ん、ありがたいけど、\nさすがに全部はちょっと申し訳ないかな……！",
+      "voice": "c130301/Stop",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61014101,
+        "branchId": null,
+        "selectedBranchId": 61014112,
+        "configuration": {
+          "Phrase": {
+            "Text": "さすがに一方的に奢られるのは罪悪感が勝ったようだ。\n正義感の強い彼女らしいと思うのだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "130301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "さすがに一方的に奢られるのは罪悪感が勝ったようだ。\n正義感の強い彼女らしいと思うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101411,
+      "branchSelectionId": 61014112
+    },
+    {
+      "line": 60,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 17,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101411
+      ],
+      "uniqueBranchMasterIds": [
+        6101411
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

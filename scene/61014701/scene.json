@@ -1,0 +1,2422 @@
+{
+  "id": "61014701",
+  "title": "健康体操を嗜んで",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61014701",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c131301/CallOut": "../../assets/muvluv/audio/voice/89e145ed3c46dd842b8b13e33775f3ab.ogg",
+          "c131301/ResponseGood": "../../assets/muvluv/audio/voice/8b81983e71e610e4ba4489ab38530880.ogg",
+          "c131301/Smile": "../../assets/muvluv/audio/voice/50849b20bee76f94d99328b090c50a29.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "131301s": {
+          "key": "131301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/131301s/131301s.json",
+          "atlas": "../../assets/muvluv/spine/131301s/131301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/131301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふらっと学園散策がてらスカラ校舎に来た俺は、\nグラウンドでひとり身体を動かす小花を見つけた。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ふらっと学園散策がてらスカラ校舎に来た俺は、\nグラウンドでひとり身体を動かす小花を見つけた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "何やってるんだ、小花？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "何やってるんだ、小花？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん？\n……これですか？　ちょっとした体操ですよ。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "<user>さん？\n……これですか？　ちょっとした体操ですよ。",
+      "voice": "c131301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "へぇ……変わった体操だな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "へぇ……変わった体操だな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "元は武術が発祥なのですが、それを健康体操にしたものです。\nスカラ地区の華連系コミュニティでは古くから親しまれてるんですよ。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "元は武術が発祥なのですが、それを健康体操にしたものです。\nスカラ地区の華連系コミュニティでは古くから親しまれてるんですよ。",
+      "voice": "c131301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今日は午前中忙しくて午後の今やっていますが、\n本当は朝とか起床後にやるものだったりします。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-7"
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "小花",
+      "text": "今日は午前中忙しくて午後の今やっていますが、\n本当は朝とか起床後にやるものだったりします。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……毎日やっているのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど……毎日やっているのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ、よっぽど緊急の用件で１日が埋まらない限りは。\n幼い頃身体が弱くて始めたものですが、今では日課ですね。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-9"
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "ええ、よっぽど緊急の用件で１日が埋まらない限りは。\n幼い頃身体が弱くて始めたものですが、今では日課ですね。",
+      "voice": "c131301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61014701,
+        "branchId": 6101471,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言って、彼女は引き続きしなやかにゆっくりと、\n流れるように脚や腕、そして身体全体を動かしていく。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言って、彼女は引き続きしなやかにゆっくりと、\n流れるように脚や腕、そして身体全体を動かしていく。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "choice",
+      "branchMasterId": 6101471,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 10,
+      "options": [
+        {
+          "id": 61014711,
+          "text": "一緒にやってもいい？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1313011
+        },
+        {
+          "id": 61014712,
+          "text": "このまま見ててもいい？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1313012
+        }
+      ]
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 35,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 36,
+      "type": "bgvStop",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "よかったら一緒にやってもいいか？\n小花がすごく真剣やってるから興味出てきたよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "よかったら一緒にやってもいいか？\n小花がすごく真剣やってるから興味出てきたよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、構いませんよ。\nよければコツをお教えしましょうか？",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 43,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "ふふ、構いませんよ。\nよければコツをお教えしましょうか？",
+      "voice": "c131301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいのか？　ならぜひともお願いするよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いいのか？　ならぜひともお願いするよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺は小花から簡単にレクチャーを受けながら、\nさっき見た彼女の動きを真似てみた。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺は小花から簡単にレクチャーを受けながら、\nさっき見た彼女の動きを真似てみた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん、なかなか筋がいいと思いますよ。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 52,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "<user>さん、なかなか筋がいいと思いますよ。",
+      "voice": "c131301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "はは、小花はそうやってまたすぐお世辞を言う。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "はは、小花はそうやってまたすぐお世辞を言う。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "本心です。少なくとも真剣にわたくしの趣味なのに、\n真剣に取り組んでくださってることはわかりますよ。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 57,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-18",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "小花",
+      "text": "本心です。少なくとも真剣にわたくしの趣味なのに、\n真剣に取り組んでくださってることはわかりますよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……『そういうところ』なんですね。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-19",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 63,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "なるほど……『そういうところ』なんですね。",
+      "voice": "c131301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "何が？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "何が？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014711,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいえ、なんでも、ふふふ。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 68,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-21",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "小花",
+      "text": "いいえ、なんでも、ふふふ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014711
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 72,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 73,
+      "type": "bgvStop",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "もちろん、構いませんよ。\nこれといって見ていて面白いものではありませんけど……",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 75,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-23",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 77,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "もちろん、構いませんよ。\nこれといって見ていて面白いものではありませんけど……",
+      "voice": "c131301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "どちらかというと、趣味に興じている小花を見ていたいなって。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 79,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 80,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どちらかというと、趣味に興じている小花を見ていたいなって。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 81,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、そういうこと他の異性には軽々しく言わないほうが良いですよ。\nですが……せっかくですので。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 82,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-25",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 83,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 84,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "ふふ、そういうこと他の異性には軽々しく言わないほうが良いですよ。\nですが……せっかくですので。",
+      "voice": "c131301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 85,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 86,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 87,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 88,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "（さっきまでゆっくりしていたのが、急にスピードアップしたぞ！？\nまるでダンスのようにキレのある……舞みたいだ！）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 89,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 90,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（さっきまでゆっくりしていたのが、急にスピードアップしたぞ！？\nまるでダンスのようにキレのある……舞みたいだ！）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 91,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "小花は素早くもメリハリのある動きを見せてくれる。\n震脚は地面にめり込み、振る腕からシュッと鋭い風切りが放たれる。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 92,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 93,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "小花は素早くもメリハリのある動きを見せてくれる。\n震脚は地面にめり込み、振る腕からシュッと鋭い風切りが放たれる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 94,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "な、なあ、小花。それって本当に健康体操……？\n武術というか、下手したら殺傷能力もありそうなんだが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 96,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "な、なあ、小花。それって本当に健康体操……？\n武術というか、下手したら殺傷能力もありそうなんだが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら……ふふ、つい張り切ってしまったみたいですね。\nあくまで『体操』ですよ。少なくとも敵ではない相手には、ですけど。",
+            "SpeakerName": "小花",
+            "VoiceAssetIds": [
+              "c131301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "131301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 98,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-30",
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 99,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 100,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "あら……ふふ、つい張り切ってしまったみたいですね。\nあくまで『体操』ですよ。少なくとも敵ではない相手には、ですけど。",
+      "voice": "c131301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 101,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 61014701,
+        "branchId": null,
+        "selectedBranchId": 61014712,
+        "configuration": {
+          "Phrase": {
+            "Text": "ここはあまり深堀しないほうがいいな、と思う俺だった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 102,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 103,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ここはあまり深堀しないほうがいいな、と思う俺だった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31,
+      "branchMasterId": 6101471,
+      "branchSelectionId": 61014712
+    },
+    {
+      "line": 104,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 31,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101471
+      ],
+      "uniqueBranchMasterIds": [
+        6101471
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

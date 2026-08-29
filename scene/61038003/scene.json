@@ -1,0 +1,2072 @@
+{
+  "id": "61038003",
+  "title": "妄想話",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61038003",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png",
+        "60020": "../../assets/muvluv/backgrounds/background-60020.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg",
+          "10016": "../../assets/muvluv/audio/bgm/10016.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "154301s": {
+          "key": "154301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/154301s/154301s.json",
+          "atlas": "../../assets/muvluv/spine/154301s/154301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/154301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:154301": {
+          "key": "cockpit:154301",
+          "kind": "cockpit",
+          "sourceAssetId": "154301",
+          "resolvedAssetId": "154301",
+          "addressableKey": "SBCV/154301",
+          "skeleton": "../../assets/muvluv/cockpit/154301/154301.json",
+          "atlas": "../../assets/muvluv/cockpit/154301/154301.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/154301/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ほら、コトハ！　ペース落ちてるぞ！　もう少しだ！\n特訓はまだまだ始まったばかりなんだからな！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ほら、コトハ！　ペース落ちてるぞ！　もう少しだ！\n特訓はまだまだ始まったばかりなんだからな！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はぁ、はぁ……っ、待ちなさいよ、%usernameusernameuserna%！\nあんた足速すぎ！",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "154301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "154301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "はぁ、はぁ……っ、待ちなさいよ、<user>！\nあんた足速すぎ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はははっ、いい汗かいてるな！\n太陽の光、心地よい風……これぞ青春！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "154301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "154301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "はははっ、いい汗かいてるな！\n太陽の光、心地よい風……これぞ青春！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ねぇ。さっきから隣で目閉じて、何ブツブツ言ってんの？\n純粋にキモいんだけど……",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "NeedsHideText": 1,
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "ColorType": 1,
+            "BgmAssetId": "10016",
+            "FadeType": 2,
+            "FadeInDuration": 750,
+            "FadeWaitDuration": 150,
+            "FadeOutDuration": 1500,
+            "FadeTiming": 0
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 2,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "ColorType": 1,
+          "BgmAssetId": "10016",
+          "FadeType": 2,
+          "FadeInDuration": 750,
+          "FadeWaitDuration": 150,
+          "FadeOutDuration": 1500,
+          "FadeTiming": 0
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 13,
+      "type": "bgmStop"
+    },
+    {
+      "line": 14,
+      "type": "bgmPlay",
+      "cue": "10016"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "……ねぇ。さっきから隣で目閉じて、何ブツブツ言ってんの？\n純粋にキモいんだけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやな、ずっと影具鎚――というかメイズの中にいると、\n学園での日々が恋しくなってな。ついお前に特訓つけてる妄想を……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いやな、ずっと影具鎚――というかメイズの中にいると、\n学園での日々が恋しくなってな。ついお前に特訓つけてる妄想を……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんで私なのよ！？　キモッ！　つか、妄想の中まで特訓とか、\n『教導指揮官』って病名だったの？　マジキモい。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 2,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 300,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "なんで私なのよ！？　キモッ！　つか、妄想の中まで特訓とか、\n『教導指揮官』って病名だったの？　マジキモい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうキモキモ言うなよ。学園生活楽しいぞ？\nお前もこの騒動落ち着いたら入学してみないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうキモキモ言うなよ。学園生活楽しいぞ？\nお前もこの騒動落ち着いたら入学してみないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "何バカ言ってんの、私世間的には一応犯罪者よ？",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 2,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "何バカ言ってんの、私世間的には一応犯罪者よ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうじゃなくても、入学なんてお断り。\nましてやあんたに特訓つけられるとか、死んでもゴメンよ。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 3,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "そうじゃなくても、入学なんてお断り。\nましてやあんたに特訓つけられるとか、死んでもゴメンよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうか？　俺の妄想の中じゃ爽やかに俺と一緒にランニングしてるな。\n『青春って最高！』って。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうか？　俺の妄想の中じゃ爽やかに俺と一緒にランニングしてるな。\n『青春って最高！』って。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んなわけないでしょ……\nあんたの脳内、一度解剖してあげましょうか？",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 2,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "んなわけないでしょ……\nあんたの脳内、一度解剖してあげましょうか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ほんと解像度が低すぎるわね。私ならこうよ。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 3,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "……ほんと解像度が低すぎるわね。私ならこうよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "『このノロマ指揮官！\nそんな鈍足でよく私の教導指揮官なんて名乗れるわね！』ってね。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "NeedsHideText": 1,
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "ColorType": 1,
+            "BgmAssetId": "10001",
+            "FadeType": 1,
+            "FadeInDuration": 500,
+            "FadeWaitDuration": 100,
+            "FadeOutDuration": 1000,
+            "FadeTiming": 0
+          },
+          "Character1": {
+            "AssetId": "154301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 13,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "ColorType": 1,
+          "BgmAssetId": "10001",
+          "FadeType": 1,
+          "FadeInDuration": 500,
+          "FadeWaitDuration": 100,
+          "FadeOutDuration": 1000,
+          "FadeTiming": 0
+        },
+        "characters": [
+          {
+            "AssetId": "154301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 13,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 42,
+      "type": "bgmStop"
+    },
+    {
+      "line": 43,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "『このノロマ指揮官！\nそんな鈍足でよく私の教導指揮官なんて名乗れるわね！』ってね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺より速いの前提なんだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "NeedsHideText": 1,
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "ColorType": 1,
+            "BgmAssetId": "10016",
+            "FadeType": 1,
+            "FadeInDuration": 500,
+            "FadeWaitDuration": 100,
+            "FadeOutDuration": 1000,
+            "FadeTiming": 0
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "ColorType": 1,
+          "BgmAssetId": "10016",
+          "FadeType": 1,
+          "FadeInDuration": 500,
+          "FadeWaitDuration": 100,
+          "FadeOutDuration": 1000,
+          "FadeTiming": 0
+        },
+        "characters": [],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 47,
+      "type": "bgmStop"
+    },
+    {
+      "line": 48,
+      "type": "bgmPlay",
+      "cue": "10016"
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "俺より速いの前提なんだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61038003,
+        "branchId": 6106101,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "フン、当然でしょ。\nこの私があんたなんかに負けるわけないじゃない。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "VoiceAssetIds": [
+              "61038002/9"
+            ],
+            "Speakers": [
+              6
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 0,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 13,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-16"
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "フン、当然でしょ。\nこの私があんたなんかに負けるわけないじゃない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16
+    },
+    {
+      "line": 55,
+      "type": "choice",
+      "branchMasterId": 6106101,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 16,
+      "options": [
+        {
+          "id": 61061011,
+          "text": "でも一緒には走ってくれるんだ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1543012
+        },
+        {
+          "id": 61061012,
+          "text": "負けず嫌いだ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1543011
+        }
+      ]
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061011,
+        "configuration": {
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 57,
+      "type": "bgmPlay",
+      "cue": "10016",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 58,
+      "type": "bgvStop",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061011,
+        "configuration": {
+          "Phrase": {
+            "Text": "――――っ！？",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "VoiceAssetIds": [
+              "61038002/10"
+            ],
+            "Speakers": [
+              6
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 2,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 60,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-18",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "――――っ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ち、ちがっ……！　これはそういう流れだったから……！",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "VoiceAssetIds": [
+              "61038002/11"
+            ],
+            "Speakers": [
+              6
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0,
+            "HasMove": 1,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathDuration": 950
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 3,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0,
+            "HasMove": 1,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 64,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-19",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "ち、ちがっ……！　これはそういう流れだったから……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061011,
+        "configuration": {
+          "Phrase": {
+            "Text": "コトハってなんだかんだで優しいよな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "コトハってなんだかんだで優しいよな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……！！　今すぐコックピットから出なさい！\nＭＧでぶっ飛ばしてやるわッ！！",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "VoiceAssetIds": [
+              "61038002/12"
+            ],
+            "Speakers": [
+              6
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 1,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 3,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 71,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-21",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "……！！　今すぐコックピットから出なさい！\nＭＧでぶっ飛ばしてやるわッ！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061011,
+        "configuration": {
+          "Phrase": {
+            "Text": "（くぅ～！　これこれ！）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 75,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 76,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（くぅ～！　これこれ！）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061011
+    },
+    {
+      "line": 77,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 78,
+      "type": "bgmPlay",
+      "cue": "10016",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 79,
+      "type": "bgvStop",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 80,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Phrase": {
+            "Text": "当然でしょ？　負けるのが好きなやつなんて、ただのバカよ。\nたとえ妄想の中でもね。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "VoiceAssetIds": [
+              "61038002/13"
+            ],
+            "Speakers": [
+              6
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 1,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 81,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-24",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 82,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 83,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "当然でしょ？　負けるのが好きなやつなんて、ただのバカよ。\nたとえ妄想の中でもね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 84,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Phrase": {
+            "Text": "コトハらしいな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 85,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 86,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "コトハらしいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 87,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Phrase": {
+            "Text": "『らしい』って何よ。私のことたいしてよく知りもしないくせに。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "VoiceAssetIds": [
+              "61038002/14"
+            ],
+            "Speakers": [
+              6
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 2,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "『らしい』って何よ。私のことたいしてよく知りもしないくせに。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、そうだな。だからもっと話して、\nお互いのことをもう少し知っていかないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 91,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 92,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、そうだな。だからもっと話して、\nお互いのことをもう少し知っていかないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 93,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……フン、冗談じゃないわ。",
+            "SpeakerName": "コトハ",
+            "TeamName": "双頭の斧",
+            "VoiceAssetIds": [
+              "61038002/15"
+            ],
+            "Speakers": [
+              6
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "154301s"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "154301",
+            "AnimationType": 0,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 94,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-28",
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 96,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "コトハ",
+      "text": "……フン、冗談じゃないわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Phrase": {
+            "Text": "それっきり、コトハは黙り込んでしまった。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 98,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 99,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "それっきり、コトハは黙り込んでしまった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 100,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61038003,
+        "branchId": null,
+        "selectedBranchId": 61061012,
+        "configuration": {
+          "Phrase": {
+            "Text": "（でも話しかけたらちゃんと応答はするし、結構真面目な子だよな。\n根気強く話しかければ、いつか長話にも付き合ってくれそうだ）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 101,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 102,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（でも話しかけたらちゃんと応答はするし、結構真面目な子だよな。\n根気強く話しかければ、いつか長話にも付き合ってくれそうだ）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6106101,
+      "branchSelectionId": 61061012
+    },
+    {
+      "line": 103,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 30,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6106101
+      ],
+      "uniqueBranchMasterIds": [
+        6106101
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

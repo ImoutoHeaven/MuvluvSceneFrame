@@ -1,0 +1,1905 @@
+{
+  "id": "61061001",
+  "title": "リディアのひんやりさがし",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61061001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30112.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30112.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30112.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30112.png",
+      "backgrounds": {
+        "30112": "../../assets/muvluv/backgrounds/background-30112.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c140301/ResponseGood": "../../assets/muvluv/audio/voice/444d0bf3921cb4349a7308dfa947a41a.ogg",
+          "c140301/Confused": "../../assets/muvluv/audio/voice/9c17ac1b9e998ed40ba918b146cbb14f.ogg",
+          "c140301/Farewell": "../../assets/muvluv/audio/voice/4c6ef1124591f0444944d59d6ac3b711.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "140302s": {
+          "key": "140302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/140302s/140302s.json",
+          "atlas": "../../assets/muvluv/spine/140302s/140302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/140302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "人の気配を感じて放課後のＬＯＣの教室に入ると、\n机の下から足が見えていた。"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "人の気配を感じて放課後のＬＯＣの教室に入ると、\n机の下から足が見えていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……何をしてるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……何をしてるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー、おにいちゃん？　みつかっちゃった。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "VoiceAssetIds": [
+              "c140301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -21000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -21000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "んー、おにいちゃん？　みつかっちゃった。",
+      "voice": "c140301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "リディア！？ なんで机の下に水着姿で潜り込んでるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "リディア！？ なんで机の下に水着姿で潜り込んでるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ここ、ひんやりしてきもちいい。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-6"
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "ここ、ひんやりしてきもちいい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひんやり……涼しいところを探してるのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ひんやり……涼しいところを探してるのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん。あちあちだから、いろんなばしょのひんやりを探してる。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "VoiceAssetIds": [
+              "c140301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-8"
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "うん。あちあちだから、いろんなばしょのひんやりを探してる。",
+      "voice": "c140301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おにいちゃんも、どこかしってる？　ひんやりしてるばしょ。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-9"
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "おにいちゃんも、どこかしってる？　ひんやりしてるばしょ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61061001,
+        "branchId": 6115101,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺のおすすめの場所か……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "俺のおすすめの場所か……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "choice",
+      "branchMasterId": 6115101,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 10,
+      "options": [
+        {
+          "id": 61151011,
+          "text": "俺も知りたい",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1403022
+        },
+        {
+          "id": 61151012,
+          "text": "廊下はひんやりしている",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1403021
+        }
+      ]
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 35,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 36,
+      "type": "bgvStop",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151012,
+        "configuration": {
+          "Phrase": {
+            "Text": "廊下はどうだ？　人が通らない場所なら思ったよりもひんやりしてるぞ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "廊下はどうだ？　人が通らない場所なら思ったよりもひんやりしてるぞ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ろうか？　でも、おねんねしてたら、おこられない？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "VoiceAssetIds": [
+              "c140301/Confused"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-13",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 43,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "ろうか？　でも、おねんねしてたら、おこられない？",
+      "voice": "c140301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……うーん、言っててなんだが怒られるな。\nすまん、助けになれないみたいだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……うーん、言っててなんだが怒られるな。\nすまん、助けになれないみたいだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151012,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー、それならレイヴェルとルナにも、\nひんやりしてるばしょきいてみる。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-15",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "んー、それならレイヴェルとルナにも、\nひんやりしてるばしょきいてみる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151012,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあね、おにいちゃん。ばいばい。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "VoiceAssetIds": [
+              "c140301/Farewell"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-16",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 54,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "じゃあね、おにいちゃん。ばいばい。",
+      "voice": "c140301/Farewell",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、リディアは教室を出ていくのだった。"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、リディアは教室を出ていくのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151012
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 59,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 60,
+      "type": "bgvStop",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Phrase": {
+            "Text": "よく考えると、そこまでＬＯＣに詳しくないかも知れないな……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "よく考えると、そこまでＬＯＣに詳しくないかも知れないな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なら、おにいちゃんもいっしょにひんやりを探す？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "VoiceAssetIds": [
+              "c140301/Confused"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 65,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-20",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 67,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "なら、おにいちゃんもいっしょにひんやりを探す？",
+      "voice": "c140301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだな……たまにはそう言うのも楽しくていいじゃないか。\nリディア隊長のひんやり探検隊だな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうだな……たまにはそう言うのも楽しくていいじゃないか。\nリディア隊長のひんやり探検隊だな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー、たんけんたい？　リディアがたいちょう？",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "VoiceAssetIds": [
+              "c140301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 72,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-22",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 74,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "んー、たんけんたい？　リディアがたいちょう？",
+      "voice": "c140301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうです。それじゃあ隊長、出発しましょう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうです。それじゃあ隊長、出発しましょう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Phrase": {
+            "Text": "それじゃ、ひんやりさがしにしゅっぱーつ。",
+            "SpeakerName": "リディア",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "140302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "140302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-24",
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リディア",
+      "text": "それじゃ、ひんやりさがしにしゅっぱーつ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61061001,
+        "branchId": null,
+        "selectedBranchId": 61151011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、童心に帰って俺はリディアと、\nＬＯＣ中を探検して楽しむのだった。"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 83,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 84,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、童心に帰って俺はリディアと、\nＬＯＣ中を探検して楽しむのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6115101,
+      "branchSelectionId": 61151011
+    },
+    {
+      "line": 85,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 25,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6115101
+      ],
+      "uniqueBranchMasterIds": [
+        6115101
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

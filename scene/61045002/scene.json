@@ -1,0 +1,1552 @@
+{
+  "id": "61045002",
+  "title": "ふたり街並みを歩いて",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61045002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30312.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30312.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30312.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30312.png",
+      "backgrounds": {
+        "30312": "../../assets/muvluv/backgrounds/background-30312.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c144301/CallOut": "../../assets/muvluv/audio/voice/a88b7ca0a24d17146be7f39dda9b68e3.ogg",
+          "c144301/Agreement": "../../assets/muvluv/audio/voice/4546ee4a83b56414a8f5b0914033983b.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "144301s": {
+          "key": "144301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/144301s/144301s.json",
+          "atlas": "../../assets/muvluv/spine/144301s/144301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/144301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61045002/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええっと……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ええっと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ナージャと偶然、ゾリャー校区街で出会ったのだが、\nお互いに会話に困り妙な空気が流れていた。"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ナージャと偶然、ゾリャー校区街で出会ったのだが、\nお互いに会話に困り妙な空気が流れていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……人見知りっぽいからなぁ。\nどういう会話の糸口を掴むべきだろうか）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……人見知りっぽいからなぁ。\nどういう会話の糸口を掴むべきだろうか）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……あ、あの……どこか、行く予定ですか？",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c144301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-6"
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "……あ、あの……どこか、行く予定ですか？",
+      "voice": "c144301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61045002,
+        "branchId": 6108801,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、予定はないんだ。あまり詳しくない街だから、\nちょっと歩いてみようと思ってな",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、予定はないんだ。あまり詳しくない街だから、\nちょっと歩いてみようと思ってな",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "choice",
+      "branchMasterId": 6108801,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61088011,
+          "text": "おすすめはあるか？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1453012
+        },
+        {
+          "id": 61088012,
+          "text": "街には詳しいのか？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1453011
+        }
+      ]
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 24,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 25,
+      "type": "bgvStop",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088011,
+        "configuration": {
+          "Phrase": {
+            "Text": "お、おすすめですか？　……す、すいません。私もあまり、\nここに詳しくなくて……お使いで、街にやってきたところなんです。",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61045002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 27,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-9",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "お、おすすめですか？　……す、すいません。私もあまり、\nここに詳しくなくて……お使いで、街にやってきたところなんです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうなのか……それなら、俺もお使いを手伝ってもいいか？\n荷物持ちくらいなら出来るぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうなのか……それなら、俺もお使いを手伝ってもいいか？\n荷物持ちくらいなら出来るぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088011,
+        "configuration": {
+          "Phrase": {
+            "Text": "え？　いいんですか？",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61045002/7"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-11",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "え？　いいんですか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、誰かと一緒のほうが詳しくなれるからさ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、誰かと一緒のほうが詳しくなれるからさ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そ、それでしたら……その、お願いします。\nえっと、最初に行くのは――",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61045002/9"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "そ、それでしたら……その、お願いします。\nえっと、最初に行くのは――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、俺はナージャのお使いの手伝いをするのだった。"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、俺はナージャのお使いの手伝いをするのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 48,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 49,
+      "type": "bgvStop",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088012,
+        "configuration": {
+          "Phrase": {
+            "Text": "い、いえ。あまり詳しくはなくて……\nどちらかといえば、お母様と一緒に行動することが多いですし……",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61045002/10"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-16",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "い、いえ。あまり詳しくはなくて……\nどちらかといえば、お母様と一緒に行動することが多いですし……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088012,
+        "configuration": {
+          "Phrase": {
+            "Text": "私が自分から、行きたいって場所もそんなに無いから詳しくないです……",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61045002/11"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-17",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "私が自分から、行きたいって場所もそんなに無いから詳しくないです……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうなのか……なら、また一緒に探索でもしような。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうなのか……なら、また一緒に探索でもしような。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088012,
+        "configuration": {
+          "Phrase": {
+            "Text": "は、はい……その時は、是非……！",
+            "SpeakerName": "ナージャ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c144301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "144301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "144301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 62,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-19",
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 64,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ナージャ",
+      "text": "は、はい……その時は、是非……！",
+      "voice": "c144301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61045002,
+        "branchId": null,
+        "selectedBranchId": 61088012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういって、俺はナージャと別れて散歩に戻るのだった。"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そういって、俺はナージャと別れて散歩に戻るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6108801,
+      "branchSelectionId": 61088012
+    },
+    {
+      "line": 68,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 20,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6108801
+      ],
+      "uniqueBranchMasterIds": [
+        6108801
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,4465 @@
+{
+  "id": "20150301",
+  "title": "信頼が意味するもの",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "20150301",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-80182.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-80182.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-80182.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-80182.png",
+      "backgrounds": {
+        "80182": "../../assets/muvluv/backgrounds/background-80182.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10012": "../../assets/muvluv/audio/bgm/10012.ogg",
+          "10010": "../../assets/muvluv/audio/bgm/10010.ogg",
+          "10013": "../../assets/muvluv/audio/bgm/10013.ogg"
+        },
+        "voice": {
+          "c105301/Confused_3": "../../assets/muvluv/audio/voice/c8827b4b46231e64f8f62d5885adbd05.ogg",
+          "c105301/Sadness": "../../assets/muvluv/audio/voice/b40feea653f71c349979a764dfe9bdf7.ogg",
+          "c105301/Apology": "../../assets/muvluv/audio/voice/dff39844a47329c4ebd70330a5247393.ogg",
+          "c105301/Crying_2": "../../assets/muvluv/audio/voice/fa32a5a43d8e641478f372a7b90e28c9.ogg",
+          "c105301/Confused": "../../assets/muvluv/audio/voice/08b527ac7c64ae144879b1fd329bcca7.ogg",
+          "c109301/Surprised_2": "../../assets/muvluv/audio/voice/95a469ca969ce8a408eb81225b1f2ce0.ogg",
+          "c105301/Stop": "../../assets/muvluv/audio/voice/ce6c021c8a35e9b40a7f524f936457e3.ogg",
+          "c105301/Question": "../../assets/muvluv/audio/voice/c1d36a06e987eef4c9a66c14de0c9ff0.ogg",
+          "c109301/Agreement": "../../assets/muvluv/audio/voice/0fabe3b1b6b283c4d94fc0b03ee29cd1.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "105302s": {
+          "key": "105302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/105302s/105302s.json",
+          "atlas": "../../assets/muvluv/spine/105302s/105302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/105302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "109302s": {
+          "key": "109302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/109302s/109302s.json",
+          "atlas": "../../assets/muvluv/spine/109302s/109302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/109302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10012"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "目の前にやってきた杖をついた少女を見た葵は、\n動揺した表情を浮かべながらも彼女へ返事をする。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "目の前にやってきた杖をついた少女を見た葵は、\n動揺した表情を浮かべながらも彼女へ返事をする。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、ああ……久しぶりだな……\nその、足の方は……",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "あ、ああ……久しぶりだな……\nその、足の方は……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "歩けるようにはなりましたが……後遺症が残ってしまいました。",
+            "SpeakerName": "？？？",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "？？？",
+      "text": "歩けるようにはなりましたが……後遺症が残ってしまいました。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………そうか。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "…………そうか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "こんなところで出会えるだなんて、思いもしませんでした。",
+            "SpeakerName": "？？？",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "？？？",
+      "text": "こんなところで出会えるだなんて、思いもしませんでした。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ああ、私もだ。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "……ああ、私もだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どこか余所余所しい会話を続ける葵に疑問を抱く。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "どこか余所余所しい会話を続ける葵に疑問を抱く。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……ただの顔見知り……にしても、ぎこちないな。\nどういう関係なんだ……？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……ただの顔見知り……にしても、ぎこちないな。\nどういう関係なんだ……？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺の疑問に感じている視線に気づいたのか、\n葵は俺たちに話をしていた彼女を紹介する。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺の疑問に感じている視線に気づいたのか、\n葵は俺たちに話をしていた彼女を紹介する。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "彼女は昔の……アマツの学園に通っていた頃の同級生だ。\n……在学中に、トラブルが起きて休学をしていたのだが……",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Confused_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 32,
+      "type": "bgmStop"
+    },
+    {
+      "line": 33,
+      "type": "bgmPlay",
+      "cue": "10010"
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-11"
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 36,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "彼女は昔の……アマツの学園に通っていた頃の同級生だ。\n……在学中に、トラブルが起きて休学をしていたのだが……",
+      "voice": "c105301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "しかし……なぜ、このパーティーに君が？",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Sadness"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-12"
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 40,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "しかし……なぜ、このパーティーに君が？",
+      "voice": "c105301/Sadness",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "私が今通っている学校の招待枠として、\nこちらにお邪魔させていただきました。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "私が今通っている学校の招待枠として、\nこちらにお邪魔させていただきました。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょうどお世話になっている先生が著名な方でして……\n希望者が参加できるように取り計らってくださったんです。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "ちょうどお世話になっている先生が著名な方でして……\n希望者が参加できるように取り計らってくださったんです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そう、か。\n君もいい先生に巡り会えたようで良かったよ。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "……そう、か。\n君もいい先生に巡り会えたようで良かったよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-16"
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そこで会話は止まってしまう。\n……お互いに何か遠慮をしているようだ。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そこで会話は止まってしまう。\n……お互いに何か遠慮をしているようだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（元同級生だと葵は言っていたが、\nいったいどんな仲だったんだ……？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（元同級生だと葵は言っていたが、\nいったいどんな仲だったんだ……？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……普段だったら、もっと親しげに会話をしてるだろうに、\nやけに距離を測るような感じだな）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……普段だったら、もっと親しげに会話をしてるだろうに、\nやけに距離を測るような感じだな）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "その気まずい空気に口を出すことはできずに、\n舞亜へと俺は声をかける。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その気まずい空気に口を出すことはできずに、\n舞亜へと俺は声をかける。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なあ、舞亜はあの子を知ってるのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……なあ、舞亜はあの子を知ってるのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ううん、私も知らないわ。\nでも……もしかしたら……",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "……ううん、私も知らないわ。\nでも……もしかしたら……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "昔……私、少しだけ葵から聞いたの。後悔している事があるって。\n……その時は深くは聞かなかったんだけど……",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-25"
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "昔……私、少しだけ葵から聞いたの。後悔している事があるって。\n……その時は深くは聞かなかったんだけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "きっと、あの子のことを言っていたのね……",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 83,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 84,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "きっと、あの子のことを言っていたのね……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26
+    },
+    {
+      "line": 85,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なるほど、ありがとうな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 86,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 87,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……なるほど、ありがとうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27
+    },
+    {
+      "line": 88,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（舞亜にも詳しいことを話してないとなると、\nよほどのことがあったんだろうか……？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 89,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 90,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（舞亜にも詳しいことを話してないとなると、\nよほどのことがあったんだろうか……？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28
+    },
+    {
+      "line": 91,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "葵とあの少女に横から口を出すことも出来ず、\n気まずく、会話も弾まないふたりを見守っていると……"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 92,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 93,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "葵とあの少女に横から口を出すことも出来ず、\n気まずく、会話も弾まないふたりを見守っていると……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29
+    },
+    {
+      "line": 94,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……すまなかった。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Apology"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 96,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "……すまなかった。",
+      "voice": "c105301/Apology",
+      "layout": "",
+      "sourceFrameOrder": 30
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（葵が頭を下げた……！？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 98,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 99,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（葵が頭を下げた……！？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31
+    },
+    {
+      "line": 100,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 32,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……生駒さん？",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 101,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 102,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "……生駒さん？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 32
+    },
+    {
+      "line": 103,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 33,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あの時のことは今でも私は夢にみるほど後悔をしている。\n私が、止めていれば……あのような事故は起きなかった。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 104,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-33"
+    },
+    {
+      "line": 105,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 106,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "あの時のことは今でも私は夢にみるほど後悔をしている。\n私が、止めていれば……あのような事故は起きなかった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 33
+    },
+    {
+      "line": 107,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 34,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "私のせいで君は……後の人生に響くような怪我をしてしまった。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 108,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 109,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "私のせいで君は……後の人生に響くような怪我をしてしまった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 34
+    },
+    {
+      "line": 110,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 35,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "君の怪我の責任は私にある。\n……本当に、申し訳ない。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 111,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-35"
+    },
+    {
+      "line": 112,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 113,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "君の怪我の責任は私にある。\n……本当に、申し訳ない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 35
+    },
+    {
+      "line": 114,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 36,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 115,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 116,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 36
+    },
+    {
+      "line": 117,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 37,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ずっと、ずっと心に残っていた。\n君が事故にあって……面会もできなかった。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Crying_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 118,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 119,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "ずっと、ずっと心に残っていた。\n君が事故にあって……面会もできなかった。",
+      "voice": "c105301/Crying_2",
+      "layout": "",
+      "sourceFrameOrder": 37
+    },
+    {
+      "line": 120,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 38,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "私自身……己の過ちに向き合えなくて、\n君と話をすることを諦めてしまっていた。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 121,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 122,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "私自身……己の過ちに向き合えなくて、\n君と話をすることを諦めてしまっていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 38
+    },
+    {
+      "line": 123,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 39,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今更謝っても何の意味もないことは分かっている。\n……だが、それでも謝らせて欲しい。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 124,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 125,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "今更謝っても何の意味もないことは分かっている。\n……だが、それでも謝らせて欲しい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 39
+    },
+    {
+      "line": 126,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 40,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……顔を上げてください。生駒さん。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 127,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 128,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "……顔を上げてください。生駒さん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 40
+    },
+    {
+      "line": 129,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 41,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "葵が顔を上げる。\n……同級生の少女の顔は硬くこわばっていた。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 130,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 131,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "葵が顔を上げる。\n……同級生の少女の顔は硬くこわばっていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 41
+    },
+    {
+      "line": 132,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 42,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……謝罪はいりません。謝っていただいて、\nこの足が歩けるようになるわけではありませんし……",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 133,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 134,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "……謝罪はいりません。謝っていただいて、\nこの足が歩けるようになるわけではありませんし……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 42
+    },
+    {
+      "line": 135,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 43,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……すまない。私の出来る限りの責任を――",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Apology"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 136,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 137,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "……すまない。私の出来る限りの責任を――",
+      "voice": "c105301/Apology",
+      "layout": "",
+      "sourceFrameOrder": 43
+    },
+    {
+      "line": 138,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 44,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "だから、言いましたよね？\n謝罪の必要はありません。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10010"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10010"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 139,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 140,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "だから、言いましたよね？\n謝罪の必要はありません。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 44
+    },
+    {
+      "line": 141,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 45,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……本当に、変わりませんね。生駒さん。\nあなたは……何も分かってない。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 142,
+      "type": "bgmStop"
+    },
+    {
+      "line": 143,
+      "type": "bgmPlay",
+      "cue": "10013"
+    },
+    {
+      "line": 144,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 145,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "……本当に、変わりませんね。生駒さん。\nあなたは……何も分かってない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 45
+    },
+    {
+      "line": 146,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 46,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あの時……生駒さんに会いたくなくて面会を断った時から、\nずっと、同じままです。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 147,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 148,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "あの時……生駒さんに会いたくなくて面会を断った時から、\nずっと、同じままです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 46
+    },
+    {
+      "line": 149,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 47,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それは……どういうことだろうか？",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Confused"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 150,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-47"
+    },
+    {
+      "line": 151,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 152,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "それは……どういうことだろうか？",
+      "voice": "c105301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 47
+    },
+    {
+      "line": 153,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 48,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "険悪な空気を感じて、舞亜が仲裁をしようと一歩を踏み出す。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 154,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 155,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "険悪な空気を感じて、舞亜が仲裁をしようと一歩を踏み出す。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 48
+    },
+    {
+      "line": 156,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 49,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ねえ、ふたりとも――",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 157,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-49"
+    },
+    {
+      "line": 158,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 159,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "ねえ、ふたりとも――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 49
+    },
+    {
+      "line": 160,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 50,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そうですね。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 161,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 162,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "……そうですね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 50
+    },
+    {
+      "line": 163,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 51,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "私から言えるのは……生駒さんは、\n誰のことも信用していない、ということです。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 164,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 165,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "私から言えるのは……生駒さんは、\n誰のことも信用していない、ということです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 51
+    },
+    {
+      "line": 166,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 52,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……っ！？",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 167,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-52"
+    },
+    {
+      "line": 168,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 169,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "……っ！？",
+      "voice": "c109301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 52
+    },
+    {
+      "line": 170,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 53,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……信用、していない）",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 171,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 172,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "（……信用、していない）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 53
+    },
+    {
+      "line": 173,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 54,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まってくれ、それはどういう……",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Stop"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "panic"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 174,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-54"
+    },
+    {
+      "line": 175,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 176,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "まってくれ、それはどういう……",
+      "voice": "c105301/Stop",
+      "layout": "",
+      "sourceFrameOrder": 54
+    },
+    {
+      "line": 177,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 55,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……今の生駒さんと、お話をするつもりはありません。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 178,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 179,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "……今の生駒さんと、お話をするつもりはありません。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 55
+    },
+    {
+      "line": 180,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 56,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "生駒さん……貴方がやるべきことは、違います。\n謝罪なんかじゃないんですよ。",
+            "SpeakerName": "葵の元同級生",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 181,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 182,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵の元同級生",
+      "text": "生駒さん……貴方がやるべきことは、違います。\n謝罪なんかじゃないんですよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 56
+    },
+    {
+      "line": 183,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 57,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "hush"
+          },
+          "HiddenCharacter": {
+            "AssetId": "109302s",
+            "FacialType": 6,
+            "EmotionType": 12
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 184,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-57"
+    },
+    {
+      "line": 185,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 186,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 57
+    },
+    {
+      "line": 187,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 58,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……舞亜？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 188,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 189,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……舞亜？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 58
+    },
+    {
+      "line": 190,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 59,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "先程からの少女の言葉を聞いて……\n舞亜は、どこか痛みを我慢するように顔を歪めている。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 191,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 192,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "先程からの少女の言葉を聞いて……\n舞亜は、どこか痛みを我慢するように顔を歪めている。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 59
+    },
+    {
+      "line": 193,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 60,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "謝罪……ではない……？",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Question"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "huh"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 194,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-60"
+    },
+    {
+      "line": 195,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 196,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "謝罪……ではない……？",
+      "voice": "c105301/Question",
+      "layout": "",
+      "sourceFrameOrder": 60
+    },
+    {
+      "line": 197,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 61,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "既に少女は去っていた。\n……そして、後には俺達だけが残される。"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 198,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 199,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "既に少女は去っていた。\n……そして、後には俺達だけが残される。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 61
+    },
+    {
+      "line": 200,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 62,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………私は、何を間違えたんだ？",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/Crying_2"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "huh"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 201,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-62"
+    },
+    {
+      "line": 202,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 203,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "葵",
+      "text": "…………私は、何を間違えたんだ？",
+      "voice": "c105301/Crying_2",
+      "layout": "",
+      "sourceFrameOrder": 62
+    },
+    {
+      "line": 204,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 63,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "105302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 205,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 206,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 63
+    },
+    {
+      "line": 207,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 64,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 208,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-64"
+    },
+    {
+      "line": 209,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 210,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 64
+    },
+    {
+      "line": 211,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 65,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……空気が重い……葵もそうだが……舞亜も、\n何か思うことがあるのか考えちゃってるみたいだからな……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 212,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 213,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……空気が重い……葵もそうだが……舞亜も、\n何か思うことがあるのか考えちゃってるみたいだからな……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 65
+    },
+    {
+      "line": 214,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 66,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なあ、ふたりとも大丈夫か？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 215,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 216,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なあ、ふたりとも大丈夫か？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 66
+    },
+    {
+      "line": 217,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 67,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ああ、大丈夫だ。気にしないでくれ。",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          },
+          {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 218,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-67"
+    },
+    {
+      "line": 219,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 220,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "……ああ、大丈夫だ。気にしないでくれ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 67
+    },
+    {
+      "line": 221,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 68,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……え、ええ。私は横で聞いてただけだから……大丈夫よ。",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          },
+          {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 222,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-68"
+    },
+    {
+      "line": 223,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 224,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "……え、ええ。私は横で聞いてただけだから……大丈夫よ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 68
+    },
+    {
+      "line": 225,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 69,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……ふたりとも、大丈夫な奴の顔じゃないんだよな）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 226,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 227,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……ふたりとも、大丈夫な奴の顔じゃないんだよな）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 69
+    },
+    {
+      "line": 228,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 70,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "このまま、ここで考えても仕方ない。\n少し気分転換をするために場所を変えよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 229,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 230,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "このまま、ここで考えても仕方ない。\n少し気分転換をするために場所を変えよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 70
+    },
+    {
+      "line": 231,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 71,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そう、だな。\nこんな調子では、声をかけられてもマトモに応対できそうにないな……",
+            "SpeakerName": "葵",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c105301/300"
+            ],
+            "Speakers": [
+              2
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "105302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          },
+          {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 14,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 232,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-71"
+    },
+    {
+      "line": 233,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 234,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "葵",
+      "text": "……そう、だな。\nこんな調子では、声をかけられてもマトモに応対できそうにないな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 71
+    },
+    {
+      "line": 235,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 72,
+        "sceneId": 20150301,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうね……会場の端にでも避難しましょうか。",
+            "SpeakerName": "舞亜",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</color>",
+            "VoiceAssetIds": [
+              "c109301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "109302s"
+          },
+          "Background": {
+            "AssetId": "80182",
+            "BgmAssetId": "10013",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          },
+          "Character2": {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "80182",
+          "BgmAssetId": "10013",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "109302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          },
+          {
+            "AssetId": "105302s",
+            "X": 2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 236,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-72"
+    },
+    {
+      "line": 237,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 238,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "舞亜",
+      "text": "そうね……会場の端にでも避難しましょうか。",
+      "voice": "c109301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 72
+    },
+    {
+      "line": 239,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 72,
+    "branchGraph": {
+      "occurrences": 0,
+      "branchMasterIds": [],
+      "uniqueBranchMasterIds": []
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,1459 @@
+{
+  "id": "61019801",
+  "title": "のどのケア",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61019801",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30052.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30052.png",
+      "backgrounds": {
+        "30052": "../../assets/muvluv/backgrounds/background-30052.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "108302s": {
+          "key": "108302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/108302s/108302s.json",
+          "atlas": "../../assets/muvluv/spine/108302s/108302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/108302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "クリスマスパーティーまでもうすぐ。今日は屋上でクララの歌の練習を\n手伝った。といっても感想を言うだけの簡単な仕事だが。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "クリスマスパーティーまでもうすぐ。今日は屋上でクララの歌の練習を\n手伝った。といっても感想を言うだけの簡単な仕事だが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "みんなが休憩から戻ったら、練習再開ね。",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "みんなが休憩から戻ったら、練習再開ね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだな。のどの調子は大丈夫か？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうだな。のどの調子は大丈夫か？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61019801,
+        "branchId": 6101981,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ、問題ないわ。\nちゃんと毎日ケアしてるし、まだまだ調子いいわね。",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "ええ、問題ないわ。\nちゃんと毎日ケアしてるし、まだまだ調子いいわね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "choice",
+      "branchMasterId": 6101981,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 5,
+      "options": [
+        {
+          "id": 61019811,
+          "text": "とはいえ、無理はするな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1083021
+        },
+        {
+          "id": 61019812,
+          "text": "どんなケアをしてるんだ？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1083022
+        }
+      ]
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019812,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 18,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 19,
+      "type": "bgvStop",
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019812,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうね……まずは乾燥対策ね。こまめな水分補給に、部屋の加湿とか。\nあとは喉周りを温めたり……そもそもの体調管理にも気をつけてるわ。",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "そうね……まずは乾燥対策ね。こまめな水分補給に、部屋の加湿とか。\nあとは喉周りを温めたり……そもそもの体調管理にも気をつけてるわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019812,
+        "configuration": {
+          "Phrase": {
+            "Text": "さすがだな……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "さすがだな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019812,
+        "configuration": {
+          "Phrase": {
+            "Text": "本番でのどガラガラとか笑えないもの。",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "本番でのどガラガラとか笑えないもの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019812,
+        "configuration": {
+          "Phrase": {
+            "Text": "やると決めたらとことん全力なところは、クララの魅力だな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "やると決めたらとことん全力なところは、クララの魅力だな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019812,
+        "configuration": {
+          "Phrase": {
+            "Text": "と、当然のことをしてるだけよ……！\nサンタクイーンになるために、妥協なんてしてられないの。",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-11",
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "と、当然のことをしてるだけよ……！\nサンタクイーンになるために、妥協なんてしてられないの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019812
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019811,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 37,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 38,
+      "type": "bgvStop",
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019811,
+        "configuration": {
+          "Phrase": {
+            "Text": "ずっと歌いっぱなしだったし、もう少し休憩しよう。\n何か温かい飲み物でも買ってこようか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ずっと歌いっぱなしだったし、もう少し休憩しよう。\n何か温かい飲み物でも買ってこようか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019811,
+        "configuration": {
+          "Phrase": {
+            "Text": "さっき温かいお茶買ってきたばかりよ。\nあと泉花が戻って来るのを待つだけでも十分休憩になるわ。",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "さっき温かいお茶買ってきたばかりよ。\nあと泉花が戻って来るのを待つだけでも十分休憩になるわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019811,
+        "configuration": {
+          "Phrase": {
+            "Text": "気を使いすぎじゃない？",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 46,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-15",
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 48,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "気を使いすぎじゃない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019811,
+        "configuration": {
+          "Phrase": {
+            "Text": "そりゃそうだろ。本番で全力のクララの歌声を聞きたいしな。\nもし練習のせいでのどを潰したら本末転倒だ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そりゃそうだろ。本番で全力のクララの歌声を聞きたいしな。\nもし練習のせいでのどを潰したら本末転倒だ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019811,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%……",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-17",
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "<user>……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61019801,
+        "branchId": null,
+        "selectedBranchId": 61019811,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………わかったわ。もう少し休む。",
+            "SpeakerName": "クララ",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "61019801/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "108302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "クララ",
+      "text": "…………わかったわ。もう少し休む。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101981,
+      "branchSelectionId": 61019811
+    },
+    {
+      "line": 59,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 18,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101981
+      ],
+      "uniqueBranchMasterIds": [
+        6101981
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

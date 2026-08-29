@@ -1,0 +1,2005 @@
+{
+  "id": "61010601",
+  "title": "おばけに足はあるのか",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61010601",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30130.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30130.png",
+      "backgrounds": {
+        "30130": "../../assets/muvluv/backgrounds/background-30130.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c126101/Fear": "../../assets/muvluv/audio/voice/036145558945954498bc907b75a371f9.ogg",
+          "c126101/Scream": "../../assets/muvluv/audio/voice/c36c03fa85d5971408bb4237a3255775.ogg",
+          "c126101/Hesitation": "../../assets/muvluv/audio/voice/1f57649f705571e438ea82897d87d607.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "sad": "../../assets/muvluv/audio/se/sad.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "126101": {
+          "key": "126101",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/126101/126101.json",
+          "atlas": "../../assets/muvluv/spine/126101/126101.atlas",
+          "textureBase": "../../assets/muvluv/spine/126101/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うう……怖いよぉ。暗いよぉ……",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "うう……怖いよぉ。暗いよぉ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……もう帰って明日でもいいんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……もう帰って明日でもいいんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "だ、ダメよ……！　ジュリーちゃんの忘れ物を取ってこないと、\n明日困っちゃうわ……！",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "だ、ダメよ……！　ジュリーちゃんの忘れ物を取ってこないと、\n明日困っちゃうわ……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……当事者のジュリーは寝てたけど、\n起こして取りに来させた方が良かったような気がするが）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……当事者のジュリーは寝てたけど、\n起こして取りに来させた方が良かったような気がするが）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "カツーン、カツーン、カツーン……"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "カツーン、カツーン、カツーン……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひいっ！？　あ、足音っ！？\nお、おばけ！？　もしかして、おばけなの！？　",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/Fear"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-7"
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "ひいっ！？　あ、足音っ！？\nお、おばけ！？　もしかして、おばけなの！？　",
+      "voice": "c126101/Fear",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61010601,
+        "branchId": 6101061,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "choice",
+      "branchMasterId": 6101061,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61010611,
+          "text": "おばけ……かもな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1261011
+        },
+        {
+          "id": 61010612,
+          "text": "おばけに足はないから違うだろ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1261012
+        }
+      ]
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010612,
+        "configuration": {
+          "Phrase": {
+            "Text": "え、おばけって足がないの？\nだったら足音もなく忍び寄ってるかもしれないってことだよね！",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 27,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 28,
+      "type": "bgvStop",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 29,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-9",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "え、おばけって足がないの？\nだったら足音もなく忍び寄ってるかもしれないってことだよね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010612,
+        "configuration": {
+          "Phrase": {
+            "Text": "やだ……どうしよう！\nもしかして、もう、私の後ろに……",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-10",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "やだ……どうしよう！\nもしかして、もう、私の後ろに……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010612,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ラウラ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……ラウラ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010612,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひやああああああーっ！\nおばけぇえええええーっ！？",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/Scream"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 40,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-12",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 42,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "ひやああああああーっ！\nおばけぇえええええーっ！？",
+      "voice": "c126101/Scream",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010612,
+        "configuration": {
+          "Phrase": {
+            "Text": "（パニックになったラウラは、\n　一目散に廊下を駆け出していった）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（パニックになったラウラは、\n　一目散に廊下を駆け出していった）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010612
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "うそ、やだ、どうしようっ……！\nおばけがこっちにくる！",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 47,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 48,
+      "type": "bgvStop",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "うそ、やだ、どうしようっ……！\nおばけがこっちにくる！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "そこの教室に隠れるぞ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そこの教室に隠れるぞ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "カツーン、カツーン、カツーン……"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "カツーン、カツーン、カツーン……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？　懐中電灯？\nあれは見回りの先生だな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん？　懐中電灯？\nあれは見回りの先生だな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "な、なんだぁ……おばけじゃなくてよかった。",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "な、なんだぁ……おばけじゃなくてよかった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういえば、幽霊には足がないらしいからな。\n足音が聞こえたら違うんだろうな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そういえば、幽霊には足がないらしいからな。\n足音が聞こえたら違うんだろうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "え、そ、そうなんだ……",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "え、そ、そうなんだ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……いやまあ、深夜に聞こえる足音なんて、\n幽霊じゃない方が怖い気もするが）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……いやまあ、深夜に聞こえる足音なんて、\n幽霊じゃない方が怖い気もするが）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "ご、ごめん、%usernameusernameuserna%……\n私、腰が抜けて立てないかも……",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/Hesitation"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 74,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "ご、ごめん、<user>……\n私、腰が抜けて立てないかも……",
+      "voice": "c126101/Hesitation",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "仕方ないな。\n俺がおぶってやるから掴まれ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "仕方ないな。\n俺がおぶってやるから掴まれ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61010601,
+        "branchId": null,
+        "selectedBranchId": 61010611,
+        "configuration": {
+          "Phrase": {
+            "Text": "本当にごめん、ありがと……",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c126101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "126101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 7,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-24",
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "本当にごめん、ありがと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6101061,
+      "branchSelectionId": 61010611
+    },
+    {
+      "line": 82,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101061
+      ],
+      "uniqueBranchMasterIds": [
+        6101061
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

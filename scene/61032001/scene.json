@@ -1,0 +1,1653 @@
+{
+  "id": "61032001",
+  "title": "慣れない格好",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61032001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30092.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30092.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30092.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30092.png",
+      "backgrounds": {
+        "30092": "../../assets/muvluv/backgrounds/background-30092.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "129302s": {
+          "key": "129302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/129302s/129302s.json",
+          "atlas": "../../assets/muvluv/spine/129302s/129302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/129302s/",
+          "version": "4.2.43",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……あー、恥ずかしい。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "……あー、恥ずかしい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "リュシー？　珍しい格好をしてるな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "リュシー？　珍しい格好をしてるな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "教室に行くと、アークトゥルスの衣装を着たリュシーが、\n何やら不機嫌そうにしていた。"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "教室に行くと、アークトゥルスの衣装を着たリュシーが、\n何やら不機嫌そうにしていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああいや……ちょっと着替えるタイミングが無くてな。\nそのせいで、この衣装のまま来たんだが……",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "ああいや……ちょっと着替えるタイミングが無くてな。\nそのせいで、この衣装のまま来たんだが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "周りの奴らもびっくりした顔で見てくるからなぁ。\n衣装が変わったくらいで、そんなに驚くことか？",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "周りの奴らもびっくりした顔で見てくるからなぁ。\n衣装が変わったくらいで、そんなに驚くことか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、普段がずっとメイド衣装だからなぁ。\nそんな風に思うのも仕方ないんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まあ、普段がずっとメイド衣装だからなぁ。\nそんな風に思うのも仕方ないんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61032001,
+        "branchId": 6103501,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなもんかね……",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "そんなもんかね……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "choice",
+      "branchMasterId": 6103501,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61035011,
+          "text": "似合ってるのにな",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1293022
+        },
+        {
+          "id": 61035012,
+          "text": "普段通りがいいよな。",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1293021
+        }
+      ]
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 27,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 28,
+      "type": "bgvStop",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035011,
+        "configuration": {
+          "Phrase": {
+            "Text": "似合ってるのにな。\n俺はその衣装好きだぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "似合ってるのにな。\n俺はその衣装好きだぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうなのか？　……へえ、あんたはこういう趣味なのか。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-11",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "そうなのか？　……へえ、あんたはこういう趣味なのか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035011,
+        "configuration": {
+          "Phrase": {
+            "Text": "カッコいいしな。\n着てたら皆も慣れて来るんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "カッコいいしな。\n着てたら皆も慣れて来るんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035011,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、確かにな。気にし過ぎか。ありがとうな。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 40,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "まあ、確かにな。気にし過ぎか。ありがとうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういってリュシーは微笑むのだった。"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そういってリュシーは微笑むのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035011
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 47,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 48,
+      "type": "bgvStop",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035012,
+        "configuration": {
+          "Phrase": {
+            "Text": "普段通りのメイド姿の方が確かに良いのは分かるんだよな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "普段通りのメイド姿の方が確かに良いのは分かるんだよな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……あんたってメイド趣味だったのか？",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-17",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "……あんたってメイド趣味だったのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、そういうわけじゃなくてリュシーは、\nそっちの方が安心するなって意味だからな？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、そういうわけじゃなくてリュシーは、\nそっちの方が安心するなって意味だからな？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035012,
+        "configuration": {
+          "Phrase": {
+            "Text": "はは、分かってるよ。でも、確かにそう言われると悪い気はしないな。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 60,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-19",
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "はは、分かってるよ。でも、確かにそう言われると悪い気はしないな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ま、今日くらいはこの視線は我慢するか。\nまた、あんたの好きなメイド服に戻るよ。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61032001/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "ま、今日くらいはこの視線は我慢するか。\nまた、あんたの好きなメイド服に戻るよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61032001,
+        "branchId": null,
+        "selectedBranchId": 61035012,
+        "configuration": {
+          "Phrase": {
+            "Text": "イタズラっぽい笑みを浮かべてからかうリュシーに、\n思わず俺も苦笑を浮かべてしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "129302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "イタズラっぽい笑みを浮かべてからかうリュシーに、\n思わず俺も苦笑を浮かべてしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6103501,
+      "branchSelectionId": 61035012
+    },
+    {
+      "line": 69,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 21,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6103501
+      ],
+      "uniqueBranchMasterIds": [
+        6103501
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

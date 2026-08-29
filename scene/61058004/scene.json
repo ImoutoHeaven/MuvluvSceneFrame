@@ -1,0 +1,1877 @@
+{
+  "id": "61058004",
+  "title": "審判もお手の物",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61058004",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c131301/CallOut": "../../assets/muvluv/audio/voice/89e145ed3c46dd842b8b13e33775f3ab.ogg",
+          "c131301/Pleasure_2": "../../assets/muvluv/audio/voice/569cd5948777be94a9e276c40cdf0db1.ogg",
+          "c131301/Question": "../../assets/muvluv/audio/voice/a0f986c0e0fd7b940af3db4af9ccbe4f.ogg",
+          "c131301/Happiness_2": "../../assets/muvluv/audio/voice/f257a6bb97033ab46a4d374374b0ca20.ogg",
+          "c131301/Surprised_2": "../../assets/muvluv/audio/voice/16dae56e40f5350478885bc101871078.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "131302s": {
+          "key": "131302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/131302s/131302s.json",
+          "atlas": "../../assets/muvluv/spine/131302s/131302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/131302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "グラウンドを通りがかると、水着姿の生徒達が集まっており、\nそれぞれが水鉄砲を構えていた。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "グラウンドを通りがかると、水着姿の生徒達が集まっており、\nそれぞれが水鉄砲を構えていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん、こんにちは。\nどうされました？",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c131301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "<user>さん、こんにちは。\nどうされました？",
+      "voice": "c131301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、たまたま立ち寄っただけなんだが……\nこれは何をしているんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、たまたま立ち寄っただけなんだが……\nこれは何をしているんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "生徒達の要望で、水鉄砲を用いた訓練を行っています。\nわたくしは審判役です。",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c131301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "生徒達の要望で、水鉄砲を用いた訓練を行っています。\nわたくしは審判役です。",
+      "voice": "c131301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "最初は夏の授業の一環で始まったはずですが、\n今となってはほぼレクリエーションですね。",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "小花",
+      "text": "最初は夏の授業の一環で始まったはずですが、\n今となってはほぼレクリエーションですね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "楽しそうじゃないか。参加しなくていいのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "楽しそうじゃないか。参加しなくていいのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61058004,
+        "branchId": 6114201,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "わたくしは結構です。こういったことをする時は\n誰かが場を引き締めないと怪我のもとですので。",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "小花",
+      "text": "わたくしは結構です。こういったことをする時は\n誰かが場を引き締めないと怪我のもとですので。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "choice",
+      "branchMasterId": 6114201,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61142011,
+          "text": "一緒に審判をする",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1313021
+        },
+        {
+          "id": 61142012,
+          "text": "水鉄砲を借りる",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1313022
+        }
+      ]
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 28,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 29,
+      "type": "bgvStop",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Phrase": {
+            "Text": "確かに、小花の言うことには一理あるな。\nだったら俺も審判を手伝うよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "確かに、小花の言うことには一理あるな。\nだったら俺も審判を手伝うよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Phrase": {
+            "Text": "え？　%usernameusernameuserna%さんが、どうして？",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c131301/Question"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-11",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 36,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "え？　<user>さんが、どうして？",
+      "voice": "c131301/Question",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひとりだと大変だろ？\n参加人数も多いし、フィールドも結構広そうだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ひとりだと大変だろ？\n参加人数も多いし、フィールドも結構広そうだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……いいのですか？",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-13",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "小花",
+      "text": "……いいのですか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、当然だろ？　たまにはこういうのも楽しそうだしな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、当然だろ？　たまにはこういうのも楽しそうだしな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふふ、ありがとうございます。そうやって言ってくださるのは、\n%usernameusernameuserna%さんの美点ですね。",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c131301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-15",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 50,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "……ふふ、ありがとうございます。そうやって言ってくださるのは、\n<user>さんの美点ですね。",
+      "voice": "c131301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142011,
+        "configuration": {
+          "Phrase": {
+            "Text": "では……わたくしの隣で、一緒にいてくださいね？",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "小花",
+      "text": "では……わたくしの隣で、一緒にいてくださいね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142011
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 55,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 56,
+      "type": "bgvStop",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Phrase": {
+            "Text": "水飲み場に、余った水鉄砲が置いてあるのを見つけた。\n俺は水を充填してから、小花のもとに戻る。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "水飲み場に、余った水鉄砲が置いてあるのを見つけた。\n俺は水を充填してから、小花のもとに戻る。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら？　水鉄砲を持ってきたのですね。\n%usernameusernameuserna%さんも参加しますか？",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c131301/Question"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-19",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 63,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "あら？　水鉄砲を持ってきたのですね。\n<user>さんも参加しますか？",
+      "voice": "c131301/Question",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいや、向こうには行かないよ。\n代わりに……こうだっ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いいや、向こうには行かないよ。\n代わりに……こうだっ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Phrase": {
+            "Text": "きゃっ……何をするんですかっ。",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c131301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 68,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-21",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 70,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "きゃっ……何をするんですかっ。",
+      "voice": "c131301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Phrase": {
+            "Text": "今はちょうどインターバルだろ？\nだから、今は俺とふたりで楽しもう。ちょっとだけならいいだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "今はちょうどインターバルだろ？\nだから、今は俺とふたりで楽しもう。ちょっとだけならいいだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふふ、たまにはそういうのもいいですね。\nでは、遠慮はしませんからね？",
+            "SpeakerName": "小花",
+            "TeamName": "<color=#89f4f3>風紀委員会</color>",
+            "VoiceAssetIds": [
+              "c131301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "131302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "131302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 75,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-23",
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 77,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "小花",
+      "text": "……ふふ、たまにはそういうのもいいですね。\nでは、遠慮はしませんからね？",
+      "voice": "c131301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61058004,
+        "branchId": null,
+        "selectedBranchId": 61142012,
+        "configuration": {
+          "Phrase": {
+            "Text": "レクリエーションが再開するまでの短い時間だったが、\n俺と小花は水鉄砲で互いを濡らし合い、笑い合うのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 79,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 80,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "レクリエーションが再開するまでの短い時間だったが、\n俺と小花は水鉄砲で互いを濡らし合い、笑い合うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6114201,
+      "branchSelectionId": 61142012
+    },
+    {
+      "line": 81,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6114201
+      ],
+      "uniqueBranchMasterIds": [
+        6114201
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

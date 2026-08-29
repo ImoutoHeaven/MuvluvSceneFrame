@@ -1,0 +1,2398 @@
+{
+  "id": "30040101",
+  "title": "サークル対抗戦開催",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "30040101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30180.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30180.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30180.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30180.png",
+      "backgrounds": {
+        "30180": "../../assets/muvluv/backgrounds/background-30180.png",
+        "30012": "../../assets/muvluv/backgrounds/background-30012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10017": "../../assets/muvluv/audio/bgm/10017.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "sad": "../../assets/muvluv/audio/se/sad.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "n10004": {
+          "key": "n10004",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n10004/n10004.json",
+          "atlas": "../../assets/muvluv/spine/n10004/n10004.atlas",
+          "textureBase": "../../assets/muvluv/spine/n10004/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "102201": {
+          "key": "102201",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/102201/102201.json",
+          "atlas": "../../assets/muvluv/spine/102201/102201.atlas",
+          "textureBase": "../../assets/muvluv/spine/102201/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "n10001": {
+          "key": "n10001",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n10001/n10001.json",
+          "atlas": "../../assets/muvluv/spine/n10001/n10001.atlas",
+          "textureBase": "../../assets/muvluv/spine/n10001/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30180",
+            "ColorType": 1,
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "ColorType": 1,
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10017"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あーあー。マイクテス。マイクテス。\nワンツーワンツー。",
+            "SpeakerName": "？？？"
+          },
+          "Background": {
+            "AssetId": "30180",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "？？？",
+      "text": "あーあー。マイクテス。マイクテス。\nワンツーワンツー。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "みなさーん！　コンチワー！　制圧ってるぅ～？　みんなご存知！\nみんな大好き！　『制圧戦実行委員会』の司会役アマネっすー！",
+            "SpeakerName": "アマネ",
+            "TeamName": "制圧戦実行委員会",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30180",
+            "BgmAssetId": "10017",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "BgmAssetId": "10017",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アマネ",
+      "text": "みなさーん！　コンチワー！　制圧ってるぅ～？　みんなご存知！\nみんな大好き！　『制圧戦実行委員会』の司会役アマネっすー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ？　ご存知ない……？　じゃあ、今知ってくださいっす！\nこれで問題ナシ！！　もうマブダチマブラヴマブファミリー！！",
+            "SpeakerName": "アマネ",
+            "TeamName": "制圧戦実行委員会",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30180",
+            "BgmAssetId": "10017",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "BgmAssetId": "10017",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アマネ",
+      "text": "えっ？　ご存知ない……？　じゃあ、今知ってくださいっす！\nこれで問題ナシ！！　もうマブダチマブラヴマブファミリー！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんだ、この校内放送……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "ColorType": 1,
+            "BgmAssetId": "10017",
+            "FadeType": 3,
+            "FadeTiming": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "ColorType": 1,
+          "BgmAssetId": "10017",
+          "FadeType": 3,
+          "FadeTiming": 0
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なんだ、この校内放送……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あぁ、『スタンピード』か～。\nちなみに柊校舎だけじゃなくて、学園の全校舎に向けて流れてるよん。",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "あぁ、『スタンピード』か～。\nちなみに柊校舎だけじゃなくて、学園の全校舎に向けて流れてるよん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "スタンピード……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "スタンピード……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "アマネちゃんからのお知らせっすよ！　先ほどスタンピード――\nメイズシフターの大量発生が確認されたっす！　規模は前と同じくらい！",
+            "SpeakerName": "アマネ",
+            "TeamName": "制圧戦実行委員会",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30180",
+            "ColorType": 1,
+            "BgmAssetId": "10017",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "ColorType": 1,
+          "BgmAssetId": "10017",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-8"
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アマネ",
+      "text": "アマネちゃんからのお知らせっすよ！　先ほどスタンピード――\nメイズシフターの大量発生が確認されたっす！　規模は前と同じくらい！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなわけで……ドンドンパフパフ！　嬉し恥ずかし！\n癒やし壊しのサークル対抗制圧戦開幕っす～！",
+            "SpeakerName": "アマネ",
+            "TeamName": "制圧戦実行委員会",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30180",
+            "BgmAssetId": "10017",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "BgmAssetId": "10017",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 29,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-9"
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アマネ",
+      "text": "そんなわけで……ドンドンパフパフ！　嬉し恥ずかし！\n癒やし壊しのサークル対抗制圧戦開幕っす～！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "って感じで、メイズシフター討伐を目的にしたイベントが開かれるの。\nあいつらも生き物だから、たまに大量発生するんだよね～。",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "ColorType": 1,
+            "BgmAssetId": "10017",
+            "FadeType": 3,
+            "FadeTiming": 0,
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "ColorType": 1,
+          "BgmAssetId": "10017",
+          "FadeType": 3,
+          "FadeTiming": 0,
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-10"
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "って感じで、メイズシフター討伐を目的にしたイベントが開かれるの。\nあいつらも生き物だから、たまに大量発生するんだよね～。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "大量発生と聞くと危なそうなイメージだが、その様子だとある程度\n予測や管理ができているって感じか。イベント事にするくらいだし。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "102201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "大量発生と聞くと危なそうなイメージだが、その様子だとある程度\n予測や管理ができているって感じか。イベント事にするくらいだし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ピコピコピーン！　ち・な・み・に！\nただの討伐イベントじゃありません！　サークル対抗です！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 40,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-12"
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "ピコピコピーン！　ち・な・み・に！\nただの討伐イベントじゃありません！　サークル対抗です！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "たくさんのサークルが参加して、その討伐数を競うんです！\nもちろん、報酬も出ますよ！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13"
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "たくさんのサークルが参加して、その討伐数を競うんです！\nもちろん、報酬も出ますよ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "個人じゃ参加できないのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "個人じゃ参加できないのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "できないですね～。相手は倒しても倒してもたくさん湧いてくるんで、\nひとりでの参加は危険です。",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-15"
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "できないですね～。相手は倒しても倒してもたくさん湧いてくるんで、\nひとりでの参加は危険です。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "報酬が出るからって無茶しちゃう子が出てしまうんですよ。\nそのときフォローや止められる仲間がいないと……",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-16"
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "報酬が出るからって無茶しちゃう子が出てしまうんですよ。\nそのときフォローや止められる仲間がいないと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、相手の数を考えると、\nこっちも集団で参加するのが道理だよな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まあ、相手の数を考えると、\nこっちも集団で参加するのが道理だよな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなわけで、サークルでの参加は絶・対・条・件です！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 62,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-18"
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "そんなわけで、サークルでの参加は絶・対・条・件です！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おおー、%usernameusernameuserna%のＡＩちゃんって優秀だね？",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              2
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          },
+          "Character2": {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          },
+          {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 66,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-19"
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "おおー、<user>のＡＩちゃんって優秀だね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふん！　まあ、ボクは優秀なＡＩですからね！\nこの程度の解説なんてお手の物ですよ！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              0
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              -3000,
+              -3000
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          },
+          "Character2": {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              -3000,
+              -3000
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          },
+          {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "ふふん！　まあ、ボクは優秀なＡＩですからね！\nこの程度の解説なんてお手の物ですよ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――なのでサークル参加が必須ってワケっす！\nメイズ討伐数１位の栄誉と報酬を目指して頑張るっすよ～！",
+            "SpeakerName": "アマネの声",
+            "TeamName": "制圧戦実行委員会"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "HiddenCharacter": {
+            "AssetId": "n10004"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          },
+          "Character2": {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          },
+          {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アマネの声",
+      "text": "――なのでサークル参加が必須ってワケっす！\nメイズ討伐数１位の栄誉と報酬を目指して頑張るっすよ～！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、さっきの説明、全部解説の子がもっと詳しくしてたけどね。",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              2
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          },
+          "Character2": {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          },
+          {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "まあ、さっきの説明、全部解説の子がもっと詳しくしてたけどね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……しょぼん。",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          },
+          "Character2": {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          },
+          {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 79,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-23"
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "……しょぼん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "落ち込んじゃった……",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              2
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          },
+          "Character2": {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          },
+          {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 83,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-24"
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 85,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "落ち込んじゃった……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24
+    },
+    {
+      "line": 86,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あとでいっぱい慰めておくよ。それよりも、\nメイズシフターが大量発生しているなら放っておけないな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          },
+          "Character2": {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          },
+          {
+            "AssetId": "102201",
+            "X": 3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 88,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あとでいっぱい慰めておくよ。それよりも、\nメイズシフターが大量発生しているなら放っておけないな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25
+    },
+    {
+      "line": 89,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――それでは皆さん心の準備いいっすか！？\n最強のサークルはどこだ！？　盛り上がっていきまっしょー！！",
+            "SpeakerName": "アマネ",
+            "TeamName": "制圧戦実行委員会",
+            "VoiceAssetIds": [
+              "30040101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30180",
+            "ColorType": 1,
+            "BgmAssetId": "10017",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "ColorType": 1,
+          "BgmAssetId": "10017",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 90,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-26"
+    },
+    {
+      "line": 91,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 92,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アマネ",
+      "text": "――それでは皆さん心の準備いいっすか！？\n最強のサークルはどこだ！？　盛り上がっていきまっしょー！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26
+    },
+    {
+      "line": 93,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 30040101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "笑いアリ！　涙アリ？　ポロリもアルかな！？\nサークル対抗制圧戦……スタートっす！！",
+            "SpeakerName": "アマネ",
+            "TeamName": "制圧戦実行委員会"
+          },
+          "Background": {
+            "AssetId": "30180",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30180",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n10004",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 94,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 95,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アマネ",
+      "text": "笑いアリ！　涙アリ？　ポロリもアルかな！？\nサークル対抗制圧戦……スタートっす！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27
+    },
+    {
+      "line": 96,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 27,
+    "branchGraph": {
+      "occurrences": 0,
+      "branchMasterIds": [],
+      "uniqueBranchMasterIds": []
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,4671 @@
+{
+  "id": "10070701",
+  "title": "メイズへの挑戦",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "10070701",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-60020.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-60020.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-60020.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-60020.png",
+      "backgrounds": {
+        "60020": "../../assets/muvluv/backgrounds/background-60020.png",
+        "380": "../../assets/muvluv/backgrounds/background-380.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10016": "../../assets/muvluv/audio/bgm/10016.ogg",
+          "10012": "../../assets/muvluv/audio/bgm/10012.ogg",
+          "10013": "../../assets/muvluv/audio/bgm/10013.ogg",
+          "20002": "../../assets/muvluv/audio/bgm/20002.ogg"
+        },
+        "voice": {
+          "10070701/1": "../../assets/muvluv/audio/voice/b204613a57fe89549ad475ecc9e51019.ogg",
+          "10070701/2": "../../assets/muvluv/audio/voice/9c49e7c7b6795784bb312c0eb0cf265f.ogg",
+          "10070701/3_1": "../../assets/muvluv/audio/voice/c5541216276650f45bf75008ce2a8d84.ogg",
+          "10070701/3_2": "../../assets/muvluv/audio/voice/b67eb041705122e46a381f6dc73dfa77.ogg",
+          "10070701/3_3": "../../assets/muvluv/audio/voice/a67d26f777ead0f488230642964b21ca.ogg",
+          "10070701/3_4": "../../assets/muvluv/audio/voice/99d6d949676c49f4a8bc018048f40511.ogg",
+          "10070701/4": "../../assets/muvluv/audio/voice/1dbf3d37598a9db419f648b6f007448b.ogg",
+          "10070701/5": "../../assets/muvluv/audio/voice/ab0894be996ea784b97a9db2558f2ec5.ogg",
+          "10070701/6": "../../assets/muvluv/audio/voice/3037c13712f15174a9237ed492556c12.ogg",
+          "10070701/7": "../../assets/muvluv/audio/voice/1891843ee2b9c5542a15d784a75b9cb7.ogg",
+          "10070701/8": "../../assets/muvluv/audio/voice/16117ba6cf6e94041a292c1b38344eb4.ogg",
+          "10070701/9": "../../assets/muvluv/audio/voice/3d6d4e5e6e0a42c438e53200cb3db3b7.ogg",
+          "10070701/10": "../../assets/muvluv/audio/voice/ae1b6b5f9a454d84f84fc882d4c3a992.ogg",
+          "10070701/11": "../../assets/muvluv/audio/voice/8f9628608101fa9439c95d20e8ee3411.ogg",
+          "10070701/12": "../../assets/muvluv/audio/voice/0d805f2194207594bbef41e17f52031d.ogg",
+          "10070701/13": "../../assets/muvluv/audio/voice/1de67363e5d67d44c8b76902533f9b19.ogg",
+          "10070701/14": "../../assets/muvluv/audio/voice/70508033de4d8c44b988b964220ab5a0.ogg",
+          "10070701/15": "../../assets/muvluv/audio/voice/24ff463eda1670c4c8d6c5b9c73cab21.ogg",
+          "10070701/16": "../../assets/muvluv/audio/voice/e6e84af0dc4b2de4fa4aed0615a3e7db.ogg",
+          "10070701/17": "../../assets/muvluv/audio/voice/87e00af9f78a34c4fb4614c65003890f.ogg",
+          "10070701/18": "../../assets/muvluv/audio/voice/7b3d6b7ec48874144896c3e1203a17a6.ogg",
+          "10070701/19": "../../assets/muvluv/audio/voice/7ec2909aab1008a44bcf24b104d87678.ogg",
+          "10070701/20": "../../assets/muvluv/audio/voice/635ce3ba6495e1f4a8df5428668fe170.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "spark": "../../assets/muvluv/audio/se/spark.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "burst": "../../assets/muvluv/audio/se/burst.ogg",
+          "block": "../../assets/muvluv/audio/se/block.ogg",
+          "device_beep": "../../assets/muvluv/audio/se/device_beep.ogg",
+          "march_robot": "../../assets/muvluv/audio/se/march_robot.ogg",
+          "clash": "../../assets/muvluv/audio/se/clash.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "growl_enemy": "../../assets/muvluv/audio/se/growl_enemy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "rumble": "../../assets/muvluv/audio/se/rumble.ogg",
+          "cannon": "../../assets/muvluv/audio/se/cannon.ogg",
+          "bomb": "../../assets/muvluv/audio/se/bomb.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "cockpit:100301": {
+          "key": "cockpit:100301",
+          "kind": "cockpit",
+          "sourceAssetId": "100301",
+          "resolvedAssetId": "100301",
+          "addressableKey": "SBCV/100301",
+          "skeleton": "../../assets/muvluv/cockpit/100301/100301.json",
+          "atlas": "../../assets/muvluv/cockpit/100301/100301.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/100301/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:101301": {
+          "key": "cockpit:101301",
+          "kind": "cockpit",
+          "sourceAssetId": "101301",
+          "resolvedAssetId": "101301",
+          "addressableKey": "SBCV/101301",
+          "skeleton": "../../assets/muvluv/cockpit/101301/101301.json",
+          "atlas": "../../assets/muvluv/cockpit/101301/101301.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/101301/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:102301": {
+          "key": "cockpit:102301",
+          "kind": "cockpit",
+          "sourceAssetId": "102301",
+          "resolvedAssetId": "102301",
+          "addressableKey": "SBCV/102301",
+          "skeleton": "../../assets/muvluv/cockpit/102301/102301.json",
+          "atlas": "../../assets/muvluv/cockpit/102301/102301.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/102301/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:103301": {
+          "key": "cockpit:103301",
+          "kind": "cockpit",
+          "sourceAssetId": "103301",
+          "resolvedAssetId": "103301",
+          "addressableKey": "SBCV/103301",
+          "skeleton": "../../assets/muvluv/cockpit/103301/103301.json",
+          "atlas": "../../assets/muvluv/cockpit/103301/103301.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/103301/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:104301": {
+          "key": "cockpit:104301",
+          "kind": "cockpit",
+          "sourceAssetId": "104301",
+          "resolvedAssetId": "104301",
+          "addressableKey": "SBCV/104301",
+          "skeleton": "../../assets/muvluv/cockpit/104301/104301.json",
+          "atlas": "../../assets/muvluv/cockpit/104301/104301.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/104301/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:125101": {
+          "key": "cockpit:125101",
+          "kind": "cockpit",
+          "sourceAssetId": "125101",
+          "resolvedAssetId": "125301",
+          "addressableKey": "SBCV/125301",
+          "skeleton": "../../assets/muvluv/cockpit/125101/125101.json",
+          "atlas": "../../assets/muvluv/cockpit/125101/125101.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/125101/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:126101": {
+          "key": "cockpit:126101",
+          "kind": "cockpit",
+          "sourceAssetId": "126101",
+          "resolvedAssetId": "126301",
+          "addressableKey": "SBCV/126301",
+          "skeleton": "../../assets/muvluv/cockpit/126101/126101.json",
+          "atlas": "../../assets/muvluv/cockpit/126101/126101.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/126101/",
+          "version": "4.2.43",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:127101": {
+          "key": "cockpit:127101",
+          "kind": "cockpit",
+          "sourceAssetId": "127101",
+          "resolvedAssetId": "127301",
+          "addressableKey": "SBCV/127301",
+          "skeleton": "../../assets/muvluv/cockpit/127101/127101.json",
+          "atlas": "../../assets/muvluv/cockpit/127101/127101.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/127101/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:128101": {
+          "key": "cockpit:128101",
+          "kind": "cockpit",
+          "sourceAssetId": "128101",
+          "resolvedAssetId": "128301",
+          "addressableKey": "SBCV/128301",
+          "skeleton": "../../assets/muvluv/cockpit/128101/128101.json",
+          "atlas": "../../assets/muvluv/cockpit/128101/128101.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/128101/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": true,
+      "index": "../../assets/muvluv/screen_effects/index.json",
+      "effects": [
+        "ADV_Hit2",
+        "ADV_Hit3",
+        "ADV_ShockWave",
+        "ADV_Slash3",
+        "ADV_Spark"
+      ],
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "anchor": "Center"
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "ColorType": 1,
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "ColorType": 1,
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10016"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今日はシリウスシュガーによる訓練を終えた\nプレ・クラス－Ａの４名を連れて、再びメイズにやってきていた。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "127101",
+            "AnimationType": 0,
+            "X": -217500,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "AnimationType": 0,
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit4": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 650000,
+            "Y": 120000,
+            "Scale": 800
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "今日はシリウスシュガーによる訓練を終えた\nプレ・クラス－Ａの４名を連れて、再びメイズにやってきていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "指導役はもちろん、引き続きシリウスシュガー。\n彼女達も指導を通して、顔つきが成長したようだ。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "127101",
+            "AnimationType": 0,
+            "X": -217500,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "AnimationType": 0,
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit4": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 650000,
+            "Y": 120000,
+            "Scale": 800
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "指導役はもちろん、引き続きシリウスシュガー。\n彼女達も指導を通して、顔つきが成長したようだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "さて、久しぶりの実地訓練ですわ。\n散々だったあの日を見返せるよう、十分な訓練を積みました。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/1"
+            ],
+            "Speakers": [
+              6
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "101301",
+            "AnimationType": 0,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 300,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              90000,
+              120000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "さて、久しぶりの実地訓練ですわ。\n散々だったあの日を見返せるよう、十分な訓練を積みました。",
+      "voice": "10070701/1",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "みなさん、存分にその成果を発揮してください！\nさあ、敵の群れのお出ましですわ！",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/2"
+            ],
+            "Speakers": [
+              6
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "101301",
+            "AnimationType": 0,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 300,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "みなさん、存分にその成果を発揮してください！\nさあ、敵の群れのお出ましですわ！",
+      "voice": "10070701/2",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "了解っ！！",
+            "SpeakerName": "プレ・クラス－Ａ一同",
+            "VoiceAssetIds": [
+              "10070701/3_1",
+              "10070701/3_2",
+              "10070701/3_3",
+              "10070701/3_4",
+              "10070701/3_5"
+            ],
+            "Speakers": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "#VALUE!"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "127101",
+            "AnimationType": 0,
+            "X": -217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 300,
+            "MovePathXs": [
+              -217500,
+              -217500
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              217500,
+              217500
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "AnimationType": 0,
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              -650000,
+              -650000
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          },
+          "Cockpit4": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 650000,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              650000,
+              650000
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "#VALUE!"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "プレ・クラス－Ａ一同",
+      "text": "了解っ！！",
+      "voice": "10070701/3_1",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "先頭はあたしが抑える！　ラウラは後方から援護、\n心香とノエルはサイドから崩しにかかって！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/4"
+            ],
+            "Speakers": [
+              7
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "#VALUE!"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "127101",
+            "AnimationType": 0,
+            "X": -217500,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 1,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              217500,
+              217500
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "AnimationType": 0,
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit4": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 650000,
+            "Y": 120000,
+            "Scale": 800
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "#VALUE!"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "先頭はあたしが抑える！　ラウラは後方から援護、\n心香とノエルはサイドから崩しにかかって！",
+      "voice": "10070701/4",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "わかった。ノエル、左前方の高台なら、死角から効率的に狙えそうよ。",
+            "SpeakerName": "心香",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/5"
+            ],
+            "Speakers": [
+              6
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "127101",
+            "AnimationType": 0,
+            "X": -217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 300,
+            "MovePathXs": [
+              -217500,
+              -217500
+            ],
+            "MovePathYs": [
+              90000,
+              120000
+            ],
+            "MovePathDuration": 800
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "AnimationType": 0,
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800
+          },
+          "Cockpit4": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 650000,
+            "Y": 120000,
+            "Scale": 800
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "心香",
+      "text": "わかった。ノエル、左前方の高台なら、死角から効率的に狙えそうよ。",
+      "voice": "10070701/5",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "やったぁ！　じゃあそこもらうね！　よ～っし、やるぞ～！",
+            "SpeakerName": "ノエル",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/6"
+            ],
+            "Speakers": [
+              9
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "127101",
+            "X": -217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              -217500
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathYs": [
+              120000
+            ]
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "AnimationType": 0,
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0
+          },
+          "Cockpit4": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 650000,
+            "Y": 120000,
+            "Scale": 800,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-9"
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ノエル",
+      "text": "やったぁ！　じゃあそこもらうね！　よ～っし、やるぞ～！",
+      "voice": "10070701/6",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ジュリーちゃん、危なくなったらお姉ちゃんが守るから！\n安心して戦ってね……！",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/7"
+            ],
+            "Speakers": [
+              8
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016",
+            "SoundEffect": "spark"
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "AnimationType": 0,
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0
+          },
+          "Cockpit4": {
+            "AssetId": "128101",
+            "X": 650000,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              650000
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-10"
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "ジュリーちゃん、危なくなったらお姉ちゃんが守るから！\n安心して戦ってね……！",
+      "voice": "10070701/7",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ジュリーの指示どおりバランスよく配置された面々が、\nそれぞれの役割をこなしていく。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit2": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": 217500,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 800,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0
+          },
+          "Cockpit3": {
+            "AssetId": "126101",
+            "X": -650000,
+            "Y": 120000,
+            "Scale": 800,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              -650000
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ジュリーの指示どおりバランスよく配置された面々が、\nそれぞれの役割をこなしていく。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10016",
+            "ScreenAssetIds": [
+              "ADV_Hit2"
+            ],
+            "SoundEffect": "burst"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10016",
+          "ScreenAssetIds": [
+            "ADV_Hit2"
+          ],
+          "SoundEffect": "burst"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "soundEffect",
+      "cue": "burst",
+      "tag": "frame-12"
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ノエルは要所に火力を集中し敵の意識を分散させ、\nジュリーへのヘイトを散らしている。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "ColorType": 1,
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "128101",
+            "AnimationType": 1,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "ColorType": 1,
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ノエルは要所に火力を集中し敵の意識を分散させ、\nジュリーへのヘイトを散らしている。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10016",
+            "ScreenAssetIds": [
+              "ADV_ShockWave"
+            ],
+            "SoundEffect": "block"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10016",
+          "ScreenAssetIds": [
+            "ADV_ShockWave"
+          ],
+          "SoundEffect": "block"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 42,
+      "type": "soundEffect",
+      "cue": "block",
+      "tag": "frame-14"
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ラウラは的確な援護で他の機への被害を防ぎ、\n心香が戦況分析と情報伝達を冷静に行い、統率のとれた動きを作り出す。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "ColorType": 1,
+            "BgmAssetId": "10016"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "126101",
+            "AnimationType": 1,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "ColorType": 1,
+          "BgmAssetId": "10016"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ラウラは的確な援護で他の機への被害を防ぎ、\n心香が戦況分析と情報伝達を冷静に行い、統率のとれた動きを作り出す。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "見違えたな……あいつらも相当本気で訓練したみたいだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 48,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "見違えたな……あいつらも相当本気で訓練したみたいだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "会長の言っていた陰謀……ボンクラを送り込み、\n指導を失敗させる目論見だったか。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "会長の言っていた陰謀……ボンクラを送り込み、\n指導を失敗させる目論見だったか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなものが成就するとは思えない。\n少なくとも、この光景の前では。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そんなものが成就するとは思えない。\n少なくとも、この光景の前では。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……よくやったな、みんな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10016"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10016"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……よくやったな、みんな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺がそう呟いたとき──\nＭＧのセンサーが、新たな反応を検出した。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "SoundEffect": "device_beep"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "SoundEffect": "device_beep"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 59,
+      "type": "soundEffect",
+      "cue": "device_beep",
+      "tag": "frame-20"
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺がそう呟いたとき──\nＭＧのセンサーが、新たな反応を検出した。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "敵増援を確認。あの子達の戦力だけでは対処困難。",
+            "SpeakerName": "白奈",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/8"
+            ],
+            "Speakers": [
+              9
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10012"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character5": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 653
+          },
+          "Cockpit2": {
+            "AssetId": "101301",
+            "AnimationType": 0,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 653
+          },
+          "Cockpit3": {
+            "AssetId": "103301",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 653
+          },
+          "Cockpit4": {
+            "AssetId": "104301",
+            "AnimationType": 0,
+            "X": 720000,
+            "Y": 120000,
+            "Scale": 653
+          },
+          "Cockpit5": {
+            "AssetId": "102301",
+            "AnimationType": 0,
+            "X": -720000,
+            "Y": 120000,
+            "Scale": 653
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10012"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 63,
+      "type": "bgmStop"
+    },
+    {
+      "line": 64,
+      "type": "bgmPlay",
+      "cue": "10012"
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 66,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "白奈",
+      "text": "敵増援を確認。あの子達の戦力だけでは対処困難。",
+      "voice": "10070701/8",
+      "layout": "",
+      "sourceFrameOrder": 21
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "では、わたくし達の出番ですわね。準備はよろしくて？",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/9"
+            ],
+            "Speakers": [
+              7
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10012"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character5": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 653
+          },
+          "Cockpit2": {
+            "AssetId": "101301",
+            "AnimationType": 0,
+            "X": 0,
+            "Y": 120000,
+            "Scale": 653,
+            "HasMove": 1,
+            "MoveScale": 653,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              90000,
+              120000
+            ],
+            "MovePathDuration": 800
+          },
+          "Cockpit3": {
+            "AssetId": "103301",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 653
+          },
+          "Cockpit4": {
+            "AssetId": "104301",
+            "AnimationType": 0,
+            "X": 720000,
+            "Y": 120000,
+            "Scale": 653
+          },
+          "Cockpit5": {
+            "AssetId": "102301",
+            "AnimationType": 0,
+            "X": -720000,
+            "Y": 120000,
+            "Scale": 653
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10012"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 69,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "では、わたくし達の出番ですわね。準備はよろしくて？",
+      "voice": "10070701/9",
+      "layout": "",
+      "sourceFrameOrder": 22
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "七彩の号令と共に飛び出すシリウスシュガー隊。\nその戦いも、以前より洗練されている。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10012",
+            "SoundEffect": "march_robot"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character3": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character4": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character5": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 653,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              -360000
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          },
+          "Cockpit2": {
+            "AssetId": "101301",
+            "X": 0,
+            "Y": 120000,
+            "Scale": 653,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          },
+          "Cockpit3": {
+            "AssetId": "103301",
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 653,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              360000
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          },
+          "Cockpit4": {
+            "AssetId": "104301",
+            "X": 720000,
+            "Y": 120000,
+            "Scale": 653,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              720000
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          },
+          "Cockpit5": {
+            "AssetId": "102301",
+            "X": -720000,
+            "Y": 120000,
+            "Scale": 653,
+            "HasMove": 1,
+            "MoveScale": 0,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              -720000
+            ],
+            "MovePathYs": [
+              120000
+            ]
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10012",
+          "SoundEffect": "march_robot"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 71,
+      "type": "soundEffect",
+      "cue": "march_robot",
+      "tag": "frame-23"
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "七彩の号令と共に飛び出すシリウスシュガー隊。\nその戦いも、以前より洗練されている。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10012",
+            "ScreenAssetIds": [
+              "ADV_ShockWave"
+            ],
+            "SoundEffect": "block"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10012",
+          "ScreenAssetIds": [
+            "ADV_ShockWave"
+          ],
+          "SoundEffect": "block"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 75,
+      "type": "soundEffect",
+      "cue": "block",
+      "tag": "frame-24"
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10012",
+            "ScreenAssetIds": [
+              "ADV_Slash3"
+            ],
+            "SoundEffect": "clash"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10012",
+          "ScreenAssetIds": [
+            "ADV_Slash3"
+          ],
+          "SoundEffect": "clash"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 77,
+      "type": "soundEffect",
+      "cue": "clash",
+      "tag": "frame-25"
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "めるも言っていたが、人に教えることで、自らを見直す──\n自らの学びを言語化し、再構築する。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "ColorType": 1,
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "ColorType": 1,
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 79,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 80,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "めるも言っていたが、人に教えることで、自らを見直す──\n自らの学びを言語化し、再構築する。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26
+    },
+    {
+      "line": 81,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それを行うことで、彼女達もまた、\nプレ・クラス－Ａから教わることがあったのだろう。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 82,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 83,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "それを行うことで、彼女達もまた、\nプレ・クラス－Ａから教わることがあったのだろう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27
+    },
+    {
+      "line": 84,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いい調子だ……これならまたきっと、\n一緒に<r=プライマル・ベルト>原生帯</r>の新ルートに向かえるはずだ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 85,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 86,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いい調子だ……これならまたきっと、\n一緒に原生帯の新ルートに向かえるはずだ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28
+    },
+    {
+      "line": 87,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう考えた瞬間だった。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう考えた瞬間だった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "FadeWaitDurationBefore": 100,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 100,
+            "SoundEffect": "device_beep"
+          },
+          "Camera": {
+            "ShakeStrength": 100
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "FadeWaitDurationBefore": 100,
+          "ShakeAxisFlags": 1,
+          "ShakeStrength": 100,
+          "SoundEffect": "device_beep"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 91,
+      "type": "bgmStop"
+    },
+    {
+      "line": 92,
+      "type": "bgmPlay",
+      "cue": "10013"
+    },
+    {
+      "line": 93,
+      "type": "soundEffect",
+      "cue": "device_beep",
+      "tag": "frame-30"
+    },
+    {
+      "line": 94,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺の機体のとあるレーダーのひとつに、不審な金属反応が一瞬だけ写る。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 96,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺の機体のとあるレーダーのひとつに、不審な金属反応が一瞬だけ写る。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 32,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "このレーダーはＭＧ競技や人工構造物の探知が主で、\nメイズ内で使われることは滅多にない。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 98,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 99,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "このレーダーはＭＧ競技や人工構造物の探知が主で、\nメイズ内で使われることは滅多にない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 32
+    },
+    {
+      "line": 100,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 33,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "だが……確かに反応があった。\n金属の飛行体が、メイズ内に？　誤検知だろうか……"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 101,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 102,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "だが……確かに反応があった。\n金属の飛行体が、メイズ内に？　誤検知だろうか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 33
+    },
+    {
+      "line": 103,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 34,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん！！\nなんだか、敵の様子が……おかしいです！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/10"
+            ],
+            "Speakers": [
+              6
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 6
+          },
+          "Cockpit2": {
+            "AssetId": "102301",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 104,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-34"
+    },
+    {
+      "line": 105,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 106,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "める",
+      "text": "<user>さん！！\nなんだか、敵の様子が……おかしいです！",
+      "voice": "10070701/10",
+      "layout": "",
+      "sourceFrameOrder": 34
+    },
+    {
+      "line": 107,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 35,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まっすぐこっちに突っ込んできます！！",
+            "SpeakerName": "める",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/11"
+            ],
+            "Speakers": [
+              6
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "FadeWaitDurationBefore": 100,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 100
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 2,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 300,
+            "MovePathXs": [
+              -360000
+            ],
+            "MovePathYs": [
+              120000
+            ],
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 2000,
+            "ShakeOnce": 1
+          },
+          "Cockpit2": {
+            "AssetId": "102301",
+            "AnimationType": 2,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Camera": {
+            "ShakeStrength": 100
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "FadeWaitDurationBefore": 100,
+          "ShakeAxisFlags": 1,
+          "ShakeStrength": 100
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 108,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 109,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "める",
+      "text": "まっすぐこっちに突っ込んできます！！",
+      "voice": "10070701/11",
+      "layout": "",
+      "sourceFrameOrder": 35
+    },
+    {
+      "line": 110,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 36,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんだ……！？　陣形保て！　不慮の事態に備えるんだ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "SoundEffect": "growl_enemy"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 3,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "102301",
+            "AnimationType": 3,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "SoundEffect": "growl_enemy"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 111,
+      "type": "soundEffect",
+      "cue": "growl_enemy",
+      "tag": "frame-36"
+    },
+    {
+      "line": 112,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 113,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なんだ……！？　陣形保て！　不慮の事態に備えるんだ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 36
+    },
+    {
+      "line": 114,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 37,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "止まんないっ……まずいよ！　防衛ラインが突破された！\nあの子達の方に行く！",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/12"
+            ],
+            "Speakers": [
+              7
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 3,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "102301",
+            "AnimationType": 3,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              360000
+            ],
+            "MovePathYs": [
+              120000
+            ],
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 2000,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 115,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-37"
+    },
+    {
+      "line": 116,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 117,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "止まんないっ……まずいよ！　防衛ラインが突破された！\nあの子達の方に行く！",
+      "voice": "10070701/12",
+      "layout": "",
+      "sourceFrameOrder": 37
+    },
+    {
+      "line": 118,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 38,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "突破したメイズシフターがプレ・クラス－Ａ組へ猛進する。\nだが──彼女達には目もくれず、そのまま駆け抜けていった。",
+            "NeedsHideText": 1
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "FadeType": 2,
+            "FadeInDuration": 750,
+            "FadeWaitDuration": 150,
+            "FadeOutDuration": 1500,
+            "FadeTiming": 0
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "FadeType": 2,
+          "FadeInDuration": 750,
+          "FadeWaitDuration": 150,
+          "FadeOutDuration": 1500,
+          "FadeTiming": 0
+        },
+        "characters": [],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 119,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 120,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "突破したメイズシフターがプレ・クラス－Ａ組へ猛進する。\nだが──彼女達には目もくれず、そのまま駆け抜けていった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 38
+    },
+    {
+      "line": 121,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 39,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "な、なんなの……？",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/13"
+            ],
+            "Speakers": [
+              6
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 300,
+            "MovePathXs": [
+              -360000,
+              -360000
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          },
+          "Cockpit2": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 122,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-39"
+    },
+    {
+      "line": 123,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 124,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "な、なんなの……？",
+      "voice": "10070701/13",
+      "layout": "",
+      "sourceFrameOrder": 39
+    },
+    {
+      "line": 125,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 40,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "何かが変だ。あの様子、まるで……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 126,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 127,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "何かが変だ。あの様子、まるで……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 40
+    },
+    {
+      "line": 128,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 41,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まるで、何かから逃げてるようじゃないか。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "125101",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "128101",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 129,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 130,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "まるで、何かから逃げてるようじゃないか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 41
+    },
+    {
+      "line": 131,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 42,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "FadeWaitDurationBefore": 100,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 100,
+            "SoundEffect": "rumble"
+          },
+          "Camera": {
+            "ShakeStrength": 100
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "FadeWaitDurationBefore": 100,
+          "ShakeAxisFlags": 1,
+          "ShakeStrength": 100,
+          "SoundEffect": "rumble"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 132,
+      "type": "soundEffect",
+      "cue": "rumble",
+      "tag": "frame-42"
+    },
+    {
+      "line": 133,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 43,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 134,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 135,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 43
+    },
+    {
+      "line": 136,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 44,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "振動センサーに感あり！\nでもこんなの、<r=ケイブ・ベルト>地穴帯</r>で観測されるレベルじゃ……",
+            "SpeakerName": "ちゆる",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/14"
+            ],
+            "Speakers": [
+              7
+            ]
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "102301",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              360000,
+              360000
+            ],
+            "MovePathYs": [
+              170000,
+              120000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 137,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-44"
+    },
+    {
+      "line": 138,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 139,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ちゆる",
+      "text": "振動センサーに感あり！\nでもこんなの、地穴帯で観測されるレベルじゃ……",
+      "voice": "10070701/14",
+      "layout": "",
+      "sourceFrameOrder": 44
+    },
+    {
+      "line": 140,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 45,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "答えはすぐに出た。"
+          },
+          "Background": {
+            "AssetId": "60020",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "100301",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "102301",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "60020",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 141,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 142,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "答えはすぐに出た。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 45
+    },
+    {
+      "line": 143,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 46,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ドリフトからゆっくりと姿を現したのは、\n見たこともないような──巨影だった。",
+            "NeedsHideText": 1
+          },
+          "Background": {
+            "AssetId": "380",
+            "ColorType": 1,
+            "BgmAssetId": "20002",
+            "FadeType": 2,
+            "FadeInDuration": 500,
+            "FadeWaitDuration": 100,
+            "FadeOutDuration": 1000,
+            "FadeTiming": 0,
+            "X": 0,
+            "Y": -250000,
+            "Scale": 2000
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "ColorType": 1,
+          "BgmAssetId": "20002",
+          "FadeType": 2,
+          "FadeInDuration": 500,
+          "FadeWaitDuration": 100,
+          "FadeOutDuration": 1000,
+          "FadeTiming": 0,
+          "X": 0,
+          "Y": -250000,
+          "Scale": 2000
+        },
+        "characters": [],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 144,
+      "type": "bgmStop"
+    },
+    {
+      "line": 145,
+      "type": "bgmPlay",
+      "cue": "20002"
+    },
+    {
+      "line": 146,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 147,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ドリフトからゆっくりと姿を現したのは、\n見たこともないような──巨影だった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 46
+    },
+    {
+      "line": 148,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 47,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひっ……",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/15"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002",
+            "X": 0,
+            "Y": -250000,
+            "Scale": 2000,
+            "HasMove": 1,
+            "MoveX": 0,
+            "MoveY": 0,
+            "MoveDuration": 900,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002",
+          "X": 0,
+          "Y": -250000,
+          "Scale": 2000,
+          "HasMove": 1,
+          "MoveX": 0,
+          "MoveY": 0,
+          "MoveDuration": 900,
+          "MoveScale": 1000,
+          "MoveScaleDuration": 900
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 149,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 150,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "ひっ……",
+      "voice": "10070701/15",
+      "layout": "",
+      "sourceFrameOrder": 47
+    },
+    {
+      "line": 151,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 48,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "──全機、即時退却っ！！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002",
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002",
+          "Scale": 1000
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 152,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 153,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "──全機、即時退却っ！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 48
+    },
+    {
+      "line": 154,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 49,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺の言葉の直後に、メイズシフターがその巨体を震わせ、\nメイズ全域に響くような咆哮を上げた。"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 155,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 156,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺の言葉の直後に、メイズシフターがその巨体を震わせ、\nメイズ全域に響くような咆哮を上げた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 49
+    },
+    {
+      "line": 157,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 50,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "弾かれるように、その場にいた全員が\n退却を始める。それでいい、今はあいつに敵わない──！"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 158,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 159,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "弾かれるように、その場にいた全員が\n退却を始める。それでいい、今はあいつに敵わない──！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 50
+    },
+    {
+      "line": 160,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 51,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょ……ラウラぁ！！\n何してんの、逃げなさいってばぁ！！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "10070701/16"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 161,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 162,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "ちょ……ラウラぁ！！\n何してんの、逃げなさいってばぁ！！",
+      "voice": "10070701/16",
+      "layout": "",
+      "sourceFrameOrder": 51
+    },
+    {
+      "line": 163,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 52,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ……ぁ……！！",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/17"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 164,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 165,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "あ……ぁ……！！",
+      "voice": "10070701/17",
+      "layout": "",
+      "sourceFrameOrder": 52
+    },
+    {
+      "line": 166,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 53,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "しまった！　ラウラは人一倍、恐怖心が強い。\n克服する努力はしたとはいえ、完全ではない。"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 167,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 168,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "しまった！　ラウラは人一倍、恐怖心が強い。\n克服する努力はしたとはいえ、完全ではない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 53
+    },
+    {
+      "line": 169,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 54,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "380",
+            "ColorType": 1,
+            "BgmAssetId": "20002",
+            "SoundEffect": "growl_enemy"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "ColorType": 1,
+          "BgmAssetId": "20002",
+          "SoundEffect": "growl_enemy"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 170,
+      "type": "soundEffect",
+      "cue": "growl_enemy",
+      "tag": "frame-54"
+    },
+    {
+      "line": 171,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 55,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "こんな事態に見舞われた不運。\nそれがラウラが逃げるのを一歩遅らせた。"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 172,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 173,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "こんな事態に見舞われた不運。\nそれがラウラが逃げるのを一歩遅らせた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 55
+    },
+    {
+      "line": 174,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 56,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "20002",
+            "ScreenAssetIds": [
+              "ADV_Hit3"
+            ],
+            "SoundEffect": "cannon"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "20002",
+          "ScreenAssetIds": [
+            "ADV_Hit3"
+          ],
+          "SoundEffect": "cannon"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 175,
+      "type": "soundEffect",
+      "cue": "cannon",
+      "tag": "frame-56"
+    },
+    {
+      "line": 176,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 57,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "20002",
+            "ScreenAssetIds": [
+              "ADV_Spark"
+            ],
+            "SoundEffect": "bomb"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "20002",
+          "ScreenAssetIds": [
+            "ADV_Spark"
+          ],
+          "SoundEffect": "bomb"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 177,
+      "type": "soundEffect",
+      "cue": "bomb",
+      "tag": "frame-57"
+    },
+    {
+      "line": 178,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 58,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "きゃぁあああっ！！",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/18"
+            ],
+            "Speakers": [
+              1
+            ],
+            "TextSize": 1
+          },
+          "Background": {
+            "AssetId": "380",
+            "ColorType": 1,
+            "BgmAssetId": "20002",
+            "FadeWaitDurationBefore": 100,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 100
+          },
+          "Camera": {
+            "ShakeStrength": 100
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "ColorType": 1,
+          "BgmAssetId": "20002",
+          "FadeWaitDurationBefore": 100,
+          "ShakeAxisFlags": 1,
+          "ShakeStrength": 100
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 179,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 180,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "きゃぁあああっ！！",
+      "voice": "10070701/18",
+      "layout": "",
+      "sourceFrameOrder": 58
+    },
+    {
+      "line": 181,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 59,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "メイズシフターの一撃が振るわれる。\nラウラの機体は、いともたやすく吹き飛ばされた。"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 182,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 183,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "メイズシフターの一撃が振るわれる。\nラウラの機体は、いともたやすく吹き飛ばされた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 59
+    },
+    {
+      "line": 184,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 60,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ラウラ！！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "TextSize": 1
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002",
+            "FadeWaitDurationBefore": 200,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 200
+          },
+          "Camera": {
+            "ShakeStrength": 200
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002",
+          "FadeWaitDurationBefore": 200,
+          "ShakeAxisFlags": 1,
+          "ShakeStrength": 200
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 185,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 186,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ラウラ！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 60
+    },
+    {
+      "line": 187,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 61,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "っはあ、はあ、大丈夫……！？",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/19"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 188,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 189,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "っはあ、はあ、大丈夫……！？",
+      "voice": "10070701/19",
+      "layout": "",
+      "sourceFrameOrder": 61
+    },
+    {
+      "line": 190,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 62,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、あれ、跳べないっ！？　どうして！？",
+            "SpeakerName": "ラウラ",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "10070701/20"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 191,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 192,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ラウラ",
+      "text": "あ、あれ、跳べないっ！？　どうして！？",
+      "voice": "10070701/20",
+      "layout": "",
+      "sourceFrameOrder": 62
+    },
+    {
+      "line": 193,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 63,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "跳躍ユニットが破壊されている！\nあれでは逃げるのは困難だ。"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 194,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 195,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "跳躍ユニットが破壊されている！\nあれでは逃げるのは困難だ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 63
+    },
+    {
+      "line": 196,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 64,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "だが……見捨てるわけにいくか！\n仲間が死ぬなんて、まっぴらゴメンだ！"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002"
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 197,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 198,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "だが……見捨てるわけにいくか！\n仲間が死ぬなんて、まっぴらゴメンだ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 64
+    },
+    {
+      "line": 199,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 65,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "全機反転！　戦闘態勢を取れ！\nラウラの撤退を援護する！！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002",
+            "FadeWaitDurationBefore": 100,
+            "X": 0,
+            "Y": 500000,
+            "Scale": 2000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 100
+          },
+          "Camera": {
+            "ShakeStrength": 100
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002",
+          "FadeWaitDurationBefore": 100,
+          "X": 0,
+          "Y": 500000,
+          "Scale": 2000,
+          "ShakeAxisFlags": 1,
+          "ShakeStrength": 100
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 200,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 201,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "全機反転！　戦闘態勢を取れ！\nラウラの撤退を援護する！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 65
+    },
+    {
+      "line": 202,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 66,
+        "sceneId": 10070701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "腹をくくった俺達に、\nメイズシフターはまた大きな咆哮を返した。"
+          },
+          "Background": {
+            "AssetId": "380",
+            "BgmAssetId": "20002",
+            "FadeWaitDurationBefore": 200,
+            "X": 0,
+            "Y": -250000,
+            "Scale": 2000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 200,
+            "SoundEffect": "growl_enemy"
+          },
+          "Camera": {
+            "ShakeStrength": 200
+          }
+        },
+        "background": {
+          "AssetId": "380",
+          "BgmAssetId": "20002",
+          "FadeWaitDurationBefore": 200,
+          "X": 0,
+          "Y": -250000,
+          "Scale": 2000,
+          "ShakeAxisFlags": 1,
+          "ShakeStrength": 200,
+          "SoundEffect": "growl_enemy"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 203,
+      "type": "soundEffect",
+      "cue": "growl_enemy",
+      "tag": "frame-66"
+    },
+    {
+      "line": 204,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 205,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "腹をくくった俺達に、\nメイズシフターはまた大きな咆哮を返した。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 66
+    },
+    {
+      "line": 206,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 66,
+    "branchGraph": {
+      "occurrences": 0,
+      "branchMasterIds": [],
+      "uniqueBranchMasterIds": []
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

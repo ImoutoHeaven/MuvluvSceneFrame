@@ -1,0 +1,1941 @@
+{
+  "id": "30050101",
+  "title": "緊急招集",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "30050101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-50012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-50012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-50012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-50012.png",
+      "backgrounds": {
+        "50012": "../../assets/muvluv/backgrounds/background-50012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10013": "../../assets/muvluv/audio/bgm/10013.ogg"
+        },
+        "voice": {
+          "cn10002/Amazed": "../../assets/muvluv/audio/voice/facea472989a6e64ca38a55b173740a3.ogg",
+          "cn10001/Smile": "../../assets/muvluv/audio/voice/895601782badd284aaa267a2e65c98e1.ogg",
+          "cn10001/Amazed": "../../assets/muvluv/audio/voice/63e9b938b01530c419554ee5d1bf168a.ogg",
+          "cn10001/Surprised": "../../assets/muvluv/audio/voice/62e1951c15659994fb944d35e891a6e2.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "n10002": {
+          "key": "n10002",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n10002/n10002.json",
+          "atlas": "../../assets/muvluv/spine/n10002/n10002.atlas",
+          "textureBase": "../../assets/muvluv/spine/n10002/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "n10001": {
+          "key": "n10001",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n10001/n10001.json",
+          "atlas": "../../assets/muvluv/spine/n10001/n10001.atlas",
+          "textureBase": "../../assets/muvluv/spine/n10001/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "ColorType": 1,
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "ColorType": 1,
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10013"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いきなり生徒会長からの呼び出しか……\nいったい何の用事だ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いきなり生徒会長からの呼び出しか……\nいったい何の用事だ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "すみません、急に呼び出してしまって。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "VoiceAssetIds": [
+              "cn10002/Amazed"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "すみません、急に呼び出してしまって。",
+      "voice": "cn10002/Amazed",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どうしたんだ？　なんか慌ててるみたいだが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どうしたんだ？　なんか慌ててるみたいだが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "時間がないため詳しくは説明できません。\n端的にいえば、メイズにて大規模異常が観測されました。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "時間がないため詳しくは説明できません。\n端的にいえば、メイズにて大規模異常が観測されました。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "取り急ぎ、貴方には異常発生場所付近の想定座標をお送りします。\n緊急対応として、確認のためすぐさま現地へ向かってください。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "VoiceAssetIds": [
+              "cn10002/Amazed"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "取り急ぎ、貴方には異常発生場所付近の想定座標をお送りします。\n緊急対応として、確認のためすぐさま現地へ向かってください。",
+      "voice": "cn10002/Amazed",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "では、私は私で対応がありますので、これで失礼いたします。",
+            "SpeakerName": "神楽",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "神楽",
+      "text": "では、私は私で対応がありますので、これで失礼いたします。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なんなんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10002",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10002",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……なんなんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ピコピコピーン！　それについては、ボクが前に集めた\n情報ストックの中に、これかもってのがありそうです！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "cn10001/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-9"
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "ピコピコピーン！　それについては、ボクが前に集めた\n情報ストックの中に、これかもってのがありそうです！",
+      "voice": "cn10001/Smile",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやぁ、前に暇すぎて１日をだらだらとネットサーフィンで\n潰したかいがありましたね！",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "いやぁ、前に暇すぎて１日をだらだらとネットサーフィンで\n潰したかいがありましたね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おお、でかした！\nなんか言ってることが、ニートのそれっぽいが！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おお、でかした！\nなんか言ってることが、ニートのそれっぽいが！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "一言多くありません！？\nと、とりあえず、今要約して共有しますね！",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 36,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-12"
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "一言多くありません！？\nと、とりあえず、今要約して共有しますね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えーっと、えっと……現在詳しい事はまだ判明していませんが、\nメイズでは時折想定外の異常現象が発生することがあります。",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ],
+            "TextSpeed": 4
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "えーっと、えっと……現在詳しい事はまだ判明していませんが、\nメイズでは時折想定外の異常現象が発生することがあります。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "その中のひとつが、『異世界からやってきた』とされる人物の存在。\n極稀に発見・保護されたという報告がありますね。",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ],
+            "TextSpeed": 4
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "その中のひとつが、『異世界からやってきた』とされる人物の存在。\n極稀に発見・保護されたという報告がありますね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、大半はメイズシンドロームによる\n混乱や妄想の類というオチなんですけど……",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ],
+            "TextSpeed": 4
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "まあ、大半はメイズシンドロームによる\n混乱や妄想の類というオチなんですけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それで……あれ？　なんだっけ？",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "cn10001/Amazed"
+            ],
+            "Speakers": [
+              1
+            ],
+            "TextSpeed": 4
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 49,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-16"
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 51,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "それで……あれ？　なんだっけ？",
+      "voice": "cn10001/Amazed",
+      "layout": "",
+      "sourceFrameOrder": 16
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おい。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "だ、大丈夫ですよ！　ボクの超スーパー処理能力が、\r\n失われし情報を見事抽出してみせます！",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 56,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-18"
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "だ、大丈夫ですよ！　ボクの超スーパー処理能力が、\n失われし情報を見事抽出してみせます！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（つまり、ド忘れしたんだな）\r",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（つまり、ド忘れしたんだな）\n",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、思い出し――抽出完了です！！",
+            "SpeakerName": "ピコ",
+            "VoiceAssetIds": [
+              "cn10001/Surprised"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 63,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-20"
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 65,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "あ、思い出し――抽出完了です！！",
+      "voice": "cn10001/Surprised",
+      "layout": "",
+      "sourceFrameOrder": 20
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それで……中にはザルトゥームにはない知識を有していたり、\n身体検査の数値が異常値を見せていたーなんてことがあるそうです！",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "それで……中にはザルトゥームにはない知識を有していたり、\n身体検査の数値が異常値を見せていたーなんてことがあるそうです！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "このことからメイズは時折異なる世界と繋がるのでは\r\nという説も一部では提唱されていて――",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "このことからメイズは時折異なる世界と繋がるのでは\nという説も一部では提唱されていて――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええい！　長い、３行！　いや、１行！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ええい！　長い、３行！　いや、１行！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんかヤバい事が起きてるってことです！\r",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 76,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-24"
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 78,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "なんかヤバい事が起きてるってことです！\n",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "了解した！\nさっそく指定の座標に向かうぞ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "了解した！\nさっそく指定の座標に向かうぞ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 30050101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "せっかくのボクの出番が、すごく雑に片付けられた……",
+            "SpeakerName": "ピコ",
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "50012",
+            "BgmAssetId": "10013",
+            "FadeOutDuration": 0,
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "50012",
+          "BgmAssetId": "10013",
+          "FadeOutDuration": 0,
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "n10001",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 83,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-26"
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 85,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ピコ",
+      "text": "せっかくのボクの出番が、すごく雑に片付けられた……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26
+    },
+    {
+      "line": 86,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 26,
+    "branchGraph": {
+      "occurrences": 0,
+      "branchMasterIds": [],
+      "uniqueBranchMasterIds": []
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "id": "61011601",
+  "title": "ターニングポイント",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61011601",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30092.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30092.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30092.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30092.png",
+      "backgrounds": {
+        "30092": "../../assets/muvluv/backgrounds/background-30092.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c129301/Confused": "../../assets/muvluv/audio/voice/7369bf7f3ac20704da0f1b36a575b13d.ogg",
+          "c129301/Panic": "../../assets/muvluv/audio/voice/505bf8da9fb146d4bbf2d71adb75ca22.ogg",
+          "c129301/Surprised": "../../assets/muvluv/audio/voice/7d836bb060572344dbf61ecc7cf7e33e.ogg",
+          "c129301/ResponseGood": "../../assets/muvluv/audio/voice/d4812a36b87ba024ca2039a7b7773df1.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "129301s": {
+          "key": "129301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/129301s/129301s.json",
+          "atlas": "../../assets/muvluv/spine/129301s/129301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/129301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "キーンコーンカーンコーン"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "キーンコーンカーンコーン",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そこにいるのはリュシーか？\nひとり教室でぼんやりして、どうしたんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そこにいるのはリュシーか？\nひとり教室でぼんやりして、どうしたんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、あんたか……なんとなく、浸ってたんだ。\nずっとメイドとして生きていくと思ってたからさ。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "ああ、あんたか……なんとなく、浸ってたんだ。\nずっとメイドとして生きていくと思ってたからさ。",
+      "voice": "c129301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61011601,
+        "branchId": 6101161,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "こんな風に色んな経験を出来てるのも、\nお嬢のおかげだよなって思ってたんだ。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "こんな風に色んな経験を出来てるのも、\nお嬢のおかげだよなって思ってたんだ。",
+      "voice": "c129301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "choice",
+      "branchMasterId": 6101161,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61011611,
+          "text": "可愛いな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1293011
+        },
+        {
+          "id": 61011612,
+          "text": "カッコいいな",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1293012
+        }
+      ]
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011611,
+        "configuration": {
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 21,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 22,
+      "type": "bgvStop",
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011611,
+        "configuration": {
+          "Phrase": {
+            "Text": "リュシーが物思いにふけってるのはなんというか……\nギャップがあって可愛いな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "リュシーが物思いにふけってるのはなんというか……\nギャップがあって可愛いな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011611,
+        "configuration": {
+          "Phrase": {
+            "Text": "なっ！？　か、可愛いって……\nあ、ありがとうな。",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Panic"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 28,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "なっ！？　か、可愛いって……\nあ、ありがとうな。",
+      "voice": "c129301/Panic",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011611,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんな風に言われることなんてなかったら驚いた……",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Surprised"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 31,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "そんな風に言われることなんてなかったら驚いた……",
+      "voice": "c129301/Surprised",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011611,
+        "configuration": {
+          "Phrase": {
+            "Text": "顔が真っ赤になってるけど、大丈夫か？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "顔が真っ赤になってるけど、大丈夫か？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011611,
+        "configuration": {
+          "Phrase": {
+            "Text": "誰のせいだと思ってんだ！",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/Panic"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 36,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-12",
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 38,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "誰のせいだと思ってんだ！",
+      "voice": "c129301/Panic",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011611,
+        "configuration": {
+          "Phrase": {
+            "Text": "恥ずかしがるリュシーだが、\nそれでも嬉しそうにほほ笑むのだった。"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "恥ずかしがるリュシーだが、\nそれでも嬉しそうにほほ笑むのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011611
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011612,
+        "configuration": {
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 43,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 44,
+      "type": "bgvStop",
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011612,
+        "configuration": {
+          "Phrase": {
+            "Text": "色んな経験か……\nリュシーはカッコいいな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "色んな経験か……\nリュシーはカッコいいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011612,
+        "configuration": {
+          "Phrase": {
+            "Text": "はは。ありがとうな。\nでも、あたしも女だから誉め言葉としてどうなんだ？",
+            "SpeakerName": "リュシー",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c129301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 49,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-16",
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 51,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リュシー",
+      "text": "はは。ありがとうな。\nでも、あたしも女だから誉め言葉としてどうなんだ？",
+      "voice": "c129301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61011601,
+        "branchId": null,
+        "selectedBranchId": 61011612,
+        "configuration": {
+          "Phrase": {
+            "Text": "怒らせはしなかったものの、\nリュシーを苦笑させてしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "30092",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30092",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "129301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "怒らせはしなかったものの、\nリュシーを苦笑させてしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101161,
+      "branchSelectionId": 61011612
+    },
+    {
+      "line": 55,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 17,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101161
+      ],
+      "uniqueBranchMasterIds": [
+        6101161
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

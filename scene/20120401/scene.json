@@ -1,0 +1,5883 @@
+{
+  "id": "20120401",
+  "title": "ダークドラッグ再び",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "20120401",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-60080.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-60080.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-60080.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-60080.png",
+      "backgrounds": {
+        "60080": "../../assets/muvluv/backgrounds/background-60080.png",
+        "80012": "../../assets/muvluv/backgrounds/background-80012.png",
+        "60100": "../../assets/muvluv/backgrounds/background-60100.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10012": "../../assets/muvluv/audio/bgm/10012.ogg",
+          "10004": "../../assets/muvluv/audio/bgm/10004.ogg",
+          "10013": "../../assets/muvluv/audio/bgm/10013.ogg",
+          "10017": "../../assets/muvluv/audio/bgm/10017.ogg",
+          "10003": "../../assets/muvluv/audio/bgm/10003.ogg",
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg",
+          "10007": "../../assets/muvluv/audio/bgm/10007.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "hit": "../../assets/muvluv/audio/se/hit.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "shock": "../../assets/muvluv/audio/se/shock.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "n20003": {
+          "key": "n20003",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n20003/n20003.json",
+          "atlas": "../../assets/muvluv/spine/n20003/n20003.atlas",
+          "textureBase": "../../assets/muvluv/spine/n20003/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "n20015": {
+          "key": "n20015",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n20015/n20015.json",
+          "atlas": "../../assets/muvluv/spine/n20015/n20015.atlas",
+          "textureBase": "../../assets/muvluv/spine/n20015/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:110302": {
+          "key": "cockpit:110302",
+          "kind": "cockpit",
+          "sourceAssetId": "110302",
+          "resolvedAssetId": "110301",
+          "addressableKey": "SBCV/110301",
+          "skeleton": "../../assets/muvluv/cockpit/110302/110302.json",
+          "atlas": "../../assets/muvluv/cockpit/110302/110302.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/110302/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        },
+        "cockpit:n20011": {
+          "key": "cockpit:n20011",
+          "kind": "cockpit",
+          "sourceAssetId": "n20011",
+          "resolvedAssetId": "n20011",
+          "addressableKey": "SBCV/n20011",
+          "skeleton": "../../assets/muvluv/cockpit/n20011/n20011.json",
+          "atlas": "../../assets/muvluv/cockpit/n20011/n20011.atlas",
+          "textureBase": "../../assets/muvluv/cockpit/n20011/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": true,
+      "index": "../../assets/muvluv/screen_effects/index.json",
+      "effects": [
+        "ADV_Hit3"
+      ],
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "anchor": "Center"
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "ColorType": 1,
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "ColorType": 1,
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10012"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "一方、そのころ%usernameusernameuserna%は――"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "一方、そのころ<user>は――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（スタッフの動きが落ち着いてきたな。\nどうやら本当に俺が潜入していることは、気付かれてないみたいだ）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（スタッフの動きが落ち着いてきたな。\nどうやら本当に俺が潜入していることは、気付かれてないみたいだ）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（けど、ここからどうやってみんなを救うか……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（けど、ここからどうやってみんなを救うか……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひとり悩んでいると、その時、\n近くのテントから声が響いてきた。"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ひとり悩んでいると、その時、\n近くのテントから声が響いてきた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふざけないで！　これじゃ一文無しじゃない！\n私のお金返しなさいよー！！",
+            "SpeakerName": "？？？",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 17,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "？？？",
+      "text": "ふざけないで！　これじゃ一文無しじゃない！\n私のお金返しなさいよー！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 18,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "気になり、物陰から\n声がした方を覗くと……"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10012"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10012"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "気になり、物陰から\n声がした方を覗くと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ったく、負けた途端に騒ぎやがって！　他のお客様に迷惑でしょーが！\nほら、事務所はこっちだ！　とっとと歩け！",
+            "SpeakerName": "カジノスタッフ",
+            "TeamName": "ルドベキア・ファミリー",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10004"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          },
+          "Character2": {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10004"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          },
+          {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "bgmStop"
+    },
+    {
+      "line": 26,
+      "type": "bgmPlay",
+      "cue": "10004"
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "カジノスタッフ",
+      "text": "ったく、負けた途端に騒ぎやがって！　他のお客様に迷惑でしょーが！\nほら、事務所はこっちだ！　とっとと歩け！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "嫌よ！　離しなさい！　私はまだやれるんだから！\n返して！！　お金返してよー！",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10004"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              -2500,
+              -2500,
+              -2500,
+              -2500
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          },
+          "Character2": {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10004"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              -2500,
+              -2500,
+              -2500,
+              -2500
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          },
+          {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "嫌よ！　離しなさい！　私はまだやれるんだから！\n返して！！　お金返してよー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "な、なんか、どっかで見たことあるような……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10004"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10004"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "な、なんか、どっかで見たことあるような……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "確かあいつは――"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10004"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10004"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "確かあいつは――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ハードラック……！！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "TextSize": 1,
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10004"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10004"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ハードラック……！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（いや、なんかすごく惜しいけど、違う気がする……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10004"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10004"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（いや、なんかすごく惜しいけど、違う気がする……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ……！　『ダークドラッグ』だ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10004"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10004"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あ……！　『ダークドラッグ』だ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ダークドラッグは俺がカオスメイデンに誘拐され、\nアマツの温泉地に行ったときに出会ったやつだ。"
+          },
+          "Background": {
+            "AssetId": "60080"
+          }
+        },
+        "background": {
+          "AssetId": "60080"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ダークドラッグは俺がカオスメイデンに誘拐され、\nアマツの温泉地に行ったときに出会ったやつだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あんたって昔からそうだった！\n人の気持ちなんて何ひとつわかってない！",
+            "SpeakerName": "ダークドラッグ",
+            "NeedsHideText": 1,
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80012",
+            "ColorType": 1,
+            "BgmAssetId": "10013",
+            "FadeType": 1,
+            "FadeInDuration": 750,
+            "FadeWaitDuration": 150,
+            "FadeOutDuration": 1500,
+            "FadeTiming": 0
+          },
+          "HiddenCharacter": {
+            "AssetId": "n20003"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "110302",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "FadeInType": 1
+          },
+          "Cockpit2": {
+            "AssetId": "n20011",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleEase": 28,
+            "MoveScaleDuration": 0,
+            "MovePathXs": [
+              360000,
+              360000
+            ],
+            "MovePathYs": [
+              90000,
+              120000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "80012",
+          "ColorType": 1,
+          "BgmAssetId": "10013",
+          "FadeType": 1,
+          "FadeInDuration": 750,
+          "FadeWaitDuration": 150,
+          "FadeOutDuration": 1500,
+          "FadeTiming": 0
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 51,
+      "type": "bgmStop"
+    },
+    {
+      "line": 52,
+      "type": "bgmPlay",
+      "cue": "10013"
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "あんたって昔からそうだった！\n人の気持ちなんて何ひとつわかってない！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "絶対に叩き潰してやる……！\n私のすべてを賭けて！　どんな手を使ってでも！",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80012",
+            "BgmAssetId": "10013",
+            "SoundEffect": "rage"
+          },
+          "HiddenCharacter": {
+            "AssetId": "n20003"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "110302",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "n20011",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000,
+            "EmotionType": 3
+          }
+        },
+        "background": {
+          "AssetId": "80012",
+          "BgmAssetId": "10013",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 56,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-18"
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "絶対に叩き潰してやる……！\n私のすべてを賭けて！　どんな手を使ってでも！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "お前に、私を、認めさせてやるッ！！",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "80012",
+            "BgmAssetId": "10013"
+          },
+          "HiddenCharacter": {
+            "AssetId": "n20003"
+          },
+          "Character1": {
+            "X": 0,
+            "Y": 0
+          },
+          "Character2": {
+            "X": 0,
+            "Y": 0
+          },
+          "Cockpit1": {
+            "AssetId": "110302",
+            "AnimationType": 0,
+            "X": -360000,
+            "Y": 120000,
+            "Scale": 1000
+          },
+          "Cockpit2": {
+            "AssetId": "n20011",
+            "AnimationType": 0,
+            "X": 360000,
+            "Y": 120000,
+            "Scale": 1000
+          }
+        },
+        "background": {
+          "AssetId": "80012",
+          "BgmAssetId": "10013"
+        },
+        "characters": [
+          {
+            "X": 0,
+            "Y": 0
+          },
+          {
+            "X": 0,
+            "Y": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "お前に、私を、認めさせてやるッ！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "確かユリアと同じ『アカデミー』とかいう場所の\r\n出身だったと記憶している。",
+            "NeedsHideText": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "ColorType": 1,
+            "FadeType": 1,
+            "FadeInDuration": 500,
+            "FadeWaitDuration": 100,
+            "FadeOutDuration": 1000,
+            "FadeTiming": 0
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "ColorType": 1,
+          "FadeType": 1,
+          "FadeInDuration": 500,
+          "FadeWaitDuration": 100,
+          "FadeOutDuration": 1000,
+          "FadeTiming": 0
+        },
+        "characters": [],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "確かユリアと同じ『アカデミー』とかいう場所の\n出身だったと記憶している。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（あいつ、メイズ適性なかったんじゃ……？　盗んだ薬を勝手に\n増やしたり売ったりして、アマツ地区の警察に逮捕されたはずだ）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 66,
+      "type": "bgmStop"
+    },
+    {
+      "line": 67,
+      "type": "bgmPlay",
+      "cue": "10017"
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（あいつ、メイズ適性なかったんじゃ……？　盗んだ薬を勝手に\n増やしたり売ったりして、アマツ地区の警察に逮捕されたはずだ）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なぜこんなところに……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なぜこんなところに……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そこで『待てよ』と、俺はふと考える。\n今この状況なら利用できるかもしれない。"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そこで『待てよ』と、俺はふと考える。\n今この状況なら利用できるかもしれない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……犯罪者ではあるが。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 78,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……犯罪者ではあるが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（背に腹は代えられないし、\nここはひとつ賭けてみるか）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（背に腹は代えられないし、\nここはひとつ賭けてみるか）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ダークドラッグを引きずるスタッフの背後に、\n物陰に隠れながらこっそり近付くと――"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 83,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 84,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ダークドラッグを引きずるスタッフの背後に、\n物陰に隠れながらこっそり近付くと――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26
+    },
+    {
+      "line": 85,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……悪いな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 86,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 87,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……悪いな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27
+    },
+    {
+      "line": 88,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "ColorType": 1,
+            "BgmAssetId": "10017",
+            "ScreenAssetIds": [
+              "ADV_Hit3"
+            ],
+            "SoundEffect": "hit"
+          }
+        },
+        "background": {
+          "ColorType": 1,
+          "BgmAssetId": "10017",
+          "ScreenAssetIds": [
+            "ADV_Hit3"
+          ],
+          "SoundEffect": "hit"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 89,
+      "type": "soundEffect",
+      "cue": "hit",
+      "tag": "frame-28"
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うぐぅっ！？",
+            "SpeakerName": "カジノスタッフ",
+            "TeamName": "ルドベキア・ファミリー",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "ColorType": 1,
+            "BgmAssetId": "10017"
+          },
+          "Character3": {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "ColorType": 1,
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 91,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 92,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "カジノスタッフ",
+      "text": "うぐぅっ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29
+    },
+    {
+      "line": 93,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "手刀で気絶させたスタッフを、そのまま物陰へと隠す。"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017"
+          },
+          "Character3": {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -21000
+            ],
+            "MovePathDuration": 600
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n20015",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -21000
+            ],
+            "MovePathDuration": 600
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 94,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 95,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "手刀で気絶させたスタッフを、そのまま物陰へと隠す。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30
+    },
+    {
+      "line": 96,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっ、あんたはユリアの男！！",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10017",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "FadeInType": 1
+          },
+          "Character3": {
+            "X": 0,
+            "Y": -21000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10017",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "FadeInType": 1
+          },
+          {
+            "X": 0,
+            "Y": -21000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 97,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-31"
+    },
+    {
+      "line": 98,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 99,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "あっ、あんたはユリアの男！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31
+    },
+    {
+      "line": 100,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 32,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "久しぶりだな、ハードラック。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 101,
+      "type": "bgmStop"
+    },
+    {
+      "line": 102,
+      "type": "bgmPlay",
+      "cue": "10003"
+    },
+    {
+      "line": 103,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 104,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "久しぶりだな、ハードラック。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 32
+    },
+    {
+      "line": 105,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 33,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ダークドラッグよ！　って、その名前はもう――",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 106,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-33"
+    },
+    {
+      "line": 107,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 108,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ダークドラッグよ！　って、その名前はもう――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 33
+    },
+    {
+      "line": 109,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 34,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、面倒くさいから、ダークドラッグでいいよ、もう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 110,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 111,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、面倒くさいから、ダークドラッグでいいよ、もう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 34
+    },
+    {
+      "line": 112,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 35,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんであんたが決めるのよ！？",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 113,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-35"
+    },
+    {
+      "line": 114,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 115,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "なんであんたが決めるのよ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 35
+    },
+    {
+      "line": 116,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 36,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "つか、なんでバニーなんか着てるの？\n女装趣味でもあったわけ……？",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 117,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-36"
+    },
+    {
+      "line": 118,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 119,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "つか、なんでバニーなんか着てるの？\n女装趣味でもあったわけ……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 36
+    },
+    {
+      "line": 120,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 37,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "悪いが、そこには突っ込まずに静かにしてくれ。\n他のスタッフに気付かれる。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 121,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 122,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "悪いが、そこには突っ込まずに静かにしてくれ。\n他のスタッフに気付かれる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 37
+    },
+    {
+      "line": 123,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 38,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……というか、突っ込まれたくない）"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 124,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 125,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "（……というか、突っ込まれたくない）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 38
+    },
+    {
+      "line": 126,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 39,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "う……そうね。わ、分かったわ。\n……で、なんであんたが私を助けたりしたのよ？",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 127,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-39"
+    },
+    {
+      "line": 128,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 129,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "う……そうね。わ、分かったわ。\n……で、なんであんたが私を助けたりしたのよ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 39
+    },
+    {
+      "line": 130,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 40,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "その理由について語る前に、まずは場所を移動しよう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 131,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 132,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "その理由について語る前に、まずは場所を移動しよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 40
+    },
+    {
+      "line": 133,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 41,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "こうして俺とダークドラッグは、\n近くにあった誰もいない更衣室に姿を隠すのだった。"
+          },
+          "Background": {
+            "AssetId": "60080",
+            "BgmAssetId": "10003"
+          }
+        },
+        "background": {
+          "AssetId": "60080",
+          "BgmAssetId": "10003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 134,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 135,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "こうして俺とダークドラッグは、\n近くにあった誰もいない更衣室に姿を隠すのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 41
+    },
+    {
+      "line": 136,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 42,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええと、あんた……名前は\n%usernameusernameuserna%だったわよね？",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "ColorType": 1,
+            "BgmAssetId": "20003",
+            "FadeType": 3,
+            "FadeTiming": 0,
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "ColorType": 1,
+          "BgmAssetId": "20003",
+          "FadeType": 3,
+          "FadeTiming": 0,
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 137,
+      "type": "bgmStop"
+    },
+    {
+      "line": 138,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 139,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-42"
+    },
+    {
+      "line": 140,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 141,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ええと、あんた……名前は\n<user>だったわよね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 42
+    },
+    {
+      "line": 142,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 43,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ユリアのおまけ野郎ってことしか憶えてないけど。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 143,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 144,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ユリアのおまけ野郎ってことしか憶えてないけど。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 43
+    },
+    {
+      "line": 145,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 44,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おまけ野郎って、ひどい言い草だな。\nせっかく人が助けてやったっていうのに。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 146,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 147,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おまけ野郎って、ひどい言い草だな。\nせっかく人が助けてやったっていうのに。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 44
+    },
+    {
+      "line": 148,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 45,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "確かにあのままだと追い出されて、\n失ったお金を取り戻せないままだったけど……",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 149,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-45"
+    },
+    {
+      "line": 150,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 151,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "確かにあのままだと追い出されて、\n失ったお金を取り戻せないままだったけど……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 45
+    },
+    {
+      "line": 152,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 46,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "つか、なんでカジノなんかにいるんだ？\nそもそもアマツで警察に捕まったはずだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 153,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 154,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "つか、なんでカジノなんかにいるんだ？\nそもそもアマツで警察に捕まったはずだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 46
+    },
+    {
+      "line": 155,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 47,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、私にかかれば脱走なんて簡単なことよ。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 156,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-47"
+    },
+    {
+      "line": 157,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 158,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ふふ、私にかかれば脱走なんて簡単なことよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 47
+    },
+    {
+      "line": 159,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 48,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ただ活動資金が全然ないから、あちこちの自販機の下から拾ったお金で\n噂のカジノで一儲けしようと思ったら……",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 160,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-48"
+    },
+    {
+      "line": 161,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 162,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ただ活動資金が全然ないから、あちこちの自販機の下から拾ったお金で\n噂のカジノで一儲けしようと思ったら……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 48
+    },
+    {
+      "line": 163,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 49,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "その、全財産も……スっちゃって……",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "shock"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "shock"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 164,
+      "type": "soundEffect",
+      "cue": "shock",
+      "tag": "frame-49"
+    },
+    {
+      "line": 165,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 166,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "その、全財産も……スっちゃって……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 49
+    },
+    {
+      "line": 167,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 50,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや！　最初のほうは上手くいってたの！　自販機の金が、\n気づけば最新型スマートデバイスは買えるくらいに！",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 168,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-50"
+    },
+    {
+      "line": 169,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 170,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "いや！　最初のほうは上手くいってたの！　自販機の金が、\n気づけば最新型スマートデバイスは買えるくらいに！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 50
+    },
+    {
+      "line": 171,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 51,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でもそのあと、一気に負け続けて……うぅ……",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 172,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-51"
+    },
+    {
+      "line": 173,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 174,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "でもそのあと、一気に負け続けて……うぅ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 51
+    },
+    {
+      "line": 175,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 52,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（こいつ、盗んだ薬を複製したり改良できるくらい頭がいいのに、\n発想がバカっぽいのは相変わらずだな……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 176,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 177,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（こいつ、盗んだ薬を複製したり改良できるくらい頭がいいのに、\n発想がバカっぽいのは相変わらずだな……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 52
+    },
+    {
+      "line": 178,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 53,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "というか、あんたこそなんでこんなとこにいるのよ。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 179,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-53"
+    },
+    {
+      "line": 180,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 181,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "というか、あんたこそなんでこんなとこにいるのよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 53
+    },
+    {
+      "line": 182,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 54,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "学園の依頼で違法カジノの捜査に来てるんだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 183,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 184,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "学園の依頼で違法カジノの捜査に来てるんだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 54
+    },
+    {
+      "line": 185,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 55,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "え、学園ってそんなことまで一般生徒にやらせんの……？",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 186,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-55"
+    },
+    {
+      "line": 187,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 188,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "え、学園ってそんなことまで一般生徒にやらせんの……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 55
+    },
+    {
+      "line": 189,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 56,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いろいろ事情があるんだよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 190,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 191,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いろいろ事情があるんだよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 56
+    },
+    {
+      "line": 192,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 57,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それよりずっと気になってたんだが、お前なんでメイズに入れてるんだ？\n適性がなきゃ、来れないはずだろ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 193,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 194,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それよりずっと気になってたんだが、お前なんでメイズに入れてるんだ？\n適性がなきゃ、来れないはずだろ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 57
+    },
+    {
+      "line": 195,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 58,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、メイズ適性ね……そうよね、気になるわよね。\n私も最初は驚いたもの。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 196,
+      "type": "bgmStop"
+    },
+    {
+      "line": 197,
+      "type": "bgmPlay",
+      "cue": "10007"
+    },
+    {
+      "line": 198,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-58"
+    },
+    {
+      "line": 199,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 200,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ああ、メイズ適性ね……そうよね、気になるわよね。\n私も最初は驚いたもの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 58
+    },
+    {
+      "line": 201,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 59,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "警察で受けた身体検査で、自然覚醒していたことが判明したのよ。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 202,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 203,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "警察で受けた身体検査で、自然覚醒していたことが判明したのよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 59
+    },
+    {
+      "line": 204,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 60,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "皮肉よね……『アカデミー』であんなに苦労して得られなかったものが、\n全部終わってからひょっこり自然に手に入っちゃうなんて。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 14
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 14
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 205,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-60"
+    },
+    {
+      "line": 206,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 207,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "皮肉よね……『アカデミー』であんなに苦労して得られなかったものが、\n全部終わってからひょっこり自然に手に入っちゃうなんて。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 60
+    },
+    {
+      "line": 208,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 61,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今さら覚醒したって遅いのに……\nまあ、人生ってそんなものかしら。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 209,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-61"
+    },
+    {
+      "line": 210,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 211,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "今さら覚醒したって遅いのに……\nまあ、人生ってそんなものかしら。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 61
+    },
+    {
+      "line": 212,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 62,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どこか遠い目をするダークドラッグ。"
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 213,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 214,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "どこか遠い目をするダークドラッグ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 62
+    },
+    {
+      "line": 215,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 63,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "遅くはないだろ。そう思ってるのはお前だけじゃないか？\n俺は『これから』だって思うけどな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 216,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 217,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "遅くはないだろ。そう思ってるのはお前だけじゃないか？\n俺は『これから』だって思うけどな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 63
+    },
+    {
+      "line": 218,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 64,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あのね、『これから』って言ってもこっちは犯罪者よ？\n絶賛逃亡中でもあるわ。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 219,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-64"
+    },
+    {
+      "line": 220,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 221,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "あのね、『これから』って言ってもこっちは犯罪者よ？\n絶賛逃亡中でもあるわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 64
+    },
+    {
+      "line": 222,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 65,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、まだなんとかなるだろ。お前が諦めない限りは。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 223,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 224,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも、まだなんとかなるだろ。お前が諦めない限りは。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 65
+    },
+    {
+      "line": 225,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 66,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 226,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-66"
+    },
+    {
+      "line": 227,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 228,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 66
+    },
+    {
+      "line": 229,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 67,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ほんとムカつく……",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10007",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10007",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 230,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-67"
+    },
+    {
+      "line": 231,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 232,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ほんとムカつく……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 67
+    },
+    {
+      "line": 233,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 68,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……出頭はしないわよ。『まとも』になるのはごめんだわ。\nもちろん、あんたに捕まるのもナシ。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 234,
+      "type": "bgmStop"
+    },
+    {
+      "line": 235,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 236,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 237,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "……出頭はしないわよ。『まとも』になるのはごめんだわ。\nもちろん、あんたに捕まるのもナシ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 68
+    },
+    {
+      "line": 238,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 69,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そのつもりはない。お前にはやってほしいことがあるからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 239,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 240,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そのつもりはない。お前にはやってほしいことがあるからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 69
+    },
+    {
+      "line": 241,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 70,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（本当は捕まえるべきなんだろうが、今の優先順位はそうじゃない）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 242,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 243,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（本当は捕まえるべきなんだろうが、今の優先順位はそうじゃない）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 70
+    },
+    {
+      "line": 244,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 71,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なるほど、私を助けた理由はそこにあるわけね。\nとりあえず、話してみなさい。一応助けられた身だし。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 245,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-71"
+    },
+    {
+      "line": 246,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 247,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "……なるほど、私を助けた理由はそこにあるわけね。\nとりあえず、話してみなさい。一応助けられた身だし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 71
+    },
+    {
+      "line": 248,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 72,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "実は今、一緒に潜入したカオスメイデンのみんなが、\nカジノ側に捕まってしまってな。助けようにも、手が足りないんだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 249,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 250,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "実は今、一緒に潜入したカオスメイデンのみんなが、\nカジノ側に捕まってしまってな。助けようにも、手が足りないんだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 72
+    },
+    {
+      "line": 251,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 73,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "は？　カオスメイデンって……まさかユリア達のこと！？",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 252,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-73"
+    },
+    {
+      "line": 253,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 254,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "は？　カオスメイデンって……まさかユリア達のこと！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 73
+    },
+    {
+      "line": 255,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 74,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "絶対に嫌！！\nなんで私があいつを助けなきゃいけないのよ！？",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 256,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-74"
+    },
+    {
+      "line": 257,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 258,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "絶対に嫌！！\nなんで私があいつを助けなきゃいけないのよ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 74
+    },
+    {
+      "line": 259,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 75,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なら、労力に見合った報酬を出そう！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "TextSize": 1,
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 260,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 261,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なら、労力に見合った報酬を出そう！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 75
+    },
+    {
+      "line": 262,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 76,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "乗った！　協力する！！",
+            "SpeakerName": "ダークドラッグ",
+            "TextSize": 1,
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 263,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-76"
+    },
+    {
+      "line": 264,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 265,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "乗った！　協力する！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 76
+    },
+    {
+      "line": 266,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 77,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（こいつ、チョロすぎるだろ……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 267,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 268,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（こいつ、チョロすぎるだろ……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 77
+    },
+    {
+      "line": 269,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 78,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "しかし、今はそのチョロさが逆にありがたい。"
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 270,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 271,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "しかし、今はそのチョロさが逆にありがたい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 78
+    },
+    {
+      "line": 272,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 79,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひとまずあいつらの捕えられた場所を特定して、救出したい。\nお前への報酬額は、それが成功するかどうかだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 273,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 274,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ひとまずあいつらの捕えられた場所を特定して、救出したい。\nお前への報酬額は、それが成功するかどうかだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 79
+    },
+    {
+      "line": 275,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 80,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "で、いくらくらいもらえるの？　私、そんな安くないわよ。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 11,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 11,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 276,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-80"
+    },
+    {
+      "line": 277,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 278,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "で、いくらくらいもらえるの？　私、そんな安くないわよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 80
+    },
+    {
+      "line": 279,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 81,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "これでどうだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 280,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 281,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "これでどうだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 81
+    },
+    {
+      "line": 282,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 82,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺は手をパーに開いて見せる。"
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 283,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 284,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺は手をパーに開いて見せる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 82
+    },
+    {
+      "line": 285,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 83,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "へえ、５か……悪くないわね。受けるわ、その依頼。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 13,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 13,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 286,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-83"
+    },
+    {
+      "line": 287,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 288,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "へえ、５か……悪くないわね。受けるわ、その依頼。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 83
+    },
+    {
+      "line": 289,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 84,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（あとで適当こくために単位とか何も言わなかったが、\nこいつはこいつでそこ確認しなくてよかったのか……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 290,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 291,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（あとで適当こくために単位とか何も言わなかったが、\nこいつはこいつでそこ確認しなくてよかったのか……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 84
+    },
+    {
+      "line": 292,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 85,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今までよく裏社会で生きてこられたなと思う。\nなんかちょっと心配になってきた。"
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 293,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 294,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "今までよく裏社会で生きてこられたなと思う。\nなんかちょっと心配になってきた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 85
+    },
+    {
+      "line": 295,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 86,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "さて、あいつらの捕まった場所を割り出さないとな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 296,
+      "type": "bgmStop"
+    },
+    {
+      "line": 297,
+      "type": "bgmPlay",
+      "cue": "10017"
+    },
+    {
+      "line": 298,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 299,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "さて、あいつらの捕まった場所を割り出さないとな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 86
+    },
+    {
+      "line": 300,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 87,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ゲーム中、素行の悪い客が何人か連れ出されていくのは見たけど、\n侵入者ってなるともっと別の場所に連れて行かれるはず……",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 301,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 302,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ゲーム中、素行の悪い客が何人か連れ出されていくのは見たけど、\n侵入者ってなるともっと別の場所に連れて行かれるはず……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 87
+    },
+    {
+      "line": 303,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 88,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "その時、更衣室の外からかすかに話し声が聞こえてきた。"
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 304,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 305,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その時、更衣室の外からかすかに話し声が聞こえてきた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 88
+    },
+    {
+      "line": 306,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 89,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――ねえ、聞いた？\n侵入者の……――確か……――",
+            "SpeakerName": "カジノスタッフの声１",
+            "TeamName": "ルドベキア・ファミリー",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017",
+            "SoundEffect": "huh"
+          },
+          "HiddenCharacter": {
+            "AssetId": "n20015",
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017",
+          "SoundEffect": "huh"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 307,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-89"
+    },
+    {
+      "line": 308,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 309,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "カジノスタッフの声１",
+      "text": "――ねえ、聞いた？\n侵入者の……――確か……――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 89
+    },
+    {
+      "line": 310,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 90,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、それなら……一番奥の……テントよ。\nほら、ボスの――",
+            "SpeakerName": "カジノスタッフの声２",
+            "TeamName": "ルドベキア・ファミリー",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017",
+            "SoundEffect": "gasp"
+          },
+          "HiddenCharacter": {
+            "AssetId": "n20015",
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017",
+          "SoundEffect": "gasp"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 311,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-90"
+    },
+    {
+      "line": 312,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 313,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "カジノスタッフの声２",
+      "text": "ああ、それなら……一番奥の……テントよ。\nほら、ボスの――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 90
+    },
+    {
+      "line": 314,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 91,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……！！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 315,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 316,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 91
+    },
+    {
+      "line": 317,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 92,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "しばらくすると、人の気配が消え、\n俺は小声でダークドラッグに話し掛ける。"
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 318,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 319,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "しばらくすると、人の気配が消え、\n俺は小声でダークドラッグに話し掛ける。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 92
+    },
+    {
+      "line": 320,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 93,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今の、聞いたか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 321,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 322,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "今の、聞いたか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 93
+    },
+    {
+      "line": 323,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 94,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ。行きましょう、きっとユリア達はそこよ。",
+            "SpeakerName": "ダークドラッグ",
+            "LogIconType": 1
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "n20003",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 324,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-94"
+    },
+    {
+      "line": 325,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 326,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ダークドラッグ",
+      "text": "ええ。行きましょう、きっとユリア達はそこよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 94
+    },
+    {
+      "line": 327,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 95,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、くれぐれも慎重にな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 328,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 329,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、くれぐれも慎重にな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 95
+    },
+    {
+      "line": 330,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 96,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（待っててくれよ、みんな――！）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 331,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 332,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（待っててくれよ、みんな――！）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 96
+    },
+    {
+      "line": 333,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 97,
+        "sceneId": 20120401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "こうして俺はダークドラッグと共に、\nスタッフの目を掻い潜りながら、みんなの救出に向かうのだった。"
+          },
+          "Background": {
+            "AssetId": "60100",
+            "BgmAssetId": "10017"
+          }
+        },
+        "background": {
+          "AssetId": "60100",
+          "BgmAssetId": "10017"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 334,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 335,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "こうして俺はダークドラッグと共に、\nスタッフの目を掻い潜りながら、みんなの救出に向かうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 97
+    },
+    {
+      "line": 336,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 97,
+    "branchGraph": {
+      "occurrences": 0,
+      "branchMasterIds": [],
+      "uniqueBranchMasterIds": []
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

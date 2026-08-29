@@ -1,0 +1,2076 @@
+{
+  "id": "61031002",
+  "title": "ふたりの親睦",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61031002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40032.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40032.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40032.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40032.png",
+      "backgrounds": {
+        "40032": "../../assets/muvluv/backgrounds/background-40032.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "121302s": {
+          "key": "121302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/121302s/121302s.json",
+          "atlas": "../../assets/muvluv/spine/121302s/121302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/121302s/",
+          "version": "4.2.43",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あれ？　ドロテア？\nこんなところでどうした？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あれ？　ドロテア？\nこんなところでどうした？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%さん。クラウディアさんと\n親睦を深めようと、ふたりでショッピングに来てるんです。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "あ、<user>さん。クラウディアさんと\n親睦を深めようと、ふたりでショッピングに来てるんです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうなんだ。肝心のクラウディアは？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうなんだ。肝心のクラウディアは？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "喉が渇いたようで、今飲み物を買いに行ってます。\nそろそろ戻る頃合いかと……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "喉が渇いたようで、今飲み物を買いに行ってます。\nそろそろ戻る頃合いかと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そっか。ちなみに何を買うんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そっか。ちなみに何を買うんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "特に買うものは決めておりません。\nウィンドウショッピングというものですね。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "特に買うものは決めておりません。\nウィンドウショッピングというものですね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "何か気に入ったものがあれば買おうかと思ってますが……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "何か気に入ったものがあれば買おうかと思ってますが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61031002,
+        "branchId": 6103201,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それならさ……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それならさ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 28,
+      "type": "choice",
+      "branchMasterId": 6103201,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61032011,
+          "text": "クラウディアに何かプレゼントしてみたら？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1213021
+        },
+        {
+          "id": 61032012,
+          "text": "リュシー達にプレゼントを買おう",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1213022
+        }
+      ]
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 30,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 31,
+      "type": "bgvStop",
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Phrase": {
+            "Text": "プレゼントですか？",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-11",
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "プレゼントですか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Phrase": {
+            "Text": "親睦を深めるというなら、いいと思うんだが。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "親睦を深めるというなら、いいと思うんだが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……確かにそれはいいですね。\nただ彼女が何を好むのか……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "なるほど……確かにそれはいいですね。\nただ彼女が何を好むのか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Phrase": {
+            "Text": "それを一緒に回りながら、\nいろいろ聞いて決めるのがいいんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それを一緒に回りながら、\nいろいろ聞いて決めるのがいいんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうやって対話からお互いを知ることに繋がると思うし。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうやって対話からお互いを知ることに繋がると思うし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん……仰るとおりですね。\nそうしてみます。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "<user>さん……仰るとおりですね。\nそうしてみます。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そのあと彼女は合流したクラウディアとともに、\nショッピングモールの中へ消えていった。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そのあと彼女は合流したクラウディアとともに、\nショッピングモールの中へ消えていった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032011
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 55,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 56,
+      "type": "bgvStop",
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "リュシー達にですか？",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 58,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-19",
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "リュシー達にですか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "別にたいそうなものじゃなくていい。\n日持ちしそうなお菓子や安価な小物とかでも。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "別にたいそうなものじゃなくていい。\n日持ちしそうなお菓子や安価な小物とかでも。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "きっと『今のドタバタ』が落ち着いたら、平穏な日常が戻る。\nそのときに会話の取っ掛かりにでもすればいい。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "きっと『今のドタバタ』が落ち着いたら、平穏な日常が戻る。\nそのときに会話の取っ掛かりにでもすればいい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "平穏な日常……戻りますでしょうか。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "平穏な日常……戻りますでしょうか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "少し形は変わるかもな。でも戻る。お前らが離れ離れを望まない限り、\n形は変わっても繋がりは残ると思うぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "少し形は変わるかもな。でも戻る。お前らが離れ離れを望まない限り、\n形は変わっても繋がりは残ると思うぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/10"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "<user>さん……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/11"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 77,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-25",
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 78,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 79,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 80,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうですね。クラウディアさんに相談しながら選んでみようと思います。\nよければ%usernameusernameuserna%さんも手伝ってくれませんか？",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#afb9ed>アークトゥルス</material></color>",
+            "VoiceAssetIds": [
+              "61031002/12"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 81,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 82,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "そうですね。クラウディアさんに相談しながら選んでみようと思います。\nよければ<user>さんも手伝ってくれませんか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 83,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、喜んで。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 85,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、喜んで。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 86,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61031002,
+        "branchId": null,
+        "selectedBranchId": 61032012,
+        "configuration": {
+          "Phrase": {
+            "Text": "このあと合流したクラウディアからも了解を得て、\n３人でショッピングモールを回るのだった。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 88,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "このあと合流したクラウディアからも了解を得て、\n３人でショッピングモールを回るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6103201,
+      "branchSelectionId": 61032012
+    },
+    {
+      "line": 89,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 28,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6103201
+      ],
+      "uniqueBranchMasterIds": [
+        6103201
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

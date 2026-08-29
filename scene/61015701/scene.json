@@ -1,0 +1,1575 @@
+{
+  "id": "61015701",
+  "title": "大好きなのは……",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61015701",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40012.png",
+      "backgrounds": {
+        "40012": "../../assets/muvluv/backgrounds/background-40012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c116301/CallOut": "../../assets/muvluv/audio/voice/4e052b0c6d4254749bbe4a39dee4691b.ogg",
+          "c116301/ResponseGood": "../../assets/muvluv/audio/voice/6387fe7bbbf1af747a2b5e375e42d2ab.ogg",
+          "c116301/ResponseBad": "../../assets/muvluv/audio/voice/fabf074bc2c115444bd99e1db9bb1403.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "116302s": {
+          "key": "116302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/116302s/116302s.json",
+          "atlas": "../../assets/muvluv/spine/116302s/116302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/116302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "フルート、何を飲んでるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "フルート、何を飲んでるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "約束をしていたフルートが待っているカフェに行くと、\nそこには真っ赤な液体を飲むフルートを見つけた。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "約束をしていたフルートが待っているカフェに行くと、\nそこには真っ赤な液体を飲むフルートを見つけた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%さん！\nふふふ……何か当てて見てください！",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c116301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "あ、<user>さん！\nふふふ……何か当てて見てください！",
+      "voice": "c116301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふーむ……吸血鬼が飲んでいる赤い液体だろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ふーむ……吸血鬼が飲んでいる赤い液体だろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ヒントを言うと……フルートはギャル系配信者吸血鬼ですから！\nあんまりショッキングなものは飲んでません！",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61015701/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "ヒントを言うと……フルートはギャル系配信者吸血鬼ですから！\nあんまりショッキングなものは飲んでません！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……それヒントになってるか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……それヒントになってるか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61015701,
+        "branchId": 6101571,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあいい。フルートが飲んでいるのは……"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "まあいい。フルートが飲んでいるのは……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "choice",
+      "branchMasterId": 6101571,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61015711,
+          "text": "あえての赤ワイン",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1163022
+        },
+        {
+          "id": 61015712,
+          "text": "トマトジュースだな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1163021
+        }
+      ]
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015712,
+        "configuration": {
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 27,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 28,
+      "type": "bgvStop",
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015712,
+        "configuration": {
+          "Phrase": {
+            "Text": "トマトジュースだな。\nやっぱり吸血鬼が血の代わりに飲むと相場は決まってる。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "トマトジュースだな。\nやっぱり吸血鬼が血の代わりに飲むと相場は決まってる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015712,
+        "configuration": {
+          "Phrase": {
+            "Text": "ぶぶー！　ハズレです！\n実はこれ紅茶なんですよ♪",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61015701/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "ぶぶー！　ハズレです！\n実はこれ紅茶なんですよ♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015712,
+        "configuration": {
+          "Phrase": {
+            "Text": "へえ、そんなに真っ赤な紅茶があるんだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "へえ、そんなに真っ赤な紅茶があるんだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015712,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい！　この前バズってた美味しくてオシャレな紅茶なんです！\n飲んでみたら意外とスッキリして香りも良くて最高にぽよです♪",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c116301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 39,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13",
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 41,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "はい！　この前バズってた美味しくてオシャレな紅茶なんです！\n飲んでみたら意外とスッキリして香りも良くて最高にぽよです♪",
+      "voice": "c116301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015712,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言って満足そうな表情で紅茶をすするフルートだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言って満足そうな表情で紅茶をすするフルートだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015712
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015711,
+        "configuration": {
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 46,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 47,
+      "type": "bgvStop",
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015711,
+        "configuration": {
+          "Phrase": {
+            "Text": "分かった。赤ワインだ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "分かった。赤ワインだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015711,
+        "configuration": {
+          "Phrase": {
+            "Text": "違いますよ！？　お酒は飲んじゃダメです！\n配信者として全然ぽよじゃありませんからね！？",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "c116301/ResponseBad"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-17",
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 54,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "違いますよ！？　お酒は飲んじゃダメです！\n配信者として全然ぽよじゃありませんからね！？",
+      "voice": "c116301/ResponseBad",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015711,
+        "configuration": {
+          "Phrase": {
+            "Text": "違ったか……ギャップがあるかと思ったんだが。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "違ったか……ギャップがあるかと思ったんだが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015711,
+        "configuration": {
+          "Phrase": {
+            "Text": "ギャップがありすぎですよ！？\nもう、これは紅茶なんです！　吸血鬼にピッタリな赤さですね♪",
+            "SpeakerName": "フルート",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</material></color>",
+            "VoiceAssetIds": [
+              "61015701/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 59,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-19",
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "フルート",
+      "text": "ギャップがありすぎですよ！？\nもう、これは紅茶なんです！　吸血鬼にピッタリな赤さですね♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61015701,
+        "branchId": null,
+        "selectedBranchId": 61015711,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言ってフルートは飲む姿を自撮りして、\nＳＮＳに楽しそうにアップをするのだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "116302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言ってフルートは飲む姿を自撮りして、\nＳＮＳに楽しそうにアップをするのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6101571,
+      "branchSelectionId": 61015711
+    },
+    {
+      "line": 65,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 20,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101571
+      ],
+      "uniqueBranchMasterIds": [
+        6101571
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

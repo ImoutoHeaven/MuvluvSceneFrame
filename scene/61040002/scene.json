@@ -1,0 +1,1418 @@
+{
+  "id": "61040002",
+  "title": "相反する存在？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61040002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40012.png",
+      "backgrounds": {
+        "40012": "../../assets/muvluv/backgrounds/background-40012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c130301/Pleasure": "../../assets/muvluv/audio/voice/899aee8df0a198e4b89e4c4a77118b94.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "130302s": {
+          "key": "130302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/130302s/130302s.json",
+          "atlas": "../../assets/muvluv/spine/130302s/130302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/130302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "最近、カフェで流れてる音楽とか聞くと、あ、この演奏って、\nこんな技術を使ってるんだなーって分かるようになったの！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61040002/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "130302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "最近、カフェで流れてる音楽とか聞くと、あ、この演奏って、\nこんな技術を使ってるんだなーって分かるようになったの！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おお、それはプロっぽいな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おお、それはプロっぽいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ぷ、プロは言い過ぎだけど……でも、凄いでしょ！\n新しい視点で音楽を聞けるのって面白いよね。",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61040002/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "130302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "ぷ、プロは言い過ぎだけど……でも、凄いでしょ！\n新しい視点で音楽を聞けるのって面白いよね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺がリクエストしたら、演奏出来たりするのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "俺がリクエストしたら、演奏出来たりするのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61040002,
+        "branchId": 6106801,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うぐ……まだそこまでは出来ないかも……\nでも、いつかはリクエストされた曲を弾き語り出来るようになりたいな！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61040002/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "130302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "うぐ……まだそこまでは出来ないかも……\nでも、いつかはリクエストされた曲を弾き語り出来るようになりたいな！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "choice",
+      "branchMasterId": 6106801,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61068011,
+          "text": "期待して待ってる",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1303021
+        },
+        {
+          "id": 61068012,
+          "text": "オリジナルも楽しみ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1303022
+        }
+      ]
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068011,
+        "configuration": {
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 22,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 23,
+      "type": "bgvStop",
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、期待して待ってるぞ。\nその時のために、俺も聞きたい曲を考えておかないとな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、期待して待ってるぞ。\nその時のために、俺も聞きたい曲を考えておかないとな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068011,
+        "configuration": {
+          "Phrase": {
+            "Text": "わわ、相棒からの信頼が重たい！？\n……でも、それだけ楽しみにしてくれてるなら燃えるよね！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61040002/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "130302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 28,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-9",
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "わわ、相棒からの信頼が重たい！？\n……でも、それだけ楽しみにしてくれてるなら燃えるよね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068011,
+        "configuration": {
+          "Phrase": {
+            "Text": "（期待されるほど頑張ろうって\n盛り上がれるのはリリーのいいところだな）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（期待されるほど頑張ろうって\n盛り上がれるのはリリーのいいところだな）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068011,
+        "configuration": {
+          "Phrase": {
+            "Text": "それなら相棒に聞かせるために、ジャスティオンの曲も練習しないと！\n初期の曲から最新まで、いーっぱい聞かせてあげるね！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c130301/Pleasure"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "130302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 35,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-11",
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 37,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "それなら相棒に聞かせるために、ジャスティオンの曲も練習しないと！\n初期の曲から最新まで、いーっぱい聞かせてあげるね！",
+      "voice": "c130301/Pleasure",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068011,
+        "configuration": {
+          "Phrase": {
+            "Text": "悪気のないご機嫌なリリーを見ながら、いつか聞かされるであろう\n長時間のメドレーへの覚悟がいるなと思うのだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "悪気のないご機嫌なリリーを見ながら、いつか聞かされるであろう\n長時間のメドレーへの覚悟がいるなと思うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068011
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068012,
+        "configuration": {
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 42,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 43,
+      "type": "bgvStop",
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068012,
+        "configuration": {
+          "Phrase": {
+            "Text": "それなら、既存曲だけじゃないリリーの作った曲も聞いてみたいな。\nそっちも期待していいか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それなら、既存曲だけじゃないリリーの作った曲も聞いてみたいな。\nそっちも期待していいか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068012,
+        "configuration": {
+          "Phrase": {
+            "Text": "あわわ！？　さ、流石にそこまでは……！",
+            "SpeakerName": "リリー",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61040002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "130302s"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-15",
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "リリー",
+      "text": "あわわ！？　さ、流石にそこまでは……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068012,
+        "configuration": {
+          "Phrase": {
+            "Text": "あはは、冗談だよ。上達するのを期待してるからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "130302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あはは、冗談だよ。上達するのを期待してるからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61040002,
+        "branchId": null,
+        "selectedBranchId": 61068012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういって、ふたりでどんな曲が良さそうなのかの相談をするのだった。"
+          },
+          "Background": {
+            "AssetId": "40012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そういって、ふたりでどんな曲が良さそうなのかの相談をするのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6106801,
+      "branchSelectionId": 61068012
+    },
+    {
+      "line": 57,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 17,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6106801
+      ],
+      "uniqueBranchMasterIds": [
+        6106801
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

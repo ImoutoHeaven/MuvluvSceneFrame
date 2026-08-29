@@ -1,0 +1,1760 @@
+{
+  "id": "61017801",
+  "title": "妥協しないガール",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61017801",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30130.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30130.png",
+      "backgrounds": {
+        "30130": "../../assets/muvluv/backgrounds/background-30130.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c138301/ResponseBad": "../../assets/muvluv/audio/voice/b148002196fc93445adf4d208dee5c46.ogg",
+          "c138301/ResponseGood": "../../assets/muvluv/audio/voice/c901dc3d993a2d94e874df8f89f172c8.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "138301s": {
+          "key": "138301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/138301s/138301s.json",
+          "atlas": "../../assets/muvluv/spine/138301s/138301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/138301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふぅ……",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "ふぅ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "お疲れ様、レイヴェル。\nシミュレーションの結果は良い感じだったな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "お疲れ様、レイヴェル。\nシミュレーションの結果は良い感じだったな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいや、ダメだな。\n取りこぼしも多い、それに反応も芳しくなかった。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "c138301/ResponseBad"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "いいや、ダメだな。\n取りこぼしも多い、それに反応も芳しくなかった。",
+      "voice": "c138301/ResponseBad",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "やはり、もう少し攻めるべきだろうか。\nとはいえ、あまり突出すると連携の面で……",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "やはり、もう少し攻めるべきだろうか。\nとはいえ、あまり突出すると連携の面で……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うーん、ひとりで頑張りすぎじゃないか？\n仲間がいるなら、仲間に頼るのも良いと思うんだが。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "うーん、ひとりで頑張りすぎじゃないか？\n仲間がいるなら、仲間に頼るのも良いと思うんだが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61017801,
+        "branchId": 6101781,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それは分かっている。\nだが、それと私自身の結果は別だからな。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "c138301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -1500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -1500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "それは分かっている。\nだが、それと私自身の結果は別だからな。",
+      "voice": "c138301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "choice",
+      "branchMasterId": 6101781,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61017811,
+          "text": "自分に厳しいな",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1383011
+        },
+        {
+          "id": 61017812,
+          "text": "やりすぎは禁物だぞ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1383012
+        }
+      ]
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017811,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": -1500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": -1500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 25,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 26,
+      "type": "bgvStop",
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017811,
+        "configuration": {
+          "Phrase": {
+            "Text": "レイヴェルは自分に厳しいな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "レイヴェルは自分に厳しいな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017811,
+        "configuration": {
+          "Phrase": {
+            "Text": "私としては当然だとは思うのだがな……\nモデルだろうと、パイロットだろうと完璧であることに価値がある。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 31,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-10",
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "私としては当然だとは思うのだがな……\nモデルだろうと、パイロットだろうと完璧であることに価値がある。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017811,
+        "configuration": {
+          "Phrase": {
+            "Text": "結果が全ての世界だからこそ、\nその結果を出すための努力を怠るわけにはいかないというわけだ。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "結果が全ての世界だからこそ、\nその結果を出すための努力を怠るわけにはいかないというわけだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017811,
+        "configuration": {
+          "Phrase": {
+            "Text": "確かにな……でも、あまり無理はしないようにな？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "確かにな……でも、あまり無理はしないようにな？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017811,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、自己管理も必要な仕事だ。\n心配してくれて感謝する。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "c138301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13",
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 43,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "ああ、自己管理も必要な仕事だ。\n心配してくれて感謝する。",
+      "voice": "c138301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017811,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういってレイヴェルはシミュレーターの特訓へと戻るのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そういってレイヴェルはシミュレーターの特訓へと戻るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017811
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": -1500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": -1500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 48,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 49,
+      "type": "bgvStop",
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうはいうが、やりすぎは禁物だぞ。\n体を壊したら元も子もないからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうはいうが、やりすぎは禁物だぞ。\n体を壊したら元も子もないからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Phrase": {
+            "Text": "レイヴェル……？　どうした、いきなりぼーっとして。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "レイヴェル……？　どうした、いきなりぼーっとして。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Phrase": {
+            "Text": "……フッ、いや故郷の母を思い出してな。昔からこんな性格だったから、\n母も良くそんなふうに私を注意してくれた。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 60,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-19",
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "……フッ、いや故郷の母を思い出してな。昔からこんな性格だったから、\n母も良くそんなふうに私を注意してくれた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Phrase": {
+            "Text": "母とも同じようなやり取りをしたことがあったと思うと、\n懐かしい気持ちになったよ。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "母とも同じようなやり取りをしたことがあったと思うと、\n懐かしい気持ちになったよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、これ以上%usernameusernameuserna%を心配させるのも申し訳ない。\n今日はこのくらいにしておくとしよう。",
+            "SpeakerName": "レイヴェル",
+            "TeamName": "<color=#deb4ff>トリニティ・ジュエル</material></color>",
+            "VoiceAssetIds": [
+              "61017801/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイヴェル",
+      "text": "ふふ、これ以上<user>を心配させるのも申し訳ない。\n今日はこのくらいにしておくとしよう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61017801,
+        "branchId": null,
+        "selectedBranchId": 61017812,
+        "configuration": {
+          "Phrase": {
+            "Text": "レイヴェルは機嫌よく訓練を終えるのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "138301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "レイヴェルは機嫌よく訓練を終えるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6101781,
+      "branchSelectionId": 61017812
+    },
+    {
+      "line": 72,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 22,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101781
+      ],
+      "uniqueBranchMasterIds": [
+        6101781
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

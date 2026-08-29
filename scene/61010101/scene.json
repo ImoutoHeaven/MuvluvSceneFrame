@@ -1,0 +1,1582 @@
+{
+  "id": "61010101",
+  "title": "ラッキーアイテム",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61010101",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40042.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40042.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40042.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40042.png",
+      "backgrounds": {
+        "40042": "../../assets/muvluv/backgrounds/background-40042.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c125101/Crying": "../../assets/muvluv/audio/voice/b1f99fc8d3875034b895c4f1b36a0dd8.ogg",
+          "c125101/Panic": "../../assets/muvluv/audio/voice/44ec8e98cee9e834f84acfe2e46b19a1.ogg",
+          "c125101/Happiness": "../../assets/muvluv/audio/voice/b764a94b38a728b4c8c4a0f1007089e0.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "125101": {
+          "key": "125101",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/125101/125101.json",
+          "atlas": "../../assets/muvluv/spine/125101/125101.atlas",
+          "textureBase": "../../assets/muvluv/spine/125101/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うう……にがいよぉ……でも飲まなきゃ……",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/Crying"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "うう……にがいよぉ……でも飲まなきゃ……",
+      "voice": "c125101/Crying",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なにを半泣きになって、必死に飲んでるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……なにを半泣きになって、必死に飲んでるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%……\n今日はコーヒーがラッキーアイテムだったの！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "<user>……\n今日はコーヒーがラッキーアイテムだったの！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、占いか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、占いか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そっ！\nコーヒーを飲めば今日はあたし、超ラッキーなのよ！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "そっ！\nコーヒーを飲めば今日はあたし、超ラッキーなのよ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61010101,
+        "branchId": 6101011,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "choice",
+      "branchMasterId": 6101011,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61010111,
+          "text": "ミルクと砂糖はセーフじゃないか？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1251011
+        },
+        {
+          "id": 61010112,
+          "text": "……今が不幸になってないか？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1251012
+        }
+      ]
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010112,
+        "configuration": {
+          "Phrase": {
+            "Text": "う、うう……ちょっとは大変だけど……\nでも飲み切れば超ラッキーだもの！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 22,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 23,
+      "type": "bgvStop",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 24,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-8",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "う、うう……ちょっとは大変だけど……\nでも飲み切れば超ラッキーだもの！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010112,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなこと言ってる間に、もうすぐ学校が始まるぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そんなこと言ってる間に、もうすぐ学校が始まるぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010112,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　わわわ、急いで飲まないと……\nにがー！　うう……にがい……にがいよぉ……",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/Panic"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 31,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-10",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 33,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "えっ！？　わわわ、急いで飲まないと……\nにがー！　うう……にがい……にがいよぉ……",
+      "voice": "c125101/Panic",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010112,
+        "configuration": {
+          "Phrase": {
+            "Text": "涙目で飲んだが飲み切るまでに時間がかかり、\n結局は遅刻して怒られていた……"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "涙目で飲んだが飲み切るまでに時間がかかり、\n結局は遅刻して怒られていた……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010112
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010111,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　それってカフェオレじゃないの！？",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 38,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 39,
+      "type": "bgvStop",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 40,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-12",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "えっ！？　それってカフェオレじゃないの！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010111,
+        "configuration": {
+          "Phrase": {
+            "Text": "ブラックコーヒーじゃなくてコーヒーなんだろ？\nミルクを入れて砂糖を入れてもコーヒーはコーヒーじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ブラックコーヒーじゃなくてコーヒーなんだろ？\nミルクを入れて砂糖を入れてもコーヒーはコーヒーじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010111,
+        "configuration": {
+          "Phrase": {
+            "Text": "た、確かに……それなら砂糖マシマシでミルクを入れて……！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 48,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "た、確かに……それなら砂糖マシマシでミルクを入れて……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010111,
+        "configuration": {
+          "Phrase": {
+            "Text": "苦くない！　むしろ、すっごく美味しい！\nありがとう、%usernameusernameuserna%！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 51,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "苦くない！　むしろ、すっごく美味しい！\nありがとう、<user>！",
+      "voice": "c125101/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010111,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、よかったな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、よかったな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010111,
+        "configuration": {
+          "Phrase": {
+            "Text": "今度から甘いカフェオレとか飲んでみようかしら！\nこんなに美味しいなんて……大発見ね！",
+            "SpeakerName": "ジュリー",
+            "TeamName": "<color=#ffca96>プレ・クラス－Ａ</material></color>",
+            "VoiceAssetIds": [
+              "c125101/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 56,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-17",
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジュリー",
+      "text": "今度から甘いカフェオレとか飲んでみようかしら！\nこんなに美味しいなんて……大発見ね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61010101,
+        "branchId": null,
+        "selectedBranchId": 61010111,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……このマインドなら、なんでも幸せになれそうだな）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "125101",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……このマインドなら、なんでも幸せになれそうだな）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6101011,
+      "branchSelectionId": 61010111
+    },
+    {
+      "line": 62,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 18,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6101011
+      ],
+      "uniqueBranchMasterIds": [
+        6101011
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

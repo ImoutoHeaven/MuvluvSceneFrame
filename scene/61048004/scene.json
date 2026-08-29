@@ -1,0 +1,1702 @@
+{
+  "id": "61048004",
+  "title": "いつか大魔法を！",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61048004",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30162.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30162.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30162.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30162.png",
+      "backgrounds": {
+        "30162": "../../assets/muvluv/backgrounds/background-30162.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c122201/Confused_2": "../../assets/muvluv/audio/voice/20ad5a8335dcb654eafdb9ef39ee1f88.ogg",
+          "c122201/Happiness_2": "../../assets/muvluv/audio/voice/7e861519627cb8b4eaf0621f070d99c0.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "122301s": {
+          "key": "122301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/122301s/122301s.json",
+          "atlas": "../../assets/muvluv/spine/122301s/122301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/122301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うーん、魔導士っぽい動きは……むむむ……",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048002/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 14,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 14,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "うーん、魔導士っぽい動きは……むむむ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ミリアム？　どうしたんだ？\n何かを悩んでるみたいだが。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ミリアム？　どうしたんだ？\n何かを悩んでるみたいだが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%！　ずーっと考えてたんだよね……",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "あ、<user>！　ずーっと考えてたんだよね……",
+      "voice": "c122201/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "考えてたって……なんだ？　必殺技みたいなのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "考えてたって……なんだ？　必殺技みたいなのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん、近い！　ボクが考えてたのは、\n魔導士っぽい技ってあるかな～って！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048002/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "うん、近い！　ボクが考えてたのは、\n魔導士っぽい技ってあるかな～って！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61048004,
+        "branchId": 6110201,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "やっぱり、こういう恰好をしてるから、操縦をするときも、\n魔導士っぽい動きをやってみたいなーって思ってたんだよね",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048002/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -1500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -1500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-7"
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "やっぱり、こういう恰好をしてるから、操縦をするときも、\n魔導士っぽい動きをやってみたいなーって思ってたんだよね",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 25,
+      "type": "choice",
+      "branchMasterId": 6110201,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61102011,
+          "text": "曲芸飛行がそれっぽい",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1223011
+        },
+        {
+          "id": 61102012,
+          "text": "鍛えた基礎は魔法みたいだぞ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1223012
+        }
+      ]
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": -1500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": -1500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 27,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 28,
+      "type": "bgvStop",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あー、しってる！　フラットスピンとか、いきなり減速したり、\n加速して曲がったり宙返りするやつだよね！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048002/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 30,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-9",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "あー、しってる！　フラットスピンとか、いきなり減速したり、\n加速して曲がったり宙返りするやつだよね！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああいうのが上手い奴は、魔法使いって言われたりするぞ。\nまあ、でも基礎がしっかりしてこそだけどな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああいうのが上手い奴は、魔法使いって言われたりするぞ。\nまあ、でも基礎がしっかりしてこそだけどな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……よーし、将来の目標はそこにして、\n今は基本呪文から練習ってわけだね！　頑張るぞー！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 37,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-11",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "なるほど……よーし、将来の目標はそこにして、\n今は基本呪文から練習ってわけだね！　頑張るぞー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ミリアムの素直なところは本当に美点だな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ミリアムの素直なところは本当に美点だな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102011,
+        "configuration": {
+          "Phrase": {
+            "Text": "え？　ボク、褒められた？　えへへ、凄いでしょー！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 46,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "え？　ボク、褒められた？　えへへ、凄いでしょー！",
+      "voice": "c122201/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ドヤ顔で嬉しそうなミリアムに苦笑しながらも、頭を撫でるのだった。"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ドヤ顔で嬉しそうなミリアムに苦笑しながらも、頭を撫でるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102011
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 51,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 52,
+      "type": "bgvStop",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ！？　全然イメージできない！？\nどういうこと！？　教えてよ～！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 54,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-16",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 56,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "ええ！？　全然イメージできない！？\nどういうこと！？　教えてよ～！",
+      "voice": "c122201/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだな……剣技一つでも、鍛え上げれば魔法のように、\n岩ですら両断出来る……それはもう魔法じゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうだな……剣技一つでも、鍛え上げれば魔法のように、\n岩ですら両断出来る……それはもう魔法じゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102012,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど！？　じゃあ、ボクも鍛え上げて、\n魔法みたいに見えるようになればいいってことだね！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-18",
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 63,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "なるほど！？　じゃあ、ボクも鍛え上げて、\n魔法みたいに見えるようになればいいってことだね！",
+      "voice": "c122201/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……まあ先は長いと思うが、頑張れよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……まあ先は長いと思うが、頑張れよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61048004,
+        "branchId": null,
+        "selectedBranchId": 61102012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、張り切って基礎訓練に取り込むミリアムを見て、\n結果オーライかと思うのだった。"
+          },
+          "Background": {
+            "AssetId": "30162",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30162",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 69,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、張り切って基礎訓練に取り込むミリアムを見て、\n結果オーライかと思うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6110201,
+      "branchSelectionId": 61102012
+    },
+    {
+      "line": 70,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 20,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6110201
+      ],
+      "uniqueBranchMasterIds": [
+        6110201
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,1827 @@
+{
+  "id": "61006201",
+  "title": "自由な狼",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61006201",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-20062.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-20062.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-20062.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-20062.png",
+      "backgrounds": {
+        "20062": "../../assets/muvluv/backgrounds/background-20062.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c115301/ResponseGood": "../../assets/muvluv/audio/voice/a9aaa7fd0b660964ca6bf90cd3d25a32.ogg",
+          "c115301/Thank": "../../assets/muvluv/audio/voice/6da1153dada81064899fcc134f6287ac.ogg",
+          "c115301/Smile": "../../assets/muvluv/audio/voice/7e1bc841f4c31af43874629fcfa540ec.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "115301s": {
+          "key": "115301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/115301s/115301s.json",
+          "atlas": "../../assets/muvluv/spine/115301s/115301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/115301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ヒイロにネイルガン用の部品を買ってきてほしいと頼まれたので、\n購入後待ち合わせ場所に向かったのだが――"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ヒイロにネイルガン用の部品を買ってきてほしいと頼まれたので、\n購入後待ち合わせ場所に向かったのだが――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "すぅ……すぅ……",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "すぅ……すぅ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "寝てる……\nひとを呼び出しておいて、自由なやつだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "寝てる……\nひとを呼び出しておいて、自由なやつだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん……？　%usernameusernameuserna%？",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "61006201/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "ん……？　<user>？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おはよう。よく眠れたか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おはよう。よく眠れたか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61006201,
+        "branchId": 6100621,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん……ゆっくりできた。ここ静かだから、すごく落ち着く。",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "c115301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -3000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-7"
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "うん……ゆっくりできた。ここ静かだから、すごく落ち着く。",
+      "voice": "c115301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "choice",
+      "branchMasterId": 6100621,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 7,
+      "options": [
+        {
+          "id": 61006211,
+          "text": "買ってきたもの置いておくぞ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1153012
+        },
+        {
+          "id": 61006212,
+          "text": "俺もちょっとここでゆっくりしようかな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1153011
+        }
+      ]
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006211,
+        "configuration": {
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 25,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 26,
+      "type": "bgvStop",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、そうだ……忘れてた。ありがとう。\nそして今お金がない。",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "61006201/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 28,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-9",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "ああ、そうだ……忘れてた。ありがとう。\nそして今お金がない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006211,
+        "configuration": {
+          "Phrase": {
+            "Text": "自分で頼んでおいて忘れるなよ……\nそしてお金ないのにひとにお使いを頼むな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "自分で頼んでおいて忘れるなよ……\nそしてお金ないのにひとにお使いを頼むな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006211,
+        "configuration": {
+          "Phrase": {
+            "Text": "今度返すから。",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "61006201/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "今度返すから。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006211,
+        "configuration": {
+          "Phrase": {
+            "Text": "……いや、いいよ。そんな高いものじゃなかったし。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……いや、いいよ。そんな高いものじゃなかったし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006211,
+        "configuration": {
+          "Phrase": {
+            "Text": "ほんと？　ありがとう、%usernameusernameuserna%。",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "c115301/Thank"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-13",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 43,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "ほんと？　ありがとう、<user>。",
+      "voice": "c115301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006211
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": -3000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 45,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 46,
+      "type": "bgvStop",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあ、膝貸して。ちょうど枕がほしかった。",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "61006201/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-15",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "じゃあ、膝貸して。ちょうど枕がほしかった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "ヒイロは俺を便利な道具か何かだと思ってない？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ヒイロは俺を便利な道具か何かだと思ってない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "はやく、すわって。",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "61006201/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-17",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "はやく、すわって。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "……はぁ、わかったよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……はぁ、わかったよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言ってあぐらをかくと、さっそくヒイロが頭を預けてきた。"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言ってあぐらをかくと、さっそくヒイロが頭を預けてきた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "さすが、%usernameusernameuserna%。\n頼りになる。",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>",
+            "VoiceAssetIds": [
+              "c115301/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 65,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-20",
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 67,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "さすが、<user>。\n頼りになる。",
+      "voice": "c115301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、そういえば、部品買ってきたんだが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "115301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あ、そういえば、部品買ってきたんだが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "すぅ……すぅ……",
+            "SpeakerName": "ヒイロ",
+            "TeamName": "<color=#f48981>インスカーレット</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ヒイロ",
+      "text": "すぅ……すぅ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "って、はやっ！？　もう寝てやがる……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 75,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 76,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "って、はやっ！？　もう寝てやがる……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 77,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61006201,
+        "branchId": null,
+        "selectedBranchId": 61006212,
+        "configuration": {
+          "Phrase": {
+            "Text": "本当に自由なやつだと呆れつつ、その安らかな顔を見ていると、\n怒るに怒れない俺だった。"
+          },
+          "Background": {
+            "AssetId": "20062",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20062",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 78,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 79,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "本当に自由なやつだと呆れつつ、その安らかな顔を見ていると、\n怒るに怒れない俺だった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6100621,
+      "branchSelectionId": 61006212
+    },
+    {
+      "line": 80,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100621
+      ],
+      "uniqueBranchMasterIds": [
+        6100621
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

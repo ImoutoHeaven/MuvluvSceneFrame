@@ -1,0 +1,1662 @@
+{
+  "id": "61042002",
+  "title": "いっぱい食べる君",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61042002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30032.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30032.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30032.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30032.png",
+      "backgrounds": {
+        "30032": "../../assets/muvluv/backgrounds/background-30032.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c142301/Shy": "../../assets/muvluv/audio/voice/6d2adb4d82df8814c90422cafd47fef9.ogg",
+          "c142301/Agreement": "../../assets/muvluv/audio/voice/cd11bd2167620ab41853dbe371f7cab1.ogg",
+          "c142301/Thank": "../../assets/muvluv/audio/voice/50553c341a9ede84ca07b5e80f00854e.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "142301s": {
+          "key": "142301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/142301s/142301s.json",
+          "atlas": "../../assets/muvluv/spine/142301s/142301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/142301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はぁ、腹減った……\nさーて、何を食べ……ようか……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "はぁ、腹減った……\nさーて、何を食べ……ようか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "と、食堂にやってくると、\nそこにはお盆いっぱいに盛られた食事をしている真桜がいた。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "と、食堂にやってくると、\nそこにはお盆いっぱいに盛られた食事をしている真桜がいた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はぁ、美味しいです……ご飯のおかわり、も……",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61042002/1"
+            ],
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "HiddenCharacter": {
+            "AssetId": "142301s",
+            "Y": -1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "はぁ、美味しいです……ご飯のおかわり、も……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……真桜と目があった。\nすると、顔を真赤にして俺の元へやってきて弁明する。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……真桜と目があった。\nすると、顔を真赤にして俺の元へやってきて弁明する。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ち、違うんです！　普段からここまで食べているわけではなくて！\nきょ、今日は忙しくて！　朝ごはんも食べていなくて！",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61042002/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -17150,
+            "Scale": 1400,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -17150,
+              -17150,
+              -17150,
+              -17150
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -17150,
+            "Scale": 1400,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1400,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -17150,
+              -17150,
+              -17150,
+              -17150
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "ち、違うんです！　普段からここまで食べているわけではなくて！\nきょ、今日は忙しくて！　朝ごはんも食べていなくて！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "な、なので普段よりもちょっと多く食べていただけで……",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61042002/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -17150,
+            "Scale": 1400,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 800,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -17150,
+            "Scale": 1400,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 800,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "な、なので普段よりもちょっと多く食べていただけで……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61042002,
+        "branchId": 6107601,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（びっくりしたが、テンパってる真桜を見てたら、\n逆に落ち着いてきたな）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（びっくりしたが、テンパってる真桜を見てたら、\n逆に落ち着いてきたな）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "choice",
+      "branchMasterId": 6107601,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61076011,
+          "text": "むしろ張り合う",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1443012
+        },
+        {
+          "id": 61076012,
+          "text": "フォローする",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1443011
+        }
+      ]
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 28,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 29,
+      "type": "bgvStop",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076012,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、腹が減ってる時はいっぱい食べるのはいいことだもんな。\n折角なら、一緒に食べてもいいか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まあ、腹が減ってる時はいっぱい食べるのはいいことだもんな。\n折角なら、一緒に食べてもいいか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076012,
+        "configuration": {
+          "Phrase": {
+            "Text": "は、はい。大丈夫です……大丈夫、ですが……うう、違うんです……\n普段でしたら、もっと……",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c142301/Shy"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-11",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 36,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "は、はい。大丈夫です……大丈夫、ですが……うう、違うんです……\n普段でしたら、もっと……",
+      "voice": "c142301/Shy",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、どうして%usernameusernameuserna%さんの前だと、\nこんなに恥ずかしい姿ばっかり……",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61042002/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-12",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "ああ、どうして<user>さんの前だと、\nこんなに恥ずかしい姿ばっかり……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076012,
+        "configuration": {
+          "Phrase": {
+            "Text": "顔を赤くしながら恥ずかしがる真桜と、一緒に食事を取るのだった。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "顔を赤くしながら恥ずかしがる真桜と、一緒に食事を取るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 45,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 46,
+      "type": "bgvStop",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Phrase": {
+            "Text": "やっぱり体が資本だよな……よし、負けてられん！\nちょっと待っててくれ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "やっぱり体が資本だよな……よし、負けてられん！\nちょっと待っててくれ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　は、はい！",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "61042002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-16",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "えっ！？　は、はい！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、俺は真桜に負けないくらいにお盆いっぱいに、\n料理を盛って彼女の隣に座る。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、俺は真桜に負けないくらいにお盆いっぱいに、\n料理を盛って彼女の隣に座る。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Phrase": {
+            "Text": "さあ、食べるとするか。\n午後からも忙しくなるだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 59,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "さあ、食べるとするか。\n午後からも忙しくなるだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……はい、そうですね。\nお腹いっぱい食べて、元気を補充しましょう！",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c142301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-19",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 63,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "……はい、そうですね。\nお腹いっぱい食べて、元気を補充しましょう！",
+      "voice": "c142301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふふ、ありがとうございます、%usernameusernameuserna%さん。",
+            "SpeakerName": "真桜",
+            "TeamName": "<color=#89f4f3>風紀委員会</material></color>",
+            "VoiceAssetIds": [
+              "c142301/Thank"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "142301s"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "142301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 65,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-20",
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 67,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "真桜",
+      "text": "……ふふ、ありがとうございます、<user>さん。",
+      "voice": "c142301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61042002,
+        "branchId": null,
+        "selectedBranchId": 61076011,
+        "configuration": {
+          "Phrase": {
+            "Text": "全部を食べきった後は流石にお腹が苦しかったが、\nそれでも真桜と笑顔で食事をするのだった。"
+          },
+          "Background": {
+            "AssetId": "30032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "全部を食べきった後は流石にお腹が苦しかったが、\nそれでも真桜と笑顔で食事をするのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6107601,
+      "branchSelectionId": 61076011
+    },
+    {
+      "line": 71,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 21,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6107601
+      ],
+      "uniqueBranchMasterIds": [
+        6107601
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

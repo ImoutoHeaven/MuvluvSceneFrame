@@ -1,0 +1,1719 @@
+{
+  "id": "61050001",
+  "title": "穏やかな休日",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61050001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-20012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-20012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-20012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-20012.png",
+      "backgrounds": {
+        "20012": "../../assets/muvluv/backgrounds/background-20012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c148301/CallOut": "../../assets/muvluv/audio/voice/3ee6817f759d87442a2f8ad9a3072f75.ogg",
+          "c148301/Confused_3": "../../assets/muvluv/audio/voice/a80c0ab69328dc94c9290f0740cab38f.ogg",
+          "c148301/Question": "../../assets/muvluv/audio/voice/7df33433149bb904db66b9ea2ea8e4fe.ogg",
+          "c148301/Surprised_2": "../../assets/muvluv/audio/voice/6310c62e838d259488418a8a269f993d.ogg",
+          "c148301/Thank": "../../assets/muvluv/audio/voice/607f683861300184abb040895befae34.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "148301s": {
+          "key": "148301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/148301s/148301s.json",
+          "atlas": "../../assets/muvluv/spine/148301s/148301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/148301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（休みをもらったはいいが、特に予定は無いんだよな…。\n　やるとしてもトレーニングくらいだな…。）",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "（休みをもらったはいいが、特に予定は無いんだよな…。\n　やるとしてもトレーニングくらいだな…。）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ブリッジス、少し良いだろうか？",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "ブリッジス、少し良いだろうか？",
+      "voice": "c148301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？　ああ、別に構わないぞ。\nどうした、何か用事か？",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "ん？　ああ、別に構わないぞ。\nどうした、何か用事か？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "取り立てて何かというわけではないんだが……\nこっちに来てから色々と慌ただしかっただろう？",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "取り立てて何かというわけではないんだが……\nこっちに来てから色々と慌ただしかっただろう？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ぶ、部下とのコミュニケーションが、疎かになっていやしないかと\n気になってな。もし良ければ、少し付き合ってもらえないだろうか？",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/Confused_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "ぶ、部下とのコミュニケーションが、疎かになっていやしないかと\n気になってな。もし良ければ、少し付き合ってもらえないだろうか？",
+      "voice": "c148301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、いいぜ。ちょうど俺もヒマしてたところだ。\nしっかしどういう風の吹き回しだ？",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "ああ、いいぜ。ちょうど俺もヒマしてたところだ。\nしっかしどういう風の吹き回しだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61050001,
+        "branchId": 6110701,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "せっかくBETAのいない世界に来たのだ。腰を落ち着けて、その、\n部下との相互理解を、深められればと思ったのだが……迷惑だろうか？",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-8"
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "せっかくBETAのいない世界に来たのだ。腰を落ち着けて、その、\n部下との相互理解を、深められればと思ったのだが……迷惑だろうか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 28,
+      "type": "choice",
+      "branchMasterId": 6110701,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61107011,
+          "text": "良いと思う",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1483012
+        },
+        {
+          "id": 61107012,
+          "text": "立ち話もなんだし",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1483011
+        }
+      ]
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 30,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 31,
+      "type": "bgvStop",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Phrase": {
+            "Text": "最近の唯依は、少し肩の力が抜けてきてて、いい感じだと思うぜ。",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "最近の唯依は、少し肩の力が抜けてきてて、いい感じだと思うぜ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そ、そうか？　……その、ブリッジスから見て、\n私のこの立ち居振る舞いは、おかしく映っていないだろうか？",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/Question"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 36,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-11",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 38,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "そ、そうか？　……その、ブリッジスから見て、\n私のこの立ち居振る舞いは、おかしく映っていないだろうか？",
+      "voice": "c148301/Question",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Phrase": {
+            "Text": "その…なんだ。私らしくないというか、不自然だとか……。",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "その…なんだ。私らしくないというか、不自然だとか……。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなことはないと思うぞ。向こうに居た頃より表情も柔らかいし、俺は今の方が好きだぜ。",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "そんなことはないと思うぞ。向こうに居た頃より表情も柔らかいし、俺は今の方が好きだぜ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Phrase": {
+            "Text": "すっ、好き！？",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 46,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-14",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 47,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 48,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "すっ、好き！？",
+      "voice": "c148301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Phrase": {
+            "Text": "コホン。お、おかしくないのなら良かった。",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 50,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-15",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "コホン。お、おかしくないのなら良かった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ありがとう、ブリッジス。これからもよろしく頼む。",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/Thank"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 55,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "……ありがとう、ブリッジス。これからもよろしく頼む。",
+      "voice": "c148301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107011
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107012,
+        "configuration": {
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 57,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 58,
+      "type": "bgvStop",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107012,
+        "configuration": {
+          "Phrase": {
+            "Text": "話したいなら立ったままはやめようぜ？",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "話したいなら立ったままはやめようぜ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そ、そうだな。……よし……では、お邪魔する。",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 63,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-19",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "そ、そうだな。……よし……では、お邪魔する。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107012,
+        "configuration": {
+          "Phrase": {
+            "Text": "何か飲むか？　コーヒーと……そういやグリーンティーもあったな。\nどっちもインスタントだけどいいか？",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "何か飲むか？　コーヒーと……そういやグリーンティーもあったな。\nどっちもインスタントだけどいいか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ。ではお茶をいただこう。\n……ブリッジスも緑茶を飲んだりするのだな……。",
+            "SpeakerName": "唯依",
+            "VoiceAssetIds": [
+              "c148301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "148301s"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "148301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 70,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-21",
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "唯依",
+      "text": "ああ。ではお茶をいただこう。\n……ブリッジスも緑茶を飲んだりするのだな……。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61050001,
+        "branchId": null,
+        "selectedBranchId": 61107012,
+        "configuration": {
+          "Phrase": {
+            "Text": "温かなお茶を飲みながら、\n二人はしばし穏やかな時間を過ごすのだった。"
+          },
+          "Background": {
+            "AssetId": "20012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "20012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "温かなお茶を飲みながら、\n二人はしばし穏やかな時間を過ごすのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6110701,
+      "branchSelectionId": 61107012
+    },
+    {
+      "line": 76,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 22,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6110701
+      ],
+      "uniqueBranchMasterIds": [
+        6110701
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

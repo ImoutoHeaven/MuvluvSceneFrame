@@ -1,0 +1,1901 @@
+{
+  "id": "61002401",
+  "title": "メガネの在処",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61002401",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30012.png",
+      "backgrounds": {
+        "30012": "../../assets/muvluv/backgrounds/background-30012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c106301/ResponseGood": "../../assets/muvluv/audio/voice/4ecba7b183c979244821c584365e687f.ogg",
+          "c106301/Sadness": "../../assets/muvluv/audio/voice/0a155d9fa0ef5cc4dac8af3e36c11982.ogg",
+          "c106301/Confused": "../../assets/muvluv/audio/voice/03d4677876643db44b424adab133db57.ogg",
+          "c106301/Happiness": "../../assets/muvluv/audio/voice/f7f3b3080c8109049a5f5bdb5dc1d1e9.ogg",
+          "c106301/Surprised": "../../assets/muvluv/audio/voice/d57b93ecae9b36c45a3b38f0f06e269d.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "106301s": {
+          "key": "106301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/106301s/106301s.json",
+          "atlas": "../../assets/muvluv/spine/106301s/106301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/106301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "た、助けてくださぁああい！\n%usernameusernameuserna%さぁぁあん！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 600,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 600,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 4,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 600,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 600,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "た、助けてくださぁああい！\n<user>さぁぁあん！",
+      "voice": "c106301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うるうか、どうした？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "うるうか、どうした？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "メガネをなくしてしまいまして……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Sadness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "メガネをなくしてしまいまして……",
+      "voice": "c106301/Sadness",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今かけてるじゃないか。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "今かけてるじゃないか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "これは予備です……わ、わたし、おっちょこちょいで\nすぐなくすので、一応予備も持ち歩いてまして……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Sadness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "これは予備です……わ、わたし、おっちょこちょいで\nすぐなくすので、一応予備も持ち歩いてまして……",
+      "voice": "c106301/Sadness",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どこで落としたかとか、心当たりない？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11700,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 700,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 700
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11700,
+            "Scale": 1000,
+            "FacialType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 700,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 700
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どこで落としたかとか、心当たりない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "た、多分……この教室かなと思うんですが、確証はないです……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "た、多分……この教室かなと思うんですが、確証はないです……",
+      "voice": "c106301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうか……まあ、メガネも安いものじゃないし、\n早く見つけないとな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうか……まあ、メガネも安いものじゃないし、\n早く見つけないとな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61002401,
+        "branchId": 6100241,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 31,
+      "type": "choice",
+      "branchMasterId": 6100241,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 10,
+      "options": [
+        {
+          "id": 61002411,
+          "text": "一緒に探すよ",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1063012
+        },
+        {
+          "id": 61002412,
+          "text": "遺失物コーナーに届いてないかな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1063011
+        }
+      ]
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002411,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、ありがとうございますっ！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 33,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 34,
+      "type": "bgvStop",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 35,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-11",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 37,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "あ、ありがとうございますっ！",
+      "voice": "c106301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002411,
+        "configuration": {
+          "Phrase": {
+            "Text": "しかしメガネは一向に見つからない……"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "しかしメガネは一向に見つからない……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002411,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ……あの……ふと思ったのですが、もしかすると、\n遺失物コーナーに届いてたりはしないでしょうか……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Confused"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 43,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "あ……あの……ふと思ったのですが、もしかすると、\n遺失物コーナーに届いてたりはしないでしょうか……",
+      "voice": "c106301/Confused",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002411,
+        "configuration": {
+          "Phrase": {
+            "Text": "それもそうだな……ここまで見つからないなら、\nもう誰かに拾われてるかもしれない。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それもそうだな……ここまで見つからないなら、\nもう誰かに拾われてるかもしれない。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002411,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう思い、柊校舎の遺失物コーナーへ行くと、\n誰かに拾ってもらったのか彼女のメガネが無事届いていたのだった。"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう思い、柊校舎の遺失物コーナーへ行くと、\n誰かに拾ってもらったのか彼女のメガネが無事届いていたのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002411
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "まず柊校舎の遺失物コーナーに、誰かが届けてくれてないかな。\nそこになければ改めて探し回ろう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 51,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 52,
+      "type": "bgvStop",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まず柊校舎の遺失物コーナーに、誰かが届けてくれてないかな。\nそこになければ改めて探し回ろう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "は、はいっ、そうですね……！\nそちらのほうが効率的かもと思います！　さすがです！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Surprised"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 56,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-17",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 58,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "は、はいっ、そうですね……！\nそちらのほうが効率的かもと思います！　さすがです！",
+      "voice": "c106301/Surprised",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "わたしってば全然その発想に至らず……\n同じ場所をぐるぐる探してました……",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Sadness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 14,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11700
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 60,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-18",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 62,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "わたしってば全然その発想に至らず……\n同じ場所をぐるぐる探してました……",
+      "voice": "c106301/Sadness",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "遺失物コーナーを訪ねると、誰かが拾って届けてくれていたようで――"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "遺失物コーナーを訪ねると、誰かが拾って届けてくれていたようで――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "無事に手元に戻ってきてよかったな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "無事に手元に戻ってきてよかったな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "ありがとうございます！　これで買い直さなくてよかったです！\nあ、あまりお金に余裕があるわけじゃないので……！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 70,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-21",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 72,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "ありがとうございます！　これで買い直さなくてよかったです！\nあ、あまりお金に余裕があるわけじゃないので……！",
+      "voice": "c106301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "今度は落とさないようにしろよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "今度は落とさないようにしろよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい！！",
+            "SpeakerName": "うるう",
+            "TeamName": "<color=#d2c6ed>カラフルブーケ</material></color>",
+            "VoiceAssetIds": [
+              "c106301/Happiness"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "106301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 77,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-23",
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 78,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 79,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "うるう",
+      "text": "はい！！",
+      "voice": "c106301/Happiness",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 80,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61002401,
+        "branchId": null,
+        "selectedBranchId": 61002412,
+        "configuration": {
+          "Phrase": {
+            "Text": "数日後、また落としたという相談の連絡が届くのであった――"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 81,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 82,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "数日後、また落としたという相談の連絡が届くのであった――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6100241,
+      "branchSelectionId": 61002412
+    },
+    {
+      "line": 83,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100241
+      ],
+      "uniqueBranchMasterIds": [
+        6100241
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

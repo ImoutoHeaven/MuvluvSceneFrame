@@ -1,0 +1,2505 @@
+{
+  "id": "61020401",
+  "title": "誰もいない校舎で",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61020401",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30012.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30012.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30012.png",
+      "backgrounds": {
+        "30012": "../../assets/muvluv/backgrounds/background-30012.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "103302s": {
+          "key": "103302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/103302s/103302s.json",
+          "atlas": "../../assets/muvluv/spine/103302s/103302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/103302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "神社を巡った帰り、\n俺達は気まぐれに冬休みの誰もいない校舎に寄り道した――"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "神社を巡った帰り、\n俺達は気まぐれに冬休みの誰もいない校舎に寄り道した――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "校舎内、ほんと静かよね～。\nなんか不法侵入してるみたいじゃない？",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "校舎内、ほんと静かよね～。\nなんか不法侵入してるみたいじゃない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "早く自首しろよ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "早く自首しろよ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "たとえ話だから！　つか、ラミ正規の学生だし！？",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "たとえ話だから！　つか、ラミ正規の学生だし！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも実際、誰もいない校舎にふたりだけでいるところ見られたら、\nどう思われるだろうな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも実際、誰もいない校舎にふたりだけでいるところ見られたら、\nどう思われるだろうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んー。男女ふたりで、こっそりしてるなんて――",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "んー。男女ふたりで、こっそりしてるなんて――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "！？",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-8"
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（まずい）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（まずい）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（これ、普通にめっちゃ誤解されね！？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（これ、普通にめっちゃ誤解されね！？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そ、そろそろ帰るか！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そ、そろそろ帰るか！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そ、そうね――",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 37,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-12"
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "そ、そうね――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ねーねー！　休みの校舎って誰もいないから、\nふたりだけの世界って感じがするよねー！",
+            "SpeakerName": "柊校舎の生徒の声１"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声１",
+      "text": "ねーねー！　休みの校舎って誰もいないから、\nふたりだけの世界って感じがするよねー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61020401,
+        "branchId": 6102041,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうね！　世界をふたりじめ的な！",
+            "SpeakerName": "柊校舎の生徒の声２"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声２",
+      "text": "そうね！　世界をふたりじめ的な！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14
+    },
+    {
+      "line": 46,
+      "type": "choice",
+      "branchMasterId": 6102041,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 14,
+      "options": [
+        {
+          "id": 61020411,
+          "text": "まずい、隠れるぞ！",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1033021
+        },
+        {
+          "id": 61020412,
+          "text": "窓から逃げるぞ！",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1033022
+        }
+      ]
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 48,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 49,
+      "type": "bgvStop",
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "じゃあ、とりま掃除用具ロッカーに！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "じゃあ、とりま掃除用具ロッカーに！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "がらっ、とドアが開き――"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "がらっ、とドアが開き――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "あれ？　今声しなかった？",
+            "SpeakerName": "柊校舎の生徒の声１"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声１",
+      "text": "あれ？　今声しなかった？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "気のせいじゃない？",
+            "SpeakerName": "柊校舎の生徒の声２"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声２",
+      "text": "気のせいじゃない？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょ、%usernameusernameuserna%、あんまくっつかないで！\nって、どこ揉んでるの！？",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 63,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-20",
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "ちょ、<user>、あんまくっつかないで！\nって、どこ揉んでるの！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "おまえこそ、どこ握ってんだよ……！\nつか、声出すな！　バレる！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おまえこそ、どこ握ってんだよ……！\nつか、声出すな！　バレる！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "その後、無事女子ふたりは俺達に気づかず、去っていったが――"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その後、無事女子ふたりは俺達に気づかず、去っていったが――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "…………",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "…………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020411,
+        "configuration": {
+          "Phrase": {
+            "Text": "ロッカーから出たあと、\n微妙に気まずい空気が残されてしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 79,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 80,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ロッカーから出たあと、\n微妙に気まずい空気が残されてしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020411
+    },
+    {
+      "line": 81,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 82,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 83,
+      "type": "bgvStop",
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 84,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "飛び降りる気！？　ここ３階じゃん！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 85,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 86,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "飛び降りる気！？　ここ３階じゃん！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 87,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "がらっ、とドアが開き――"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "がらっ、とドアが開き――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "ねえ、誰かいるの？",
+            "SpeakerName": "柊校舎の生徒の声２"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 91,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 92,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声２",
+      "text": "ねえ、誰かいるの？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 93,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ……",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/10"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 94,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-30",
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 96,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "あ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ……",
+            "SpeakerName": "柊校舎の生徒の声１"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 98,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 99,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声１",
+      "text": "あ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 100,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 32,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "ど、どうぞ、気にせず続きを楽しんでください……",
+            "SpeakerName": "柊校舎の生徒の声２"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 101,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 102,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声２",
+      "text": "ど、どうぞ、気にせず続きを楽しんでください……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 32,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 103,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 33,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "私達は別の空いてるところで楽しむので！！",
+            "SpeakerName": "柊校舎の生徒の声１"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 104,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 105,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "柊校舎の生徒の声１",
+      "text": "私達は別の空いてるところで楽しむので！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 33,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 106,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 34,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょ、待って！　違う！　違うからぁ～～～～！",
+            "SpeakerName": "ラミ",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</material></color>",
+            "VoiceAssetIds": [
+              "61020401/11"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              -2500,
+              -2000,
+              -3000,
+              -2500
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              -2500,
+              -2000,
+              -3000,
+              -2500
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 107,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-34",
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 108,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 109,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ラミ",
+      "text": "ちょ、待って！　違う！　違うからぁ～～～～！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 34,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 110,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 35,
+        "sceneId": 61020401,
+        "branchId": null,
+        "selectedBranchId": 61020412,
+        "configuration": {
+          "Phrase": {
+            "Text": "見事見つかってしまい、盛大に勘違いされた俺達だった――"
+          },
+          "Background": {
+            "AssetId": "30012",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30012",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "103302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 111,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 112,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "見事見つかってしまい、盛大に勘違いされた俺達だった――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 35,
+      "branchMasterId": 6102041,
+      "branchSelectionId": 61020412
+    },
+    {
+      "line": 113,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 35,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6102041
+      ],
+      "uniqueBranchMasterIds": [
+        6102041
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

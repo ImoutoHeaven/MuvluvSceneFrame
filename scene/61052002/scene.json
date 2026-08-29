@@ -1,0 +1,1536 @@
+{
+  "id": "61052002",
+  "title": "メイド服はお似合い？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61052002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-50022.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-50022.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-50022.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-50022.png",
+      "backgrounds": {
+        "50022": "../../assets/muvluv/backgrounds/background-50022.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c150301/Question": "../../assets/muvluv/audio/voice/c7b9867343055dc41ba2b096781bf450.ogg",
+          "c150301/Happiness_2": "../../assets/muvluv/audio/voice/0bf61ea19bf1fc74fa30b55dd5165af5.ogg",
+          "c150301/Confused_2": "../../assets/muvluv/audio/voice/765c71aa9d72d3044aa0726f8e20b046.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "150001c": {
+          "key": "150001c",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/150001c/150001c.json",
+          "atlas": "../../assets/muvluv/spine/150001c/150001c.atlas",
+          "textureBase": "../../assets/muvluv/spine/150001c/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら、ユウヤ。\nこんなところでどうしたの？",
+            "SpeakerName": "ステラ",
+            "VoiceAssetIds": [
+              "c150301/Question"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "150001c"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ステラ",
+      "text": "あら、ユウヤ。\nこんなところでどうしたの？",
+      "voice": "c150301/Question",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "これからメーカーの技術者たちと会議があってな。\nそれに向かうところだ。",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "これからメーカーの技術者たちと会議があってな。\nそれに向かうところだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ステラこそ、こんなところで……\nしかも、そんな恰好でどうしたんだ？",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "ステラこそ、こんなところで……\nしかも、そんな恰好でどうしたんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "私はカークランドさんの付き添いで、今は待機中よ。\nムーアクロフトさんが別件で来られなくて、私が引き受けたの。",
+            "SpeakerName": "ステラ",
+            "VoiceAssetIds": [
+              "c150301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "150001c"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ステラ",
+      "text": "私はカークランドさんの付き添いで、今は待機中よ。\nムーアクロフトさんが別件で来られなくて、私が引き受けたの。",
+      "voice": "c150301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61052002,
+        "branchId": 6111601,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほどな。\nしかし――",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "なるほどな。\nしかし――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "choice",
+      "branchMasterId": 6111601,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61116011,
+          "text": "違和感はない。",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1503012
+        },
+        {
+          "id": 61116012,
+          "text": "違和感がある。",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1503011
+        }
+      ]
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116011,
+        "configuration": {
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 22,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 23,
+      "type": "bgvStop",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ステラがメイドをやっている事を自然と受け入れちまってるな。\nまぁ、なんとなく理由は分かるが……",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "ステラがメイドをやっている事を自然と受け入れちまってるな。\nまぁ、なんとなく理由は分かるが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら、どういう意味かしら？",
+            "SpeakerName": "ステラ",
+            "VoiceAssetIds": [
+              "c150301/Question"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "150001c"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 28,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-9",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 30,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ステラ",
+      "text": "あら、どういう意味かしら？",
+      "voice": "c150301/Question",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116011,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺たちアルゴス小隊を上手くまとめられるくらいだからな。\nそんなステラだから、メイドも上手くこなせるんだろう。",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "俺たちアルゴス小隊を上手くまとめられるくらいだからな。\nそんなステラだから、メイドも上手くこなせるんだろう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……俺もずいぶんと世話になっちまったし。",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "……俺もずいぶんと世話になっちまったし。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら？　素直に褒めてくれるの？\nでも、私はちょっとみんなを手伝っただけで、大したことはしてないわ。",
+            "SpeakerName": "ステラ",
+            "VoiceAssetIds": [
+              "c150301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "150001c"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-12",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 40,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ステラ",
+      "text": "あら？　素直に褒めてくれるの？\nでも、私はちょっとみんなを手伝っただけで、大したことはしてないわ。",
+      "voice": "c150301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116011,
+        "configuration": {
+          "Phrase": {
+            "Text": "当たり前のように言って柔らかく微笑むステラに、\nやはりそういう部分がメイドにも向いているのだろうと思うのだった。"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "当たり前のように言って柔らかく微笑むステラに、\nやはりそういう部分がメイドにも向いているのだろうと思うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116011
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116012,
+        "configuration": {
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 45,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 46,
+      "type": "bgvStop",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116012,
+        "configuration": {
+          "Phrase": {
+            "Text": "やっぱりステラがメイドをやっているのは、\nなんというか、違和感があるな……",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "やっぱりステラがメイドをやっているのは、\nなんというか、違和感があるな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そんなにおかしいでしょうか、ご主人様。",
+            "SpeakerName": "ステラ",
+            "VoiceAssetIds": [
+              "c150301/300"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "150001c"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 7
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-16",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ステラ",
+      "text": "そんなにおかしいでしょうか、ご主人様。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……やめてくれ。むず痒い。",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "……やめてくれ。むず痒い。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116012,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら？　イヤだった？",
+            "SpeakerName": "ステラ",
+            "VoiceAssetIds": [
+              "c150301/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "150001c"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 58,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-18",
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 60,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ステラ",
+      "text": "あら？　イヤだった？",
+      "voice": "c150301/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、イヤという訳じゃなくてな……\n身近な奴の、そういうのを見るのはな……",
+            "SpeakerName": "ユウヤ",
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10061"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "150001c",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユウヤ",
+      "text": "いや、イヤという訳じゃなくてな……\n身近な奴の、そういうのを見るのはな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61052002,
+        "branchId": null,
+        "selectedBranchId": 61116012,
+        "configuration": {
+          "Phrase": {
+            "Text": "しどろもどろになっているところを、微笑ましいものを見る目で\n見つめてくるステラに、さらに焦ってしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "50022",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "50022",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "しどろもどろになっているところを、微笑ましいものを見る目で\n見つめてくるステラに、さらに焦ってしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6111601,
+      "branchSelectionId": 61116012
+    },
+    {
+      "line": 67,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 20,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6111601
+      ],
+      "uniqueBranchMasterIds": [
+        6111601
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,1915 @@
+{
+  "id": "61035004",
+  "title": "探すは焼きそばパン",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61035004",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40042.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40042.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40042.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40042.png",
+      "backgrounds": {
+        "40042": "../../assets/muvluv/backgrounds/background-40042.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {},
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "137301s": {
+          "key": "137301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/137301s/137301s.json",
+          "atlas": "../../assets/muvluv/spine/137301s/137301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/137301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "今日はオフなので街に繰り出してみた。行きつけを巡っていた矢先、\nパン屋を道の反対側からじっと見つめている不審者に遭遇した。"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "今日はオフなので街に繰り出してみた。行きつけを巡っていた矢先、\nパン屋を道の反対側からじっと見つめている不審者に遭遇した。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "よう、彩峰。あのパン屋がどうかしたのか？",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "よう、彩峰。あのパン屋がどうかしたのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……！",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……よう。",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "……よう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "やきそばパンブームが起きたはずなのに、あの店は置いてない。おかしい。",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 14
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 14
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "やきそばパンブームが起きたはずなのに、あの店は置いてない。おかしい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いくらブームだからって言っても、全部が全部ってわけにもならないだろ……。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "いくらブームだからって言っても、全部が全部ってわけにもならないだろ……。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "で、彩峰はここで何を見てるんだ？",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "で、彩峰はここで何を見てるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61035004,
+        "branchId": 6105001,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "やきそばパンが無いのに、すごく賑わってる。\nみんな何買ってるか見てる。",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "やきそばパンが無いのに、すごく賑わってる。\nみんな何買ってるか見てる。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "choice",
+      "branchMasterId": 6105001,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61050011,
+          "text": "買ってきてやろうか？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1423014
+        },
+        {
+          "id": 61050012,
+          "text": "張り込みだな！",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1423013
+        }
+      ]
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 32,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 33,
+      "type": "bgvStop",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Phrase": {
+            "Text": "見てるだけじゃわからないんじゃないか？\n人気になってるっぽいやつを買って、食ってみようぜ。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "見てるだけじゃわからないんじゃないか？\n人気になってるっぽいやつを買って、食ってみようぜ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Phrase": {
+            "Text": "「百聞は一見にしかず」もとい、「百目は一食にしかず」だ！",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "「百聞は一見にしかず」もとい、「百目は一食にしかず」だ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……うまくないね。でも、白銀の言う通りかも。",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-13",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "……うまくないね。でも、白銀の言う通りかも。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Phrase": {
+            "Text": "うまくないか～。そうだよな～。\nとりあえず買ってくるよ。ちょっと待ってな。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "うまくないか～。そうだよな～。\nとりあえず買ってくるよ。ちょっと待ってな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Phrase": {
+            "Text": "買えた買えた。なんかこの総菜？のパンが人気みたいでさ。みんな買ってたよ。さっそく食べてみようぜ。",
+            "SpeakerName": "武",
+            "NeedsHideText": 1
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "FadeType": 2,
+            "FadeInDuration": 500,
+            "FadeWaitDuration": 100,
+            "FadeOutDuration": 1000,
+            "FadeTiming": 0
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "FadeType": 2,
+          "FadeInDuration": 500,
+          "FadeWaitDuration": 100,
+          "FadeOutDuration": 1000,
+          "FadeTiming": 0
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": true
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "買えた買えた。なんかこの総菜？のパンが人気みたいでさ。みんな買ってたよ。さっそく食べてみようぜ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Phrase": {
+            "Text": "やきそばパンに勝てるパンは存在しない。\n……はむ。",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "やきそばパンに勝てるパンは存在しない。\n……はむ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050011,
+        "configuration": {
+          "Phrase": {
+            "Text": "二人とも電流が走った。\n……強敵はここにいると。"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "二人とも電流が走った。\n……強敵はここにいると。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050011
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 57,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 58,
+      "type": "bgvStop",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "張り込みといえば……これだ！",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "張り込みといえば……これだ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "あんパンと牛乳…？",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 63,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-20",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "あんパンと牛乳…？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "彩峰は知らないか？\n刑事が張り込みするときはコレって相場が決まってるんだよ。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 68,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "彩峰は知らないか？\n刑事が張り込みするときはコレって相場が決まってるんだよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "知らない……。白銀は警察の知り合いがいるの？",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 70,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-22",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "知らない……。白銀は警察の知り合いがいるの？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、そういうわけじゃないんだが、何かこれが思い浮かんでさ。\nまあ、たまたまさっき買ってたってこともあるんだが。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "いや、そういうわけじゃないんだが、何かこれが思い浮かんでさ。\nまあ、たまたまさっき買ってたってこともあるんだが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 76,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……アタマ打った？",
+            "SpeakerName": "慧",
+            "VoiceAssetIds": [
+              "61035004/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 77,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-24",
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 78,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 79,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "慧",
+      "text": "……アタマ打った？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 80,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "打ってねーよ！ほら、これ食ったら、そこそこに切り上げて帰ろうぜ。",
+            "SpeakerName": "武"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "137301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 81,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 82,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "武",
+      "text": "打ってねーよ！ほら、これ食ったら、そこそこに切り上げて帰ろうぜ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 83,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61035004,
+        "branchId": null,
+        "selectedBranchId": 61050012,
+        "configuration": {
+          "Phrase": {
+            "Text": "遠くから見ているだけではさすがに厳しく、\n次は実際に店に訪れようと思う彩峰だった。"
+          },
+          "Background": {
+            "AssetId": "40042",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40042",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 85,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "遠くから見ているだけではさすがに厳しく、\n次は実際に店に訪れようと思う彩峰だった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6105001,
+      "branchSelectionId": 61050012
+    },
+    {
+      "line": 86,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 26,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6105001
+      ],
+      "uniqueBranchMasterIds": [
+        6105001
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

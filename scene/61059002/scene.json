@@ -1,0 +1,1706 @@
+{
+  "id": "61059002",
+  "title": "夏先取りのショッピング",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61059002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30102.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30102.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30102.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30102.png",
+      "backgrounds": {
+        "30102": "../../assets/muvluv/backgrounds/background-30102.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c114301/Happiness_2": "../../assets/muvluv/audio/voice/356e02dce7bae7449a81546e6ed9f415.ogg",
+          "c114301/Question": "../../assets/muvluv/audio/voice/63c952f52fecfb44fa5650bf0ec395f3.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "114302s": {
+          "key": "114302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/114302s/114302s.json",
+          "atlas": "../../assets/muvluv/spine/114302s/114302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/114302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "アニスの水着の買い出しに付き合っていたのだが、\n新しく着るための水着を悩んでいるようだ。"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "アニスの水着の買い出しに付き合っていたのだが、\n新しく着るための水着を悩んでいるようだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "んん……どっちも可愛いのよね……\nねえ、%usernameusernameuserna%。あっちのスポーティなビキニと……",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "んん……どっちも可愛いのよね……\nねえ、<user>。あっちのスポーティなビキニと……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いま試着してる可愛いフリフリの水着、あたしにはどっちが似合うと思う？",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-4"
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "いま試着してる可愛いフリフリの水着、あたしにはどっちが似合うと思う？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うーむ。どっちもアニスの良さが出てて、甲乙つけがたいが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 8
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "うーむ。どっちもアニスの良さが出てて、甲乙つけがたいが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん～、%usernameusernameuserna%がそんなにいうなら、\nいっそのこと両方買っちゃおうかしら？",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ん～、<user>がそんなにいうなら、\nいっそのこと両方買っちゃおうかしら？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、流石にどっちも買うのはお金が勿体ないのよね……\nこの夏に着れるのは一着だけだし……",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-7"
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "でも、流石にどっちも買うのはお金が勿体ないのよね……\nこの夏に着れるのは一着だけだし……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61059002,
+        "branchId": 6114401,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（ここは男らしく、ビシッと決断した方が良さそうだな。\nアニスに似合いそうなのは……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（ここは男らしく、ビシッと決断した方が良さそうだな。\nアニスに似合いそうなのは……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "choice",
+      "branchMasterId": 6114401,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61144011,
+          "text": "フリフリの水着",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1143021
+        },
+        {
+          "id": 61144012,
+          "text": "スポーティーな水着",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1143022
+        }
+      ]
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 28,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 29,
+      "type": "bgvStop",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144011,
+        "configuration": {
+          "Phrase": {
+            "Text": "やっぱりアニスに似合うのは、フリフリじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 32,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "やっぱりアニスに似合うのは、フリフリじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あはは♪　やっぱり私の好みぴったりね♪\n%usernameusernameuserna%なら、そう言ってくれると思った♪",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c114301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-11",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 36,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "あはは♪　やっぱり私の好みぴったりね♪\n<user>なら、そう言ってくれると思った♪",
+      "voice": "c114301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、それじゃあこの水着で決まりね♪\nデートはいつにする？",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "ふふ、それじゃあこの水着で決まりね♪\nデートはいつにする？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……いやまて、デートの約束なんかしてないだろ！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……いやまて、デートの約束なんかしてないだろ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144011,
+        "configuration": {
+          "Phrase": {
+            "Text": "決めてくれたのに、デートしないの……？\n酷いわ、あんまりだわ……シクシク……",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-14",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "決めてくれたのに、デートしないの……？\n酷いわ、あんまりだわ……シクシク……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ウソ泣きをして俺の反応を楽しむアニスに、\n結局デートをする約束をして泣き止んで貰うのだった。"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "ウソ泣きをして俺の反応を楽しむアニスに、\n結局デートをする約束をして泣き止んで貰うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144011
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 51,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 52,
+      "type": "bgvStop",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144012,
+        "configuration": {
+          "Phrase": {
+            "Text": "意外とスポーティーな水着も似合うんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "意外とスポーティーな水着も似合うんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144012,
+        "configuration": {
+          "Phrase": {
+            "Text": "あら？　そうかしら……なら、そっちにしてみようかしらね。",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c114301/Question"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 57,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-18",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 59,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "あら？　そうかしら……なら、そっちにしてみようかしらね。",
+      "voice": "c114301/Question",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……でも、このフリフリな水着も可愛いし……\nううん……やっぱり買っちゃおうかしら。",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 61,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-19",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "……でも、このフリフリな水着も可愛いし……\nううん……やっぱり買っちゃおうかしら。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いいのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144012,
+        "configuration": {
+          "Phrase": {
+            "Text": "だって、%usernameusernameuserna%が好きな水着も着たいし、\n私が気に入った水着も着たいもの……仕方ないわよね？",
+            "SpeakerName": "アニス",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "114302s"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "114302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 68,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-21",
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "アニス",
+      "text": "だって、<user>が好きな水着も着たいし、\n私が気に入った水着も着たいもの……仕方ないわよね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61059002,
+        "branchId": null,
+        "selectedBranchId": 61144012,
+        "configuration": {
+          "Phrase": {
+            "Text": "と、ちょっとだけ後悔してそうではあったが、\n両方の水着を買うアニスなのだった。"
+          },
+          "Background": {
+            "AssetId": "30102",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30102",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "と、ちょっとだけ後悔してそうではあったが、\n両方の水着を買うアニスなのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6114401,
+      "branchSelectionId": 61144012
+    },
+    {
+      "line": 74,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 22,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6114401
+      ],
+      "uniqueBranchMasterIds": [
+        6114401
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

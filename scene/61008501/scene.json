@@ -1,0 +1,2477 @@
+{
+  "id": "61008501",
+  "title": "落とし物を探して",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61008501",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40032.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40032.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40032.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40032.png",
+      "backgrounds": {
+        "40032": "../../assets/muvluv/backgrounds/background-40032.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c121301/Thank": "../../assets/muvluv/audio/voice/9a51c3f8c1702d148ad0bfac14d1ec6e.ogg",
+          "c121301/ResponseGood": "../../assets/muvluv/audio/voice/b6b2206481af3cd45ac58ae41ef58ed6.ogg",
+          "c121301/Shy": "../../assets/muvluv/audio/voice/9a694b55c729fe9498bf7bee30df4afb.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "121301s": {
+          "key": "121301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/121301s/121301s.json",
+          "atlas": "../../assets/muvluv/spine/121301s/121301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/121301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "リュシーから気分転換にドロテアを連れ出してほしいと頼まれた。\n最近ずっとＭＧ競技漬けだったらしい。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "リュシーから気分転換にドロテアを連れ出してほしいと頼まれた。\n最近ずっとＭＧ競技漬けだったらしい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それでショッピングモールにやってきたのだが――"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "それでショッピングモールにやってきたのだが――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ドロテアが来ない……確かリュシーと一緒にこっちへ\n向かっているはずだが。もしかして何か事件にでも――",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ドロテアが来ない……確かリュシーと一緒にこっちへ\n向かっているはずだが。もしかして何か事件にでも――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "と、思っていたら、そのドロテアから連絡があったので、\n言われた場所まで向かってみた……"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 14,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "と、思っていたら、そのドロテアから連絡があったので、\n言われた場所まで向かってみた……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 15,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "――というわけなのです。%usernameusernameuserna%さん。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 16,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-6"
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "――というわけなのです。<user>さん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "すみませんねえ……",
+            "SpeakerName": "おばあさん"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "おばあさん",
+      "text": "すみませんねえ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "どうやら話を聞くに、俺のところに向かう途中、財布を落として\n困っている老婆と出会い、一緒に探してあげていたらしい。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "どうやら話を聞くに、俺のところに向かう途中、財布を落として\n困っている老婆と出会い、一緒に探してあげていたらしい。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "二手に分かれて探しているようで、\nリュシーはリュシーで少し離れたところにいるようだ。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 26,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 27,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "二手に分かれて探しているようで、\nリュシーはリュシーで少し離れたところにいるようだ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "もっと早くにご連絡差し上げるべきでした。\nすぐ見つかると思っていたので……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 29,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-10"
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "もっと早くにご連絡差し上げるべきでした。\nすぐ見つかると思っていたので……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやいや、いいよ。むしろこういうのを放っておけない友人を\n持ったことを誇らしく思うよ。俺も手伝おう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いやいや、いいよ。むしろこういうのを放っておけない友人を\n持ったことを誇らしく思うよ。俺も手伝おう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん……\nありがとうございます。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/Thank"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 37,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "<user>さん……\nありがとうございます。",
+      "voice": "c121301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61008501,
+        "branchId": 6100851,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 39,
+      "type": "choice",
+      "branchMasterId": 6100851,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 13,
+      "options": [
+        {
+          "id": 61008511,
+          "text": "ひとりで別の場所を探す",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1213012
+        },
+        {
+          "id": 61008512,
+          "text": "ふたりで同じところを探す",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1213011
+        }
+      ]
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "もしかしてこれか！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 41,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 42,
+      "type": "bgvStop",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "もしかしてこれか！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、それですそれです！　ありがとうございます……！\n孫にプレゼントしてもらったものなので、見つかってよかったです。",
+            "SpeakerName": "おばあさん"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "おばあさん",
+      "text": "ああ、それですそれです！　ありがとうございます……！\n孫にプレゼントしてもらったものなので、見つかってよかったです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "お礼を言って、老婆は去っていった。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "お礼を言って、老婆は去っていった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "お手伝いいただいて、ありがとうございます。\nこんなにあっさり見つかるなんて思いませんでした。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-17",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "お手伝いいただいて、ありがとうございます。\nこんなにあっさり見つかるなんて思いませんでした。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "ドロテアがすでにあらかた探し回ったあとだから、\nふたりの探してないところを見て回っただけだよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ドロテアがすでにあらかた探し回ったあとだから、\nふたりの探してないところを見て回っただけだよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、さすがですね。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 59,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-19",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "ふふ、さすがですね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "それじゃ、リュシーを呼び戻そうか。\nそのあと３人でカフェにでも行こう。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それじゃ、リュシーを呼び戻そうか。\nそのあと３人でカフェにでも行こう。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008511,
+        "configuration": {
+          "Phrase": {
+            "Text": "はいっ！",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/ResponseGood"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 67,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "はいっ！",
+      "voice": "c121301/ResponseGood",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008511
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "ドロテア、もしかするとそれ――",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 69,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 70,
+      "type": "bgvStop",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ドロテア、もしかするとそれ――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん、それが探していた――",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 74,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-23",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 75,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 76,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "<user>さん、それが探していた――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 77,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっ！　す、すみません、手が触れて……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 78,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-24",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 79,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 80,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "あっ！　す、すみません、手が触れて……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 81,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、いいよ。すごくぴったりなタイミングで見つけたな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 82,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 83,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、いいよ。すごくぴったりなタイミングで見つけたな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 84,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "はい、ぴったりでしたね、ふふ。",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 85,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-26",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 86,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 87,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "はい、ぴったりでしたね、ふふ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 88,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "あらあら、仲のよろしいことで。\nおじいさんとの馴れ初めを思い出しますねぇ。",
+            "SpeakerName": "おばあさん"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 89,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 90,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "おばあさん",
+      "text": "あらあら、仲のよろしいことで。\nおじいさんとの馴れ初めを思い出しますねぇ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 91,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "はっ……！　ご、ごめんなさい……！\nお財布見つけたのにすぐにお渡しせず……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 92,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-28",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 93,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 94,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "はっ……！　ご、ごめんなさい……！\nお財布見つけたのにすぐにお渡しせず……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 95,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいのよ。見つけてくれてありがとねぇ、お若いカップルさん。",
+            "SpeakerName": "おばあさん"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 96,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 97,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "おばあさん",
+      "text": "いいのよ。見つけてくれてありがとねぇ、お若いカップルさん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 98,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "え、えっと、わたくし達は……",
+            "SpeakerName": "ドロテア",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c121301/Shy"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 99,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-30",
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 100,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 101,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ドロテア",
+      "text": "え、えっと、わたくし達は……",
+      "voice": "c121301/Shy",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 102,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "別にそういう仲ではないんですが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 103,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 104,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "別にそういう仲ではないんですが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 105,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 32,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "わたしも当時はそう言ってたんですよ、ふふふ。",
+            "SpeakerName": "おばあさん"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 106,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 107,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "おばあさん",
+      "text": "わたしも当時はそう言ってたんですよ、ふふふ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 32,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 108,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 33,
+        "sceneId": 61008501,
+        "branchId": null,
+        "selectedBranchId": 61008512,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言っておばあさんは去っていったのだった。\n俺とドロテアの間に、気まずくても照れくさい空気だけを残して……"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "121301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 109,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 110,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言っておばあさんは去っていったのだった。\n俺とドロテアの間に、気まずくても照れくさい空気だけを残して……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 33,
+      "branchMasterId": 6100851,
+      "branchSelectionId": 61008512
+    },
+    {
+      "line": 111,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 33,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100851
+      ],
+      "uniqueBranchMasterIds": [
+        6100851
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

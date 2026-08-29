@@ -1,0 +1,1437 @@
+{
+  "id": "61043001",
+  "title": "バニーで授業？",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61043001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30062.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30062.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30062.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30062.png",
+      "backgrounds": {
+        "30062": "../../assets/muvluv/backgrounds/background-30062.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c111301/Shy": "../../assets/muvluv/audio/voice/94569dac17839c14b9a8e1a2b4678822.ogg",
+          "c111301/Smile": "../../assets/muvluv/audio/voice/1eefb208250c201489036c867f4ef2f5.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "111302s": {
+          "key": "111302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/111302s/111302s.json",
+          "atlas": "../../assets/muvluv/spine/111302s/111302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/111302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "ColorType": 1,
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "ColorType": 1,
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うおっ！？　……翠蘭、疲れてるんだな？　そんな格好で授業を受けてるなんて……今からでも医務室に――",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "うおっ！？　……翠蘭、疲れてるんだな？　そんな格好で授業を受けてるなんて……今からでも医務室に――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "違います！　ユリアたちに付き合っていたら、\n着替える時間がなくて……！",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043001/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "違います！　ユリアたちに付き合っていたら、\n着替える時間がなくて……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……で、その格好で授業を受けたんだよな？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……で、その格好で授業を受けたんだよな？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ！　受けましたよ！\nそれはもう！　周囲の温かい視線が最悪でした！",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043001/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "ええ！　受けましたよ！\nそれはもう！　周囲の温かい視線が最悪でした！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……はぁ、ユリアに付き合って恥をかくのはいいんですが、\n今回は私だけ出る授業だったので……",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043001/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……はぁ、ユリアに付き合って恥をかくのはいいんですが、\n今回は私だけ出る授業だったので……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、周囲から理解はされてるんじゃないか？　またカオスメイデンでなにかやってるんだろう……って。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "でも、周囲から理解はされてるんじゃないか？　またカオスメイデンでなにかやってるんだろう……って。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61043001,
+        "branchId": 6107901,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それは、そうでしょうけども……恥ずかしいものは恥ずかしいんです……",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c111301/Shy"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-8"
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "それは、そうでしょうけども……恥ずかしいものは恥ずかしいんです……",
+      "voice": "c111301/Shy",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "choice",
+      "branchMasterId": 6107901,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61079011,
+          "text": "バニーを流行らせたらどうだ？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1113021
+        },
+        {
+          "id": 61079012,
+          "text": "似合ってるから大丈夫",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1113022
+        }
+      ]
+    },
+    {
+      "line": 28,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 29,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 30,
+      "type": "bgvStop",
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、それはフォローになっていませんからね？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043001/7"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 14
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 14
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 32,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-10",
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "いや、それはフォローになっていませんからね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……はぁ、まあ仕方ありませんね。\nユリアについていくと決めた以上はついて回る話ですから。",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043001/8"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 36,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 37,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……はぁ、まあ仕方ありませんね。\nユリアについていくと決めた以上はついて回る話ですから。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうだな。もしかしたら、もっと恥ずかしい格好をすることに\nなるかもしれないから慣れたほうがいいんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうだな。もしかしたら、もっと恥ずかしい格好をすることに\nなるかもしれないから慣れたほうがいいんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079012,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺の言葉に否定出来なかったのか、\nなんとも言えない表情を浮かべる翠蘭なのだった。"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺の言葉に否定出来なかったのか、\nなんとも言えない表情を浮かべる翠蘭なのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 45,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 46,
+      "type": "bgvStop",
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そこまでこの服が気に入ったんですか？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "61043001/10"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-15",
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "……そこまでこの服が気に入ったんですか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079011,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、まあ似合ってるとは思うが……まあ、方法の一つとしてな？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、まあ似合ってるとは思うが……まあ、方法の一つとしてな？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079011,
+        "configuration": {
+          "Phrase": {
+            "Text": "発想は面白いですが……こんなに露出が多い服が流行るなんて、\nよほどの一大事ですからね？",
+            "SpeakerName": "翠蘭",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</material></color>",
+            "VoiceAssetIds": [
+              "c111301/Smile"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "111302s"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "111302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-17",
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 57,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "翠蘭",
+      "text": "発想は面白いですが……こんなに露出が多い服が流行るなんて、\nよほどの一大事ですからね？",
+      "voice": "c111301/Smile",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうか……それは残念だ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうか……それは残念だ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61043001,
+        "branchId": null,
+        "selectedBranchId": 61079011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……うっかり残念といったせいで、\n翠蘭にジト目で睨まれてしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "30062",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "30062",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……うっかり残念といったせいで、\n翠蘭にジト目で睨まれてしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6107901,
+      "branchSelectionId": 61079011
+    },
+    {
+      "line": 64,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 19,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6107901
+      ],
+      "uniqueBranchMasterIds": [
+        6107901
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

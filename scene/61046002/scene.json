@@ -1,0 +1,1659 @@
+{
+  "id": "61046002",
+  "title": "当然の責務",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61046002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30312.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30312.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30312.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30312.png",
+      "backgrounds": {
+        "30312": "../../assets/muvluv/backgrounds/background-30312.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c143301/CallOut": "../../assets/muvluv/audio/voice/05ee1e28b960ad145b22000e0e0ba66f.ogg",
+          "c143301/Disagreement": "../../assets/muvluv/audio/voice/bfe74c9f417c0054ea0d28c23ed9c66b.ogg",
+          "c143301/Thank": "../../assets/muvluv/audio/voice/9951fa309fab1fe4392fc38fc2c0b74f.ogg",
+          "c143301/Agreement": "../../assets/muvluv/audio/voice/5dbfd01604ed61a4ca9eb7671267ae50.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "143301s": {
+          "key": "143301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/143301s/143301s.json",
+          "atlas": "../../assets/muvluv/spine/143301s/143301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/143301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺がゾリャー校区外を歩いていると、\n前から歩いてきたオルガに出会う。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "俺がゾリャー校区外を歩いていると、\n前から歩いてきたオルガに出会う。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%ですか、このような場所でどうされました？",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c143301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "<user>ですか、このような場所でどうされました？",
+      "voice": "c143301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、オルガか。ゾリャーを知ろうと思って、散策をしてたんだが……\nそっちは何をしてるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、オルガか。ゾリャーを知ろうと思って、散策をしてたんだが……\nそっちは何をしてるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "校区の見回りを定期的に行っています。地域の治安を守るのは、\n外部の手は借りず生徒で解決するのが一番ですので。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046002/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "校区の見回りを定期的に行っています。地域の治安を守るのは、\n外部の手は借りず生徒で解決するのが一番ですので。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（そういえば、外部とは交流をあまりしないらしいからな。\nそういった校風も理由なのか？）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（そういえば、外部とは交流をあまりしないらしいからな。\nそういった校風も理由なのか？）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "大変じゃないか？　パイロットをしながら見回りもするんだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 21,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "大変じゃないか？　パイロットをしながら見回りもするんだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61046002,
+        "branchId": 6109201,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ゾリャー校区の平和を守るためですので、当然の義務です。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046002/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 23,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 24,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "ゾリャー校区の平和を守るためですので、当然の義務です。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 25,
+      "type": "choice",
+      "branchMasterId": 6109201,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 8,
+      "options": [
+        {
+          "id": 61092011,
+          "text": "さすがはオルガだな",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1463012
+        },
+        {
+          "id": 61092012,
+          "text": "俺も手伝おうか？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1463011
+        }
+      ]
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 27,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 28,
+      "type": "bgvStop",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いえ、結構です。先に言った通り、自分たちでやるべきことですので。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c143301/Disagreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 31,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "いえ、結構です。先に言った通り、自分たちでやるべきことですので。",
+      "voice": "c143301/Disagreement",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうか……それはそうだよな。すまん。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 33,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 34,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうか……それはそうだよな。すまん。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092012,
+        "configuration": {
+          "Phrase": {
+            "Text": "こちらに気を使ってくれたのは理解しております。\n不快に思っている訳ではないので、気にしないでください。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046002/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 36,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-12",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "こちらに気を使ってくれたのは理解しております。\n不快に思っている訳ではないので、気にしないでください。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、分かった。それじゃあ頑張ってな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 40,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 41,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、分かった。それじゃあ頑張ってな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092012,
+        "configuration": {
+          "Phrase": {
+            "Text": "オルガと別れて、俺は気が向くままにゾリャー校区を散策するのだった。"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 44,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "オルガと別れて、俺は気が向くままにゾリャー校区を散策するのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092012
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 46,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 47,
+      "type": "bgvStop",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Phrase": {
+            "Text": "別に褒められるようなことではありません。\nゾリャー校区……いえ、レドフカに所属するものとして当然です。",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046002/4"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 49,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-16",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 51,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "別に褒められるようなことではありません。\nゾリャー校区……いえ、レドフカに所属するものとして当然です。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そこを含めて、立派だと思うぞ？\n言葉だけじゃなくて行動で体現出来てるわけだからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そこを含めて、立派だと思うぞ？\n言葉だけじゃなくて行動で体現出来てるわけだからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ありがとうございます。\nそこまで言われるのであれば、素直に受け取っておきましょう",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c143301/Thank"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 57,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "ありがとうございます。\nそこまで言われるのであれば、素直に受け取っておきましょう",
+      "voice": "c143301/Thank",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%もゾリャー校区で何かありましたら、\n声を掛けてください。レドフカの民として力になりましょう",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "61046002/5"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 59,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-19",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "<user>もゾリャー校区で何かありましたら、\n声を掛けてください。レドフカの民として力になりましょう",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Phrase": {
+            "Text": "それなら、ゾリャー校区で見るべき場所を案内してくれないか？\n詳しい人に案内してもらう方がいいだろうからさ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それなら、ゾリャー校区で見るべき場所を案内してくれないか？\n詳しい人に案内してもらう方がいいだろうからさ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……分かりました。見回りのついででよければ案内しましょう。\nここからまず最初に、人が多く行き交う場所で――",
+            "SpeakerName": "オルガ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c143301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "143301s"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "143301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 66,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-21",
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 68,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "オルガ",
+      "text": "……分かりました。見回りのついででよければ案内しましょう。\nここからまず最初に、人が多く行き交う場所で――",
+      "voice": "c143301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61046002,
+        "branchId": null,
+        "selectedBranchId": 61092011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、オルガに案内されてゾリャー校区を見て回るのだった。"
+          },
+          "Background": {
+            "AssetId": "30312",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30312",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、オルガに案内されてゾリャー校区を見て回るのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6109201,
+      "branchSelectionId": 61092011
+    },
+    {
+      "line": 72,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 22,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6109201
+      ],
+      "uniqueBranchMasterIds": [
+        6109201
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

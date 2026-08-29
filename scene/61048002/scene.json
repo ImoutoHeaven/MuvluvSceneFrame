@@ -1,0 +1,1660 @@
+{
+  "id": "61048002",
+  "title": "魔法薬を買ってみる！",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61048002",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40032.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40032.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40032.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40032.png",
+      "backgrounds": {
+        "40032": "../../assets/muvluv/backgrounds/background-40032.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10001": "../../assets/muvluv/audio/bgm/10001.ogg"
+        },
+        "voice": {
+          "c122201/Happiness_2": "../../assets/muvluv/audio/voice/7e861519627cb8b4eaf0621f070d99c0.ogg",
+          "c122201/Anger_2": "../../assets/muvluv/audio/voice/409899a91f9fc9f4eb618a7002996ab9.ogg",
+          "c122201/Crying_2": "../../assets/muvluv/audio/voice/e3f2ecee94c55c74b925e67fdef52a29.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "sad": "../../assets/muvluv/audio/se/sad.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "122301s": {
+          "key": "122301s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/122301s/122301s.json",
+          "atlas": "../../assets/muvluv/spine/122301s/122301s.atlas",
+          "textureBase": "../../assets/muvluv/spine/122301s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10001"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふんふふ～ん♪　魔法薬、魔法薬～♪",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048003/1"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "ふんふふ～ん♪　魔法薬、魔法薬～♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……怪しいことをいいながら歩いている子がいると思ったら、\nミリアムか。それで、魔法薬ってなんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……怪しいことをいいながら歩いている子がいると思ったら、\nミリアムか。それで、魔法薬ってなんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%！\n実はここに魔法薬があるって噂を聞いて、探してたんだ！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-4"
+    },
+    {
+      "line": 12,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 13,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "あ、<user>！\n実はここに魔法薬があるって噂を聞いて、探してたんだ！",
+      "voice": "c122201/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 14,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……あー、なんだ。現実と妄想の区別はつけるべきだぞ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……あー、なんだ。現実と妄想の区別はつけるべきだぞ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61048002,
+        "branchId": 6110001,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "違うよ！　本当に聞いたんだから！　飲むだけで、\n元気がビンビンに出る魔法みたいな薬があるっていう噂！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Anger_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-6"
+    },
+    {
+      "line": 19,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 20,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "違うよ！　本当に聞いたんだから！　飲むだけで、\n元気がビンビンに出る魔法みたいな薬があるっていう噂！",
+      "voice": "c122201/Anger_2",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 21,
+      "type": "choice",
+      "branchMasterId": 6110001,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61100011,
+          "text": "……多分、男性専用だ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1223011
+        },
+        {
+          "id": 61100012,
+          "text": "……ある意味魔法かもな",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1223012
+        }
+      ]
+    },
+    {
+      "line": 22,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100011,
+        "configuration": {
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 23,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 24,
+      "type": "bgvStop",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 25,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ！？　魔法薬って男性用とか女性用とかあるの！？",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048003/2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 26,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-8",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "ええ！？　魔法薬って男性用とか女性用とかあるの！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100011,
+        "configuration": {
+          "Phrase": {
+            "Text": "魔法薬というか……栄養ドリンク的なやつだな。\nでも、ああいうのは元気の前借りだから飲まないほうがいいぞ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 30,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 31,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "魔法薬というか……栄養ドリンク的なやつだな。\nでも、ああいうのは元気の前借りだから飲まないほうがいいぞ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 32,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうなんだ……本当に魔法薬があるって思ったのに……ガックシ……",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Crying_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "sad"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "sad"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4,
+            "EmotionType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 33,
+      "type": "soundEffect",
+      "cue": "sad",
+      "tag": "frame-10",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 35,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "そうなんだ……本当に魔法薬があるって思ったのに……ガックシ……",
+      "voice": "c122201/Crying_2",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 36,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100011,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、そういう勘違いもたまにはあるよな。\n代わりに美味い飲み物でも探しに行くか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 37,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 38,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "まあ、そういう勘違いもたまにはあるよな。\n代わりに美味い飲み物でも探しに行くか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 39,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100011,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　いいの！？　それなら、探しに行こ！\nえへへ～！　%usernameusernameuserna%と探検嬉しいな～！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 40,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-12",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 42,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "えっ！？　いいの！？　それなら、探しに行こ！\nえへへ～！　<user>と探検嬉しいな～！",
+      "voice": "c122201/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……すっかりガッカリしたことを忘れて、\nご機嫌な様子となるミリアムだった。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 44,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 45,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……すっかりガッカリしたことを忘れて、\nご機嫌な様子となるミリアムだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100011
+    },
+    {
+      "line": 46,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100012,
+        "configuration": {
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 47,
+      "type": "bgmPlay",
+      "cue": "10001",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 48,
+      "type": "bgvStop",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 49,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100012,
+        "configuration": {
+          "Phrase": {
+            "Text": "おお、やっぱり魔法なんだ！？　すごいや！\nよーし、絶対に見つけてやるぞー！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "61048003/3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 50,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-15",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 51,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 52,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "おお、やっぱり魔法なんだ！？　すごいや！\nよーし、絶対に見つけてやるぞー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 53,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……魔法だから見つかりにくいと思うし、\nあんまり人に言わないようにな？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 55,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……魔法だから見つかりにくいと思うし、\nあんまり人に言わないようにな？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100012,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん！　分かってる！　魔法は秘密だからね！\nよーし、頑張って探すぞー！",
+            "SpeakerName": "ミリアム",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</color>",
+            "VoiceAssetIds": [
+              "c122201/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "122301s"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 57,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-17",
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 59,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ミリアム",
+      "text": "うん！　分かってる！　魔法は秘密だからね！\nよーし、頑張って探すぞー！",
+      "voice": "c122201/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100012,
+        "configuration": {
+          "Phrase": {
+            "Text": "（……多分、男性向けの栄養ドリンクなんだろうなぁ……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          },
+          "Character1": {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [
+          {
+            "AssetId": "122301s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（……多分、男性向けの栄養ドリンクなんだろうなぁ……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61048002,
+        "branchId": null,
+        "selectedBranchId": 61100012,
+        "configuration": {
+          "Phrase": {
+            "Text": "その後、スマートデバイスに見つからなかったという連絡が来て、\nミリアムの夢を壊さずに済んだことにホッとするのだった。"
+          },
+          "Background": {
+            "AssetId": "40032",
+            "BgmAssetId": "10001"
+          }
+        },
+        "background": {
+          "AssetId": "40032",
+          "BgmAssetId": "10001"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 65,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その後、スマートデバイスに見つからなかったという連絡が来て、\nミリアムの夢を壊さずに済んだことにホッとするのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6110001,
+      "branchSelectionId": 61100012
+    },
+    {
+      "line": 66,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 19,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6110001
+      ],
+      "uniqueBranchMasterIds": [
+        6110001
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}

@@ -1,0 +1,2458 @@
+{
+  "id": "61009401",
+  "title": "一緒にゲーム",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61009401",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-40022.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-40022.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-40022.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-40022.png",
+      "backgrounds": {
+        "40022": "../../assets/muvluv/backgrounds/background-40022.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c123201/Hesitation": "../../assets/muvluv/audio/voice/c2a811d2267ae324ba779666da9ae9f2.ogg",
+          "c123201/ResponseBad": "../../assets/muvluv/audio/voice/f1bf80b5a2ff8e047bce572eff40d139.ogg",
+          "c123201/Smile": "../../assets/muvluv/audio/voice/345e54344c17433488277580f0ad95ae.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "rage": "../../assets/muvluv/audio/se/rage.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "123201": {
+          "key": "123201",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/123201/123201.json",
+          "atlas": "../../assets/muvluv/spine/123201/123201.atlas",
+          "textureBase": "../../assets/muvluv/spine/123201/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "ColorType": 1,
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "ColorType": 1,
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "暇つぶしにゲームセンターで遊んでいると……"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "暇つぶしにゲームセンターで遊んでいると……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、不良生徒。",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/1"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "あ、不良生徒。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "おう、ハリエットか。つか、勝手に不良認定すんな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "おう、ハリエットか。つか、勝手に不良認定すんな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ゲームセンターにいるのは、みーんな不良です。",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/2"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 5,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "ゲームセンターにいるのは、みーんな不良です。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "偏見すぎる……というか、それならハリエットもだろ。\nなんでこんなところにいるんだ？　ユーロ・タワーのお嬢様。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "偏見すぎる……というか、それならハリエットもだろ。\nなんでこんなところにいるんだ？　ユーロ・タワーのお嬢様。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふんっ。ゲームセンターに入っていく不良を見かけたので、\nとっちめてやろうと正義感を燃やしたまでです。",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/3"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-7"
+    },
+    {
+      "line": 22,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 23,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "ふんっ。ゲームセンターに入っていく不良を見かけたので、\nとっちめてやろうと正義感を燃やしたまでです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "つまり、俺を見つけて追いかけてきたと？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "つまり、俺を見つけて追いかけてきたと？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "はぁ？！　どう聞けば、そうなるんですか！？",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/4"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 28,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-9"
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "はぁ？！　どう聞けば、そうなるんですか！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、どう聞いてもそうとしか思えないんだが……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、どう聞いてもそうとしか思えないんだが……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まったく、相変わらずポンコツな耳してますね。",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c123201/Hesitation"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 36,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "まったく、相変わらずポンコツな耳してますね。",
+      "voice": "c123201/Hesitation",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "（こいつ……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（こいつ……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61009401,
+        "branchId": 6100941,
+        "selectedBranchId": null,
+        "configuration": {
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 41,
+      "type": "choice",
+      "branchMasterId": 6100941,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 13,
+      "options": [
+        {
+          "id": 61009411,
+          "text": "よかったら、レーシングゲームで勝負するか？",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1232012
+        },
+        {
+          "id": 61009412,
+          "text": "そうだ、一緒にクレーンゲームでもするか？",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1232011
+        }
+      ]
+    },
+    {
+      "line": 42,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "勝負……？",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/5"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 1,
+            "ShakeStrength": 20,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 43,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 44,
+      "type": "bgvStop",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 45,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-14",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "勝負……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "せっかくだし、遊んでいかないか？\nというか、そもそもハリエットってゲーセンとか来たことある？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "せっかくだし、遊んでいかないか？\nというか、そもそもハリエットってゲーセンとか来たことある？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "は？　あるに決まってるじゃないですか、バカにしてるんですか？\nジェットコースターとか、何回も乗ったことありますし！！",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c123201/ResponseBad"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 4
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 4
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-16",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 54,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "は？　あるに決まってるじゃないですか、バカにしてるんですか？\nジェットコースターとか、何回も乗ったことありますし！！",
+      "voice": "c123201/ResponseBad",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "……………………",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……………………",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっ！！　今お前っ、心の中で私のこと、馬鹿にしましたね！？",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/6"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "rage"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "rage"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 59,
+      "type": "soundEffect",
+      "cue": "rage",
+      "tag": "frame-18",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 60,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 61,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "あっ！！　今お前っ、心の中で私のこと、馬鹿にしましたね！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやいや、してないしてない！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いやいや、してないしてない！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "こうなったら勝負です！！\nゲームでお前に圧勝して吠え面かかせてあげますから！",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/7"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "こうなったら勝負です！！\nゲームでお前に圧勝して吠え面かかせてあげますから！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして今日１日、俺達はゲームセンターを堪能したのだった。"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 70,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして今日１日、俺達はゲームセンターを堪能したのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "は？　嫌ですけど？　お前の不良ムーブに巻き込まないでください。\nというか、誰かにカップルと間違われでもしたら地獄ですので。",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/8"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 8,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 72,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-22",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "は？　嫌ですけど？　お前の不良ムーブに巻き込まないでください。\nというか、誰かにカップルと間違われでもしたら地獄ですので。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009411,
+        "configuration": {
+          "Phrase": {
+            "Text": "別に間違われたって否定すればいいだろ。\n友達同士でゲーセンに来たとか……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 77,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "別に間違われたって否定すればいいだろ。\n友達同士でゲーセンに来たとか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009411
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "それはそれで冥府じゃないですか！\n勝手に友達認定しないでください！",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/9"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 79,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 80,
+      "type": "bgvStop",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 81,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 82,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "それはそれで冥府じゃないですか！\n勝手に友達認定しないでください！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 83,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "（めっちゃ面倒くさいな、こいつ……\nいやまあ、そういうところが可愛い部分でもあるが……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 85,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（めっちゃ面倒くさいな、こいつ……\nいやまあ、そういうところが可愛い部分でもあるが……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 86,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "っていうか、クレーンゲームするんですか、しないんですか！？\nこっちだってヒマじゃないんですよ！！",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "61009401/10"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 87,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-26",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "っていうか、クレーンゲームするんですか、しないんですか！？\nこっちだってヒマじゃないんですよ！！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "（さっき普通に『嫌』って言ったような……）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</material></color>"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 91,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 92,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（さっき普通に『嫌』って言ったような……）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 93,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "突っ込むとまたワーワー言いそうだったので、\n黙っていることにした。"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 94,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 95,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "突っ込むとまたワーワー言いそうだったので、\n黙っていることにした。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 96,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "その後クレーンゲームで、偶然あるお菓子メーカーの\n看板キャラのぬいぐるみが取れたのでプレゼントすると――"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 97,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 98,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "その後クレーンゲームで、偶然あるお菓子メーカーの\n看板キャラのぬいぐるみが取れたのでプレゼントすると――",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 99,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ……",
+            "SpeakerName": "ハリエット",
+            "TeamName": "<color=#dddf9d>ピクシス・マスール</material></color>",
+            "VoiceAssetIds": [
+              "c123201/Smile"
+            ],
+            "Speakers": [
+              1
+            ]
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 100,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-30",
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 101,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 102,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ハリエット",
+      "text": "ふふ……",
+      "voice": "c123201/Smile",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 103,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 31,
+        "sceneId": 61009401,
+        "branchId": null,
+        "selectedBranchId": 61009412,
+        "configuration": {
+          "Phrase": {
+            "Text": "と、笑顔を浮かべていたのだった。\n俺の視線に気づくと、ぷいっと顔を背けたが。"
+          },
+          "Background": {
+            "AssetId": "40022",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "40022",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "123201",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 104,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 105,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "と、笑顔を浮かべていたのだった。\n俺の視線に気づくと、ぷいっと顔を背けたが。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 31,
+      "branchMasterId": 6100941,
+      "branchSelectionId": 61009412
+    },
+    {
+      "line": 106,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 31,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6100941
+      ],
+      "uniqueBranchMasterIds": [
+        6100941
+      ]
+    },
+    "translationSource": "https://github.com/anosu/muvluvgg-translation",
+    "translationRevision": "d839ea7aaa1fddfbcf33c0c552e366c08ac885c0"
+  }
+}
