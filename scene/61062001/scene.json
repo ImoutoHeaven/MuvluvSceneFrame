@@ -1,0 +1,2081 @@
+{
+  "id": "61062001",
+  "title": "先輩への褒め方",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61062001",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30112.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30112.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30112.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30112.png",
+      "backgrounds": {
+        "30112": "../../assets/muvluv/backgrounds/background-30112.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c120301/Surprised_2": "../../assets/muvluv/audio/voice/eb6adce739b084342b689621820535cf.ogg",
+          "c120301/Apology": "../../assets/muvluv/audio/voice/cd172231636f30a468fd5da55cd90c61.ogg",
+          "c120301/Happiness_2": "../../assets/muvluv/audio/voice/22bd86c5caefe1446b6af252a01b5150.ogg",
+          "c120301/Pleasure_2": "../../assets/muvluv/audio/voice/88f737ba6a89c644d85ebd36fe1a0188.ogg",
+          "c120301/Confused_3": "../../assets/muvluv/audio/voice/a691655a30af30448b2975e9f514ccd6.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "120302s": {
+          "key": "120302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/120302s/120302s.json",
+          "atlas": "../../assets/muvluv/spine/120302s/120302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/120302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？　ロージー？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ん？　ロージー？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "きゃっ！？　もう、ビックリした！\n後輩クン、着替え中よ！　着替えた後で良かったわ……",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 950,
+            "MovePathXs": [
+              0,
+              500,
+              -500,
+              0
+            ],
+            "MovePathYs": [
+              -11000,
+              -11000,
+              -11000,
+              -11000
+            ],
+            "MovePathDuration": 950
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "きゃっ！？　もう、ビックリした！\n後輩クン、着替え中よ！　着替えた後で良かったわ……",
+      "voice": "c120301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "す、すまん……じゃなくてここ教室だろ！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "す、すまん……じゃなくてここ教室だろ！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっ、そうだったわね。誰も居なくてちょうどいいから、\n着替えに使ってたんだった。ごめんなさいね、後輩クン。",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Apology"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "あっ、そうだったわね。誰も居なくてちょうどいいから、\n着替えに使ってたんだった。ごめんなさいね、後輩クン。",
+      "voice": "c120301/Apology",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういうことならいいんだが……どうしたんだ？　その衣装。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そういうことならいいんだが……どうしたんだ？　その衣装。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "貰い物のちょっとした、イベントに使う用の衣装なのよ。\nそれで、どう？　似合ってる？",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "貰い物のちょっとした、イベントに使う用の衣装なのよ。\nそれで、どう？　似合ってる？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……まあ、似合ってると思うぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……まあ、似合ってると思うぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61062001,
+        "branchId": 6115501,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふーん、そうでしょそうでしょ♪",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-9"
+    },
+    {
+      "line": 28,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 29,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "ふふーん、そうでしょそうでしょ♪",
+      "voice": "c120301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 30,
+      "type": "choice",
+      "branchMasterId": 6115501,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61155011,
+          "text": "ほどほどにしておく。",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1203021
+        },
+        {
+          "id": 61155012,
+          "text": "もっと褒めてみる。",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1203022
+        }
+      ]
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 32,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 33,
+      "type": "bgvStop",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、本当に凄いぴったりだな。\n多分、知らない人からも声をかけられるんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、本当に凄いぴったりだな。\n多分、知らない人からも声をかけられるんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155012,
+        "configuration": {
+          "Phrase": {
+            "Text": "もう、どうしたの？　そんなに褒めても、別に後輩クンに、\nやってあげれることとかないけど……",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-12",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 40,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "もう、どうしたの？　そんなに褒めても、別に後輩クンに、\nやってあげれることとかないけど……",
+      "voice": "c120301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いやいや、素直な気持ちだよ。\n本当に綺麗だな。イベントにも引っ張りだこじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いやいや、素直な気持ちだよ。\n本当に綺麗だな。イベントにも引っ張りだこじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……はっ！？　後輩クン、なにかやったわね！？",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 45,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-14",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 47,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "……はっ！？　後輩クン、なにかやったわね！？",
+      "voice": "c120301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155012,
+        "configuration": {
+          "Phrase": {
+            "Text": "大丈夫！　あたしは後輩クンの味方だから！\nどんなことでも素直にいってね……！？",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Confused_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 49,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-15",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 51,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "大丈夫！　あたしは後輩クンの味方だから！\nどんなことでも素直にいってね……！？",
+      "voice": "c120301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……普段やらない褒め方をしたせいで、\n逆に先輩は疑心暗鬼になってしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 54,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……普段やらない褒め方をしたせいで、\n逆に先輩は疑心暗鬼になってしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155012
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 56,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 57,
+      "type": "bgvStop",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "（あんまり褒めすぎると先輩が調子に乗りそうだしなぁ……\nこれ以上は言わなくてもいいか）",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "（あんまり褒めすぎると先輩が調子に乗りそうだしなぁ……\nこれ以上は言わなくてもいいか）",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ねえねえ、ほらもっと感想とかないの？\nセクシーだとか、流石は先輩だ～とか！",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 62,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-19",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 64,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "ねえねえ、ほらもっと感想とかないの？\nセクシーだとか、流石は先輩だ～とか！",
+      "voice": "c120301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、似合ってる以外に言うことあるのか……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、似合ってる以外に言うことあるのか……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "もう！　乙女心が分かってないわね！\nふふ、でもそういうところが後輩クンらしいわ♪",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 69,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-21",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "もう！　乙女心が分かってないわね！\nふふ、でもそういうところが後輩クンらしいわ♪",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "気が利かないのが俺らしいのか……\nまあ、でも本当に似合ってるよ。それは本当だぞ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "気が利かないのが俺らしいのか……\nまあ、でも本当に似合ってるよ。それは本当だぞ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふふ、ありがとうね。確かにいっぱい褒められるよりも、\n心からの一言の方が嬉しいわね……♪",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 76,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-23",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 78,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "……ふふ、ありがとうね。確かにいっぱい褒められるよりも、\n心からの一言の方が嬉しいわね……♪",
+      "voice": "c120301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……半分くらい言わされてないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……半分くらい言わされてないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、素直に思ってくれているんでしょう？\nなら問題ないわ！",
+            "SpeakerName": "ロージー",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c120301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "120302s"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "120302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 83,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-25",
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 85,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ロージー",
+      "text": "でも、素直に思ってくれているんでしょう？\nなら問題ないわ！",
+      "voice": "c120301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 86,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61062001,
+        "branchId": null,
+        "selectedBranchId": 61155011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……押し切られてしまったが満足げな先輩に、\nまあいいかと納得するのだった。"
+          },
+          "Background": {
+            "AssetId": "30112",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30112",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 88,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……押し切られてしまったが満足げな先輩に、\nまあいいかと納得するのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6115501,
+      "branchSelectionId": 61155011
+    },
+    {
+      "line": 89,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 26,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6115501
+      ],
+      "uniqueBranchMasterIds": [
+        6115501
+      ]
+    }
+  }
+}

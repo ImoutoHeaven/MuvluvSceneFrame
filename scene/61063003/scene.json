@@ -1,0 +1,2084 @@
+{
+  "id": "61063003",
+  "title": "救護訓練のシミュレート",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61063003",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30130.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30130.png",
+      "backgrounds": {
+        "30130": "../../assets/muvluv/backgrounds/background-30130.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10015": "../../assets/muvluv/audio/bgm/10015.ogg"
+        },
+        "voice": {
+          "c119301/Surprised_2": "../../assets/muvluv/audio/voice/a966de5f3632adc42917434ea154e3a4.ogg",
+          "c119301/Pleasure_2": "../../assets/muvluv/audio/voice/e48ab8937a141d24eb553a1219c8a320.ogg",
+          "c119301/Happiness_2": "../../assets/muvluv/audio/voice/0ff0b467489321a4ba3915867d188553.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "grump": "../../assets/muvluv/audio/se/grump.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "119302s": {
+          "key": "119302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/119302s/119302s.json",
+          "atlas": "../../assets/muvluv/spine/119302s/119302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/119302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10015"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ん？　レイラ、どうしたんだ？　ナース服なんか着て。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……ん？　レイラ、どうしたんだ？　ナース服なんか着て。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ、%usernameusernameuserna%くん。\n実はシミュレーションルームで調子が悪い人がいてさぁ。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 9,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "あ、<user>くん。\n実はシミュレーションルームで調子が悪い人がいてさぁ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ？　大丈夫だったのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "えっ？　大丈夫だったのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うん、まあ軽い乗り物酔い状態だったよ。いやあ、新ビジネスの関係で、\nナース服に着替えてたんだけど……医療関係者と勘違いされてね？",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 1500,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11500,
+              -11000
+            ],
+            "MovePathDuration": 1500
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "うん、まあ軽い乗り物酔い状態だったよ。いやあ、新ビジネスの関係で、\nナース服に着替えてたんだけど……医療関係者と勘違いされてね？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "頼られたからにはってことで、私が軽くその子を見てあげたの。\nちゃんと医者に見てもらうようには釘を差したけどね。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "頼られたからにはってことで、私が軽くその子を見てあげたの。\nちゃんと医者に見てもらうようには釘を差したけどね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……確かに、シミュレータでも乗り物酔いになる子は\nいるからな……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど……確かに、シミュレータでも乗り物酔いになる子は\nいるからな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、前日とかちゃんと寝てなかったらしいし、\n調子が悪いとやっぱりＭＧの揺れとかキツイ子はいるんだよね。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "まあ、前日とかちゃんと寝てなかったらしいし、\n調子が悪いとやっぱりＭＧの揺れとかキツイ子はいるんだよね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61063003,
+        "branchId": 6116101,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "でも、ちょっと試しに着てただけでも勘違いされそうだし、\n学内で着て歩くのは辞めて、ちゃんと着替えないとだね。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "でも、ちょっと試しに着てただけでも勘違いされそうだし、\n学内で着て歩くのは辞めて、ちゃんと着替えないとだね。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "choice",
+      "branchMasterId": 6116101,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 9,
+      "options": [
+        {
+          "id": 61161011,
+          "text": "辞めたほうがいい。",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1193021
+        },
+        {
+          "id": 61161012,
+          "text": "続けたほうがいい。",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1193022
+        }
+      ]
+    },
+    {
+      "line": 30,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 31,
+      "type": "bgmPlay",
+      "cue": "10015",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 32,
+      "type": "bgvStop",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ん？　そう？　勘違いされちゃわない？",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c119301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 34,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-11",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 36,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "ん？　そう？　勘違いされちゃわない？",
+      "voice": "c119301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Phrase": {
+            "Text": "レイラって頼りやすい空気があるからさ。\n困った人が声をかけやすいし、いいんじゃないか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "レイラって頼りやすい空気があるからさ。\n困った人が声をかけやすいし、いいんじゃないか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……褒められてると思うべきか、\n便利に使われてるって考えるべきか……",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-13",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "……褒められてると思うべきか、\n便利に使われてるって考えるべきか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、素直に受け取ってくれ……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、素直に受け取ってくれ……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Phrase": {
+            "Text": "あはは、まあ冗談だよ。\nでも、そうやって評価してくれるのは嬉しいね♪",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c119301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-15",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 50,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "あはは、まあ冗談だよ。\nでも、そうやって評価してくれるのは嬉しいね♪",
+      "voice": "c119301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあ、%usernameusernameuserna%くんが見たいらしいから、\nしばらくは着ておこっかな～♪",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c119301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 52,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-16",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 53,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 54,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "まあ、<user>くんが見たいらしいから、\nしばらくは着ておこっかな～♪",
+      "voice": "c119301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 55,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161012,
+        "configuration": {
+          "Phrase": {
+            "Text": "こちらをからかうレイラの反応に思わず苦笑してしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 57,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "こちらをからかうレイラの反応に思わず苦笑してしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161012
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 59,
+      "type": "bgmPlay",
+      "cue": "10015",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 60,
+      "type": "bgvStop",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "やっぱりそうだよねぇ。じゃあ、後で着替えてこないと。",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "grump"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 14
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "grump"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 14
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 62,
+      "type": "soundEffect",
+      "cue": "grump",
+      "tag": "frame-19",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "やっぱりそうだよねぇ。じゃあ、後で着替えてこないと。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あー、でもナース服じゃなくなるのか……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 66,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 67,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あー、でもナース服じゃなくなるのか……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 68,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "お、%usernameusernameuserna%くん……ナース服がやっぱり好きなの？",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 69,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-21",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "お、<user>くん……ナース服がやっぱり好きなの？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "いや、まあ……そうだな。嫌いじゃないぞ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "いや、まあ……そうだな。嫌いじゃないぞ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あはは、まあ素直なのはいいことだね。\nそれじゃあ、また今度着てあげるからそのときにね？",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c119301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 76,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-23",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 78,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "あはは、まあ素直なのはいいことだね。\nそれじゃあ、また今度着てあげるからそのときにね？",
+      "voice": "c119301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……えっ？　いいのか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……えっ？　いいのか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 82,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "あはは、冗談だよ♪",
+            "SpeakerName": "レイラ",
+            "TeamName": "<color=#b6e5cc>トレブルクインテット</color>",
+            "VoiceAssetIds": [
+              "c119301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "119302s"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "119302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 83,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-25",
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 84,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 85,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "レイラ",
+      "text": "あはは、冗談だよ♪",
+      "voice": "c119301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 86,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61063003,
+        "branchId": null,
+        "selectedBranchId": 61161011,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺をからかって、楽しそうにレイラは笑うのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10015"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10015"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 88,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺をからかって、楽しそうにレイラは笑うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6116101,
+      "branchSelectionId": 61161011
+    },
+    {
+      "line": 89,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 26,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6116101
+      ],
+      "uniqueBranchMasterIds": [
+        6116101
+      ]
+    }
+  }
+}

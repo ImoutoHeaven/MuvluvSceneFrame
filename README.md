@@ -20,10 +20,10 @@ JSON files are marked `-text` in `.gitattributes` so Git does not change bytes c
 
 | Metric | Value |
 | --- | ---: |
-| Scenes | 1,032 |
-| Scene bytes | 160,509,906 |
-| Commands | 293,249 |
-| `muvluvFrame` commands | 87,383 |
+| Scenes | 1,056 |
+| Scene bytes | 164,051,949 |
+| Commands | 300,171 |
+| `muvluvFrame` commands | 89,412 |
 
 This repository contains no license, key, executable, game client, or media asset.
 
