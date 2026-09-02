@@ -37,6 +37,6 @@ Another static HTTPS root may be configured.
 
 ## Update
 
-Follow the [G4 export procedure](https://github.com/ImoutoHeaven/MuvluvUnlockCG/blob/main/docs/g4-scene-export-tutorial-zh.md). The promotion tool validates the export and synchronized corpus and requires a clean worktree. Maintainers control commit and push operations.
+Follow the [G4 export procedure](https://github.com/ImoutoHeaven/MuvluvUnlockCG/blob/main/docs/g4-scene-export-tutorial.md). The promotion tool validates the export and synchronized corpus and requires a clean worktree. Maintainers control commit and push operations.
 
 Maintainers update the offline distribution manually. Exported `scenes.json`, `manifest.json`, and `scene/` are published byte-for-byte.
