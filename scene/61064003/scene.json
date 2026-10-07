@@ -1,0 +1,1892 @@
+{
+  "id": "61064003",
+  "title": "心安らげるひととき",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61064003",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30052.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30052.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30052.png",
+      "backgrounds": {
+        "30052": "../../assets/muvluv/backgrounds/background-30052.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c101301/Pleasure_2": "../../assets/muvluv/audio/voice/ebaed352b29eec840af97223b001f20b.ogg",
+          "c101301/Confused_2": "../../assets/muvluv/audio/voice/ff006a8496131be488df0bbf15ba3a7a.ogg",
+          "c101301/Confused_3": "../../assets/muvluv/audio/voice/2bd891d358da0b64c89f77889de98126.ogg",
+          "c101301/Happiness_2": "../../assets/muvluv/audio/voice/c52bb8ca11c9d824080abb44d9017c13.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "depression": "../../assets/muvluv/audio/se/depression.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "panic": "../../assets/muvluv/audio/se/panic.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "101302s": {
+          "key": "101302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/101302s/101302s.json",
+          "atlas": "../../assets/muvluv/spine/101302s/101302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/101302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "屋上に上がると、\nパイロットスーツ姿の七彩が鉢植えの手入れをしていた。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "屋上に上がると、\nパイロットスーツ姿の七彩が鉢植えの手入れをしていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ……元気に育っていますわね。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "ふふ……元気に育っていますわね。",
+      "voice": "c101301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "よう、七彩。今日も園芸に精が出るな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "よう、七彩。今日も園芸に精が出るな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "%usernameusernameuserna%さん、ごきげんよう。\nええ、この子たちのお世話は毎日欠かせませんわ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "<user>さん、ごきげんよう。\nええ、この子たちのお世話は毎日欠かせませんわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "手入れした分、元気になるというのもありますが……\n環境や身の回りが変わる中、この変わらない時間を大切にしたいのです。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "手入れした分、元気になるというのもありますが……\n環境や身の回りが変わる中、この変わらない時間を大切にしたいのです。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……確かに、ここ最近は色々あったからな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……確かに、ここ最近は色々あったからな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "こういう時にこそ、ルーティンワークが重要だと考えていますわ。\n……訓練後、着替える暇を惜しんで来たのはやりすぎたかもですが。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "depression"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "depression"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "EmotionType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "soundEffect",
+      "cue": "depression",
+      "tag": "frame-8"
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 26,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "こういう時にこそ、ルーティンワークが重要だと考えていますわ。\n……訓練後、着替える暇を惜しんで来たのはやりすぎたかもですが。",
+      "voice": "c101301/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……わたくしが辛い時、悩んだ時も、\nこの子たちのおかげで、いつもの自分を忘れずにいられますの。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 28,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-9"
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 30,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "……わたくしが辛い時、悩んだ時も、\nこの子たちのおかげで、いつもの自分を忘れずにいられますの。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61064003,
+        "branchId": 6116501,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言って愛おしそうに鉢植えのお世話をする七彩に俺は……"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言って愛おしそうに鉢植えのお世話をする七彩に俺は……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 34,
+      "type": "choice",
+      "branchMasterId": 6116501,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 10,
+      "options": [
+        {
+          "id": 61165011,
+          "text": "七彩を褒める",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1013021
+        },
+        {
+          "id": 61165012,
+          "text": "花々に話しかける",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1013022
+        }
+      ]
+    },
+    {
+      "line": 35,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 36,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 37,
+      "type": "bgvStop",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 38,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165012,
+        "configuration": {
+          "Phrase": {
+            "Text": "んじゃ、お礼を言っておくか。\nお前らありがとうな、七彩の助けになってくれて。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 40,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "んじゃ、お礼を言っておくか。\nお前らありがとうな、七彩の助けになってくれて。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165012,
+        "configuration": {
+          "Phrase": {
+            "Text": "な、なんで急に鉢植えにお礼を言っていますの！？",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Confused_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "panic"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "panic"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 6
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 42,
+      "type": "soundEffect",
+      "cue": "panic",
+      "tag": "frame-13",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 43,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 44,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "な、なんで急に鉢植えにお礼を言っていますの！？",
+      "voice": "c101301/Confused_3",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 45,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165012,
+        "configuration": {
+          "Phrase": {
+            "Text": "七彩が世話になってるなら、俺からも挨拶するべきかと思ってな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 47,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "七彩が世話になってるなら、俺からも挨拶するべきかと思ってな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ふふ、もう、%usernameusernameuserna%さんったら……\n真面目だったり、お調子者だったり……不思議な方ですわ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 49,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-15",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 50,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 51,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "……ふふ、もう、<user>さんったら……\n真面目だったり、お調子者だったり……不思議な方ですわ。",
+      "voice": "c101301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 52,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ですけども……そんな%usernameusernameuserna%さんも、\nわたくしが自分らしくいられる大切な要素なのかもしれませんわね♪",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 53,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-16",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 54,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 55,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "ですけども……そんな<user>さんも、\nわたくしが自分らしくいられる大切な要素なのかもしれませんわね♪",
+      "voice": "c101301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 56,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……冗談半分の行動だったのに思いがけず感謝されてしまい、\n俺は少しだけ照れくさくなるのだった。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 57,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 58,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "……冗談半分の行動だったのに思いがけず感謝されてしまい、\n俺は少しだけ照れくさくなるのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165012
+    },
+    {
+      "line": 59,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 60,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 61,
+      "type": "bgvStop",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 62,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうやって優しく接してるからこそ、\nこれだけ綺麗な花が咲いているんだろうな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 63,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 64,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうやって優しく接してるからこそ、\nこれだけ綺麗な花が咲いているんだろうな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 65,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、どうでしょうね？　いつだって、この子達は手間を掛ければ、\nそれに応えるような美しい花を咲かせてくれますけども……",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 66,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-20",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 67,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 68,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "ふふ、どうでしょうね？　いつだって、この子達は手間を掛ければ、\nそれに応えるような美しい花を咲かせてくれますけども……",
+      "voice": "c101301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 69,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165011,
+        "configuration": {
+          "Phrase": {
+            "Text": "わたくしのお世話はほんの少しのお手伝いに過ぎません。\n美しく咲き誇るのは、この子達自身の力ですわ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 70,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 71,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "わたくしのお世話はほんの少しのお手伝いに過ぎません。\n美しく咲き誇るのは、この子達自身の力ですわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 72,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165011,
+        "configuration": {
+          "Phrase": {
+            "Text": "だとしても……その少しのお手伝いってやつが、\nこの花たちにとってはきっと大きいんだと思うぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 73,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 74,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "だとしても……その少しのお手伝いってやつが、\nこの花たちにとってはきっと大きいんだと思うぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 75,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そうでしょうか？　わたくしが助けられている以上に、\nこの子達の力になれているのなら……嬉しいですわ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 76,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-23",
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 77,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 78,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "……そうでしょうか？　わたくしが助けられている以上に、\nこの子達の力になれているのなら……嬉しいですわ。",
+      "voice": "c101301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 79,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61064003,
+        "branchId": null,
+        "selectedBranchId": 61165011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言って優しく微笑む七彩に、\n俺は思わず見惚れてしまうのだった。"
+          },
+          "Background": {
+            "AssetId": "30052",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30052",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 80,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 81,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言って優しく微笑む七彩に、\n俺は思わず見惚れてしまうのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6116501,
+      "branchSelectionId": 61165011
+    },
+    {
+      "line": 82,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 24,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6116501
+      ],
+      "uniqueBranchMasterIds": [
+        6116501
+      ]
+    }
+  }
+}

@@ -1,0 +1,2214 @@
+{
+  "id": "61064004",
+  "title": "リーダーの責務",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61064004",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c101301/Pleasure_2": "../../assets/muvluv/audio/voice/ebaed352b29eec840af97223b001f20b.ogg",
+          "c101301/Surprised_2": "../../assets/muvluv/audio/voice/2b4b3c8c1849fe64bb9b469e04713e71.ogg",
+          "c101301/Happiness_2": "../../assets/muvluv/audio/voice/c52bb8ca11c9d824080abb44d9017c13.ogg",
+          "c101301/Agreement": "../../assets/muvluv/audio/voice/2e3b1b9a3b303734c9fc28fda1d4cbba.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "hush": "../../assets/muvluv/audio/se/hush.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "101302s": {
+          "key": "101302s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/101302s/101302s.json",
+          "atlas": "../../assets/muvluv/spine/101302s/101302s.atlas",
+          "textureBase": "../../assets/muvluv/spine/101302s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "グラウンドに行くと、パイロットスーツを着ている七彩が、\nダッシュをしながらタイムの計測をしていた。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "グラウンドに行くと、パイロットスーツを着ている七彩が、\nダッシュをしながらタイムの計測をしていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ハァ……ハァ……タイム更新まで、あと少しですわね……！",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 8,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "ハァ……ハァ……タイム更新まで、あと少しですわね……！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 9,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "七彩、どうしたんだ？\n一人でそんなに走り込んで……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 6
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 10,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 11,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "七彩、どうしたんだ？\n一人でそんなに走り込んで……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 12,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あ……%usernameusernameuserna%さん。\nふぅ……その……少し思うところがありまして。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 13,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "あ……<user>さん。\nふぅ……その……少し思うところがありまして。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "思うところっていうと……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 17,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 18,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "思うところっていうと……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 19,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "新しいパイロットスーツ……新しい機体……環境が大きく変わる今こそ、\nわたくしはチームのリーダーとして皆の手本となる責務がありますわ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "hush"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "hush"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 12
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 20,
+      "type": "soundEffect",
+      "cue": "hush",
+      "tag": "frame-7"
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "新しいパイロットスーツ……新しい機体……環境が大きく変わる今こそ、\nわたくしはチームのリーダーとして皆の手本となる責務がありますわ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……だからこそ、今までの壁を超えたいのです。\nわたくし自身が皆さんに誇れるような自分であるために。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "……だからこそ、今までの壁を超えたいのです。\nわたくし自身が皆さんに誇れるような自分であるために。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……その心がけは立派だと思うが……無理は禁物だぞ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……その心がけは立派だと思うが……無理は禁物だぞ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61064004,
+        "branchId": 6116601,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "分かっていますわ。ちゃんと自分の体調管理はしていますのよ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-10"
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "分かっていますわ。ちゃんと自分の体調管理はしていますのよ。",
+      "voice": "c101301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "choice",
+      "branchMasterId": 6116601,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 10,
+      "options": [
+        {
+          "id": 61166011,
+          "text": "七彩をそっと気遣う",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1013021
+        },
+        {
+          "id": 61166012,
+          "text": "七彩を手伝う",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1013022
+        }
+      ]
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 35,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 36,
+      "type": "bgvStop",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……とはいえ、七彩は頑張りすぎちまうきらいがあるからな。\n教導指揮官として、俺もトレーニングを手伝っていいか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 38,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 39,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……とはいえ、七彩は頑張りすぎちまうきらいがあるからな。\n教導指揮官として、俺もトレーニングを手伝っていいか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ？　かまいませんけども……本当によろしいんですの？\nやっていることはわたくしの個人訓練ですのよ？",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 41,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-13",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 43,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "えっ？　かまいませんけども……本当によろしいんですの？\nやっていることはわたくしの個人訓練ですのよ？",
+      "voice": "c101301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ひとりでやるよりも、タイムを測るやつとか、\n客観的に見るやつとかがいた方がいいだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 46,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ひとりでやるよりも、タイムを測るやつとか、\n客観的に見るやつとかがいた方がいいだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ありがとうございます、%usernameusernameuserna%さん。\nでは、力をお借りいたしますわ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 48,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-15",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 50,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "……ありがとうございます、<user>さん。\nでは、力をお借りいたしますわ。",
+      "voice": "c101301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、任せろ。さっそくだが、もう一回走ってもらえるか？\nフォームからちゃんと見ていくぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 53,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、任せろ。さっそくだが、もう一回走ってもらえるか？\nフォームからちゃんと見ていくぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ええ、分かりましたわ。それでは行きますわよ……！",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 55,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-17",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 56,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 57,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "ええ、分かりましたわ。それでは行きますわよ……！",
+      "voice": "c101301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 58,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166012,
+        "configuration": {
+          "Phrase": {
+            "Text": "それから俺は七彩の走りをチェックし、\n彼女の特訓にしばし付き合うのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "それから俺は七彩の走りをチェックし、\n彼女の特訓にしばし付き合うのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166012
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 62,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 63,
+      "type": "bgvStop",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "七彩がそこまで言うなら、無理はしないって信じるよ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "七彩がそこまで言うなら、無理はしないって信じるよ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふ、信用していただけて何よりです。\nではわたくしはもう少しだけトレーニングをしていきますので……",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 68,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-21",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 69,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 70,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "ふふ、信用していただけて何よりです。\nではわたくしはもう少しだけトレーニングをしていきますので……",
+      "voice": "c101301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 71,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言って走り始めた七彩を見送った後、\n俺は飲み物を買ってからもう一度七彩の元へと戻った。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 72,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 73,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言って走り始めた七彩を見送った後、\n俺は飲み物を買ってからもう一度七彩の元へと戻った。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 74,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……%usernameusernameuserna%さん？　どうされましたの？",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 75,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-23",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 76,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 77,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "……<user>さん？　どうされましたの？",
+      "voice": "c101301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 78,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "頑張ってる七彩に差し入れだ。\n走って汗をかいた後なら、水分補給は大切だろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 79,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 80,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "頑張ってる七彩に差し入れだ。\n走って汗をかいた後なら、水分補給は大切だろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 81,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ありがとうございます、%usernameusernameuserna%さん。\n確かに喉が渇いていますので、いただきますわ。",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "VoiceAssetIds": [
+              "c101301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 82,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-25",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 83,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 84,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "……ありがとうございます、<user>さん。\n確かに喉が渇いていますので、いただきますわ。",
+      "voice": "c101301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 85,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "折角ですし、このまま休憩いたしましょうか。\nもしよければ、話し相手になってくださいませんか？",
+            "SpeakerName": "七彩",
+            "TeamName": "<color=#ffbcd6>シリウスシュガー</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "101302s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 86,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-26",
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 87,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 88,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "七彩",
+      "text": "折角ですし、このまま休憩いたしましょうか。\nもしよければ、話し相手になってくださいませんか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 89,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ああ、俺で良ければ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "101302s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 90,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 91,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ああ、俺で良ければ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 92,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61064004,
+        "branchId": null,
+        "selectedBranchId": 61166011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうして、七彩の休憩に付き添いながら、\n俺は彼女としばらく穏やかな時間を過ごすのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 93,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 94,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そうして、七彩の休憩に付き添いながら、\n俺は彼女としばらく穏やかな時間を過ごすのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6116601,
+      "branchSelectionId": 61166011
+    },
+    {
+      "line": 95,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 28,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6116601
+      ],
+      "uniqueBranchMasterIds": [
+        6116601
+      ]
+    }
+  }
+}

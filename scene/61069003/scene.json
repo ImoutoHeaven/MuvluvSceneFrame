@@ -1,0 +1,1871 @@
+{
+  "id": "61069003",
+  "title": "ジーナの戦い",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61069003",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30130.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30130.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30130.png",
+      "backgrounds": {
+        "30130": "../../assets/muvluv/backgrounds/background-30130.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "10002": "../../assets/muvluv/audio/bgm/10002.ogg"
+        },
+        "voice": {
+          "c155301/CallOut": "../../assets/muvluv/audio/voice/a8efed700accb0d46a8618e95e5e93c0.ogg",
+          "c155301/Agreement": "../../assets/muvluv/audio/voice/73d00e6c2851f45488e36e3a0b62e234.ogg",
+          "c155301/Confused_2": "../../assets/muvluv/audio/voice/df76643b11685434b93b450e86433e93.ogg",
+          "c155301/Happiness_2": "../../assets/muvluv/audio/voice/fc9c771d8e7021a4993f890b930ed03b.ogg",
+          "c155301/Suggesting": "../../assets/muvluv/audio/voice/752b8f725ddd0be48a17ae1f4406ef7c.ogg",
+          "c155301/Pleasure_2": "../../assets/muvluv/audio/voice/61cc63e9ab903544f8ad228f85c01be8.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "sigh": "../../assets/muvluv/audio/se/sigh.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg",
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "love": "../../assets/muvluv/audio/se/love.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "n10056": {
+          "key": "n10056",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/n10056/n10056.json",
+          "atlas": "../../assets/muvluv/spine/n10056/n10056.atlas",
+          "textureBase": "../../assets/muvluv/spine/n10056/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "10002"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ちょうどいいところに現れたな、%usernameusernameuserna%。\n我の戦いを特等席で見られる栄誉が欲しくないか？",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/CallOut"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-2"
+    },
+    {
+      "line": 5,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 6,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "ちょうどいいところに現れたな、<user>。\n我の戦いを特等席で見られる栄誉が欲しくないか？",
+      "voice": "c155301/CallOut",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 7,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それはシミュレータの戦闘を見学させてくれるってことか？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それはシミュレータの戦闘を見学させてくれるってことか？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "うむ、まあそんなところだ。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "うむ、まあそんなところだ。",
+      "voice": "c155301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "それならお言葉に甘えて見させてもらおうかな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 15,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "それならお言葉に甘えて見させてもらおうかな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 16,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61069003,
+        "branchId": 6118501,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……まずまず、といったことか。\n%usernameusernameuserna%、我の戦いはどうだった？",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Confused_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "NeedsHideText": 1,
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "FadeType": 2,
+            "FadeInDuration": 750,
+            "FadeWaitDuration": 150,
+            "FadeOutDuration": 1500,
+            "FadeTiming": 0,
+            "SoundEffect": "sigh"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "FadeType": 2,
+          "FadeInDuration": 750,
+          "FadeWaitDuration": 150,
+          "FadeOutDuration": 1500,
+          "FadeTiming": 0,
+          "SoundEffect": "sigh"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 10,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -2500
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": true
+      }
+    },
+    {
+      "line": 17,
+      "type": "soundEffect",
+      "cue": "sigh",
+      "tag": "frame-6"
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "……まずまず、といったことか。\n<user>、我の戦いはどうだった？",
+      "voice": "c155301/Confused_2",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "choice",
+      "branchMasterId": 6118501,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 6,
+      "options": [
+        {
+          "id": 61185011,
+          "text": "回避率を褒める",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1563011
+        },
+        {
+          "id": 61185012,
+          "text": "撃破数を褒める",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1563012
+        }
+      ]
+    },
+    {
+      "line": 21,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 22,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 23,
+      "type": "bgvStop",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 24,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "攻撃の回避率が素晴らしいな。\nまるで後ろにも目があるかのような動きだった。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 25,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 26,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "攻撃の回避率が素晴らしいな。\nまるで後ろにも目があるかのような動きだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 27,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なかなかいいところを見ているじゃないか。\nそうだ、回避には拘りがあるからな。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 28,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-9",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 29,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 30,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "なかなかいいところを見ているじゃないか。\nそうだ、回避には拘りがあるからな。",
+      "voice": "c155301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 9,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 31,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "どういうことだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 32,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 33,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "どういうことだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 10,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 34,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "我はニーナを守るための存在だ。\nそしてこの身体はニーナのものでもある。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 35,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 36,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "我はニーナを守るための存在だ。\nそしてこの身体はニーナのものでもある。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "だからこそ粗雑には扱えんし、無駄な傷をつけることなど許されん。\n本来、戦場の傷は戦士の勲章だが、ニーナは戦士ではないからな。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 3,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "ShakeAxisFlags": 2,
+            "ShakeStrength": 40,
+            "ShakeOnce": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 38,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-12",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 39,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 40,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "だからこそ粗雑には扱えんし、無駄な傷をつけることなど許されん。\n本来、戦場の傷は戦士の勲章だが、ニーナは戦士ではないからな。",
+      "voice": "c155301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 12,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 41,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なるほど……ニーナを大切にしているんだな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 42,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 43,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なるほど……ニーナを大切にしているんだな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 44,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "当然だ。我はニーナの刃であり、盾でもある。\nニーナは我が魂の片割れであるがゆえに、な。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Agreement"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "love"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "love"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 7
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 45,
+      "type": "soundEffect",
+      "cue": "love",
+      "tag": "frame-14",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 46,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 47,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "当然だ。我はニーナの刃であり、盾でもある。\nニーナは我が魂の片割れであるがゆえに、な。",
+      "voice": "c155301/Agreement",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 48,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう言うジーナの顔は輝いていて、ニーナを守れることを\n何よりも誇りに思っているように見えた。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 49,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 50,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そう言うジーナの顔は輝いていて、ニーナを守れることを\n何よりも誇りに思っているように見えた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185011
+    },
+    {
+      "line": 51,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": -2500,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 52,
+      "type": "bgmPlay",
+      "cue": "10002",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 53,
+      "type": "bgvStop",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……素晴らしい撃破数だな。\n正確で的確な射撃だった。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……素晴らしい撃破数だな。\n正確で的確な射撃だった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Phrase": {
+            "Text": "まあな。我はニーナの刃……\nニーナの代わりに敵を殲滅せねばならん。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 58,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 59,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "まあな。我はニーナの刃……\nニーナの代わりに敵を殲滅せねばならん。",
+      "voice": "c155301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 60,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ニーナの代わりに、か。\nしかしどうして、ジーナがニーナの分も戦うようになったんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 61,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 62,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "ニーナの代わりに、か。\nしかしどうして、ジーナがニーナの分も戦うようになったんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 63,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Phrase": {
+            "Text": "理由など決まっているだろう――\n我はそのために生まれた、ただそれだけだ。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Suggesting"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 64,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 65,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "理由など決まっているだろう――\n我はそのために生まれた、ただそれだけだ。",
+      "voice": "c155301/Suggesting",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 66,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Phrase": {
+            "Text": "戦場を舞い、敵を打ちのめすのは我の役割だ。\nニーナのためならば、我は喜んで修羅となろう。",
+            "SpeakerName": "ジーナ",
+            "TeamName": "<color=#c1a3a3>クラスナ</color>",
+            "VoiceAssetIds": [
+              "c155301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "n10056"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 11
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 67,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-21",
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 68,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 69,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ジーナ",
+      "text": "戦場を舞い、敵を打ちのめすのは我の役割だ。\nニーナのためならば、我は喜んで修羅となろう。",
+      "voice": "c155301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 21,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Phrase": {
+            "Text": "そうか……そういうことなら、お前のことを頼りにさせてもらうぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          },
+          "Character1": {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [
+          {
+            "AssetId": "n10056",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "そうか……そういうことなら、お前のことを頼りにさせてもらうぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61069003,
+        "branchId": null,
+        "selectedBranchId": 61185012,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺がそう告げると、ジーナは自信に満ちた顔で\n任せておけとうなずいたのだった。"
+          },
+          "Background": {
+            "AssetId": "30130",
+            "BgmAssetId": "10002"
+          }
+        },
+        "background": {
+          "AssetId": "30130",
+          "BgmAssetId": "10002"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 74,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 75,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "俺がそう告げると、ジーナは自信に満ちた顔で\n任せておけとうなずいたのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6118501,
+      "branchSelectionId": 61185012
+    },
+    {
+      "line": 76,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 23,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6118501
+      ],
+      "uniqueBranchMasterIds": [
+        6118501
+      ]
+    }
+  }
+}

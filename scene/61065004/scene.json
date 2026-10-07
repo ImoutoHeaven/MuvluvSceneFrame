@@ -1,0 +1,2343 @@
+{
+  "id": "61065004",
+  "title": "今ならできること！",
+  "preloaded": false,
+  "assets": {
+    "sceneId": "61065004",
+    "characterStands": {},
+    "emotions": {
+      "enabled": true,
+      "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+      "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+    },
+    "prefabEffects": {},
+    "images": {
+      "background": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyA": "../../assets/muvluv/backgrounds/background-30142.png",
+      "bodyB": "../../assets/muvluv/backgrounds/background-30142.png",
+      "cutin": "../../assets/muvluv/backgrounds/background-30142.png",
+      "backgrounds": {
+        "30142": "../../assets/muvluv/backgrounds/background-30142.png"
+      }
+    },
+    "audio": {
+      "decoded": {
+        "bgm": {
+          "20003": "../../assets/muvluv/audio/bgm/20003.ogg"
+        },
+        "voice": {
+          "c110301/Surprised_3": "../../assets/muvluv/audio/voice/91598865e38939b49958b7e907ed6dbd.ogg",
+          "c110301/Pleasure_2": "../../assets/muvluv/audio/voice/1e25a3a2423078440a85d1367382aa37.ogg",
+          "c110301/Surprised_2": "../../assets/muvluv/audio/voice/7353e5ced9af1a94f8b6f19b40043326.ogg",
+          "c110301/Happiness_2": "../../assets/muvluv/audio/voice/bf7beaa689c026f45b280ff7fb74d656.ogg"
+        },
+        "bgvoice": {},
+        "se": {
+          "surprise": "../../assets/muvluv/audio/se/surprise.ogg",
+          "gasp": "../../assets/muvluv/audio/se/gasp.ogg",
+          "laugh": "../../assets/muvluv/audio/se/laugh.ogg",
+          "huh": "../../assets/muvluv/audio/se/huh.ogg",
+          "joy": "../../assets/muvluv/audio/se/joy.ogg",
+          "spark": "../../assets/muvluv/audio/se/spark.ogg"
+        }
+      }
+    },
+    "transitionTextures": {},
+    "muvluvSpinePreview": {
+      "enabled": true,
+      "models": {
+        "110303s": {
+          "key": "110303s",
+          "kind": "character",
+          "skeleton": "../../assets/muvluv/spine/110303s/110303s.json",
+          "atlas": "../../assets/muvluv/spine/110303s/110303s.atlas",
+          "textureBase": "../../assets/muvluv/spine/110303s/",
+          "version": "4.2.33",
+          "skeletonScale": 0.01,
+          "defaultMix": 0.2,
+          "premultiplied": false,
+          "material": {
+            "straightAlphaInput": true
+          }
+        }
+      },
+      "referenceResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "characterPrefabScale": 122,
+      "cockpitInstanceScale": 100,
+      "cockpitLayerScale": 0.9,
+      "cockpitLayerY": -700,
+      "spineDataScale": 0.01,
+      "mosaicRenderWidth": 1920,
+      "mosaicRenderHeight": 1080,
+      "mosaicPixelSize": 14,
+      "mosaicThreshold": 0.3,
+      "mosaicSoftness": 0.075,
+      "emotions": {
+        "enabled": true,
+        "atlas": "../../assets/muvluv/effects/SymbolEmotion_effect_atlas.png",
+        "metadata": "../../assets/muvluv/effects/SymbolEmotion_effects.json"
+      },
+      "cockpitUi": {
+        "enabled": true,
+        "viewSize": [
+          520,
+          520
+        ],
+        "maskSize": [
+          518,
+          518
+        ],
+        "speakerTypes": {
+          "cockpit1": 6,
+          "cockpit2": 7,
+          "cockpit3": 8,
+          "cockpit4": 9,
+          "cockpit5": 10
+        },
+        "sprites": {
+          "underlay": {
+            "image": "../../assets/muvluv/scenario_ui/r20_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          },
+          "background": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_bg_0.png",
+            "size": [
+              520,
+              520
+            ],
+            "border": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "overlay": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_wipe_top_0.png",
+            "size": [
+              101,
+              100
+            ],
+            "border": [
+              50.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          },
+          "highlight": {
+            "image": "../../assets/muvluv/scenario_ui/frm_adv_r6_0.png",
+            "size": [
+              44,
+              44
+            ],
+            "border": [
+              22.0,
+              22.0,
+              22.0,
+              22.0
+            ]
+          }
+        },
+        "source": "GameUi/Scenario"
+      }
+    },
+    "muvluvScreenEffects": {
+      "enabled": false,
+      "effects": []
+    },
+    "muvluv": {
+      "backgroundSpines": {}
+    }
+  },
+  "commands": [
+    {
+      "line": 1,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 1,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "TitleAssetId": "title"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 2,
+      "type": "bgmPlay",
+      "cue": "20003"
+    },
+    {
+      "line": 3,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 2,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "運動場に向かうと、\nパイロットスーツ姿のユリアが文字通り跳ね回っていた。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 4,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 5,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "運動場に向かうと、\nパイロットスーツ姿のユリアが文字通り跳ね回っていた。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 2
+    },
+    {
+      "line": 6,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 3,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "ダーッといってバーッと跳んで、ここでズドン！\n……よーし！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c110301/Surprised_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "EmotionType": 4,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 7,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-3"
+    },
+    {
+      "line": 8,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 9,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "ダーッといってバーッと跳んで、ここでズドン！\n……よーし！",
+      "voice": "c110301/Surprised_3",
+      "layout": "",
+      "sourceFrameOrder": 3
+    },
+    {
+      "line": 10,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 4,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "……ユリア、何をしてるんだ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 11,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 12,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……ユリア、何をしてるんだ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 4
+    },
+    {
+      "line": 13,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 5,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あっ、%usernameusernameuserna%！ 良いところにきたねー！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 9
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 14,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-5"
+    },
+    {
+      "line": 15,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 16,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "あっ、<user>！ 良いところにきたねー！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 5
+    },
+    {
+      "line": 17,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 6,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "このスーツなら、ほら！　スカートだと怒られてできなかった、\n前からやってみたかった動きを試してるんだ～！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 18,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 19,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "このスーツなら、ほら！　スカートだと怒られてできなかった、\n前からやってみたかった動きを試してるんだ～！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 6
+    },
+    {
+      "line": 20,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 7,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あー、ユリアってそういうところ、無頓着というかなんというか……\n目のやり場に困る時があるんだよな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 21,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 22,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "あー、ユリアってそういうところ、無頓着というかなんというか……\n目のやり場に困る時があるんだよな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 7
+    },
+    {
+      "line": 23,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 8,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "人の目を気にして自由に動けないなんてつまんないもん。\nそれに%usernameusernameuserna%なら、私のどこを見てもいいよー？",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 24,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 25,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "人の目を気にして自由に動けないなんてつまんないもん。\nそれに<user>なら、私のどこを見てもいいよー？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 8
+    },
+    {
+      "line": 26,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 9,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "み、見ねえよ！\nこっちは気を使って目をそらしてるんだからな！？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 27,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 28,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "み、見ねえよ！\nこっちは気を使って目をそらしてるんだからな！？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 9
+    },
+    {
+      "line": 29,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 10,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "あはっ、変なの。\nまあそんなわけで！　普段やらない動き、どんどんやっちゃうよー♪",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c110301/Pleasure_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "laugh"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "laugh"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 13
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 30,
+      "type": "soundEffect",
+      "cue": "laugh",
+      "tag": "frame-10"
+    },
+    {
+      "line": 31,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 32,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "あはっ、変なの。\nまあそんなわけで！　普段やらない動き、どんどんやっちゃうよー♪",
+      "voice": "c110301/Pleasure_2",
+      "layout": "",
+      "sourceFrameOrder": 10
+    },
+    {
+      "line": 33,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 11,
+        "sceneId": 61065004,
+        "branchId": 6117001,
+        "selectedBranchId": null,
+        "configuration": {
+          "Phrase": {
+            "Text": "くっ、気遣いを軽く流された……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      }
+    },
+    {
+      "line": 34,
+      "type": "window",
+      "visible": true
+    },
+    {
+      "line": 35,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "くっ、気遣いを軽く流された……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 11
+    },
+    {
+      "line": 36,
+      "type": "choice",
+      "branchMasterId": 6117001,
+      "branchType": 3,
+      "requiresSelection": false,
+      "sourceFrameOrder": 11,
+      "options": [
+        {
+          "id": 61170011,
+          "text": "一緒に遊ぶ",
+          "isSelectSuccess": true,
+          "sceneBranchSelectAffectionMasterId": 1103032
+        },
+        {
+          "id": 61170012,
+          "text": "動きを参考にする",
+          "isSelectSuccess": false,
+          "sceneBranchSelectAffectionMasterId": 1103031
+        }
+      ]
+    },
+    {
+      "line": 37,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 12,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 38,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 39,
+      "type": "bgvStop",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 40,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 13,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……そうだな。折角だし、もうちょっと見せてくれるか？\n何かしら参考になりそうな気がしてな。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 41,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 42,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……そうだな。折角だし、もうちょっと見せてくれるか？\n何かしら参考になりそうな気がしてな。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 13,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 43,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 14,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ？　別にいいけど……でも、折角なら%usernameusernameuserna%も、\n一緒に色々試したりしてみたほうがよくない？",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c110301/Surprised_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "huh"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "huh"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 8
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 44,
+      "type": "soundEffect",
+      "cue": "huh",
+      "tag": "frame-14",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 45,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 46,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "えっ？　別にいいけど……でも、折角なら<user>も、\n一緒に色々試したりしてみたほうがよくない？",
+      "voice": "c110301/Surprised_2",
+      "layout": "",
+      "sourceFrameOrder": 14,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 47,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 15,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "俺は多少は動けるが、\n曲芸みたいなのはあんまり得意じゃないんだよな……",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 48,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 49,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "俺は多少は動けるが、\n曲芸みたいなのはあんまり得意じゃないんだよな……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 15,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 50,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 16,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "ならいい機会だし、一緒にやろーよ！　例えばほら！\nこうやって……とりゃー！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c110301/Happiness_2"
+            ],
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "HiddenCharacter": {
+            "AssetId": "110303s",
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 51,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-16",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 52,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 53,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "ならいい機会だし、一緒にやろーよ！　例えばほら！\nこうやって……とりゃー！",
+      "voice": "c110301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 16,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 54,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 17,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "……うおお！？　これ何回転宙返り！？\nすごいはすごいが危ねぇ！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 55,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 56,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……うおお！？　これ何回転宙返り！？\nすごいはすごいが危ねぇ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 17,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 57,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 18,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "っと。……こんな感じで、出来るんじゃないかな？\nほら、%usernameusernameuserna%もやってみて！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "spark"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": 39000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "spark"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": 39000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 11,
+            "FadeInType": 1,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              0
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 58,
+      "type": "soundEffect",
+      "cue": "spark",
+      "tag": "frame-18",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 59,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 60,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "っと。……こんな感じで、出来るんじゃないかな？\nほら、<user>もやってみて！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 18,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 61,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 19,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "できるか！",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 62,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 63,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "できるか！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 19,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 64,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 20,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170012,
+        "configuration": {
+          "Phrase": {
+            "Text": "とんでもない運動神経のユリアに、\n俺は顔を引きつらせることしかできないのだった……"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 65,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 66,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "とんでもない運動神経のユリアに、\n俺は顔を引きつらせることしかできないのだった……",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 20,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170012
+    },
+    {
+      "line": 67,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 21,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "FadeInType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "FadeInType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 68,
+      "type": "bgmPlay",
+      "cue": "20003",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 69,
+      "type": "bgvStop",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 70,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 22,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……まあ、楽しそうだし俺も混ざるか。\nひとりでやるよりも、誰かと競う方がユリアは好きだろ？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 71,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 72,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……まあ、楽しそうだし俺も混ざるか。\nひとりでやるよりも、誰かと競う方がユリアは好きだろ？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 22,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 73,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 23,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "えっ！？　一緒に遊んでくれるの！？\nやったー！　それじゃあなにする！？",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c110301/Surprised_3"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "surprise"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "surprise"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5,
+            "EmotionType": 4,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 900,
+            "MovePathXs": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -10500,
+              -11000,
+              -10500,
+              -11000
+            ],
+            "MovePathDuration": 900
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 74,
+      "type": "soundEffect",
+      "cue": "surprise",
+      "tag": "frame-23",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 75,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 76,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "えっ！？　一緒に遊んでくれるの！？\nやったー！　それじゃあなにする！？",
+      "voice": "c110301/Surprised_3",
+      "layout": "",
+      "sourceFrameOrder": 23,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 77,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 24,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "大がかりな道具もないし、シンプルなやつにするか。\n例えば……まあ、鬼ごっことか。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 5
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 78,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 79,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "大がかりな道具もないし、シンプルなやつにするか。\n例えば……まあ、鬼ごっことか。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 24,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 80,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 25,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "いいね！　それじゃあなんでもありの鬼ごっことかどう？",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "VoiceAssetIds": [
+              "c110301/Happiness_2"
+            ],
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "joy"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "joy"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 1
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 81,
+      "type": "soundEffect",
+      "cue": "joy",
+      "tag": "frame-25",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 82,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 83,
+      "cmd": "l2dmessage",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "いいね！　それじゃあなんでもありの鬼ごっことかどう？",
+      "voice": "c110301/Happiness_2",
+      "layout": "",
+      "sourceFrameOrder": 25,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 84,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 26,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "なんでもあり……？",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 85,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 86,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "なんでもあり……？",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 26,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 87,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 27,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そう！　どこに行っても、壁を登っても、何したってオッケー！\n時間になった時に鬼の人が負けだよ！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 800,
+            "MovePathXs": [
+              0,
+              0
+            ],
+            "MovePathYs": [
+              -11300,
+              -11000
+            ],
+            "MovePathDuration": 800
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 88,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 89,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "そう！　どこに行っても、壁を登っても、何したってオッケー！\n時間になった時に鬼の人が負けだよ！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 27,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 90,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 28,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "……なかなか刺激的なルールだな。\nだが、簡単には負けないぞ。",
+            "SpeakerName": "%usernameusernameuserna%",
+            "TeamName": "<color=#ff5858>生徒会</color>",
+            "Speakers": [
+              0
+            ],
+            "LogIconType": 2
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 0
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 91,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 92,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "<user>",
+      "text": "……なかなか刺激的なルールだな。\nだが、簡単には負けないぞ。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 28,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 93,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 29,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "ふふっ、そうこなくっちゃ！\nじゃあまず私が鬼だよ！　ヨーイドン！",
+            "SpeakerName": "ユリア",
+            "TeamName": "<color=#e4a8a5>カオスメイデン</color>",
+            "Speakers": [
+              1
+            ],
+            "LogIconType": 0,
+            "LogCharacterAssetId": "110303s"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003",
+            "SoundEffect": "gasp"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003",
+          "SoundEffect": "gasp"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": 0,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2,
+            "EmotionType": 9,
+            "HasMove": 1,
+            "MoveScale": 1000,
+            "MoveScaleDuration": 990,
+            "MovePathXs": [
+              -15000
+            ],
+            "MovePathYs": [
+              -11000
+            ],
+            "MovePathDuration": 990,
+            "MovePathEase": 3
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 94,
+      "type": "soundEffect",
+      "cue": "gasp",
+      "tag": "frame-29",
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 95,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 96,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "ユリア",
+      "text": "ふふっ、そうこなくっちゃ！\nじゃあまず私が鬼だよ！　ヨーイドン！",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 29,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 97,
+      "type": "muvluvFrame",
+      "frame": {
+        "order": 30,
+        "sceneId": 61065004,
+        "branchId": null,
+        "selectedBranchId": 61170011,
+        "configuration": {
+          "Phrase": {
+            "Text": "そういうことで、俺はユリアと何でもありのパルクール鬼ごっこを、\n日が暮れるまで楽しむのだった。"
+          },
+          "Background": {
+            "AssetId": "30142",
+            "BgmAssetId": "20003"
+          },
+          "Character1": {
+            "AssetId": "110303s",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        },
+        "background": {
+          "AssetId": "30142",
+          "BgmAssetId": "20003"
+        },
+        "characters": [
+          {
+            "AssetId": "110303s",
+            "X": -15000,
+            "Y": -11000,
+            "Scale": 1000,
+            "OrderInLayer": 3,
+            "FacialType": 2
+          }
+        ],
+        "needsHideText": false
+      },
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 98,
+      "type": "window",
+      "visible": true,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 99,
+      "cmd": "message",
+      "type": "text",
+      "speaker": "",
+      "text": "そういうことで、俺はユリアと何でもありのパルクール鬼ごっこを、\n日が暮れるまで楽しむのだった。",
+      "voice": "",
+      "layout": "",
+      "sourceFrameOrder": 30,
+      "branchMasterId": 6117001,
+      "branchSelectionId": 61170011
+    },
+    {
+      "line": 100,
+      "type": "bgmStop"
+    }
+  ],
+  "notes": {
+    "runtime": "Muv-Luv Girls Garden native-frame interpreter with official Spine WebGL 4.2",
+    "availability": "playable",
+    "source": "登录后的 Windows 客户端资源下载",
+    "sourceFrameCount": 30,
+    "branchGraph": {
+      "occurrences": 1,
+      "branchMasterIds": [
+        6117001
+      ],
+      "uniqueBranchMasterIds": [
+        6117001
+      ]
+    }
+  }
+}
